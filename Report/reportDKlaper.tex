@@ -1,6 +1,8 @@
 \documentclass[11pt,letterpaper]{article}
 \usepackage{fullpage}
 \usepackage[pdftex]{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{amsfonts,eucal,amsbsy,amsopn,amsmath}
 \usepackage{url}
 \usepackage[sort&compress]{natbib}
@@ -61,13 +63,30 @@
 
 Swiss German is a group of Germanic dialects spoken in Switzerland. In 2000, about 4.6 million people in Switzerland spoke Swiss German \citep{LGC13}. By now, this number probably has increased since the overall population of Switzerland increased from 7.2 to 8 million people since 2000 \citep{BFS13}. In general, Swiss German is quite similar to Standard German there are specific syntactic, lexical and other differences between Standard German and the Swiss German dialects. There are also considerable differences with regard to these features between different dialects. \citep{Scherrer11}
 
-\section{Past Work on the Syntax of \nascomment{Your Language/Genre}}
+\section{Past Work on the Syntax of Swiss German}
+
+The name Swiss German already indicates that it is closely related to (Standard) German. Many words and the basic syntactic structure are similar or equal to German. One often-cited characteristic of Swiss German is the existence of context-sensitive structures in some dialects as shown by \cite{Shieber85}.
+
+Due to the similarity to Standard German it makes sense to consider resources for Standard German syntax. There are many resources on Standard German syntax. One of them is the World Atlas of Language Structures \citep{DH13}. It summarizes the syntactic and morphologic properties of a language as a list of features. Furthermore, there exist dependency treebanks and dependency parsers for Standard German. As an example \citet{SSVW09} present a hybrid dependency parser, which combines hand-written rules with a statistical model. The parser relies on supervised training data, which is not available for Swiss German yet.
+
+We have seen that for Standard German there exist many powerful tools and datasets. Unfortunately, there are still considerable differences between the two. First, Swiss German is mainly a spoken language and no unified writing system exists. Furthermore, even within Switzerland the dialects vary considerably regarding pronunciation and in consequence spelling. 
+
+\citet{Scherrer07} attempted to normalize Swiss German words to their Standard German counterparts, which would allow using the Standard German resources. Although he created a working system, the results are below 50\% for both precision and recall. Scherrer states also that ``for many dialect words, it yields no result at all'' \citep[p. 60]{Scherrer07}. \citet{SR10} worked towards machine translation from Standard German to specific Swiss German dialects and outlined how to use Standard German resources for creating a Swiss German constituent parser. This work is very interesting but it requires dialect identification and the performance is not good enough. Specifically, introducing a high error rate in a preprocessing step will make building a robust dependency parser even harder. 
+
+As stated before there are differences between Standard German and Swiss German as well as between the different Swiss German dialects. \citet{Scherrer11} proposes a system to normalize Swiss German dialects to Standard German syntax and explains some of the syntactic differences. \citet{BG02} started a project for mapping the differences between the Swiss German dialects in an atlas. However, as of the beginning of 2014 the atlas has not been published. As part of this project \citet{GF06} investigated reduplication phenomena in Swiss German dialects. 
+
+Beyond the resources describing Swiss German syntax and some tools to standardize Swiss German there are very few tools available. Also, there are no freely available corpora published yet, but \citet{AH14} at the University of Zurich are working on a corpus of 50'000 tokens annotated with Part-of-Speech (PoS) tags. They are also building a PoS-Tagger for Swiss German. It does not discriminate between different dialects, which eliminates dialect identification as a source of error. Dialect identification is especially difficult because the borders are continuous and many people have lived in multiple dialect areas and have a mix of dialects (e.g. the writer of this document). This tagger could be very useful for the parser.
+
+In conclusion, while Swiss German has many similarities with Standard German, for which many resources exist. The attempts to normalize Swiss German dialects to Standard German have yielded mediocre performance. There are some dialectometric studies detailing the differences between the distinct dialects but very few computational systems and no corpora. \citet{AH14} are working on a corpus and PoS-Tagger for Swiss German. This tagger will not discriminate between different dialects which eliminates the dialect identification.
 
 \section{Available Resources}
+
 
 \nascomment{include discussion of resources, including your annotated datasets}
 
 \section{Survey of Phenomena in \nascomment{Your Language/Genre}}
+
+% The basic word order is a bit tricky in German since the main clause has a subject-verb-object (SVO) order but the subordinate clauses are verb-final, i.e., subject-object-verb (SOV). German has a richer morphology than English but in Swiss-German some of the distinct cases collapse to the same wordform. 
 
 \section{Initial Design}
 
@@ -82,8 +101,8 @@ Swiss German is a group of Germanic dialects spoken in Switzerland. In 2000, abo
 \section{Future Work}
 
 
-
-
+\section{Acknowledgements}
+I'd like to thank Noëmi Aepli and Nora Hollenstein for supporting me with information about Research in Swiss German and especiallz for giving me early access to the Swiss German resources that they are developing. 
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
