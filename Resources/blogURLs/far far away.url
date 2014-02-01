@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://veraisfarfaraway.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&updated-max=2014-01-01T00:00:00-08:00&max-results=50
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+IDList=
+URL=http://veraisfarfaraway.blogspot.com/search?updated-min=2013-01-01T00:00:00-08:00&updated-max=2014-01-01T00:00:00-08:00&max-results=50
+IconFile=http://veraisfarfaraway.blogspot.com/favicon.ico
+IconIndex=1

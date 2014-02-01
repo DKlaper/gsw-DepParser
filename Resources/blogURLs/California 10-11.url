@@ -1,0 +1,9 @@
+[DEFAULT]
+BASEURL=http://kimheiniger.blogspot.com/search?updated-min=2011-01-01T00:00:00-08:00&updated-max=2012-01-01T00:00:00-08:00&max-results=9
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2
+[InternetShortcut]
+IDList=
+URL=http://kimheiniger.blogspot.com/search?updated-min=2011-01-01T00:00:00-08:00&updated-max=2012-01-01T00:00:00-08:00&max-results=9
+IconFile=http://kimheiniger.blogspot.com/favicon.ico
+IconIndex=1
