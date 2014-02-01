@@ -9,7 +9,7 @@
 # where urllistFolder is a folder with .url (Windows) files is
 # should be easy to adapt to other formats of the url
 
-import urlparse, urllib2, re, os, codecs
+import urlparse, urllib2, re, os, codecs, sys
 from lxml import etree as ET
 from time import sleep
 
@@ -25,7 +25,7 @@ def getBlogSpotId(url):
             break # close file no need to read whole page
     
     answerer.close()
-    sleep(5)
+    sleep(5) # sleep to avoid DOS'ing the server or being blocked
     print "blogid for", requrl, "is", idmatch.groups(1)[0]
     return idmatch.groups(1)[0]
 
@@ -40,7 +40,7 @@ def getBlogSpotXml(blogid, outfile):
     emptytree = ET.fromstring(xmlresp)
     blogres = emptytree.find("openSearch:totalResults", namespaces={"openSearch":"http://a9.com/-/spec/opensearchrss/1.0/"})
     posts = blogres.text.strip()
-    sleep(5)
+    sleep(5) # sleep to avoid DOS'ing the server or being blocked
     # Request 2: Get all blog entris in xml
     print "Getting", posts, "posts from", blogid
     answerer = urllib2.urlopen("http://www.blogger.com/feeds/{0}/posts/default?max-results={1}".format(blogid, posts))
@@ -49,7 +49,7 @@ def getBlogSpotXml(blogid, outfile):
     
     fulltree = ET.fromstring(xmlresp) # write output
     ET.ElementTree(fulltree).write(outfile, xml_declaration=True, encoding="utf-8", pretty_print=True)
-    sleep(5)
+    sleep(5) # sleep to avoid DOS'ing the server or being blocked
     
 def readURLfiles(folder):
     """returns a list of urls from the .URL files in the folder (no subfolders)"""
@@ -68,7 +68,7 @@ def readURLfiles(folder):
 if __name__ == "__main__":
     
     cnt = 1
-    for url in readURLfiles("../Resources/blogURLs"):
+    for url in readURLfiles(sys.argv[1]):
         bid = getBlogSpotId(url)
         getBlogSpotXml(bid, "../Resources/blogs/"+urlparse.urlparse(url)[1]+".xml")
         print str(cnt)+"\n*************************************************"
