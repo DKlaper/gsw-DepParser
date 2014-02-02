@@ -5,8 +5,9 @@
 
 # Tool to download feed xml of a list of blogger/blogspot blogs.
 # 
-# Usage: python blogspotScrape.py urllistFolder
+# Usage: python blogspotScrape.py urllistFolder outputFolder
 # where urllistFolder is a folder with .url (Windows) files is
+# output Folder specifies where the ATOM xml files are saved
 # should be easy to adapt to other formats of the url
 
 import urlparse, urllib2, re, os, codecs, sys
@@ -70,6 +71,6 @@ if __name__ == "__main__":
     cnt = 1
     for url in readURLfiles(sys.argv[1]):
         bid = getBlogSpotId(url)
-        getBlogSpotXml(bid, "../Resources/blogs/"+urlparse.urlparse(url)[1]+".xml")
+        getBlogSpotXml(bid, sys.argv[2]+urlparse.urlparse(url)[1]+".xml")
         print str(cnt)+"\n*************************************************"
         cnt += 1
