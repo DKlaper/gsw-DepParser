@@ -109,11 +109,36 @@ Also, I will forward the data to \citet{AH14} and they will annotate part of it 
 
 For the reference corpora A and B, I plan to select data from each data set. In particular, corpus A will consist of a text-section from the Swatch report, Wikipedia, or the newspaper, which is at least 1000 tokens in one piece. Corpus B will consist of one or multiple blog posts from the same author, since the posts are usually reasonably contiguous. In short, I plan to use over 150'000 tokens Swiss German text from \cite{AH14} of which about 50'000 tokens are annotated with PoS-texts. In addition, I will use Swiss German blog text from mainly exchange students. This collection will have over 250'000 tokens Swiss German text, of which I can use most for training. This is most likely the largest collection of Swiss German written text in existence with over 400'000 tokens. I hope that such data will reduce the effect of the many different ways to write the same word in Swiss German.
 
-\section{Survey of Phenomena in \nascomment{Your Language/Genre}}
+\section{Survey of Phenomena in Swiss German}
 
-% The basic word order is a bit tricky in German since the main clause has a subject-verb-object (SVO) order but the subordinate clauses are verb-final, i.e., subject-object-verb (SOV). German has a richer morphology than English but in Swiss-German some of the distinct cases collapse to the same wordform. 
+The basic word order is a bit tricky in German since the main clause has a subject-verb-object (SVO) order but the subordinate clauses are verb-final, i.e., subject-object-verb (SOV). German has a richer morphology than English but in Swiss German some of the distinct cases collapse to the same wordform. Furthermore, Swiss German lacks a preterite tense, all sentences in the past are expressed using perfect. Finally, Swiss German does not have the genitive case. It is replaced by dative constructions. \citep{Scherrer11}
+
+These are some general observations but the focus here is on syntactic phenomena that influence the dependency structure in crucial ways. \citet{Scherrer11} lists more interesting differences. One point are the non-projective dependencies in Swiss German. One reason for them is the verb raising with the auiliary verb ``lo'' (\emph{let}), where the dependency between the auxiliary and its argument and the main verb and its object will cross. There exist other forms of verb raising, where verb order differs from the Standard German word order. Also, this may depend on the dialect. In short, the word order of Swiss German is more free than Standard German. 
+
+Some more phenomena that illustrate differences between the well-studied Standard German and Swiss German, are a preposition before a dative in the case it is not already part of a prepositional phrase. This would have more impact on constituent parsing though. \citet{Scherrer11} lists more phenomena but some of them seem rather uncommon in central Switzerland. In particular, the very southern dialects have even more deviations, but most of the population lives in central and northern Switzerland, therefore these effects might not occur very much in the corpora. A last part that might be particularly tricking for dependency annotation are doubling phenomena in Swiss German as explained by \citet{GF06}. For many of these phenomena it is not clear, which word is the head and which the dependent even if they are clearly related.
+
+By inspection of the data, I looked for other interesting phenomena. One phenomena is the melting of verbs and personal pronouns (and similar combinations) that is also reflected in the tagset by \citet{AH12}. This is a major challenge for the annotation of dependencies, because the two words have independent syntactic roles but both its dependents will be added to this single token. There are many spelling variations, even within a document a term may not be written the same way or spaced differently in some cases. Hence, for data-oriented methods this may pose a problem. 
+
+For the blog corpus, there are some specific observations. First, often vowels are duplicated multiple times to place emphasis on a word, such as ``gaaanz elei'' (\emph{totally alone}), which increases the number of types for the same lemma. Also, because the blogs are by Swiss people abroad there are many insertions of foreign language material, e.g. ``sWetter isch totally crazy gsi'' (\emph{the weather was totally crazy}).
+
+In conclusion, Swiss German is generally more free regarding word order than Standard German, especially with regard to auxiliary and main verb. This may yield non-projective dependency relations. Furthermore, verb and personal pronouns can sometimes be contracted to one word, as other combinations can. The spelling is not uniform and duplication of vowels is common. For dependency annotation especially the frequent use of auxiliaries and the duplication of words can be difficult, since the head-dependent relation is not obvious in these cases.
+
 
 \section{Initial Design}
+
+% Decisions have to be taken
+% \begin{table}
+%\center
+%\begin{tabular}{ | l | r | }
+   %\hline
+   %\textbf{Pattern} & \textbf{head} \\ \hline
+   % mainverb aux (Past) & aux \\
+   % aux [..] mainverb (e.g. let) & ?  \\ 
+   % Rel V & ? \\
+   % Prep N & N\\ \hline
+%\end{tabular}
+%\caption{Decisions}
+%\end{table}
 
 \section{System Analysis on Corpus A}
 
