@@ -66,7 +66,7 @@ if __name__ == "__main__":
                 continue
             filecnt[1] += 1 # increment post count
             with codecs.open(os.path.join(sys.argv[2], "blog_{0}_{1}.txt".format(*filecnt)), "w", encoding="utf-8") as outfile:
-                outfile.write(post.text) 
+                outfile.write(re.sub(" +", " ", post.text)) 
                 
         print fl, filecnt
         
