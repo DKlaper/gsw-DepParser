@@ -69,7 +69,7 @@ for line in file2:
     
     nline = ""
     for (i, char) in enumerate(line):
-        if (i != len(line)-1 and line[i+1] != "\n") and (char == "'" or unicodedata.category(char) == "Pi"): # z' laufe  or  " alpha
+        if (i != len(line)-1 and line[i+1] != "\n") and (char == "'" or char ==u"’" or unicodedata.category(char) == "Pi"): # z' laufe  or  " alpha
             nline += char+"\n" # split from rest of word
         elif (i != 0 and line[i-1]!="\n") and unicodedata.category(char) == "Pf": # separate closing characters
             nline += "\n"+char
