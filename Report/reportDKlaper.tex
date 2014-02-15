@@ -1,10 +1,11 @@
-\documentclass[11pt,letterpaper]{article}
+\documentclass[11pt,letterpaper, covington]{article}
 \usepackage{fullpage}
 \usepackage[pdftex]{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsfonts,eucal,amsbsy,amsopn,amsmath}
 \usepackage{url}
+\usepackage{covington}
 \usepackage[sort&compress]{natbib}
 \usepackage{natbibspacing}
 \usepackage{latexsym}
@@ -126,19 +127,75 @@ In conclusion, Swiss German is generally more free regarding word order than Sta
 
 \section{Initial Design}
 
+This section describes the annotation design and briefly outlines the next steps, i.e., building the actual parser. As stated before my two test corpora have a different focus. Corpus A consists of a small part of the data by \citet{AH12}. Corpus B consists entirely of blog posts. The data was annotated manually. To ensure annotation consistency the following documents the annotation decisions made.
+
+Table \ref{tab:dec} gives an overview of the annotation decisions. Before going into the detailed decisions an overall observation. The sentence splitting of my tokenizer is far from perfect, since capitalization can not be used as a feature of sentence splitting. First, because some people write all lower case and second, because in German common nouns are capitalized. Therefore, it is possible to have multiple words attached to the root, which mean that the clauses are independent. Most of the decisions are semantically oriented. Also, I sometimes give English-only examples, when the matter is the same in both languages.
+
+Since Swiss German does not use a past form, many sentences have auxiliaries. \textbf{Decisions 1 and 2} say that in sentences with multipe verbal parts, the inflected auxiliary is always the head. This is illustrated in the example below. The subscript numbers indicate the position of the parent in the senence. Zero means root. The inflected verb \emph{het} dominates \emph{welle}, which dominates the main verb \emph{lösche}. \textbf{Decisions 3 and 4} concern the attachment of the arguments. The subject always attaches to the inflected verb as a child. Thus, \emph{hans} is a child of \emph{het}, all other arguments and adjuncts attach to the main verb, e.g. \emph{lösche}. There are certain special cases. Especially, modal verbs, such as \emph{cha} (`can') can be modified by adverbial constructs. These attach to the verb they modify. Sometimes this is hard to decide, then they are attached to the main verb.  Note that the verb \emph{sött} (`should') can be used as a main verb. The reason for this is that the importance of the first auxiliary is reflected and the connection between subject and form of the inflected verb is explicit. Furthermore, the main verb defines what kind of objects are allowed, therefore  it dominates the arguments.
+
+\glll  1 2 3 4 5 6 7 8 9 10
+De hans$_3$ het$_0$ welle$_3$ d' date$_{10}$ mit em magnet$_{10}$ lösche$_4$
+The Hans has want the data with the magnet delete
+\glt `Hans wanted to delete the data with the magnet'
+\glend
+
+\textbf{Decision 5} states that subordinate clauses are headed by the subjunction that introduces them. Hence, the head verb in the embedded clause is dependent on the relative pronoun (or other subjunctive word). The reasoning is that the subjunction defines how the clause relates to the main sentence and hence, acts as the root of the embedded clause.
+\textbf{Decision 6} states that in a coordination the conjunction, typically \emph{ond} or \emph{und} (`and'), is the head of the conjuncts. Furthermore, should there be multiple parts to a conjunction of which all but the last are connected by commas, all parts of the conjunction will be direct dependents of and. (The comma is not reflected, since it is attached to the root, see below). If there are multiple `and' (that are not semantically in a hierarchy), the `and' dominate from left to right, i.e., the first and will be the highest.
+\textbf{Decision 7} determines that in numerical expressions like \emph{öppe 3 stund} (`about 3 hours'), the unit is the head of the number and the number is the head of the modifier. The reason for this is that the number quantifies the unit and themodifier modifies the quantity.
+\textbf{Decision 8} is related to the fact that certain verbs are built by prepending a particle in front of the verb. In infinitive constructions this particle can be split from the verb. It is clear that this particle is a direct dependent of the verb it belongs to.
+
+The important \textbf{Decision 9} says that prepositional phrases are headed by the noun. The reason is that there are large variations in the use of prepositions among the dialects, while the noun is always there. Furthermore, some dialects use sequences of prepositions and articles, while others contract both to one word. \textbf{Decision10} states that discourse markers, such as interjections and smileys are attached to the corresponding head of the phrase they belong to. Note that smileys might be attached to the root if they are outside of a sentence  or clause context. Also, Swiss people use `and' and other conjunctions sometimes as discourse fillers or simple linking elements, in that case this rule applies and not the coordination rule.
+
+A special phenomena is the contraction of different words in Swiss German. For instance, one can contract a relative pronoun \emph{wo} (`where, when') and the following personal pronoun \emph{ich} (`I') to \emph{wonich}. This  was also observed by \cite{AH12}. Therefore, they introduced multiple PoS tags to deal with such phenomena. The problem is where in the dependency parse these constructions with multiple roles should end up. \textbf{Decision11} is the word should always adopt its strongest role, i.e., the word part that is higher in the dependency parse will determine the position of the contracted word.
+\textbf{Decision 12} concerns comparison phrases of the form below.
+\glll  1 2 3 4 5 6
+So schön$_0$ wie$_2$ de himmel$_6$ esch$_3$
+So beautiful how the sky is
+\glt `As beautiful as the sky (is)'
+\glend
+The point is that the main content of the phrase is the beauty. The verbal phrase is what is being compared to. It is a semantic construction to introduce a contrast. It cannot be inverted, thus, I decided that the verb is not the head in this case.  
+\textbf{Decision 13} is similar to number 8. In German, `no more' can be split and the object that is not available anymore will be between the two parts. Here, the more is clearly a dependent of no.
+\textbf{Decision 14} concerns sequences of multiple nouns. While general compounds are written together, some compounds can be split. There the head is the main content. However there is another special case. It is 'the word -bus-'. Here word will be the head and bus will be dependent. This is also a semantic decision, because the phrase is about a word not a bus.
+\textbf{Decision 15} is also such a `meta'-concern. In the phrase "for example [X]", X will be the head and example will be dependent, because the semantic content is X.  
+
+\textbf{Decision 16} states that in a sentence that has no verb, the next most important word becomes the head. There are even sentences where a noun is the head and then a finite relative clause is embedded. This inheritance principle makes sense, although in the case of ellipsis it might be hard to determine what exactly should be the head. The decision should also be semantically motivated.
+\textbf{Decision 17} is simply all punctuation is strictly attached to the root. This is because punctuation is very unreliable in Swiss German, because the use by different speakers is inconsistent.
+
 % Decisions have to be taken
-% \begin{table}
-%\center
-%\begin{tabular}{ | l | r | }
-   %\hline
-   %\textbf{Pattern} & \textbf{head} \\ \hline
-   % mainverb aux (Past) & aux \\
-   % aux [..] mainverb (e.g. let) & ?  \\ 
-   % Rel V & ? \\
-   % Prep N & N\\ \hline
-%\end{tabular}
-%\caption{Decisions}
-%\end{table}
+ \begin{table}
+\center
+\begin{tabular}{ | l | l | r | }
+   \hline
+   \textbf{ID} & \textbf{Pattern} & \textbf{Head} \\ \hline
+   1 & Mainverb Aux & Aux \\
+   2 & Aux [...] Mainverb & Aux  \\ 
+   3 & Subj & Inflected Verb  \\
+   4 & Object, other Args, Adjuncts & Mainverb \\
+   5 & RelPron Verb & RelPron \\
+   6 & [XP] \emph{and} [XP] & \emph{and} \\
+   7 & Mod Num Unit & Unit  \\
+   8 & Mainverb VerbPart & Mainverb \\
+   9 & Prep N &  N \\
+   10 & DiscourseMarker & Corresponding Clause Head \\
+   11 & Contractions & Placed At Highest \\
+   12 & Adj Comparison MainVerb Aux & Comp \\
+   13 & 2 Part Negation (\emph{no more}) & \emph{no}  \\
+   14 & N\_descriptor N\_term & N\_descriptor \\
+   15 & Example & Main content \\
+   16 & No Verb Sentence & Next Best, e.g. Noun \\
+   17 & Punctuation & ROOT\\ \hline
+\end{tabular}
+\caption{Annotation Decisions}
+\label{tab:dec}
+\end{table}
+
+Finally. a couple of decisons not listed in the table, because they are minor. Foreign material, e.g. English, is annotated as much as possible according to English standards, where they exist or otherwise according to this manual. A sensitivity regarding passive formulations. In the passive voice, the main verb is a participle that may be hard to distinguish from an adjective, but it is as treated as a verb as long as it is clearly related to a verb. This leads to a distinction between `has been possible', where `been' will be the main verb that gets the arguments as its dependents and `has been registered', where 	`registered' is the main verb. There are subjunctions, such as \emph{aber} (`but'), which can also be used instead to just modify a verb phrase, then they are dependent of the verb. Last, in `dangerous to deadly', `dangerous' is the head of `to', which in turn is head of `deadly'. 
+
+While in general the annotation worked quite well, it turns out that using and as the head of its conjuncts leads to unintuitive phenomena. In particular, if there is a coordinated verb phrase that applies to the same subject, then `and' dominates both the conjuncts and the subject, which clearly do not have the same function. However, I decided to stick to the annotation schema because I did want to avoid preferring one of the two conjunct phrases over the other. Arguably, `and' is also used as a linking word instead of a coordination, but this is a different case and should in my opinion not be mixed with the real coordination of phrases. 
+
+The parser will operate in a semi-supervised fashion, making use of annotated training material as much as possible. It is important to use unsupervised features as well, because a large amount of the available texts will not be annotated. It would be bad not to use this data. The semi-supervised method by \citet{KCC08} based on Brown Clustering serves as the model for my unsupervised features.  I consider using the TurboParser \citep{MSXAF10} as a baseline. Then I would try adding unsupervised features to improve over the supervised baseline.
+
+In conclusion, I tried to adopt a rather semantic notion of head and used this throughout the annotation. I will build a semi-supervised parser.
 
 \section{System Analysis on Corpus A}
 
