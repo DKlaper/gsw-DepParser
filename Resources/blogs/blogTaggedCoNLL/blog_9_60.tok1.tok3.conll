@@ -1,0 +1,54 @@
+1	19.01.2009	_	_	CARD	_	1	_	_	_
+	
+1	Sooo	_	_	NN	_	1	_	_	_
+2	hoihoi	_	_	ADJA	_	2	_	_	_
+3	metenand	_	_	NN	_	3	_	_	_
+4	hoffe	_	_	VVPP	_	4	_	_	_
+5	es	_	_	PPER	_	5	_	_	_
+6	got	_	_	VVFIN	_	6	_	_	_
+7	euch	_	_	ADV	_	7	_	_	_
+8	allne	_	_	PIAT	_	8	_	_	_
+9	guet	_	_	ADJD	_	9	_	_	_
+10	....	_	_	ADJA	_	10	_	_	_
+	
+1	mer	_	_	PPER	_	1	_	_	_
+2	gots	_	_	ADJA	_	2	_	_	_
+3	ämu	_	_	NN	_	3	_	_	_
+4	wonderbar	_	_	ADJD	_	4	_	_	_
+5	ond	_	_	KON	_	5	_	_	_
+6	ich	_	_	PPER	_	6	_	_	_
+7	hamer	_	_	ADV	_	7	_	_	_
+8	Höt	_	_	ADV	_	8	_	_	_
+9	es	_	_	ART	_	9	_	_	_
+10	neus	_	_	ADJA	_	10	_	_	_
+11	Bett	_	_	NN	_	11	_	_	_
+12	kauft	_	_	VVPP	_	12	_	_	_
+13	...	_	_	$.	_	13	_	_	_
+	
+1	es	_	_	PPER	_	1	_	_	_
+2	mega	_	_	ADV	_	2	_	_	_
+3	schnäppli	_	_	NN	_	3	_	_	_
+4	i	_	_	APPR	_	4	_	_	_
+5	säge	_	_	VVINF	_	5	_	_	_
+6	euch	_	_	VVFIN	_	6	_	_	_
+7	...	_	_	$.	_	7	_	_	_
+	
+1	uuu	_	_	ADV	_	1	_	_	_
+2	freui	_	_	ADV	_	2	_	_	_
+3	mech	_	_	VAFIN+	_	3	_	_	_
+4	do	_	_	ADV	_	4	_	_	_
+5	drenne	_	_	VMFIN	_	5	_	_	_
+6	go	_	_	INFPART	_	6	_	_	_
+7	schlofe	_	_	VVINF	_	7	_	_	_
+8	...	_	_	$.	_	8	_	_	_
+	
+1	chas	_	_	VMFIN	_	1	_	_	_
+2	chum	_	_	ADV	_	2	_	_	_
+3	erwarte	_	_	VVFIN	_	3	_	_	_
+4	...	_	_	$(	_	4	_	_	_
+5	han	_	_	VAFIN	_	5	_	_	_
+6	do	_	_	ADV	_	6	_	_	_
+7	es	_	_	ART	_	7	_	_	_
+8	paar	_	_	PIAT	_	8	_	_	_
+9	föteli	_	_	NN	_	9	_	_	_
+	

@@ -17,7 +17,7 @@
 #tokenizes all files passed
 
 TOKENIZER="../Source/External/tokenizer/"
-OUTPUT_DIR_TOK="../Resources/blogs/blogTokenized/"
+OUTPUT_DIR_TOK="../Resources/Wikipedia/"
 
 FILES=$*		##FILES=/path/to/*
 
@@ -39,7 +39,7 @@ done
 
 echo "Tokenized $x files."
 # remove intermediate files
-rm ${OUTPUT_DIR_TOK}*[_0-9][0-9]
+#rm ${OUTPUT_DIR_TOK}*[_0-9][0-9]
 rm ${OUTPUT_DIR_TOK}*tok1
 rm ${OUTPUT_DIR_TOK}*tok2
 echo "The tagged files are in the directory ${OUTPUT_DIR_TOK}"

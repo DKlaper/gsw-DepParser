@@ -1,0 +1,59 @@
+1	Konzert	_	_	NN	_	1	_	_	_
+	
+1	hehey	_	_	VAFIN	_	1	_	_	_
+2	.	_	_	$.	_	2	_	_	_
+3	.	_	_	$.	_	3	_	_	_
+	
+1	mir	_	_	PPER	_	1	_	_	_
+2	goend	_	_	VVFIN	_	2	_	_	_
+3	am	_	_	APPRART	_	3	_	_	_
+4	17.	_	_	ADJA	_	4	_	_	_
+5	maerz	_	_	NN	_	5	_	_	_
+6	in	_	_	PPER	_	6	_	_	_
+7	benevento	_	_	ADV	_	7	_	_	_
+8	anes	_	_	APPRART	_	8	_	_	_
+9	konzert	_	_	NN	_	9	_	_	_
+10	:)	_	_	VVFIN	_	10	_	_	_
+11	de	_	_	ART	_	11	_	_	_
+12	saenger	_	_	NN	_	12	_	_	_
+13	heisst	_	_	VVFIN	_	13	_	_	_
+14	biagio	_	_	ADV	_	14	_	_	_
+15	antonacci	_	_	ADJA	_	15	_	_	_
+16	.-machd	_	_	ADJA	_	16	_	_	_
+	
+1	voll	_	_	ADJA	_	1	_	_	_
+2	schoeni	_	_	NN	_	2	_	_	_
+3	musica-halt	_	_	VVPP	_	3	_	_	_
+4	italienisch	_	_	ADJA	_	4	_	_	_
+5	:)	_	_	ADJA	_	5	_	_	_
+	
+1	foeteli	_	_	PWAV	_	1	_	_	_
+2	choemed	_	_	VVFIN	_	2	_	_	_
+3	bald	_	_	ADV	_	3	_	_	_
+4	.	_	_	$.	_	4	_	_	_
+	
+1	d'	_	_	ART	_	1	_	_	_
+2	mamma	_	_	NN	_	2	_	_	_
+3	het	_	_	VAFIN	_	3	_	_	_
+4	geschtr	_	_	ADJD	_	4	_	_	_
+5	z'	_	_	PTKZU	_	5	_	_	_
+6	kabel	_	_	ADJD	_	6	_	_	_
+7	abgschickt	_	_	VVPP	_	7	_	_	_
+8	fuere	_	_	APPRART	_	8	_	_	_
+9	pc	_	_	NN	_	9	_	_	_
+10	.	_	_	$.	_	10	_	_	_
+11	(	_	_	$(	_	11	_	_	_
+	
+1	hans	_	_	VAFIN+	_	1	_	_	_
+2	ebe	_	_	ADV	_	2	_	_	_
+3	vrgesse	_	_	ADJA	_	3	_	_	_
+4	)	_	_	$(	_	4	_	_	_
+5	:)	_	_	ADJA	_	5	_	_	_
+6	-typish	_	_	NN	_	6	_	_	_
+7	alee	_	_	VVPP	_	7	_	_	_
+8	.	_	_	$.	_	8	_	_	_
+	
+1	buona	_	_	APPRART	_	1	_	_	_
+2	domenica	_	_	FM	_	2	_	_	_
+3	alee	_	_	FM	_	3	_	_	_
+	

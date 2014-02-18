@@ -1,0 +1,234 @@
+1	28.01.2008	_	_	CARD	_	1	_	_	_
+	
+1	Höt	_	_	ADV	_	1	_	_	_
+2	esches	_	_	ADV	_	2	_	_	_
+3	nach	_	_	APPR	_	3	_	_	_
+4	Jersey	_	_	NE	_	4	_	_	_
+5	gange	_	_	VVPP	_	5	_	_	_
+6	.	_	_	$.	_	6	_	_	_
+	
+1	Met	_	_	APPR	_	1	_	_	_
+2	de	_	_	ART	_	2	_	_	_
+3	Fähre	_	_	NN	_	3	_	_	_
+4	semmer	_	_	VAFIN	_	4	_	_	_
+5	ca.	_	_	ADV	_	5	_	_	_
+6	55min	_	_	ADV	_	6	_	_	_
+7	gfahre	_	_	VVPP	_	7	_	_	_
+8	.	_	_	$.	_	8	_	_	_
+	
+1	Esch	_	_	NE	_	1	_	_	_
+2	mega	_	_	ADV	_	2	_	_	_
+3	cool	_	_	ADJD	_	3	_	_	_
+4	gsi	_	_	VAPP	_	4	_	_	_
+5	Verosse	_	_	NN	_	5	_	_	_
+6	d'	_	_	ART	_	6	_	_	_
+7	stoh	_	_	NN	_	7	_	_	_
+8	ond	_	_	KON	_	8	_	_	_
+9	shet	_	_	VVFIN	_	9	_	_	_
+10	eim	_	_	PIS	_	10	_	_	_
+11	fasch	_	_	ADV	_	11	_	_	_
+12	devogwended	_	_	VVFIN	_	12	_	_	_
+13	.	_	_	$.	_	13	_	_	_
+	
+1	S'	_	_	ART	_	1	_	_	_
+2	erste	_	_	ADJA	_	2	_	_	_
+3	womer	_	_	PRELS+	_	3	_	_	_
+4	natürli	_	_	ADV	_	4	_	_	_
+5	gmacht	_	_	VVPP	_	5	_	_	_
+6	händ	_	_	VAFIN	_	6	_	_	_
+7	,	_	_	$,	_	7	_	_	_
+8	esch	_	_	VAFIN	_	8	_	_	_
+9	in	_	_	APPR	_	9	_	_	_
+10	Mc	_	_	NE	_	10	_	_	_
+11	...	_	_	$.	_	11	_	_	_
+	
+1	mmmhh	_	_	ADJD	_	1	_	_	_
+2	esch	_	_	VAFIN	_	2	_	_	_
+3	aso	_	_	ADV	_	3	_	_	_
+4	lecker	_	_	NN	_	4	_	_	_
+5	gsi	_	_	VAPP	_	5	_	_	_
+6	.	_	_	$.	_	6	_	_	_
+	
+1	Denn	_	_	ADV	_	1	_	_	_
+2	hani	_	_	VAFIN+	_	2	_	_	_
+3	welle	_	_	VMINF	_	3	_	_	_
+4	go	_	_	VVINF	_	4	_	_	_
+5	shoppe	_	_	ADJA	_	5	_	_	_
+6	ond	_	_	KON	_	6	_	_	_
+7	shet	_	_	VVFIN	_	7	_	_	_
+8	mega	_	_	ADV	_	8	_	_	_
+9	vell	_	_	ADJD	_	9	_	_	_
+10	schöni	_	_	ADJA	_	10	_	_	_
+11	Läde	_	_	NN	_	11	_	_	_
+12	gha	_	_	VAPP	_	12	_	_	_
+13	.	_	_	$.	_	13	_	_	_
+	
+1	Doch	_	_	ADV	_	1	_	_	_
+2	han	_	_	VAFIN	_	2	_	_	_
+3	ergendwien	_	_	KOUS	_	3	_	_	_
+4	eifach	_	_	ADV	_	4	_	_	_
+5	nüt	_	_	PIS	_	5	_	_	_
+6	gfonde	_	_	VVPP	_	6	_	_	_
+7	.	_	_	$.	_	7	_	_	_
+	
+1	Tja	_	_	NE	_	1	_	_	_
+2	....	_	_	ADJA	_	2	_	_	_
+	
+1	D'	_	_	ART	_	1	_	_	_
+2	Stadt	_	_	NN	_	2	_	_	_
+3	vo	_	_	APPR	_	3	_	_	_
+4	Guernsey	_	_	NE	_	4	_	_	_
+5	gseht	_	_	VVFIN	_	5	_	_	_
+6	ähndlech	_	_	ADJD	_	6	_	_	_
+7	us	_	_	APPR	_	7	_	_	_
+8	wie	_	_	KON	_	8	_	_	_
+9	d'	_	_	ART	_	9	_	_	_
+10	Altstadt	_	_	NN	_	10	_	_	_
+11	vo	_	_	APPR	_	11	_	_	_
+12	Zöri	_	_	NE	_	12	_	_	_
+13	....	_	_	VVPP	_	13	_	_	_
+	
+1	esch	_	_	VAFIN	_	1	_	_	_
+2	aso	_	_	ADV	_	2	_	_	_
+3	mega	_	_	ADV	_	3	_	_	_
+4	härzig	_	_	NN	_	4	_	_	_
+5	ond	_	_	KON	_	5	_	_	_
+6	met	_	_	APPR	_	6	_	_	_
+7	schöne	_	_	ADJA	_	7	_	_	_
+8	,	_	_	$,	_	8	_	_	_
+9	alte	_	_	ADJA	_	9	_	_	_
+10	Gebäude	_	_	NN	_	10	_	_	_
+11	.	_	_	$.	_	11	_	_	_
+	
+1	Gseh	_	_	VVPP	_	1	_	_	_
+2	hämmer	_	_	NN	_	2	_	_	_
+3	aber	_	_	KON	_	3	_	_	_
+4	eigentli	_	_	ADV	_	4	_	_	_
+5	nor	_	_	ADV	_	5	_	_	_
+6	d'	_	_	ART	_	6	_	_	_
+7	Stadt	_	_	NN	_	7	_	_	_
+8	ond	_	_	KON	_	8	_	_	_
+9	de	_	_	ART	_	9	_	_	_
+10	Harbour	_	_	NN	_	10	_	_	_
+11	.	_	_	$.	_	11	_	_	_
+	
+1	Bruche	_	_	VVINF	_	1	_	_	_
+2	de	_	_	ADV	_	2	_	_	_
+3	mol	_	_	ADV	_	3	_	_	_
+4	es	_	_	ART	_	4	_	_	_
+5	ganzes	_	_	ADJA	_	5	_	_	_
+6	weekend	_	_	NN	_	6	_	_	_
+7	zom	_	_	APPRART	_	7	_	_	_
+8	chli	_	_	ADJA	_	8	_	_	_
+9	omfräse	_	_	NN	_	9	_	_	_
+10	.	_	_	$.	_	10	_	_	_
+	
+1	Zom	_	_	KOUS	_	1	_	_	_
+2	abschloss	_	_	ADV	_	2	_	_	_
+3	esches	_	_	VVFIN+	_	3	_	_	_
+4	de	_	_	ART	_	4	_	_	_
+5	natürli	_	_	NN	_	5	_	_	_
+6	nomol	_	_	ADV	_	6	_	_	_
+7	en	_	_	ART	_	7	_	_	_
+8	Mc	_	_	NE	_	8	_	_	_
+9	das	_	_	PDS	_	9	_	_	_
+10	de	_	_	ART	_	10	_	_	_
+11	Luki	_	_	NN	_	11	_	_	_
+12	befrediget	_	_	VVPP	_	12	_	_	_
+13	gsi	_	_	VAPP	_	13	_	_	_
+14	esch	_	_	VAFIN	_	14	_	_	_
+15	...	_	_	$.	_	15	_	_	_
+	
+1	er	_	_	PPER	_	1	_	_	_
+2	het	_	_	VAFIN	_	2	_	_	_
+3	de	_	_	ART	_	3	_	_	_
+4	nomol	_	_	ADV	_	4	_	_	_
+5	es	_	_	ART	_	5	_	_	_
+6	paar	_	_	PIAT	_	6	_	_	_
+7	Burger	_	_	NN	_	7	_	_	_
+8	inedröckt	_	_	VVPP	_	8	_	_	_
+9	!	_	_	$.	_	9	_	_	_
+	
+1	Jo	_	_	PTKANT	_	1	_	_	_
+2	de	_	_	ART	_	2	_	_	_
+3	esches	_	_	ADJA	_	3	_	_	_
+4	schoweder	_	_	ADJA	_	4	_	_	_
+5	losgange	_	_	NN	_	5	_	_	_
+6	ofd	_	_	APPRART	_	6	_	_	_
+7	Fähri	_	_	NN	_	7	_	_	_
+8	.	_	_	$.	_	8	_	_	_
+	
+1	Hammer	_	_	NE	_	1	_	_	_
+2	schön	_	_	ADJD	_	2	_	_	_
+3	...	_	_	$(	_	3	_	_	_
+4	sesch	_	_	ADV	_	4	_	_	_
+5	donkel	_	_	ADJD	_	5	_	_	_
+6	gsi	_	_	VAPP	_	6	_	_	_
+7	mer	_	_	PIS	_	7	_	_	_
+8	verosse	_	_	VVPP	_	8	_	_	_
+9	ond	_	_	KON	_	9	_	_	_
+10	händ	_	_	VAFIN	_	10	_	_	_
+11	sganze	_	_	ADJA	_	11	_	_	_
+12	Liechtermeer	_	_	NN	_	12	_	_	_
+13	vo	_	_	APPR	_	13	_	_	_
+14	Jersey	_	_	NN	_	14	_	_	_
+15	gseh	_	_	VAPP	_	15	_	_	_
+16	.	_	_	$.	_	16	_	_	_
+	
+1	Debii	_	_	PAV	_	1	_	_	_
+2	het	_	_	VAFIN	_	2	_	_	_
+3	eim	_	_	CARD	_	3	_	_	_
+4	d'	_	_	ART	_	4	_	_	_
+5	Hoor	_	_	NN	_	5	_	_	_
+6	ome	_	_	APPRART	_	6	_	_	_
+7	Chopf	_	_	NN	_	7	_	_	_
+8	gwendet	_	_	VVPP	_	8	_	_	_
+9	ond	_	_	KON	_	9	_	_	_
+10	sesch	_	_	ADV	_	10	_	_	_
+11	sochli	_	_	ADJA	_	11	_	_	_
+12	Wellnesmusic	_	_	NN	_	12	_	_	_
+13	gloffe	_	_	VVPP	_	13	_	_	_
+14	....	_	_	ADJA	_	14	_	_	_
+	
+1	aso	_	_	ADV	_	1	_	_	_
+2	huere	_	_	APPRART	_	2	_	_	_
+3	gmüetlechi	_	_	ADJA	_	3	_	_	_
+4	Stemmig	_	_	NN	_	4	_	_	_
+5	.	_	_	$.	_	5	_	_	_
+	
+1	Send	_	_	VAFIN	_	1	_	_	_
+2	de	_	_	ADV	_	2	_	_	_
+3	weder	_	_	ADV	_	3	_	_	_
+4	acho	_	_	VVPP	_	4	_	_	_
+5	ond	_	_	KON	_	5	_	_	_
+6	Hei	_	_	ITJ	_	6	_	_	_
+7	.	_	_	$.	_	7	_	_	_
+	
+1	Mer	_	_	PPER	_	1	_	_	_
+2	händ	_	_	VAFIN	_	2	_	_	_
+3	de	_	_	ART	_	3	_	_	_
+4	zom	_	_	APPRART	_	4	_	_	_
+5	abschloss	_	_	NN	_	5	_	_	_
+6	no	_	_	ADV	_	6	_	_	_
+7	es	_	_	ART	_	7	_	_	_
+8	Gläsli	_	_	ADJA	_	8	_	_	_
+9	Rotwii	_	_	NN	_	9	_	_	_
+10	dronke	_	_	VVINF	_	10	_	_	_
+11	ond	_	_	KON	_	11	_	_	_
+12	jetzt	_	_	ADV	_	12	_	_	_
+13	semmer	_	_	VAFIN+	_	13	_	_	_
+14	nochli	_	_	ADV	_	14	_	_	_
+15	am	_	_	APPRART	_	15	_	_	_
+16	game	_	_	NN	_	16	_	_	_
+17	ond	_	_	KON	_	17	_	_	_
+18	de	_	_	ART	_	18	_	_	_
+19	gots	_	_	VAFIN+	_	19	_	_	_
+20	de	_	_	ADV	_	20	_	_	_
+21	glii	_	_	ADV	_	21	_	_	_
+22	is	_	_	APPRART	_	22	_	_	_
+23	Bett	_	_	NN	_	23	_	_	_
+24	....	_	_	CARD	_	24	_	_	_
+	
+1	Tschüüüüsssss	_	_	NN	_	1	_	_	_
+2	!!!!!!!!!!!!!!!¨¨	_	_	VVPP	_	2	_	_	_
+	

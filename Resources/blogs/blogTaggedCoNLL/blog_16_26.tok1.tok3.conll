@@ -1,0 +1,306 @@
+1	Tartu-Pärnu-Tartu	_	_	NN	_	1	_	_	_
+2	mit	_	_	APPR	_	2	_	_	_
+3	emne	_	_	ART	_	3	_	_	_
+4	liecht	_	_	ADJD	_	4	_	_	_
+5	depressive	_	_	ADJA	_	5	_	_	_
+6	Filter	_	_	NN	_	6	_	_	_
+	
+1	Vom	_	_	APPR	_	1	_	_	_
+2	Samstig	_	_	NN	_	2	_	_	_
+3	Morge	_	_	NN	_	3	_	_	_
+4	bis	_	_	APPR	_	4	_	_	_
+5	am	_	_	APPRART	_	5	_	_	_
+6	Sunntig	_	_	NN	_	6	_	_	_
+7	Namitag	_	_	NN	_	7	_	_	_
+8	binich	_	_	ADJD	_	8	_	_	_
+9	mit	_	_	APPR	_	9	_	_	_
+10	minre	_	_	PPOSAT	_	10	_	_	_
+11	Familie	_	_	NN	_	11	_	_	_
+12	nach	_	_	APPR	_	12	_	_	_
+13	Pärnu	_	_	NN	_	13	_	_	_
+14	gfahre	_	_	VVPP	_	14	_	_	_
+15	zu	_	_	APPR	_	15	_	_	_
+16	mine	_	_	PPOSAT	_	16	_	_	_
+17	Gastgrosselter	_	_	NN	_	17	_	_	_
+18	,	_	_	$,	_	18	_	_	_
+19	wo	_	_	PRELS	_	19	_	_	_
+20	usserdem	_	_	ADV	_	20	_	_	_
+21	no	_	_	ADV	_	21	_	_	_
+22	dFamilie	_	_	NN	_	22	_	_	_
+23	vom	_	_	APPRART	_	23	_	_	_
+24	Brüeder	_	_	NN	_	24	_	_	_
+25	vo	_	_	APPR	_	25	_	_	_
+26	de	_	_	ART	_	26	_	_	_
+27	Anu	_	_	NE	_	27	_	_	_
+28	gsi	_	_	VAPP	_	28	_	_	_
+29	isch	_	_	VAFIN	_	29	_	_	_
+30	.	_	_	$.	_	30	_	_	_
+	
+1	Alli	_	_	PIAT	_	1	_	_	_
+2	zeme	_	_	NN	_	2	_	_	_
+3	hemmer	_	_	VAFIN	_	3	_	_	_
+4	d'	_	_	ART	_	4	_	_	_
+5	Ostere	_	_	NN	_	5	_	_	_
+6	gfiiret	_	_	VVPP	_	6	_	_	_
+7	,	_	_	$,	_	7	_	_	_
+8	vill	_	_	PIS	_	8	_	_	_
+9	gesse	_	_	VVPP	_	9	_	_	_
+10	und	_	_	KON	_	10	_	_	_
+11	no	_	_	ADV	_	11	_	_	_
+12	meh	_	_	ADV	_	12	_	_	_
+13	gredet	_	_	VVPP	_	13	_	_	_
+14	.	_	_	$.	_	14	_	_	_
+	
+1	Ich	_	_	PPER	_	1	_	_	_
+2	han	_	_	VAFIN	_	2	_	_	_
+3	usserdem	_	_	PAV	_	3	_	_	_
+4	gaaanz	_	_	ADV	_	4	_	_	_
+5	vill	_	_	ADV	_	5	_	_	_
+6	Bilder	_	_	NN	_	6	_	_	_
+7	gmacht	_	_	VVPP	_	7	_	_	_
+8	,	_	_	$,	_	8	_	_	_
+9	und	_	_	KON	_	9	_	_	_
+10	passend	_	_	ADJD	_	10	_	_	_
+11	zum	_	_	APPRART	_	11	_	_	_
+12	krüzigte	_	_	NN	_	12	_	_	_
+13	Jesus	_	_	NE	_	13	_	_	_
+14	mit	_	_	APPR	_	14	_	_	_
+15	emne	_	_	ART	_	15	_	_	_
+16	dunkle	_	_	ADJA	_	16	_	_	_
+17	Filter	_	_	NN	_	17	_	_	_
+18	uf	_	_	APPR	_	18	_	_	_
+19	de	_	_	ART	_	19	_	_	_
+20	Bilder	_	_	NN	_	20	_	_	_
+21	.	_	_	$.	_	21	_	_	_
+	
+1	Eifach	_	_	ADV	_	1	_	_	_
+2	dass	_	_	KOUS	_	2	_	_	_
+3	er	_	_	PPER	_	3	_	_	_
+4	jetzt	_	_	ADV	_	4	_	_	_
+5	nid	_	_	PTKNEG	_	5	_	_	_
+6	sGfühl	_	_	NN	_	6	_	_	_
+7	hend	_	_	VAFIN	_	7	_	_	_
+8	ich	_	_	PPER	_	8	_	_	_
+9	bin	_	_	VAFIN	_	9	_	_	_
+10	depressiv	_	_	ADJD	_	10	_	_	_
+11	oder	_	_	KON	_	11	_	_	_
+12	so	_	_	ADV	_	12	_	_	_
+13	,	_	_	$,	_	13	_	_	_
+14	s'	_	_	ART	_	14	_	_	_
+15	Wuchenend	_	_	NN	_	15	_	_	_
+16	isch	_	_	VAFIN	_	16	_	_	_
+17	nemli	_	_	ADV	_	17	_	_	_
+18	richtig	_	_	ADJD	_	18	_	_	_
+19	schön	_	_	ADJD	_	19	_	_	_
+20	und	_	_	KON	_	20	_	_	_
+21	kuul	_	_	ADJD	_	21	_	_	_
+22	gsi	_	_	VAPP	_	22	_	_	_
+23	:-D	_	_	VVFIN	_	23	_	_	_
+24	.	_	_	$.	_	24	_	_	_
+	
+1	Autofahrt	_	_	NN	_	1	_	_	_
+2	Autofahrt	_	_	VVPP	_	2	_	_	_
+	
+1	Autofahrt	_	_	NN	_	1	_	_	_
+	
+1	Autofahrt	_	_	NN	_	1	_	_	_
+2	inkl	_	_	VVPP	_	2	_	_	_
+3	.	_	_	$.	_	3	_	_	_
+4	Brugg	_	_	NE	_	4	_	_	_
+	
+1	Autofahrt	_	_	NN	_	1	_	_	_
+	
+1	Viljandi	_	_	NN	_	1	_	_	_
+	
+1	Viljandi	_	_	NN	_	1	_	_	_
+	
+1	Viljandi	_	_	NN	_	1	_	_	_
+	
+1	immer	_	_	ADV	_	1	_	_	_
+2	no	_	_	ADV	_	2	_	_	_
+3	Viljandi	_	_	ADJA	_	3	_	_	_
+	
+1	Viljandi	_	_	NN	_	1	_	_	_
+	
+1	Viljandi	_	_	NN	_	1	_	_	_
+2	mit	_	_	APPR	_	2	_	_	_
+3	random	_	_	NE	_	3	_	_	_
+4	running	_	_	FM	_	4	_	_	_
+5	boy	_	_	FM	_	5	_	_	_
+	
+1	Viljandi	_	_	NN	_	1	_	_	_
+	
+1	Viljandi	_	_	NN	_	1	_	_	_
+	
+1	Dönerbude	_	_	NN	_	1	_	_	_
+2	in	_	_	APPR	_	2	_	_	_
+3	Viljandi	_	_	ADJA	_	3	_	_	_
+	
+1	Viljandi-Schloss	_	_	NN	_	1	_	_	_
+	
+1	Viljandi	_	_	NN	_	1	_	_	_
+	
+1	Pärnu-Summerhuus	_	_	NN	_	1	_	_	_
+	
+1	Pärnu	_	_	NE	_	1	_	_	_
+	
+1	Pärnu	_	_	NN	_	1	_	_	_
+2	feat	_	_	VVPP	_	2	_	_	_
+3	.	_	_	$.	_	3	_	_	_
+4	Tuuli	_	_	NE	_	4	_	_	_
+5	&	_	_	KON	_	5	_	_	_
+6	Anu	_	_	NE	_	6	_	_	_
+	
+1	Pärnu-Fluss	_	_	NN	_	1	_	_	_
+	
+1	Pärnu	_	_	NE	_	1	_	_	_
+	
+1	Pärnu	_	_	NE	_	1	_	_	_
+2	Füürliplatz	_	_	NN	_	2	_	_	_
+	
+1	Pärnu	_	_	NE	_	1	_	_	_
+	
+1	HALBE	_	_	ADJA	_	1	_	_	_
+2	MEETER	_	_	NN	_	2	_	_	_
+3	SCHNEE	_	_	NN	_	3	_	_	_
+4	!	_	_	$.	_	4	_	_	_
+	
+1	kei	_	_	PIAT	_	1	_	_	_
+2	Schnee	_	_	NN	_	2	_	_	_
+3	unter	_	_	APPR	_	3	_	_	_
+4	Pärnu-Baum	_	_	NN	_	4	_	_	_
+	
+1	Pärnu	_	_	NE	_	1	_	_	_
+	
+1	Nachbarschaft	_	_	NN	_	1	_	_	_
+	
+1	versteckti	_	_	ADJA	_	1	_	_	_
+2	Velos	_	_	NE	_	2	_	_	_
+3	(	_	_	$(	_	3	_	_	_
+4	eis	_	_	CARD	_	4	_	_	_
+5	wird	_	_	VAFIN	_	5	_	_	_
+6	ich	_	_	PPER	_	6	_	_	_
+7	bechume	_	_	PTKVZ	_	7	_	_	_
+8	zum	_	_	APPRART	_	8	_	_	_
+9	im	_	_	APPRART	_	9	_	_	_
+10	Summer	_	_	NN	_	10	_	_	_
+11	da	_	_	ART	_	11	_	_	_
+12	unezdüüse	_	_	NN	_	12	_	_	_
+13	)	_	_	$(	_	13	_	_	_
+	
+1	Pärnu	_	_	NE	_	1	_	_	_
+2	Vogelhüüsli	_	_	NE	_	2	_	_	_
+	
+1	Pärnu	_	_	NE	_	1	_	_	_
+2	Chuchi	_	_	NN	_	2	_	_	_
+	
+1	Pärnu	_	_	NE	_	1	_	_	_
+2	CAAAKE	_	_	NE	_	2	_	_	_
+	
+1	MORE	_	_	NN	_	1	_	_	_
+2	CAAAKE	_	_	NE	_	2	_	_	_
+	
+1	ein	_	_	ART	_	1	_	_	_
+2	hallo	_	_	NN	_	2	_	_	_
+3	aus	_	_	APPR	_	3	_	_	_
+4	Pärnu	_	_	NE	_	4	_	_	_
+	
+1	no	_	_	ADV	_	1	_	_	_
+2	meh	_	_	ADV	_	2	_	_	_
+3	Esse	_	_	VVINF	_	3	_	_	_
+4	,	_	_	$,	_	4	_	_	_
+5	immernoch	_	_	ADV	_	5	_	_	_
+6	Pärnu	_	_	NN	_	6	_	_	_
+	
+1	frohi	_	_	ADJA	_	1	_	_	_
+2	Ostere	_	_	NN	_	2	_	_	_
+3	:-)	_	_	VVPP	_	3	_	_	_
+	
+1	alti	_	_	ADJA	_	1	_	_	_
+2	russischi	_	_	ADJA	_	2	_	_	_
+3	Teechanne	_	_	NN	_	3	_	_	_
+	
+1	Pärnu-Strand	_	_	NN	_	1	_	_	_
+	
+1	Strand	_	_	NN	_	1	_	_	_
+	
+1	Strand	_	_	NE	_	1	_	_	_
+2	mit	_	_	APPR	_	2	_	_	_
+3	Iisberg	_	_	NE	_	3	_	_	_
+	
+1	Strand	_	_	NN	_	1	_	_	_
+2	in	_	_	PPER	_	2	_	_	_
+3	farbe	_	_	VVFIN	_	3	_	_	_
+	
+1	göttlich	_	_	ADJD	_	1	_	_	_
+	
+1	walking	_	_	FM	_	1	_	_	_
+2	on	_	_	FM	_	2	_	_	_
+3	ice	_	_	FM	_	3	_	_	_
+	
+1	Sunnesunnesunne	_	_	NN	_	1	_	_	_
+2	:-D	_	_	NN	_	2	_	_	_
+	
+1	Chalt	_	_	ADJD	_	1	_	_	_
+2	isches	_	_	VAFIN+	_	2	_	_	_
+3	gsi	_	_	VAPP	_	3	_	_	_
+4	...	_	_	$.	_	4	_	_	_
+	
+1	Start	_	_	NN	_	1	_	_	_
+2	vom	_	_	APPRART	_	2	_	_	_
+3	Sumpfgebiet	_	_	NN	_	3	_	_	_
+4	,	_	_	$,	_	4	_	_	_
+5	immerno	_	_	ADV+	_	5	_	_	_
+6	Pärnu	_	_	NE	_	6	_	_	_
+	
+1	rutschigi	_	_	ADJA	_	1	_	_	_
+2	Stäge	_	_	NN	_	2	_	_	_
+	
+1	Weg	_	_	NN	_	1	_	_	_
+2	zur	_	_	APPRART	_	2	_	_	_
+3	Erleuchtung	_	_	NN	_	3	_	_	_
+	
+1	Einhorn	_	_	NN	_	1	_	_	_
+2	im	_	_	APPRART	_	2	_	_	_
+3	Sumpfgebiet	_	_	NN	_	3	_	_	_
+4	,	_	_	$,	_	4	_	_	_
+5	Pärnu	_	_	NN	_	5	_	_	_
+	
+1	mal	_	_	ADV	_	1	_	_	_
+2	de	_	_	ART	_	2	_	_	_
+3	Wald	_	_	NN	_	3	_	_	_
+4	in	_	_	APPR	_	4	_	_	_
+5	Farbe	_	_	NN	_	5	_	_	_
+6	:-)	_	_	VVPP	_	6	_	_	_
+	
+1	ja	_	_	ADV	_	1	_	_	_
+2	,	_	_	$,	_	2	_	_	_
+3	ich	_	_	PPER	_	3	_	_	_
+4	mach	_	_	VVFIN	_	4	_	_	_
+5	halt	_	_	ADV	_	5	_	_	_
+6	eifach	_	_	ADV	_	6	_	_	_
+7	gern	_	_	ADV	_	7	_	_	_
+8	Bilder	_	_	NN	_	8	_	_	_
+9	vo	_	_	APPR	_	9	_	_	_
+10	Bäum	_	_	NN	_	10	_	_	_
+11	!	_	_	$.	_	11	_	_	_
+	
+1	Ussicht	_	_	NN	_	1	_	_	_
+2	vom	_	_	APPRART	_	2	_	_	_
+3	Turm	_	_	NN	_	3	_	_	_
+	
+1	Vom	_	_	APPR	_	1	_	_	_
+2	Turm	_	_	NN	_	2	_	_	_
+3	obenabe	_	_	VVPP	_	3	_	_	_
+	
+1	Danke	_	_	NN	_	1	_	_	_
+2	für'	_	_	NN	_	2	_	_	_
+3	s	_	_	ART	_	3	_	_	_
+4	drihluege	_	_	ADJA	_	4	_	_	_
+5	und	_	_	KON	_	5	_	_	_
+6	sorry	_	_	FM	_	6	_	_	_
+7	für	_	_	APPR	_	7	_	_	_
+8	di	_	_	ART	_	8	_	_	_
+9	ville	_	_	ADJA	_	9	_	_	_
+10	Touristefotis	_	_	NN	_	10	_	_	_
+11	;-)	_	_	VVPP	_	11	_	_	_

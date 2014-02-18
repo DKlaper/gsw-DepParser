@@ -1,0 +1,122 @@
+1	09.10.2007	_	_	CARD	_	1	_	_	_
+	
+1	...mmh	_	_	ADV	_	1	_	_	_
+2	Höt	_	_	ADV	_	2	_	_	_
+3	esches	_	_	ADJA	_	3	_	_	_
+4	früh	_	_	NN	_	4	_	_	_
+5	losgange	_	_	VVPP	_	5	_	_	_
+6	händ	_	_	VAFIN	_	6	_	_	_
+7	zäme	_	_	ADV	_	7	_	_	_
+8	z'	_	_	PTKZU	_	8	_	_	_
+9	Mörgelet	_	_	VVFIN	_	9	_	_	_
+10	ond	_	_	KON	_	10	_	_	_
+11	dennne	_	_	VVFIN	_	11	_	_	_
+12	semmer	_	_	ADV	_	12	_	_	_
+13	es	_	_	ART	_	13	_	_	_
+14	britische	_	_	ADJA	_	14	_	_	_
+15	Museum	_	_	NN	_	15	_	_	_
+16	goge	_	_	VVPP	_	16	_	_	_
+17	die	_	_	ART	_	17	_	_	_
+18	Teracotta	_	_	NE	_	18	_	_	_
+19	männdli	_	_	NE	_	19	_	_	_
+20	aluege	_	_	VVINF	_	20	_	_	_
+21	.	_	_	$.	_	21	_	_	_
+	
+1	Esch	_	_	NE	_	1	_	_	_
+2	aso	_	_	ADV	_	2	_	_	_
+3	no	_	_	ADV	_	3	_	_	_
+4	cheibe	_	_	ADV	_	4	_	_	_
+5	spannend	_	_	ADJD	_	5	_	_	_
+6	gsi	_	_	VAPP	_	6	_	_	_
+7	....	_	_	ADJA	_	7	_	_	_
+	
+1	s'	_	_	APPR	_	1	_	_	_
+2	het	_	_	VAFIN	_	2	_	_	_
+3	Mumie	_	_	NN	_	3	_	_	_
+4	,	_	_	$,	_	4	_	_	_
+5	Mönze	_	_	NN	_	5	_	_	_
+6	,	_	_	$,	_	6	_	_	_
+7	Moschle	_	_	NN	_	7	_	_	_
+8	,	_	_	$,	_	8	_	_	_
+9	Schmock	_	_	NN	_	9	_	_	_
+10	,	_	_	$,	_	10	_	_	_
+11	Indianerchleider	_	_	NN	_	11	_	_	_
+12	....	_	_	CARD	_	12	_	_	_
+	
+1	o	_	_	KON	_	1	_	_	_
+2	.s	_	_	VVPP	_	2	_	_	_
+3	.	_	_	$.	_	3	_	_	_
+4	w	_	_	NE	_	4	_	_	_
+5	.	_	_	$.	_	5	_	_	_
+	
+1	gah	_	_	PTKVZ	_	1	_	_	_
+2	!	_	_	$.	_	2	_	_	_
+3	!	_	_	$.	_	3	_	_	_
+	
+1	Also	_	_	ADV	_	1	_	_	_
+2	alles	_	_	PIS	_	2	_	_	_
+3	was	_	_	PWS	_	3	_	_	_
+4	dein	_	_	ART	_	4	_	_	_
+5	Herz	_	_	NN	_	5	_	_	_
+6	begeehrt	_	_	VVPP	_	6	_	_	_
+7	.	_	_	$.	_	7	_	_	_
+	
+1	Aber	_	_	KOUS	_	1	_	_	_
+2	en	_	_	ART	_	2	_	_	_
+3	Museum	_	_	NN	_	3	_	_	_
+4	Frönd	_	_	VMFIN	_	4	_	_	_
+5	werdi	_	_	VAINF	_	5	_	_	_
+6	secher	_	_	ADJD	_	6	_	_	_
+7	ned	_	_	PTKNEG	_	7	_	_	_
+8	....	_	_	ADV	_	8	_	_	_
+9	=)	_	_	ADJD	_	9	_	_	_
+	
+1	Nach	_	_	APPR	_	1	_	_	_
+2	langem	_	_	ADJA	_	2	_	_	_
+3	omelaufe	_	_	ADJA	_	3	_	_	_
+4	ond	_	_	KON	_	4	_	_	_
+5	omeluge	_	_	ADJA	_	5	_	_	_
+6	semmer	_	_	NN	_	6	_	_	_
+7	denne	_	_	ADV	_	7	_	_	_
+8	weder	_	_	ADV	_	8	_	_	_
+9	Dehei	_	_	ADV	_	9	_	_	_
+10	iidroffe	_	_	VVPP	_	10	_	_	_
+11	ond	_	_	KON	_	11	_	_	_
+12	jetzt	_	_	ADV	_	12	_	_	_
+13	semmer	_	_	ADV	_	13	_	_	_
+14	chli	_	_	ADV	_	14	_	_	_
+15	am	_	_	APPRART	_	15	_	_	_
+16	fulentze	_	_	NN	_	16	_	_	_
+17	,	_	_	$,	_	17	_	_	_
+18	bes	_	_	KON	_	18	_	_	_
+19	mer	_	_	PPER	_	19	_	_	_
+20	denn	_	_	ADV	_	20	_	_	_
+21	is	_	_	APPRART	_	21	_	_	_
+22	Kino	_	_	NN	_	22	_	_	_
+23	gönd	_	_	VVFIN	_	23	_	_	_
+24	go	_	_	INFPART	_	24	_	_	_
+25	Ratatouille	_	_	NN	_	25	_	_	_
+26	luege	_	_	VVINF	_	26	_	_	_
+27	...	_	_	$.	_	27	_	_	_
+	
+1	of	_	_	APPR	_	1	_	_	_
+2	da	_	_	PDS	_	2	_	_	_
+3	freui	_	_	VVFIN	_	3	_	_	_
+4	mi	_	_	PPER	_	4	_	_	_
+5	mega	_	_	ADV	_	5	_	_	_
+6	......	_	_	ADV	_	6	_	_	_
+	
+1	jo	_	_	ADV	_	1	_	_	_
+2	ond	_	_	KON	_	2	_	_	_
+3	denn	_	_	ADV	_	3	_	_	_
+4	esch	_	_	VAFIN	_	4	_	_	_
+5	denn	_	_	ADV	_	5	_	_	_
+6	au	_	_	ADV	_	6	_	_	_
+7	de	_	_	ART	_	7	_	_	_
+8	tag	_	_	NN	_	8	_	_	_
+9	scho	_	_	ADV	_	9	_	_	_
+10	bald	_	_	ADV	_	10	_	_	_
+11	weder	_	_	ADV	_	11	_	_	_
+12	Gschecht	_	_	NN	_	12	_	_	_
+13	.....	_	_	VVFIN	_	13	_	_	_
+	

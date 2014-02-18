@@ -1,0 +1,22 @@
+- Annotated
+    Contains the dependency annotated test and training corpora in CONLL-X format.
+
+- blogs
+    Contains the XML atom feeds of the blogs, the extracted text and the
+    tokenized texts of the blogs. blogsTaggedCONLL contains PoS Tagged
+    versions of the blogs in CoNLL format
+    
+- blogURLs
+    Contains the links to the blogs.
+
+- CorpReport
+    Contains the tokenized data extracted from the Swatch yearly report from
+    http://www.swatchgroup.com/de/content/download/3970/143272/version/2/file/2012_annual_report_complete_ch.pdf
+
+- Newspaper
+    Contains the tokenized data extracted from the Swiss NewsPaper 
+    Blick Am Abend. The paper was from May 28th 2013 and can be found at
+    http://www.blickamabend.ch/ePaper/ in the Archive.
+
+- Wikipedia
+    Allemanic Wikipedia articles tokenized and split into different dialects.

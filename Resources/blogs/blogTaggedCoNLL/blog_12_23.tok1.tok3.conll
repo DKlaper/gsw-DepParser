@@ -1,0 +1,77 @@
+1	last	_	_	NE	_	1	_	_	_
+2	day	_	_	FM	_	2	_	_	_
+3	in	_	_	APPR	_	3	_	_	_
+4	capistrano	_	_	ADJA	_	4	_	_	_
+5	beach	_	_	NN	_	5	_	_	_
+	
+1	Was	_	_	PWS	_	1	_	_	_
+2	für	_	_	APPR	_	2	_	_	_
+3	en	_	_	ART	_	3	_	_	_
+4	fridliche	_	_	ADJA	_	4	_	_	_
+5	Tag	_	_	NN	_	5	_	_	_
+6	...	_	_	$.	_	6	_	_	_
+	
+1	chli	_	_	ADJA	_	1	_	_	_
+2	relaxe	_	_	NN	_	2	_	_	_
+3	am	_	_	APPRART	_	3	_	_	_
+4	Pool	_	_	NN	_	4	_	_	_
+5	und	_	_	KON	_	5	_	_	_
+6	eifach	_	_	ADV	_	6	_	_	_
+7	no	_	_	ADV	_	7	_	_	_
+8	chli	_	_	ADV	_	8	_	_	_
+9	s	_	_	ART	_	9	_	_	_
+10	Feeling	_	_	NN	_	10	_	_	_
+11	vo	_	_	APPR	_	11	_	_	_
+12	de	_	_	ART	_	12	_	_	_
+13	Ferie	_	_	NN	_	13	_	_	_
+14	gnüsse	_	_	VVINF	_	14	_	_	_
+15	!	_	_	$.	_	15	_	_	_
+	
+1	Chli	_	_	ADJD	_	1	_	_	_
+2	brun	_	_	VVPP	_	2	_	_	_
+3	wärde	_	_	VAFIN	_	3	_	_	_
+4	und	_	_	KON	_	4	_	_	_
+5	Erdbeeri	_	_	NN	_	5	_	_	_
+6	ässe	_	_	VVINF	_	6	_	_	_
+7	.	_	_	$.	_	7	_	_	_
+	
+1	So	_	_	ADV	_	1	_	_	_
+2	chönnts	_	_	ADV	_	2	_	_	_
+3	also	_	_	ADV	_	3	_	_	_
+4	no	_	_	ADV	_	4	_	_	_
+5	öfters	_	_	NN	_	5	_	_	_
+6	si	_	_	VAFIN	_	6	_	_	_
+7	!	_	_	$.	_	7	_	_	_
+	
+1	Am	_	_	APPRART	_	1	_	_	_
+2	Abig	_	_	NN	_	2	_	_	_
+3	simmer	_	_	VAFIN+	_	3	_	_	_
+4	no	_	_	ADV	_	4	_	_	_
+5	zum	_	_	APPRART	_	5	_	_	_
+6	letschte	_	_	ADJA	_	6	_	_	_
+7	mal	_	_	ADV	_	7	_	_	_
+8	im	_	_	APPRART	_	8	_	_	_
+9	japanese	_	_	ADJA	_	9	_	_	_
+10	Steakhouse	_	_	NN	_	10	_	_	_
+11	fein	_	_	CARD	_	11	_	_	_
+12	go	_	_	INFPART	_	12	_	_	_
+13	ässe	_	_	VVINF	_	13	_	_	_
+14	und	_	_	KON	_	14	_	_	_
+15	mir	_	_	PPER	_	15	_	_	_
+16	hend	_	_	VAFIN	_	16	_	_	_
+17	alli	_	_	ADV	_	17	_	_	_
+18	en	_	_	ART	_	18	_	_	_
+19	riiiisigi	_	_	ADJA	_	19	_	_	_
+20	Portion	_	_	NN	_	20	_	_	_
+21	übercho	_	_	VVPP	_	21	_	_	_
+22	,	_	_	$,	_	22	_	_	_
+23	ich	_	_	PPER	_	23	_	_	_
+24	han	_	_	VAFIN	_	24	_	_	_
+25	nöd	_	_	PTKNEG	_	25	_	_	_
+26	mal	_	_	ADV	_	26	_	_	_
+27	d	_	_	ART	_	27	_	_	_
+28	Helfti	_	_	ADJA	_	28	_	_	_
+29	möge	_	_	NN	_	29	_	_	_
+30	;)	_	_	VVFIN	_	30	_	_	_
+31	xoxo	_	_	ADV	_	31	_	_	_
+	

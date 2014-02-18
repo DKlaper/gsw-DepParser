@@ -1,0 +1,45 @@
+1	Adresse	_	_	NN	_	1	_	_	_
+	
+1	Also	_	_	ADV	_	1	_	_	_
+2	,	_	_	$,	_	2	_	_	_
+3	han	_	_	VAFIN	_	3	_	_	_
+4	ez	_	_	ADV	_	4	_	_	_
+5	gad	_	_	ADV	_	5	_	_	_
+6	ueberleit	_	_	VVPP	_	6	_	_	_
+7	,	_	_	$,	_	7	_	_	_
+8	dasses	_	_	KOUS+	_	8	_	_	_
+9	vilicht	_	_	ADV	_	9	_	_	_
+10	noed	_	_	VVFIN	_	10	_	_	_
+11	so	_	_	ADV	_	11	_	_	_
+12	gschiid	_	_	ADJD	_	12	_	_	_
+13	isch	_	_	VAFIN	_	13	_	_	_
+14	,	_	_	$,	_	14	_	_	_
+15	wenni	_	_	ADJA	_	15	_	_	_
+16	oi	_	_	ADJA	_	16	_	_	_
+17	dAdresse	_	_	NN	_	17	_	_	_
+18	ueber	_	_	APPR	_	18	_	_	_
+19	de	_	_	ART	_	19	_	_	_
+20	Blogg	_	_	NN	_	20	_	_	_
+21	verschicke	_	_	VVINF	_	21	_	_	_
+22	,	_	_	$,	_	22	_	_	_
+23	eifach	_	_	ADV	_	23	_	_	_
+24	,	_	_	$,	_	24	_	_	_
+25	willr	_	_	ADV	_	25	_	_	_
+26	halt	_	_	ADV	_	26	_	_	_
+27	oeffentlich	_	_	ADJD	_	27	_	_	_
+28	isch	_	_	VAFIN	_	28	_	_	_
+29	.	_	_	$.	_	29	_	_	_
+	
+1	Ir	_	_	APPRART	_	1	_	_	_
+2	krieget	_	_	VVFIN	_	2	_	_	_
+3	es	_	_	ART	_	3	_	_	_
+4	Mail	_	_	NN	_	4	_	_	_
+5	mitere	_	_	APPRART	_	5	_	_	_
+6	inkl	_	_	NN	_	6	_	_	_
+7	.	_	_	$.	_	7	_	_	_
+	
+1	Telnr	_	_	NN	_	1	_	_	_
+2	;	_	_	$.	_	2	_	_	_
+3	o	_	_	KON	_	3	_	_	_
+4	)	_	_	$(	_	4	_	_	_
+	

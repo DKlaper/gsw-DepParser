@@ -1,0 +1,107 @@
+1	Ufm	_	_	NN	_	1	_	_	_
+2	Heiweg	_	_	NN	_	2	_	_	_
+	
+1	Salue	_	_	NN	_	1	_	_	_
+2	Luetlis	_	_	NN	_	2	_	_	_
+3	Ja	_	_	ITJ	_	3	_	_	_
+4	,	_	_	$,	_	4	_	_	_
+5	han	_	_	VAFIN	_	5	_	_	_
+6	dTornados	_	_	FM	_	6	_	_	_
+7	ueberlebt	_	_	VVPP	_	7	_	_	_
+8	!	_	_	$.	_	8	_	_	_
+	
+1	Just	_	_	ADV	_	1	_	_	_
+2	that	_	_	VVFIN	_	2	_	_	_
+3	u	_	_	KON	_	3	_	_	_
+4	know	_	_	NE	_	4	_	_	_
+5	.	_	_	$.	_	5	_	_	_
+	
+1	Ha	_	_	VAFIN	_	1	_	_	_
+2	no	_	_	ADV	_	2	_	_	_
+3	Foeteli	_	_	NN	_	3	_	_	_
+4	gmacht	_	_	VVPP	_	4	_	_	_
+5	vode	_	_	APPRART	_	5	_	_	_
+6	Verwueschtig	_	_	NN	_	6	_	_	_
+7	,	_	_	$,	_	7	_	_	_
+8	wos	_	_	PRELS+	_	8	_	_	_
+9	hinderla	_	_	ADV	_	9	_	_	_
+10	haend	_	_	ADV	_	10	_	_	_
+11	...	_	_	$(	_	11	_	_	_
+	
+1	dQuilly	_	_	NE	_	1	_	_	_
+2	haets	_	_	VVFIN	_	2	_	_	_
+3	mir	_	_	PPER	_	3	_	_	_
+4	zeiget	_	_	VVFIN	_	4	_	_	_
+5	...	_	_	$.	_	5	_	_	_
+	
+1	Bin	_	_	ADV	_	1	_	_	_
+2	gad	_	_	ADV	_	2	_	_	_
+3	ufm	_	_	ADJA	_	3	_	_	_
+4	Heiweg	_	_	NN	_	4	_	_	_
+5	mitde	_	_	APPRART	_	5	_	_	_
+6	Quilly	_	_	NE	_	6	_	_	_
+7	.	_	_	$.	_	7	_	_	_
+	
+1	Mr	_	_	NN	_	1	_	_	_
+2	hend	_	_	VAFIN	_	2	_	_	_
+3	bi	_	_	APPR	_	3	_	_	_
+4	ire	_	_	PPOSAT	_	4	_	_	_
+5	dihei	_	_	ADV	_	5	_	_	_
+6	-in	_	_	ADJA	_	6	_	_	_
+7	Columbus-	_	_	NN	_	7	_	_	_
+8	ghaltet	_	_	VVPP	_	8	_	_	_
+9	,	_	_	$,	_	9	_	_	_
+10	da	_	_	KOUS	_	10	_	_	_
+11	mir	_	_	PPER	_	11	_	_	_
+12	vo	_	_	APPR	_	12	_	_	_
+13	irm	_	_	ADJA	_	13	_	_	_
+14	Mami	_	_	NN	_	14	_	_	_
+15	zum	_	_	APPRART	_	15	_	_	_
+16	Znacht	_	_	NN	_	16	_	_	_
+17	iglade	_	_	VVPP	_	17	_	_	_
+18	sind	_	_	VAFIN	_	18	_	_	_
+19	.	_	_	$.	_	19	_	_	_
+	
+1	Han	_	_	VAFIN	_	1	_	_	_
+2	unglaublich	_	_	ADJD	_	2	_	_	_
+3	schoeni	_	_	ADJA	_	3	_	_	_
+4	,	_	_	$,	_	4	_	_	_
+5	erlebnisriichi	_	_	ADJA	_	5	_	_	_
+6	Ferie	_	_	NN	_	6	_	_	_
+7	gha	_	_	VAPP	_	7	_	_	_
+8	in	_	_	APPR	_	8	_	_	_
+9	Cedar	_	_	NE	_	9	_	_	_
+10	Key/Florida	_	_	NE	_	10	_	_	_
+11	und	_	_	KON	_	11	_	_	_
+12	Cusetta	_	_	NE	_	12	_	_	_
+13	und	_	_	KON	_	13	_	_	_
+14	Columbus	_	_	NE	_	14	_	_	_
+15	.	_	_	$.	_	15	_	_	_
+	
+1	Wird	_	_	VAFIN	_	1	_	_	_
+2	am	_	_	APPRART	_	2	_	_	_
+3	weekend	_	_	ADJA	_	3	_	_	_
+4	odr	_	_	KON	_	4	_	_	_
+5	m	_	_	ART	_	5	_	_	_
+6	Mo	_	_	NN	_	6	_	_	_
+7	.	_	_	$.	_	7	_	_	_
+	
+1	Foeteli	_	_	NN	_	1	_	_	_
+2	ufelade	_	_	VVPP	_	2	_	_	_
+3	,	_	_	$,	_	3	_	_	_
+4	dassr	_	_	ADV	_	4	_	_	_
+5	chli	_	_	ADJA	_	5	_	_	_
+6	Iblick	_	_	NN	_	6	_	_	_
+7	haend	_	_	VVFIN	_	7	_	_	_
+8	i	_	_	APPR	_	8	_	_	_
+9	mini	_	_	PPOSAT	_	9	_	_	_
+10	Erlaebnis	_	_	NN	_	10	_	_	_
+11	.	_	_	$.	_	11	_	_	_
+	
+1	Be	_	_	APPR	_	1	_	_	_
+2	blessed	_	_	VVFIN	_	2	_	_	_
+3	and	_	_	ADJA	_	3	_	_	_
+4	take	_	_	NN	_	4	_	_	_
+5	care	_	_	VVINF	_	5	_	_	_
+6	!	_	_	$.	_	6	_	_	_
+	

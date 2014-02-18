@@ -1,0 +1,143 @@
+1	(	_	_	$(	_	1	_	_	_
+2	evt	_	_	CARD	_	2	_	_	_
+3	)	_	_	$(	_	3	_	_	_
+4	Letschte	_	_	ADJA	_	4	_	_	_
+5	Itrag	_	_	NN	_	5	_	_	_
+	
+1	Salue	_	_	NN	_	1	_	_	_
+2	zeme	_	_	APPRART	_	2	_	_	_
+3	Ha	_	_	NN	_	3	_	_	_
+4	gad	_	_	ADV	_	4	_	_	_
+5	mis	_	_	PPOSAT	_	5	_	_	_
+6	letschte	_	_	ADJA	_	6	_	_	_
+7	Ex	_	_	NN	_	7	_	_	_
+8	hindr	_	_	ADV	_	8	_	_	_
+9	mich	_	_	ADJD	_	9	_	_	_
+10	bracht	_	_	VVPP	_	10	_	_	_
+11	.	_	_	$.	_	11	_	_	_
+	
+1	Bi	_	_	APPR	_	1	_	_	_
+2	fro	_	_	NN	_	2	_	_	_
+3	,	_	_	$,	_	3	_	_	_
+4	erliechteret	_	_	VVFIN	_	4	_	_	_
+5	,	_	_	$,	_	5	_	_	_
+6	ez	_	_	ADV	_	6	_	_	_
+7	abr	_	_	KON	_	7	_	_	_
+8	mueed	_	_	VVFIN	_	8	_	_	_
+9	.	_	_	$.	_	9	_	_	_
+	
+1	Wirde	_	_	VAFIN	_	1	_	_	_
+2	packe	_	_	VVINF	_	2	_	_	_
+3	,	_	_	$,	_	3	_	_	_
+4	sZimmr	_	_	NN	_	4	_	_	_
+5	abgae	_	_	VVPP	_	5	_	_	_
+6	und	_	_	KON	_	6	_	_	_
+7	den	_	_	ADV	_	7	_	_	_
+8	holt	_	_	VVFIN	_	8	_	_	_
+9	mi	_	_	PPER	_	9	_	_	_
+10	dLori	_	_	NN	_	10	_	_	_
+11	ab	_	_	PTKVZ	_	11	_	_	_
+12	.	_	_	$.	_	12	_	_	_
+	
+1	Morn	_	_	ADV	_	1	_	_	_
+2	gaz	_	_	ADV	_	2	_	_	_
+3	wiiter	_	_	ADJD	_	3	_	_	_
+4	;	_	_	$.	_	4	_	_	_
+5	cha	_	_	VMFIN	_	5	_	_	_
+6	mis	_	_	PPOSAT	_	6	_	_	_
+7	Prakti	_	_	ADJA	_	7	_	_	_
+8	endli	_	_	NN	_	8	_	_	_
+9	starte	_	_	VVINF	_	9	_	_	_
+10	.	_	_	$.	_	10	_	_	_
+	
+1	Froimi	_	_	NN	_	1	_	_	_
+2	.	_	_	$.	_	2	_	_	_
+3	Das	_	_	PDS	_	3	_	_	_
+4	isch	_	_	VAFIN	_	4	_	_	_
+5	warschinli	_	_	ADV	_	5	_	_	_
+6	min	_	_	PPOSAT	_	6	_	_	_
+7	letschte	_	_	ADJA	_	7	_	_	_
+8	Itrag	_	_	NN	_	8	_	_	_
+9	,	_	_	$,	_	9	_	_	_
+10	aeml	_	_	ADV	_	10	_	_	_
+11	Foeteli	_	_	NE	_	11	_	_	_
+12	giz	_	_	PIS	_	12	_	_	_
+13	kei	_	_	PIAT	_	13	_	_	_
+14	me	_	_	PIS	_	14	_	_	_
+15	.	_	_	$.	_	15	_	_	_
+	
+1	Han	_	_	VAFIN	_	1	_	_	_
+2	inzwuesche	_	_	NN	_	2	_	_	_
+3	seehr	_	_	ADV	_	3	_	_	_
+4	vil	_	_	ADV	_	4	_	_	_
+5	Foeteli	_	_	NN	_	5	_	_	_
+6	ufde	_	_	ADJA	_	6	_	_	_
+7	Cam	_	_	NN	_	7	_	_	_
+8	und	_	_	KON	_	8	_	_	_
+9	jegliche	_	_	ADJA	_	9	_	_	_
+10	Kompi	_	_	NN	_	10	_	_	_
+11	haet	_	_	VVFIN	_	11	_	_	_
+12	viiil	_	_	ADV	_	12	_	_	_
+13	zlang	_	_	ADJD	_	13	_	_	_
+14	,	_	_	$,	_	14	_	_	_
+15	um	_	_	APPR	_	15	_	_	_
+16	alli	_	_	PIS	_	16	_	_	_
+17	zzeige	_	_	VVINF	_	17	_	_	_
+18	.	_	_	$.	_	18	_	_	_
+	
+1	Bin	_	_	VAFIN	_	1	_	_	_
+2	noed	_	_	VVFIN	_	2	_	_	_
+3	geduldig	_	_	ADV	_	3	_	_	_
+4	gnueg	_	_	ADJD	_	4	_	_	_
+5	,	_	_	$,	_	5	_	_	_
+6	zwarte	_	_	VVFIN	_	6	_	_	_
+7	,	_	_	$,	_	7	_	_	_
+8	bis	_	_	APPR	_	8	_	_	_
+9	ich	_	_	PPER	_	9	_	_	_
+10	di	_	_	ART	_	10	_	_	_
+11	einzelne	_	_	ADJA	_	11	_	_	_
+12	cha	_	_	VMFIN	_	12	_	_	_
+13	kopiere	_	_	VVINF	_	13	_	_	_
+14	,	_	_	$,	_	14	_	_	_
+15	drum	_	_	PAV	_	15	_	_	_
+16	ja	_	_	ADV	_	16	_	_	_
+17	.	_	_	$.	_	17	_	_	_
+	
+1	Lahnis	_	_	NN	_	1	_	_	_
+2	warschinli	_	_	ADJA	_	2	_	_	_
+3	vo	_	_	APPR	_	3	_	_	_
+4	ez	_	_	ADV	_	4	_	_	_
+5	a	_	_	APPR	_	5	_	_	_
+6	eifach	_	_	ADV	_	6	_	_	_
+7	.	_	_	$.	_	7	_	_	_
+	
+1	Abr	_	_	KON	_	1	_	_	_
+2	chum	_	_	ADV	_	2	_	_	_
+3	ja	_	_	ADV	_	3	_	_	_
+4	i	_	_	APPR	_	4	_	_	_
+5	2	_	_	CARD	_	5	_	_	_
+6	1/2	_	_	ADJA	_	6	_	_	_
+7	Wuche	_	_	NN	_	7	_	_	_
+8	zrug	_	_	VVPP	_	8	_	_	_
+9	.	_	_	$.	_	9	_	_	_
+	
+1	Bis	_	_	APPR	_	1	_	_	_
+2	den	_	_	ART	_	2	_	_	_
+3	wuenschi	_	_	ADJA	_	3	_	_	_
+4	oi	_	_	NN	_	4	_	_	_
+5	vil	_	_	ADV	_	5	_	_	_
+6	Erfolg	_	_	NN	_	6	_	_	_
+7	i	_	_	APPR	_	7	_	_	_
+8	allm	_	_	NN	_	8	_	_	_
+9	.	_	_	$.	_	9	_	_	_
+	
+1	Liebi	_	_	NN	_	1	_	_	_
+2	Gruess	_	_	NN	_	2	_	_	_
+3	us	_	_	APPR	_	3	_	_	_
+4	Atlanta	_	_	NE	_	4	_	_	_
+5	.	_	_	$.	_	5	_	_	_
+	
+1	Be	_	_	APPR	_	1	_	_	_
+2	blessed	_	_	VVFIN	_	2	_	_	_
+3	.	_	_	$.	_	3	_	_	_
+	

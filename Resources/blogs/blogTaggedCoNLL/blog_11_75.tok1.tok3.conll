@@ -1,0 +1,76 @@
+1	sZeichne	_	_	NN	_	1	_	_	_
+	
+1	Winr	_	_	NN	_	1	_	_	_
+2	send	_	_	VAFIN	_	2	_	_	_
+3	ischs	_	_	VAFIN+	_	3	_	_	_
+4	Zeichnigszimmr	_	_	NN	_	4	_	_	_
+5	da	_	_	ADV	_	5	_	_	_
+6	voellig	_	_	ADJD	_	6	_	_	_
+7	andrsch	_	_	ADV	_	7	_	_	_
+8	igrichtet	_	_	VVPP	_	8	_	_	_
+9	als	_	_	KOKOM	_	9	_	_	_
+10	bi	_	_	APPR	_	10	_	_	_
+11	ois	_	_	PRF	_	11	_	_	_
+12	.	_	_	$.	_	12	_	_	_
+	
+1	All	_	_	PIS	_	1	_	_	_
+2	Studente	_	_	NN	_	2	_	_	_
+3	sitzet	_	_	VVFIN	_	3	_	_	_
+4	ufemne	_	_	APPRART	_	4	_	_	_
+5	Stuehl	_	_	NN	_	5	_	_	_
+6	im	_	_	APPRART	_	6	_	_	_
+7	Chreis	_	_	NN	_	7	_	_	_
+8	um	_	_	APPR	_	8	_	_	_
+9	dBuehni	_	_	NN	_	9	_	_	_
+10	.	_	_	$.	_	10	_	_	_
+	
+1	Uf	_	_	APPR	_	1	_	_	_
+2	die	_	_	PDS	_	2	_	_	_
+3	stellt	_	_	VVFIN	_	3	_	_	_
+4	dLehrerin	_	_	NN	_	4	_	_	_
+5	jewils	_	_	ADV	_	5	_	_	_
+6	di	_	_	ART	_	6	_	_	_
+7	abzuzeichnende	_	_	ADJA	_	7	_	_	_
+8	Objekt	_	_	NN	_	8	_	_	_
+9	.	_	_	$.	_	9	_	_	_
+	
+1	Mr	_	_	NE	_	1	_	_	_
+2	het	_	_	VAFIN	_	2	_	_	_
+3	kes	_	_	PIAT	_	3	_	_	_
+4	Pult	_	_	NN	_	4	_	_	_
+5	,	_	_	$,	_	5	_	_	_
+6	sondrn	_	_	ADV	_	6	_	_	_
+7	macht	_	_	VVFIN	_	7	_	_	_
+8	sZeichnigsblatt	_	_	NN	_	8	_	_	_
+9	uf	_	_	APPR	_	9	_	_	_
+10	enre	_	_	PPOSAT	_	10	_	_	_
+11	Zeichnigsplatte	_	_	ADJA	_	11	_	_	_
+12	a	_	_	PTKVZ	_	12	_	_	_
+13	und	_	_	KON	_	13	_	_	_
+14	stuetzts	_	_	VVFIN	_	14	_	_	_
+15	ufm	_	_	APPRART	_	15	_	_	_
+16	spezielle	_	_	ADJA	_	16	_	_	_
+17	Stuehl	_	_	NN	_	17	_	_	_
+18	ab	_	_	PTKVZ	_	18	_	_	_
+19	.	_	_	$.	_	19	_	_	_
+	
+1	Komisch	_	_	NN	_	1	_	_	_
+2	,	_	_	$,	_	2	_	_	_
+3	abr	_	_	KON	_	3	_	_	_
+4	voellig	_	_	ADJD	_	4	_	_	_
+5	angebracht	_	_	VVPP	_	5	_	_	_
+6	.	_	_	$.	_	6	_	_	_
+	
+1	Mr	_	_	NN	_	1	_	_	_
+2	gwoennt	_	_	VVFIN	_	2	_	_	_
+3	sich	_	_	PRF	_	3	_	_	_
+4	gschnell	_	_	ADJD	_	4	_	_	_
+5	dra	_	_	ADV	_	5	_	_	_
+6	=)	_	_	CARD	_	6	_	_	_
+7	Huet	_	_	NN	_	7	_	_	_
+8	hani	_	_	VAFIN+	_	8	_	_	_
+9	en	_	_	ART	_	9	_	_	_
+10	Islaufschue	_	_	NN	_	10	_	_	_
+11	gmacht	_	_	VVPP	_	11	_	_	_
+12	.	_	_	$.	_	12	_	_	_
+	

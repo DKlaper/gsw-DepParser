@@ -1,0 +1,79 @@
+1	Ussicht	_	_	NN	_	1	_	_	_
+	
+1	Da	_	_	ADV	_	1	_	_	_
+2	no	_	_	ADV	_	2	_	_	_
+3	mini	_	_	PPOSAT	_	3	_	_	_
+4	Ussicht	_	_	NN	_	4	_	_	_
+5	us	_	_	APPR	_	5	_	_	_
+6	mim	_	_	PPOSAT	_	6	_	_	_
+7	Fenschter	_	_	NN	_	7	_	_	_
+8	.	_	_	$.	_	8	_	_	_
+	
+1	Woni	_	_	PRELS+	_	1	_	_	_
+2	am	_	_	APPRART	_	2	_	_	_
+3	Samstigabig	_	_	NN	_	3	_	_	_
+4	(	_	_	$(	_	4	_	_	_
+5	heieiei	_	_	ADV	_	5	_	_	_
+6	...	_	_	$(	_	6	_	_	_
+	
+1	s'	_	_	APPR	_	1	_	_	_
+2	chunt	_	_	VVFIN	_	2	_	_	_
+3	mir	_	_	PPER	_	3	_	_	_
+4	scho	_	_	ADV	_	4	_	_	_
+5	viil	_	_	ADV	_	5	_	_	_
+6	laenger	_	_	PAV	_	6	_	_	_
+7	vor	_	_	APPR	_	7	_	_	_
+8	alses	_	_	ADJA	_	8	_	_	_
+9	tatsaechlich	_	_	NN	_	9	_	_	_
+10	isch	_	_	VAFIN	_	10	_	_	_
+11	...	_	_	$.	_	11	_	_	_
+12	)	_	_	$(	_	12	_	_	_
+	
+1	da	_	_	ADV	_	1	_	_	_
+2	acho	_	_	VVPP	_	2	_	_	_
+3	bin	_	_	VAFIN	_	3	_	_	_
+4	,	_	_	$,	_	4	_	_	_
+5	hani	_	_	VAFIN+	_	5	_	_	_
+6	eifach	_	_	ADV	_	6	_	_	_
+7	mal	_	_	ADV	_	7	_	_	_
+8	gstuunet	_	_	VVPP	_	8	_	_	_
+9	und	_	_	KON	_	9	_	_	_
+10	di	_	_	ART	_	10	_	_	_
+11	Ussicht	_	_	NN	_	11	_	_	_
+12	laaang	_	_	ADV	_	12	_	_	_
+13	lang	_	_	ADJD	_	13	_	_	_
+14	betrachtet	_	_	VVPP	_	14	_	_	_
+15	.	_	_	$.	_	15	_	_	_
+	
+1	Si	_	_	PPER	_	1	_	_	_
+2	gfallt	_	_	VVFIN	_	2	_	_	_
+3	mir	_	_	PPER	_	3	_	_	_
+4	sehr	_	_	ADV	_	4	_	_	_
+5	und	_	_	KON	_	5	_	_	_
+6	wird	_	_	VVFIN	_	6	_	_	_
+7	nieme	_	_	ADV	_	7	_	_	_
+8	in	_	_	APPR	_	8	_	_	_
+9	Vergesseheit	_	_	NN	_	9	_	_	_
+10	grate	_	_	VVPP	_	10	_	_	_
+11	!	_	_	$.	_	11	_	_	_
+12	!	_	_	$.	_	12	_	_	_
+13	!	_	_	$.	_	13	_	_	_
+	
+1	=)	_	_	ADJA	_	1	_	_	_
+2	-->	_	_	NN	_	2	_	_	_
+3	Cha	_	_	VMFIN	_	3	_	_	_
+4	sFoti	_	_	NN	_	4	_	_	_
+5	ez	_	_	ADV	_	5	_	_	_
+6	gad	_	_	ADV	_	6	_	_	_
+7	somehow	_	_	ADJA	_	7	_	_	_
+8	noed	_	_	NN	_	8	_	_	_
+9	ufelade	_	_	VVPP	_	9	_	_	_
+10	,	_	_	$,	_	10	_	_	_
+11	tja	_	_	VVPP	_	11	_	_	_
+12	.	_	_	$.	_	12	_	_	_
+	
+1	E	_	_	ART	_	1	_	_	_
+2	andrs	_	_	ADV	_	2	_	_	_
+3	mal	_	_	ADV	_	3	_	_	_
+4	...	_	_	$(	_	4	_	_	_
+5	=)	_	_	ADJA	_	5	_	_	_

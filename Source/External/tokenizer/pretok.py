@@ -33,6 +33,11 @@ clean = Cleaner()
 with codecs.open(sys.argv[1], encoding="utf-8") as inp:
     for line in inp:
         line = clean.clean(line)
+        line = line.replace(u"\fffc", "") # obj marker        
+        line = line.replace(u"\u00A0", u" ") # non breaking space
+        line = line.replace(u"\u2009", u" ") # thin space
+        line = line.replace(u"\u00AD", u"") # soft hyphen
+        line = line.replace(u"\u2028", u"\n") # Line separator
         out.write(line)
     
 
