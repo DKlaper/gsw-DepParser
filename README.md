@@ -3,6 +3,13 @@ gsw-DepParser
 
 A dependency parser for Swiss-German (ISO 639 code: gsw)
 
+Installation
+============
+
+Currently just copy Repo
+downloaded tokenizer from
+http://www.linguistics.ruhr-uni-bochum.de/~dipper/tokenizer.html#download
+and place in the Source/External/tokenizer.
 
 Organization of the Repo
 ========================
@@ -30,13 +37,22 @@ Organization of the Repo
     contains script to extract blogs from blogspot and deal with the atom xml format.
     Look at the explanation file to know more about the contents.
 
+Requirements and Assumptions
+============================
+
+This parser requires:
+    python (2.7)
+    perl   (5 v14)
+    
+It assumes that input is utf-8 encoded and uses "\n" (Unix) line endings
+
 Licenses Tokenizer, Tagger
 ==========================
 
-    The PoS-Tagger HunPos is distributed under the new BSD license http://opensource.org/licenses/BSD-3-Clause
-    For more information visit their website at http://code.google.com/p/hunpos/
-    The CHDE_57000.model is courtesy of Nora Hollenstein and Noëmi Aepli.
-    It may be reused unchanged in the hunpos tagger and the authors need to be attributed.
-    
-    The tokenizer is licensed under a custom non-commercial, non-distribution license.
-    It can be found here: http://www.linguistics.ruhr-uni-bochum.de/~dipper/licence.txt
+The PoS-Tagger HunPos is distributed under the new BSD license http://opensource.org/licenses/BSD-3-Clause
+For more information visit their website at http://code.google.com/p/hunpos/
+The CHDE_57000.model is courtesy of Nora Hollenstein and Noëmi Aepli.
+It may be reused unchanged in the hunpos tagger and the authors need to be attributed.
+
+The tokenizer is licensed under a custom non-commercial, non-distribution license.
+It can be found here: http://www.linguistics.ruhr-uni-bochum.de/~dipper/licence.txt
