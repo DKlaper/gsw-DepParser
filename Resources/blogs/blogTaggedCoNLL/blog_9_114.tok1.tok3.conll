@@ -1,13 +1,13 @@
-1	28.10.2007	_	_	CARD	_	1	_	_	_
-	
-1	........Ond	_	_	NN	_	1	_	_	_
-2	doch	_	_	ADV	_	2	_	_	_
-3	no	_	_	ADV	_	3	_	_	_
-4	eis	_	_	CARD	_	4	_	_	_
-5	womer	_	_	PRELS+	_	5	_	_	_
-6	chli	_	_	ADV	_	6	_	_	_
-7	normal	_	_	ADJD	_	7	_	_	_
-8	usgsend	_	_	ADJD	_	8	_	_	_
-9	....	_	_	ADJA	_	9	_	_	_
-10	=)	_	_	NN	_	10	_	_	_
-11	=)	_	_	VVPP	_	11	_	_	_
+1	28.10.2007	_	C	CARD	_	1	_	_	_
+
+1	........Ond	_	N	NN	_	1	_	_	_
+2	doch	_	A	ADV	_	2	_	_	_
+3	no	_	A	ADV	_	3	_	_	_
+4	eis	_	C	CARD	_	4	_	_	_
+5	womer	_	P	PRELS+	_	5	_	_	_
+6	chli	_	A	ADV	_	6	_	_	_
+7	normal	_	A	ADJD	_	7	_	_	_
+8	usgsend	_	A	ADJD	_	8	_	_	_
+9	....	_	A	ADJA	_	9	_	_	_
+10	=)	_	N	NN	_	10	_	_	_
+11	=)	_	V	VVPP	_	11	_	_	_

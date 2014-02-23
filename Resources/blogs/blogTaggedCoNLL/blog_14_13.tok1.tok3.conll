@@ -1,80 +1,79 @@
-1	Na	_	_	ADV	_	1	_	_	_
-2	knapp	_	_	ADJA	_	2	_	_	_
-3	1	_	_	ADJA	_	3	_	_	_
-4	Wuche	_	_	NN	_	4	_	_	_
-5	...	_	_	$.	_	5	_	_	_
-	
-1	Ich	_	_	PPER	_	1	_	_	_
-2	bin	_	_	VAFIN	_	2	_	_	_
-3	scho	_	_	ADV	_	3	_	_	_
-4	gaaaanz	_	_	ADV	_	4	_	_	_
-5	nervös	_	_	ADJD	_	5	_	_	_
-6	...	_	_	$.	_	6	_	_	_
-	
-1	In	_	_	APPR	_	1	_	_	_
-2	knapp	_	_	ADV	_	2	_	_	_
-3	einere	_	_	ART	_	3	_	_	_
-4	Wuche	_	_	NN	_	4	_	_	_
-5	bin	_	_	VAFIN	_	5	_	_	_
-6	ich	_	_	PPER	_	6	_	_	_
-7	scho	_	_	ADV	_	7	_	_	_
-8	in	_	_	APPR	_	8	_	_	_
-9	Australie	_	_	NE	_	9	_	_	_
-10	.	_	_	$.	_	10	_	_	_
-	
-1	D	_	_	ART	_	1	_	_	_
-2	Nervosität	_	_	NN	_	2	_	_	_
-3	wird	_	_	VAFIN	_	3	_	_	_
-4	immer	_	_	ADV	_	4	_	_	_
-5	grösser	_	_	ADJD	_	5	_	_	_
-6	und	_	_	KON	_	6	_	_	_
-7	d	_	_	ART	_	7	_	_	_
-8	Vorfreud	_	_	NN	_	8	_	_	_
-9	natürlich	_	_	ADJD	_	9	_	_	_
-10	au	_	_	ADV	_	10	_	_	_
-11	!	_	_	$.	_	11	_	_	_
-	
-1	Was	_	_	PWS	_	1	_	_	_
-2	erwartet	_	_	VVFIN	_	2	_	_	_
-3	mich	_	_	PRF	_	3	_	_	_
-4	echt	_	_	ADV	_	4	_	_	_
-5	in	_	_	APPR	_	5	_	_	_
-6	Surfers	_	_	ADJA	_	6	_	_	_
-7	Paradise	_	_	NN	_	7	_	_	_
-8	?	_	_	$.	_	8	_	_	_
-	
-1	Ich	_	_	PPER	_	1	_	_	_
-2	wird	_	_	VAFIN	_	2	_	_	_
-3	immer	_	_	ADV	_	3	_	_	_
-4	mal	_	_	ADV	_	4	_	_	_
-5	wieder	_	_	ADV	_	5	_	_	_
-6	da	_	_	ADV	_	6	_	_	_
-7	drin	_	_	PAV	_	7	_	_	_
-8	vo	_	_	APPR	_	8	_	_	_
-9	mine	_	_	PPOSAT	_	9	_	_	_
-10	Erlebnis	_	_	NN	_	10	_	_	_
-11	verzellä	_	_	VVIZU	_	11	_	_	_
-12	und	_	_	KON	_	12	_	_	_
-13	Fotis	_	_	NN	_	13	_	_	_
-14	poste	_	_	VVPP	_	14	_	_	_
-15	,	_	_	$,	_	15	_	_	_
-16	damit	_	_	KOUS	_	16	_	_	_
-17	alli	_	_	PIAT	_	17	_	_	_
-18	ufem	_	_	APPRART	_	18	_	_	_
-19	laufende	_	_	VVPP	_	19	_	_	_
-20	sind	_	_	VAFIN	_	20	_	_	_
-21	.	_	_	$.	_	21	_	_	_
-	
-1	Alsooo	_	_	NN	_	1	_	_	_
-2	vergessed	_	_	VVFIN	_	2	_	_	_
-3	mich	_	_	PRF	_	3	_	_	_
-4	nöd	_	_	PTKNEG	_	4	_	_	_
-5	i	_	_	APPR	_	5	_	_	_
-6	dänne	_	_	NN	_	6	_	_	_
-7	3	_	_	CARD	_	7	_	_	_
-8	Mönet	_	_	NN	_	8	_	_	_
-9	!	_	_	$.	_	9	_	_	_
-10	!	_	_	$.	_	10	_	_	_
-	
-1	Küssli	_	_	NN	_	1	_	_	_
-	
+1	Na	_	A	ADV	_	1	_	_	_
+2	knapp	_	A	ADJA	_	2	_	_	_
+3	1	_	A	ADJA	_	3	_	_	_
+4	Wuche	_	N	NN	_	4	_	_	_
+5	...	_	$	$.	_	5	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	bin	_	V	VAFIN	_	2	_	_	_
+3	scho	_	A	ADV	_	3	_	_	_
+4	gaaaanz	_	A	ADV	_	4	_	_	_
+5	nervös	_	A	ADJD	_	5	_	_	_
+6	...	_	$	$.	_	6	_	_	_
+
+1	In	_	A	APPR	_	1	_	_	_
+2	knapp	_	A	ADV	_	2	_	_	_
+3	einere	_	A	ART	_	3	_	_	_
+4	Wuche	_	N	NN	_	4	_	_	_
+5	bin	_	V	VAFIN	_	5	_	_	_
+6	ich	_	P	PPER	_	6	_	_	_
+7	scho	_	A	ADV	_	7	_	_	_
+8	in	_	A	APPR	_	8	_	_	_
+9	Australie	_	N	NE	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	D	_	A	ART	_	1	_	_	_
+2	Nervosität	_	N	NN	_	2	_	_	_
+3	wird	_	V	VAFIN	_	3	_	_	_
+4	immer	_	A	ADV	_	4	_	_	_
+5	grösser	_	A	ADJD	_	5	_	_	_
+6	und	_	K	KON	_	6	_	_	_
+7	d	_	A	ART	_	7	_	_	_
+8	Vorfreud	_	N	NN	_	8	_	_	_
+9	natürlich	_	A	ADJD	_	9	_	_	_
+10	au	_	A	ADV	_	10	_	_	_
+11	!	_	$	$.	_	11	_	_	_
+
+1	Was	_	P	PWS	_	1	_	_	_
+2	erwartet	_	V	VVFIN	_	2	_	_	_
+3	mich	_	P	PRF	_	3	_	_	_
+4	echt	_	A	ADV	_	4	_	_	_
+5	in	_	A	APPR	_	5	_	_	_
+6	Surfers	_	A	ADJA	_	6	_	_	_
+7	Paradise	_	N	NN	_	7	_	_	_
+8	?	_	$	$.	_	8	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	wird	_	V	VAFIN	_	2	_	_	_
+3	immer	_	A	ADV	_	3	_	_	_
+4	mal	_	A	ADV	_	4	_	_	_
+5	wieder	_	A	ADV	_	5	_	_	_
+6	da	_	A	ADV	_	6	_	_	_
+7	drin	_	P	PAV	_	7	_	_	_
+8	vo	_	A	APPR	_	8	_	_	_
+9	mine	_	P	PPOSAT	_	9	_	_	_
+10	Erlebnis	_	N	NN	_	10	_	_	_
+11	verzellä	_	V	VVIZU	_	11	_	_	_
+12	und	_	K	KON	_	12	_	_	_
+13	Fotis	_	N	NN	_	13	_	_	_
+14	poste	_	V	VVPP	_	14	_	_	_
+15	,	_	$	$,	_	15	_	_	_
+16	damit	_	K	KOUS	_	16	_	_	_
+17	alli	_	P	PIAT	_	17	_	_	_
+18	ufem	_	A	APPRART	_	18	_	_	_
+19	laufende	_	V	VVPP	_	19	_	_	_
+20	sind	_	V	VAFIN	_	20	_	_	_
+21	.	_	$	$.	_	21	_	_	_
+
+1	Alsooo	_	N	NN	_	1	_	_	_
+2	vergessed	_	V	VVFIN	_	2	_	_	_
+3	mich	_	P	PRF	_	3	_	_	_
+4	nöd	_	P	PTKNEG	_	4	_	_	_
+5	i	_	A	APPR	_	5	_	_	_
+6	dänne	_	N	NN	_	6	_	_	_
+7	3	_	C	CARD	_	7	_	_	_
+8	Mönet	_	N	NN	_	8	_	_	_
+9	!	_	$	$.	_	9	_	_	_
+10	!	_	$	$.	_	10	_	_	_
+
+1	Küssli	_	N	NN	_	1	_	_	_

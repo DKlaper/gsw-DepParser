@@ -1,67 +1,67 @@
-1	qualche	_	_	ADJA	_	1	_	_	_
-2	foto	_	_	NN	_	2	_	_	_
-	
-1	hehe	_	_	ADJA	_	1	_	_	_
-2	..	_	_	NN	_	2	_	_	_
-3	am	_	_	APPRART	_	3	_	_	_
-4	samstig	_	_	ADJA	_	4	_	_	_
-5	abig	_	_	NN	_	5	_	_	_
-6	:)	_	_	VVPP	_	6	_	_	_
-7	mariangela	_	_	VVPP	_	7	_	_	_
-8	und	_	_	KON	_	8	_	_	_
-9	eleonora	_	_	ADV	_	9	_	_	_
-10	=)	_	_	ADV	_	10	_	_	_
-	
-1	nacheme	_	_	APPRART	_	1	_	_	_
-2	tag	_	_	NN	_	2	_	_	_
-3	am	_	_	APPRART	_	3	_	_	_
-4	meer	_	_	NN	_	4	_	_	_
-5	:)	_	_	VVPP	_	5	_	_	_
-	
-1	uesi	_	_	ADJA	_	1	_	_	_
-2	gruppe	_	_	NN	_	2	_	_	_
-3	in	_	_	APPR	_	3	_	_	_
-4	caserta	_	_	ADJA	_	4	_	_	_
-	
-1	am	_	_	APPRART	_	1	_	_	_
-2	afang	_	_	NN	_	2	_	_	_
-3	in	_	_	APPR	_	3	_	_	_
-4	roma	_	_	NN	_	4	_	_	_
-5	:)	_	_	VVFIN	_	5	_	_	_
-6	mit	_	_	APPR	_	6	_	_	_
-7	amerika	_	_	ADJA	_	7	_	_	_
-8	und	_	_	KON	_	8	_	_	_
-9	brasilie	_	_	ADJA	_	9	_	_	_
-10	=)	_	_	NN	_	10	_	_	_
-	
-1	cibo	_	_	APPR	_	1	_	_	_
-2	messicano-	_	_	TRUNC	_	2	_	_	_
-3	troppo	_	_	ADV	_	3	_	_	_
-4	buono	_	_	ADV+	_	4	_	_	_
-5	:)	_	_	ADJA	_	5	_	_	_
-	
-1	am	_	_	APPRART	_	1	_	_	_
-2	mexikanish	_	_	ADJA	_	2	_	_	_
-3	esse	_	_	NN	_	3	_	_	_
-4	:)	_	_	VVPP	_	4	_	_	_
-	
-1	mariluisa	_	_	FM	_	1	_	_	_
-2	ed	_	_	VVFIN	_	2	_	_	_
-3	io	_	_	ADV	_	3	_	_	_
-4	a	_	_	APPR	_	4	_	_	_
-5	roma	_	_	NN	_	5	_	_	_
-	
-1	elenonora	_	_	ADV	_	1	_	_	_
-2	ed	_	_	VVFIN	_	2	_	_	_
-3	io	_	_	ADV	_	3	_	_	_
-4	a	_	_	APPR	_	4	_	_	_
-5	roma	_	_	NN	_	5	_	_	_
-	
-1	mini	_	_	PPOSAT	_	1	_	_	_
-2	hostsister	_	_	NN	_	2	_	_	_
-3	:)	_	_	VVPP	_	3	_	_	_
-4	che	_	_	ADJA	_	4	_	_	_
-5	faccia	_	_	ADJA	_	5	_	_	_
-6	che	_	_	ADJA	_	6	_	_	_
-7	fa	_	_	NN	_	7	_	_	_
-8	;)	_	_	VVPP	_	8	_	_	_
+1	qualche	_	A	ADJA	_	1	_	_	_
+2	foto	_	N	NN	_	2	_	_	_
+
+1	hehe	_	A	ADJA	_	1	_	_	_
+2	..	_	N	NN	_	2	_	_	_
+3	am	_	A	APPRART	_	3	_	_	_
+4	samstig	_	A	ADJA	_	4	_	_	_
+5	abig	_	N	NN	_	5	_	_	_
+6	:)	_	V	VVPP	_	6	_	_	_
+7	mariangela	_	V	VVPP	_	7	_	_	_
+8	und	_	K	KON	_	8	_	_	_
+9	eleonora	_	A	ADV	_	9	_	_	_
+10	=)	_	A	ADV	_	10	_	_	_
+
+1	nacheme	_	A	APPRART	_	1	_	_	_
+2	tag	_	N	NN	_	2	_	_	_
+3	am	_	A	APPRART	_	3	_	_	_
+4	meer	_	N	NN	_	4	_	_	_
+5	:)	_	V	VVPP	_	5	_	_	_
+
+1	uesi	_	A	ADJA	_	1	_	_	_
+2	gruppe	_	N	NN	_	2	_	_	_
+3	in	_	A	APPR	_	3	_	_	_
+4	caserta	_	A	ADJA	_	4	_	_	_
+
+1	am	_	A	APPRART	_	1	_	_	_
+2	afang	_	N	NN	_	2	_	_	_
+3	in	_	A	APPR	_	3	_	_	_
+4	roma	_	N	NN	_	4	_	_	_
+5	:)	_	V	VVFIN	_	5	_	_	_
+6	mit	_	A	APPR	_	6	_	_	_
+7	amerika	_	A	ADJA	_	7	_	_	_
+8	und	_	K	KON	_	8	_	_	_
+9	brasilie	_	A	ADJA	_	9	_	_	_
+10	=)	_	N	NN	_	10	_	_	_
+
+1	cibo	_	A	APPR	_	1	_	_	_
+2	messicano-	_	T	TRUNC	_	2	_	_	_
+3	troppo	_	A	ADV	_	3	_	_	_
+4	buono	_	A	ADV+	_	4	_	_	_
+5	:)	_	A	ADJA	_	5	_	_	_
+
+1	am	_	A	APPRART	_	1	_	_	_
+2	mexikanish	_	A	ADJA	_	2	_	_	_
+3	esse	_	N	NN	_	3	_	_	_
+4	:)	_	V	VVPP	_	4	_	_	_
+
+1	mariluisa	_	F	FM	_	1	_	_	_
+2	ed	_	V	VVFIN	_	2	_	_	_
+3	io	_	A	ADV	_	3	_	_	_
+4	a	_	A	APPR	_	4	_	_	_
+5	roma	_	N	NN	_	5	_	_	_
+
+1	elenonora	_	A	ADV	_	1	_	_	_
+2	ed	_	V	VVFIN	_	2	_	_	_
+3	io	_	A	ADV	_	3	_	_	_
+4	a	_	A	APPR	_	4	_	_	_
+5	roma	_	N	NN	_	5	_	_	_
+
+1	mini	_	P	PPOSAT	_	1	_	_	_
+2	hostsister	_	N	NN	_	2	_	_	_
+3	:)	_	V	VVPP	_	3	_	_	_
+4	che	_	A	ADJA	_	4	_	_	_
+5	faccia	_	A	ADJA	_	5	_	_	_
+6	che	_	A	ADJA	_	6	_	_	_
+7	fa	_	N	NN	_	7	_	_	_
+8	;)	_	V	VVPP	_	8	_	_	_

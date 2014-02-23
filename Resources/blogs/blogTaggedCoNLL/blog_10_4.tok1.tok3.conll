@@ -1,227 +1,226 @@
-1	24.05.2012	_	_	CARD	_	1	_	_	_
-2	-	_	_	APPR	_	2	_	_	_
-3	Day	_	_	NE	_	3	_	_	_
-4	25	_	_	CARD	_	4	_	_	_
-	
-1	Nachtrag	_	_	NN	_	1	_	_	_
-2	Fotos	_	_	NN	_	2	_	_	_
-3	:	_	_	$.	_	3	_	_	_
-4	So	_	_	ADV	_	4	_	_	_
-5	,	_	_	$,	_	5	_	_	_
-6	ich	_	_	PPER	_	6	_	_	_
-7	hoffe	_	_	VVPP	_	7	_	_	_
-8	dasses	_	_	KOUS+	_	8	_	_	_
-9	dasmal	_	_	ADV	_	9	_	_	_
-10	endlich	_	_	ADV	_	10	_	_	_
-11	klappt	_	_	ADJD	_	11	_	_	_
-12	mit	_	_	APPR	_	12	_	_	_
-13	de	_	_	ART	_	13	_	_	_
-14	Fotis	_	_	NN	_	14	_	_	_
-15	,	_	_	$,	_	15	_	_	_
-16	denn	_	_	KOUS	_	16	_	_	_
-17	chönder	_	_	NN	_	17	_	_	_
-18	eu	_	_	ADV	_	18	_	_	_
-19	endlich	_	_	ADV	_	19	_	_	_
-20	mal	_	_	ADV	_	20	_	_	_
-21	es	_	_	ART	_	21	_	_	_
-22	Bild	_	_	NN	_	22	_	_	_
-23	devo	_	_	PAV	_	23	_	_	_
-24	mache	_	_	VVINF	_	24	_	_	_
-25	wies	_	_	KOKOM+	_	25	_	_	_
-26	da	_	_	ADV	_	26	_	_	_
-27	so	_	_	ADV	_	27	_	_	_
-28	usgseht	_	_	VVFIN	_	28	_	_	_
-29	.	_	_	$.	_	29	_	_	_
-	
-1	Vill	_	_	PIAT	_	1	_	_	_
-2	Spass	_	_	NN	_	2	_	_	_
-3	bim	_	_	APPRART	_	3	_	_	_
-4	aluege	_	_	VVINF	_	4	_	_	_
-5	=D	_	_	NN	_	5	_	_	_
-	
-1	de	_	_	ART	_	1	_	_	_
-2	Chen	_	_	NE	_	2	_	_	_
-3	Yong	_	_	NE	_	3	_	_	_
-	
-1	bi	_	_	APPR	_	1	_	_	_
-2	däm	_	_	ART	_	2	_	_	_
-3	Hund	_	_	NN	_	3	_	_	_
-4	han	_	_	VAFIN	_	4	_	_	_
-5	sogar	_	_	ADV	_	5	_	_	_
-6	ich	_	_	PPER	_	6	_	_	_
-7	Mitleid	_	_	NN	_	7	_	_	_
-8	gha	_	_	VAPP	_	8	_	_	_
-9	...	_	_	$.	_	9	_	_	_
-	
-1	Mini	_	_	PPOSAT	_	1	_	_	_
-2	Gastfamilie	_	_	NN	_	2	_	_	_
-3	(	_	_	$(	_	3	_	_	_
-4	ohni	_	_	APPR	_	4	_	_	_
-5	Vater	_	_	NN	_	5	_	_	_
-6	)	_	_	$(	_	6	_	_	_
-7	bim	_	_	APPRART	_	7	_	_	_
-8	Schoggi-Fondue-Ässe	_	_	NN	_	8	_	_	_
-9	=D	_	_	NE	_	9	_	_	_
-	
-1	De	_	_	ART	_	1	_	_	_
-2	Fisch	_	_	NN	_	2	_	_	_
-3	wo	_	_	PRELS	_	3	_	_	_
-4	mir	_	_	PPER	_	4	_	_	_
-5	vord	_	_	APPRART	_	5	_	_	_
-6	Füess	_	_	NN	_	6	_	_	_
-7	gumpt	_	_	VVPP	_	7	_	_	_
-8	isch	_	_	VAFIN	_	8	_	_	_
-9	!	_	_	$.	_	9	_	_	_
-	
-1	die	_	_	ART	_	1	_	_	_
-2	schlächtischt	_	_	NN	_	2	_	_	_
-3	Fälschig	_	_	NN	_	3	_	_	_
-4	vo	_	_	APPR	_	4	_	_	_
-5	Dolce	_	_	NE	_	5	_	_	_
-6	&	_	_	KON	_	6	_	_	_
-7	Gabbana	_	_	NE	_	7	_	_	_
-8	woni	_	_	PRELS+	_	8	_	_	_
-9	je	_	_	ADV	_	9	_	_	_
-10	gseh	_	_	VVPP	_	10	_	_	_
-11	han	_	_	VAFIN	_	11	_	_	_
-12	xD	_	_	NN	_	12	_	_	_
-	
-1	English-Conversation	_	_	NN	_	1	_	_	_
-2	@	_	_	FM	_	2	_	_	_
-3	University	_	_	FM	_	3	_	_	_
-	
-1	Cola	_	_	NE	_	1	_	_	_
-2	mit	_	_	APPR	_	2	_	_	_
-3	Glacé	_	_	NE	_	3	_	_	_
-4	...	_	_	$.	_	4	_	_	_
-	
-1	Blick	_	_	NN	_	1	_	_	_
-2	uf	_	_	APPR	_	2	_	_	_
-3	de	_	_	ART	_	3	_	_	_
-4	neui	_	_	ADJA	_	4	_	_	_
-5	Teil	_	_	NN	_	5	_	_	_
-6	vo	_	_	APPR	_	6	_	_	_
-7	Tanggu	_	_	NN	_	7	_	_	_
-8	usem	_	_	APPRART	_	8	_	_	_
-9	Büro	_	_	NN	_	9	_	_	_
-10	vom	_	_	APPRART	_	10	_	_	_
-11	Chen	_	_	NE	_	11	_	_	_
-12	Yong	_	_	NE	_	12	_	_	_
-	
-1	de	_	_	ART	_	1	_	_	_
-2	Adam	_	_	NE	_	2	_	_	_
-3	&	_	_	KON	_	3	_	_	_
-4	Ich	_	_	PPER	_	4	_	_	_
-5	vorem	_	_	APPRART	_	5	_	_	_
-6	Schnellzug	_	_	NN	_	6	_	_	_
-7	!	_	_	$.	_	7	_	_	_
-8	!	_	_	$.	_	8	_	_	_
-9	!	_	_	$.	_	9	_	_	_
-	
-1	"	_	_	$(	_	1	_	_	_
-2	Michi	_	_	NN	_	2	_	_	_
-3	der	_	_	ART	_	3	_	_	_
-4	Erleuchtete	_	_	NN	_	4	_	_	_
-5	"	_	_	$(	_	5	_	_	_
-	
-1	Eusi	_	_	PPOSAT	_	1	_	_	_
-2	Shanghai-Truppe	_	_	NN	_	2	_	_	_
-3	(	_	_	$(	_	3	_	_	_
-4	inkl	_	_	VVPP	_	4	_	_	_
-5	.	_	_	$.	_	5	_	_	_
-	
-1	enere	_	_	ART	_	1	_	_	_
-2	fründliche	_	_	ADJA	_	2	_	_	_
-3	Chinesin	_	_	NN	_	3	_	_	_
-4	)	_	_	$(	_	4	_	_	_
-	
-1	Shanghai-Skyline	_	_	NN	_	1	_	_	_
-	
-1	Nanjing-Road	_	_	NN	_	1	_	_	_
-	
-1	ERA-Show	_	_	NN	_	1	_	_	_
-2	(	_	_	$(	_	2	_	_	_
-3	da	_	_	PDS	_	3	_	_	_
-4	isch	_	_	VAFIN	_	4	_	_	_
-5	grad	_	_	ADV	_	5	_	_	_
-6	die	_	_	ART	_	6	_	_	_
-7	Kugle	_	_	NN	_	7	_	_	_
-8	wo	_	_	PRELS	_	8	_	_	_
-9	Töfffahrer	_	_	NN	_	9	_	_	_
-10	Loopings	_	_	NN	_	10	_	_	_
-11	fahred	_	_	VVFIN	_	11	_	_	_
-12	)	_	_	$(	_	12	_	_	_
-	
-1	Jingmao-Tower	_	_	NN	_	1	_	_	_
-2	wo	_	_	PRELS	_	2	_	_	_
-3	im	_	_	APPRART	_	3	_	_	_
-4	"	_	_	$(	_	4	_	_	_
-5	Näbelmeer	_	_	NN	_	5	_	_	_
-6	"	_	_	$(	_	6	_	_	_
-7	versinkt	_	_	VVFIN	_	7	_	_	_
-	
-1	Bar	_	_	NN	_	1	_	_	_
-2	im	_	_	APPRART	_	2	_	_	_
-3	87-Stock	_	_	NN	_	3	_	_	_
-4	vom	_	_	APPRART	_	4	_	_	_
-5	Jingmao-Tower	_	_	NN	_	5	_	_	_
-	
-1	Koreanische	_	_	ADJA	_	1	_	_	_
-2	Schuelklass	_	_	NN	_	2	_	_	_
-	
-1	Chinese	_	_	NN	_	1	_	_	_
-2	Street	_	_	NN	_	2	_	_	_
-3	Food	_	_	NN	_	3	_	_	_
-4	"	_	_	$(	_	4	_	_	_
-5	chuàr	_	_	NN	_	5	_	_	_
-6	"	_	_	$(	_	6	_	_	_
-	
-1	Peking	_	_	NE	_	1	_	_	_
-	
-1	SPA	_	_	NE	_	1	_	_	_
-2	=D	_	_	NE	_	2	_	_	_
-3	(	_	_	$(	_	3	_	_	_
-4	Falls	_	_	ADV	_	4	_	_	_
-5	eu	_	_	ADJD	_	5	_	_	_
-6	vode	_	_	APPRART	_	6	_	_	_
-7	Bricht	_	_	NN	_	7	_	_	_
-8	no	_	_	ADV	_	8	_	_	_
-9	öppis	_	_	PIS	_	9	_	_	_
-10	wunder	_	_	PTKVZ	_	10	_	_	_
-11	gnoh	_	_	VVPP	_	11	_	_	_
-12	het	_	_	VAFIN	_	12	_	_	_
-13	wies	_	_	KOKOM+	_	13	_	_	_
-14	echt	_	_	ADV	_	14	_	_	_
-15	usgseh	_	_	VVPP	_	15	_	_	_
-16	wür	_	_	VAFIN	_	16	_	_	_
-17	und	_	_	KON	_	17	_	_	_
-18	es	_	_	PPER	_	18	_	_	_
-19	isch	_	_	VAFIN	_	19	_	_	_
-20	nöd	_	_	PTKNEG	_	20	_	_	_
-21	under	_	_	APPR	_	21	_	_	_
-22	de	_	_	ART	_	22	_	_	_
-23	Fotis	_	_	NN	_	23	_	_	_
-24	gsi	_	_	VAPP	_	24	_	_	_
-25	,	_	_	$,	_	25	_	_	_
-26	chönder	_	_	NN	_	26	_	_	_
-27	das	_	_	PDS	_	27	_	_	_
-28	gern	_	_	NN	_	28	_	_	_
-29	schribbe	_	_	VVPP	_	29	_	_	_
-30	und	_	_	KON	_	30	_	_	_
-31	ich	_	_	PPER	_	31	_	_	_
-32	wird	_	_	VAFIN	_	32	_	_	_
-33	versueche	_	_	ADJA	_	33	_	_	_
-34	sFoti	_	_	NN	_	34	_	_	_
-35	nachztrage	_	_	VVPP	_	35	_	_	_
-36	.	_	_	$.	_	36	_	_	_
-	
-1	Das	_	_	PDS	_	1	_	_	_
-2	isch	_	_	VAFIN	_	2	_	_	_
-3	jetzt	_	_	ADV	_	3	_	_	_
-4	nur	_	_	ADV	_	4	_	_	_
-5	mal	_	_	ADV	_	5	_	_	_
-6	sone	_	_	ADV+	_	6	_	_	_
-7	Uswahl	_	_	NN	_	7	_	_	_
-8	gsi	_	_	VAPP	_	8	_	_	_
-9	)	_	_	$(	_	9	_	_	_
-	
+1	24.05.2012	_	C	CARD	_	1	_	_	_
+2	-	_	A	APPR	_	2	_	_	_
+3	Day	_	N	NE	_	3	_	_	_
+4	25	_	C	CARD	_	4	_	_	_
+
+1	Nachtrag	_	N	NN	_	1	_	_	_
+2	Fotos	_	N	NN	_	2	_	_	_
+3	:	_	$	$.	_	3	_	_	_
+4	So	_	A	ADV	_	4	_	_	_
+5	,	_	$	$,	_	5	_	_	_
+6	ich	_	P	PPER	_	6	_	_	_
+7	hoffe	_	V	VVPP	_	7	_	_	_
+8	dasses	_	K	KOUS+	_	8	_	_	_
+9	dasmal	_	A	ADV	_	9	_	_	_
+10	endlich	_	A	ADV	_	10	_	_	_
+11	klappt	_	A	ADJD	_	11	_	_	_
+12	mit	_	A	APPR	_	12	_	_	_
+13	de	_	A	ART	_	13	_	_	_
+14	Fotis	_	N	NN	_	14	_	_	_
+15	,	_	$	$,	_	15	_	_	_
+16	denn	_	K	KOUS	_	16	_	_	_
+17	chönder	_	N	NN	_	17	_	_	_
+18	eu	_	A	ADV	_	18	_	_	_
+19	endlich	_	A	ADV	_	19	_	_	_
+20	mal	_	A	ADV	_	20	_	_	_
+21	es	_	A	ART	_	21	_	_	_
+22	Bild	_	N	NN	_	22	_	_	_
+23	devo	_	P	PAV	_	23	_	_	_
+24	mache	_	V	VVINF	_	24	_	_	_
+25	wies	_	K	KOKOM+	_	25	_	_	_
+26	da	_	A	ADV	_	26	_	_	_
+27	so	_	A	ADV	_	27	_	_	_
+28	usgseht	_	V	VVFIN	_	28	_	_	_
+29	.	_	$	$.	_	29	_	_	_
+
+1	Vill	_	P	PIAT	_	1	_	_	_
+2	Spass	_	N	NN	_	2	_	_	_
+3	bim	_	A	APPRART	_	3	_	_	_
+4	aluege	_	V	VVINF	_	4	_	_	_
+5	=D	_	N	NN	_	5	_	_	_
+
+1	de	_	A	ART	_	1	_	_	_
+2	Chen	_	N	NE	_	2	_	_	_
+3	Yong	_	N	NE	_	3	_	_	_
+
+1	bi	_	A	APPR	_	1	_	_	_
+2	däm	_	A	ART	_	2	_	_	_
+3	Hund	_	N	NN	_	3	_	_	_
+4	han	_	V	VAFIN	_	4	_	_	_
+5	sogar	_	A	ADV	_	5	_	_	_
+6	ich	_	P	PPER	_	6	_	_	_
+7	Mitleid	_	N	NN	_	7	_	_	_
+8	gha	_	V	VAPP	_	8	_	_	_
+9	...	_	$	$.	_	9	_	_	_
+
+1	Mini	_	P	PPOSAT	_	1	_	_	_
+2	Gastfamilie	_	N	NN	_	2	_	_	_
+3	(	_	$	$(	_	3	_	_	_
+4	ohni	_	A	APPR	_	4	_	_	_
+5	Vater	_	N	NN	_	5	_	_	_
+6	)	_	$	$(	_	6	_	_	_
+7	bim	_	A	APPRART	_	7	_	_	_
+8	Schoggi-Fondue-Ässe	_	N	NN	_	8	_	_	_
+9	=D	_	N	NE	_	9	_	_	_
+
+1	De	_	A	ART	_	1	_	_	_
+2	Fisch	_	N	NN	_	2	_	_	_
+3	wo	_	P	PRELS	_	3	_	_	_
+4	mir	_	P	PPER	_	4	_	_	_
+5	vord	_	A	APPRART	_	5	_	_	_
+6	Füess	_	N	NN	_	6	_	_	_
+7	gumpt	_	V	VVPP	_	7	_	_	_
+8	isch	_	V	VAFIN	_	8	_	_	_
+9	!	_	$	$.	_	9	_	_	_
+
+1	die	_	A	ART	_	1	_	_	_
+2	schlächtischt	_	N	NN	_	2	_	_	_
+3	Fälschig	_	N	NN	_	3	_	_	_
+4	vo	_	A	APPR	_	4	_	_	_
+5	Dolce	_	N	NE	_	5	_	_	_
+6	&	_	K	KON	_	6	_	_	_
+7	Gabbana	_	N	NE	_	7	_	_	_
+8	woni	_	P	PRELS+	_	8	_	_	_
+9	je	_	A	ADV	_	9	_	_	_
+10	gseh	_	V	VVPP	_	10	_	_	_
+11	han	_	V	VAFIN	_	11	_	_	_
+12	xD	_	N	NN	_	12	_	_	_
+
+1	English-Conversation	_	N	NN	_	1	_	_	_
+2	@	_	F	FM	_	2	_	_	_
+3	University	_	F	FM	_	3	_	_	_
+
+1	Cola	_	N	NE	_	1	_	_	_
+2	mit	_	A	APPR	_	2	_	_	_
+3	Glacé	_	N	NE	_	3	_	_	_
+4	...	_	$	$.	_	4	_	_	_
+
+1	Blick	_	N	NN	_	1	_	_	_
+2	uf	_	A	APPR	_	2	_	_	_
+3	de	_	A	ART	_	3	_	_	_
+4	neui	_	A	ADJA	_	4	_	_	_
+5	Teil	_	N	NN	_	5	_	_	_
+6	vo	_	A	APPR	_	6	_	_	_
+7	Tanggu	_	N	NN	_	7	_	_	_
+8	usem	_	A	APPRART	_	8	_	_	_
+9	Büro	_	N	NN	_	9	_	_	_
+10	vom	_	A	APPRART	_	10	_	_	_
+11	Chen	_	N	NE	_	11	_	_	_
+12	Yong	_	N	NE	_	12	_	_	_
+
+1	de	_	A	ART	_	1	_	_	_
+2	Adam	_	N	NE	_	2	_	_	_
+3	&	_	K	KON	_	3	_	_	_
+4	Ich	_	P	PPER	_	4	_	_	_
+5	vorem	_	A	APPRART	_	5	_	_	_
+6	Schnellzug	_	N	NN	_	6	_	_	_
+7	!	_	$	$.	_	7	_	_	_
+8	!	_	$	$.	_	8	_	_	_
+9	!	_	$	$.	_	9	_	_	_
+
+1	"	_	$	$(	_	1	_	_	_
+2	Michi	_	N	NN	_	2	_	_	_
+3	der	_	A	ART	_	3	_	_	_
+4	Erleuchtete	_	N	NN	_	4	_	_	_
+5	"	_	$	$(	_	5	_	_	_
+
+1	Eusi	_	P	PPOSAT	_	1	_	_	_
+2	Shanghai-Truppe	_	N	NN	_	2	_	_	_
+3	(	_	$	$(	_	3	_	_	_
+4	inkl	_	V	VVPP	_	4	_	_	_
+5	.	_	$	$.	_	5	_	_	_
+
+1	enere	_	A	ART	_	1	_	_	_
+2	fründliche	_	A	ADJA	_	2	_	_	_
+3	Chinesin	_	N	NN	_	3	_	_	_
+4	)	_	$	$(	_	4	_	_	_
+
+1	Shanghai-Skyline	_	N	NN	_	1	_	_	_
+
+1	Nanjing-Road	_	N	NN	_	1	_	_	_
+
+1	ERA-Show	_	N	NN	_	1	_	_	_
+2	(	_	$	$(	_	2	_	_	_
+3	da	_	P	PDS	_	3	_	_	_
+4	isch	_	V	VAFIN	_	4	_	_	_
+5	grad	_	A	ADV	_	5	_	_	_
+6	die	_	A	ART	_	6	_	_	_
+7	Kugle	_	N	NN	_	7	_	_	_
+8	wo	_	P	PRELS	_	8	_	_	_
+9	Töfffahrer	_	N	NN	_	9	_	_	_
+10	Loopings	_	N	NN	_	10	_	_	_
+11	fahred	_	V	VVFIN	_	11	_	_	_
+12	)	_	$	$(	_	12	_	_	_
+
+1	Jingmao-Tower	_	N	NN	_	1	_	_	_
+2	wo	_	P	PRELS	_	2	_	_	_
+3	im	_	A	APPRART	_	3	_	_	_
+4	"	_	$	$(	_	4	_	_	_
+5	Näbelmeer	_	N	NN	_	5	_	_	_
+6	"	_	$	$(	_	6	_	_	_
+7	versinkt	_	V	VVFIN	_	7	_	_	_
+
+1	Bar	_	N	NN	_	1	_	_	_
+2	im	_	A	APPRART	_	2	_	_	_
+3	87-Stock	_	N	NN	_	3	_	_	_
+4	vom	_	A	APPRART	_	4	_	_	_
+5	Jingmao-Tower	_	N	NN	_	5	_	_	_
+
+1	Koreanische	_	A	ADJA	_	1	_	_	_
+2	Schuelklass	_	N	NN	_	2	_	_	_
+
+1	Chinese	_	N	NN	_	1	_	_	_
+2	Street	_	N	NN	_	2	_	_	_
+3	Food	_	N	NN	_	3	_	_	_
+4	"	_	$	$(	_	4	_	_	_
+5	chuàr	_	N	NN	_	5	_	_	_
+6	"	_	$	$(	_	6	_	_	_
+
+1	Peking	_	N	NE	_	1	_	_	_
+
+1	SPA	_	N	NE	_	1	_	_	_
+2	=D	_	N	NE	_	2	_	_	_
+3	(	_	$	$(	_	3	_	_	_
+4	Falls	_	A	ADV	_	4	_	_	_
+5	eu	_	A	ADJD	_	5	_	_	_
+6	vode	_	A	APPRART	_	6	_	_	_
+7	Bricht	_	N	NN	_	7	_	_	_
+8	no	_	A	ADV	_	8	_	_	_
+9	öppis	_	P	PIS	_	9	_	_	_
+10	wunder	_	P	PTKVZ	_	10	_	_	_
+11	gnoh	_	V	VVPP	_	11	_	_	_
+12	het	_	V	VAFIN	_	12	_	_	_
+13	wies	_	K	KOKOM+	_	13	_	_	_
+14	echt	_	A	ADV	_	14	_	_	_
+15	usgseh	_	V	VVPP	_	15	_	_	_
+16	wür	_	V	VAFIN	_	16	_	_	_
+17	und	_	K	KON	_	17	_	_	_
+18	es	_	P	PPER	_	18	_	_	_
+19	isch	_	V	VAFIN	_	19	_	_	_
+20	nöd	_	P	PTKNEG	_	20	_	_	_
+21	under	_	A	APPR	_	21	_	_	_
+22	de	_	A	ART	_	22	_	_	_
+23	Fotis	_	N	NN	_	23	_	_	_
+24	gsi	_	V	VAPP	_	24	_	_	_
+25	,	_	$	$,	_	25	_	_	_
+26	chönder	_	N	NN	_	26	_	_	_
+27	das	_	P	PDS	_	27	_	_	_
+28	gern	_	N	NN	_	28	_	_	_
+29	schribbe	_	V	VVPP	_	29	_	_	_
+30	und	_	K	KON	_	30	_	_	_
+31	ich	_	P	PPER	_	31	_	_	_
+32	wird	_	V	VAFIN	_	32	_	_	_
+33	versueche	_	A	ADJA	_	33	_	_	_
+34	sFoti	_	N	NN	_	34	_	_	_
+35	nachztrage	_	V	VVPP	_	35	_	_	_
+36	.	_	$	$.	_	36	_	_	_
+
+1	Das	_	P	PDS	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	jetzt	_	A	ADV	_	3	_	_	_
+4	nur	_	A	ADV	_	4	_	_	_
+5	mal	_	A	ADV	_	5	_	_	_
+6	sone	_	A	ADV+	_	6	_	_	_
+7	Uswahl	_	N	NN	_	7	_	_	_
+8	gsi	_	V	VAPP	_	8	_	_	_
+9	)	_	$	$(	_	9	_	_	_

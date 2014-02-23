@@ -1,102 +1,101 @@
-1	last	_	_	VVFIN	_	1	_	_	_
-2	weeks	_	_	ADV	_	2	_	_	_
-	
-1	Die	_	_	ART	_	1	_	_	_
-2	letschte	_	_	ADJA	_	2	_	_	_
-3	paar	_	_	PIAT	_	3	_	_	_
-4	woche	_	_	ADJA	_	4	_	_	_
-5	send	_	_	VAFIN	_	5	_	_	_
-6	verbi	_	_	ADJD	_	6	_	_	_
-7	gange	_	_	VVPP	_	7	_	_	_
-8	wie	_	_	KOKOM	_	8	_	_	_
-9	im	_	_	APPRART	_	9	_	_	_
-10	Flog	_	_	NN	_	10	_	_	_
-11	.	_	_	$.	_	11	_	_	_
-	
-1	Jede	_	_	PIAT	_	1	_	_	_
-2	Tag	_	_	NN	_	2	_	_	_
-3	esch	_	_	VAFIN	_	3	_	_	_
-4	voll	_	_	ADJA	_	4	_	_	_
-5	planed	_	_	VVFIN	_	5	_	_	_
-6	gsi	_	_	VAPP	_	6	_	_	_
-7	ond	_	_	KON	_	7	_	_	_
-8	ech	_	_	ADV	_	8	_	_	_
-9	han	_	_	VAFIN	_	9	_	_	_
-10	nie	_	_	ADV	_	10	_	_	_
-11	nüt	_	_	PIS	_	11	_	_	_
-12	ztue	_	_	PTKZU+	_	12	_	_	_
-13	gha	_	_	VAPP	_	13	_	_	_
-14	.	_	_	$.	_	14	_	_	_
-	
-1	Aber	_	_	KOUS	_	1	_	_	_
-2	es	_	_	PPER	_	2	_	_	_
-3	hed	_	_	VAFIN	_	3	_	_	_
-4	sech	_	_	PRF	_	4	_	_	_
-5	glohnt	_	_	VVPP	_	5	_	_	_
-6	!	_	_	$.	_	6	_	_	_
-	
-1	Die	_	_	ART	_	1	_	_	_
-2	letschte	_	_	ADJA	_	2	_	_	_
-3	paar	_	_	PIAT	_	3	_	_	_
-4	Mönet	_	_	NN	_	4	_	_	_
-5	do	_	_	ADV	_	5	_	_	_
-6	in	_	_	APPR	_	6	_	_	_
-7	Californie	_	_	NE	_	7	_	_	_
-8	send	_	_	VAFIN	_	8	_	_	_
-9	so	_	_	ADV	_	9	_	_	_
-10	onbeschriblech	_	_	ADV	_	10	_	_	_
-11	genial	_	_	ADJD	_	11	_	_	_
-12	gsi	_	_	VAPP	_	12	_	_	_
-13	dass	_	_	KOUS	_	13	_	_	_
-14	ech	_	_	ADV	_	14	_	_	_
-15	emmer	_	_	ADV	_	15	_	_	_
-16	ond	_	_	KON	_	16	_	_	_
-17	emmer	_	_	ADV	_	17	_	_	_
-18	mech	_	_	ADV	_	18	_	_	_
-19	weder	_	_	ADV	_	19	_	_	_
-20	dra	_	_	PAV	_	20	_	_	_
-21	erennere	_	_	VVINF	_	21	_	_	_
-22	wöt	_	_	VMFIN	_	22	_	_	_
-23	.	_	_	$.	_	23	_	_	_
-24	.	_	_	$.	_	24	_	_	_
-	
-1	Do	_	_	KOUS	_	1	_	_	_
-2	es	_	_	PPER	_	2	_	_	_
-3	paar	_	_	PIAT	_	3	_	_	_
-4	impressione	_	_	NN	_	4	_	_	_
-5	:	_	_	$.	_	5	_	_	_
-	
-1	Seniorprank	_	_	APPR	_	1	_	_	_
-2	at	_	_	APPRART	_	2	_	_	_
-3	school	_	_	NN	_	3	_	_	_
-	
-1	school	_	_	ADV	_	1	_	_	_
-	
-1	Graduation	_	_	NN	_	1	_	_	_
-2	!	_	_	$.	_	2	_	_	_
-3	!	_	_	$.	_	3	_	_	_
-	
-1	Pool	_	_	NN	_	1	_	_	_
-2	Party	_	_	NN	_	2	_	_	_
-3	my	_	_	FM	_	3	_	_	_
-4	PE	_	_	NE	_	4	_	_	_
-5	class	_	_	NN	_	5	_	_	_
-6	Zayra	_	_	NE	_	6	_	_	_
-7	Skydiving	_	_	NE	_	7	_	_	_
-	
-1	Goodbye	_	_	PDAT	_	1	_	_	_
-2	Party	_	_	NN	_	2	_	_	_
-3	hanging	_	_	ADJD	_	3	_	_	_
-4	out	_	_	VVPP	_	4	_	_	_
-5	at	_	_	APPRART	_	5	_	_	_
-6	deanna'	_	_	ADJA	_	6	_	_	_
-7	s	_	_	ART	_	7	_	_	_
-8	house	_	_	NN	_	8	_	_	_
-9	-	_	_	$(	_	9	_	_	_
-10	our	_	_	NN	_	10	_	_	_
-11	last	_	_	VVFIN	_	11	_	_	_
-12	full	_	_	ADJA	_	12	_	_	_
-13	day	_	_	FM	_	13	_	_	_
-14	in	_	_	FM	_	14	_	_	_
-15	america	_	_	FM	_	15	_	_	_
-	
+1	last	_	V	VVFIN	_	1	_	_	_
+2	weeks	_	A	ADV	_	2	_	_	_
+
+1	Die	_	A	ART	_	1	_	_	_
+2	letschte	_	A	ADJA	_	2	_	_	_
+3	paar	_	P	PIAT	_	3	_	_	_
+4	woche	_	A	ADJA	_	4	_	_	_
+5	send	_	V	VAFIN	_	5	_	_	_
+6	verbi	_	A	ADJD	_	6	_	_	_
+7	gange	_	V	VVPP	_	7	_	_	_
+8	wie	_	K	KOKOM	_	8	_	_	_
+9	im	_	A	APPRART	_	9	_	_	_
+10	Flog	_	N	NN	_	10	_	_	_
+11	.	_	$	$.	_	11	_	_	_
+
+1	Jede	_	P	PIAT	_	1	_	_	_
+2	Tag	_	N	NN	_	2	_	_	_
+3	esch	_	V	VAFIN	_	3	_	_	_
+4	voll	_	A	ADJA	_	4	_	_	_
+5	planed	_	V	VVFIN	_	5	_	_	_
+6	gsi	_	V	VAPP	_	6	_	_	_
+7	ond	_	K	KON	_	7	_	_	_
+8	ech	_	A	ADV	_	8	_	_	_
+9	han	_	V	VAFIN	_	9	_	_	_
+10	nie	_	A	ADV	_	10	_	_	_
+11	nüt	_	P	PIS	_	11	_	_	_
+12	ztue	_	P	PTKZU+	_	12	_	_	_
+13	gha	_	V	VAPP	_	13	_	_	_
+14	.	_	$	$.	_	14	_	_	_
+
+1	Aber	_	K	KOUS	_	1	_	_	_
+2	es	_	P	PPER	_	2	_	_	_
+3	hed	_	V	VAFIN	_	3	_	_	_
+4	sech	_	P	PRF	_	4	_	_	_
+5	glohnt	_	V	VVPP	_	5	_	_	_
+6	!	_	$	$.	_	6	_	_	_
+
+1	Die	_	A	ART	_	1	_	_	_
+2	letschte	_	A	ADJA	_	2	_	_	_
+3	paar	_	P	PIAT	_	3	_	_	_
+4	Mönet	_	N	NN	_	4	_	_	_
+5	do	_	A	ADV	_	5	_	_	_
+6	in	_	A	APPR	_	6	_	_	_
+7	Californie	_	N	NE	_	7	_	_	_
+8	send	_	V	VAFIN	_	8	_	_	_
+9	so	_	A	ADV	_	9	_	_	_
+10	onbeschriblech	_	A	ADV	_	10	_	_	_
+11	genial	_	A	ADJD	_	11	_	_	_
+12	gsi	_	V	VAPP	_	12	_	_	_
+13	dass	_	K	KOUS	_	13	_	_	_
+14	ech	_	A	ADV	_	14	_	_	_
+15	emmer	_	A	ADV	_	15	_	_	_
+16	ond	_	K	KON	_	16	_	_	_
+17	emmer	_	A	ADV	_	17	_	_	_
+18	mech	_	A	ADV	_	18	_	_	_
+19	weder	_	A	ADV	_	19	_	_	_
+20	dra	_	P	PAV	_	20	_	_	_
+21	erennere	_	V	VVINF	_	21	_	_	_
+22	wöt	_	V	VMFIN	_	22	_	_	_
+23	.	_	$	$.	_	23	_	_	_
+24	.	_	$	$.	_	24	_	_	_
+
+1	Do	_	K	KOUS	_	1	_	_	_
+2	es	_	P	PPER	_	2	_	_	_
+3	paar	_	P	PIAT	_	3	_	_	_
+4	impressione	_	N	NN	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Seniorprank	_	A	APPR	_	1	_	_	_
+2	at	_	A	APPRART	_	2	_	_	_
+3	school	_	N	NN	_	3	_	_	_
+
+1	school	_	A	ADV	_	1	_	_	_
+
+1	Graduation	_	N	NN	_	1	_	_	_
+2	!	_	$	$.	_	2	_	_	_
+3	!	_	$	$.	_	3	_	_	_
+
+1	Pool	_	N	NN	_	1	_	_	_
+2	Party	_	N	NN	_	2	_	_	_
+3	my	_	F	FM	_	3	_	_	_
+4	PE	_	N	NE	_	4	_	_	_
+5	class	_	N	NN	_	5	_	_	_
+6	Zayra	_	N	NE	_	6	_	_	_
+7	Skydiving	_	N	NE	_	7	_	_	_
+
+1	Goodbye	_	P	PDAT	_	1	_	_	_
+2	Party	_	N	NN	_	2	_	_	_
+3	hanging	_	A	ADJD	_	3	_	_	_
+4	out	_	V	VVPP	_	4	_	_	_
+5	at	_	A	APPRART	_	5	_	_	_
+6	deanna'	_	A	ADJA	_	6	_	_	_
+7	s	_	A	ART	_	7	_	_	_
+8	house	_	N	NN	_	8	_	_	_
+9	-	_	$	$(	_	9	_	_	_
+10	our	_	N	NN	_	10	_	_	_
+11	last	_	V	VVFIN	_	11	_	_	_
+12	full	_	A	ADJA	_	12	_	_	_
+13	day	_	F	FM	_	13	_	_	_
+14	in	_	F	FM	_	14	_	_	_
+15	america	_	F	FM	_	15	_	_	_

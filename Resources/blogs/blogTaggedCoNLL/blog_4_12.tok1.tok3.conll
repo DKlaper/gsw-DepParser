@@ -1,619 +1,618 @@
-1	Thursday	_	_	FM	_	1	_	_	_
-2	,	_	_	$,	_	2	_	_	_
-3	14th	_	_	FM	_	3	_	_	_
-4	of	_	_	FM	_	4	_	_	_
-5	February	_	_	FM	_	5	_	_	_
-6	2013	_	_	CARD	_	6	_	_	_
-	
-1	Shit	_	_	NN	_	1	_	_	_
-2	Valentinesday	_	_	NE	_	2	_	_	_
-3	..	_	_	ADJD	_	3	_	_	_
-4	bin	_	_	VAFIN	_	4	_	_	_
-5	aso	_	_	ADV	_	5	_	_	_
-6	echt	_	_	ADV	_	6	_	_	_
-7	froh	_	_	ADJD	_	7	_	_	_
-8	isch	_	_	VAFIN	_	8	_	_	_
-9	de	_	_	ART	_	9	_	_	_
-10	jez	_	_	ADV	_	10	_	_	_
-11	verbi	_	_	ADJD	_	11	_	_	_
-12	!	_	_	$.	_	12	_	_	_
-	
-1	Han	_	_	VAFIN	_	1	_	_	_
-2	no	_	_	ADV	_	2	_	_	_
-3	nie	_	_	ADV	_	3	_	_	_
-4	es	_	_	ART	_	4	_	_	_
-5	Land	_	_	NN	_	5	_	_	_
-6	erlebt	_	_	VVFIN	_	6	_	_	_
-7	,	_	_	$,	_	7	_	_	_
-8	wo	_	_	PRELS	_	8	_	_	_
-9	de	_	_	ART	_	9	_	_	_
-10	blöd	_	_	NN	_	10	_	_	_
-11	Valentinstag	_	_	NN	_	11	_	_	_
-12	so	_	_	ADV	_	12	_	_	_
-13	krass	_	_	ADJA	_	13	_	_	_
-14	fiired	_	_	VVFIN	_	14	_	_	_
-15	wie	_	_	KOKOM	_	15	_	_	_
-16	d'	_	_	ART	_	16	_	_	_
-17	Amerikaner	_	_	NN	_	17	_	_	_
-18	.	_	_	$.	_	18	_	_	_
-	
-1	Ich	_	_	PPER	_	1	_	_	_
-2	chans	_	_	VMFIN+	_	2	_	_	_
-3	nüm	_	_	NN	_	3	_	_	_
-4	ghöre	_	_	VVFIN	_	4	_	_	_
-5	..	_	_	ADJA	_	5	_	_	_
-	
-1	jede	_	_	PIAT	_	1	_	_	_
-2	wünscht	_	_	NN	_	2	_	_	_
-3	eim	_	_	ART	_	3	_	_	_
-4	zur	_	_	APPRART	_	4	_	_	_
-5	Begrüessig	_	_	NN	_	5	_	_	_
-6	"	_	_	$(	_	6	_	_	_
-7	Happy	_	_	FM	_	7	_	_	_
-8	Valentinesday	_	_	FM	_	8	_	_	_
-9	"	_	_	$(	_	9	_	_	_
-10	...	_	_	$(	_	10	_	_	_
-	
-1	man	_	_	ADV	_	1	_	_	_
-2	..	_	_	ADJA	_	2	_	_	_
-3	und	_	_	KON	_	3	_	_	_
-4	etlichi	_	_	ADJA	_	4	_	_	_
-5	Lüt	_	_	NN	_	5	_	_	_
-6	hend	_	_	VAFIN	_	6	_	_	_
-7	mit	_	_	APPR	_	7	_	_	_
-8	gfagt	_	_	VVFIN	_	8	_	_	_
-9	.	_	_	$.	_	9	_	_	_
-10	.	_	_	$.	_	10	_	_	_
-	
-1	"	_	_	$(	_	1	_	_	_
-2	Who'	_	_	NN	_	2	_	_	_
-3	s	_	_	ART	_	3	_	_	_
-4	your	_	_	NN	_	4	_	_	_
-5	Valentine	_	_	FM	_	5	_	_	_
-6	today	_	_	FM	_	6	_	_	_
-7	?	_	_	$.	_	7	_	_	_
-8	?	_	_	$.	_	8	_	_	_
-9	"	_	_	$(	_	9	_	_	_
-	
-1	Unglaublich	_	_	ADV	_	1	_	_	_
-2	...	_	_	$(	_	2	_	_	_
-3	blödi	_	_	ADJA	_	3	_	_	_
-4	Erfindig	_	_	NN	_	4	_	_	_
-5	!	_	_	$.	_	5	_	_	_
-6	-.-	_	_	TRUNC	_	6	_	_	_
-	
-1	Gester	_	_	NN	_	1	_	_	_
-2	isch	_	_	VAFIN	_	2	_	_	_
-3	Mardi	_	_	NN	_	3	_	_	_
-4	gras	_	_	VVPP	_	4	_	_	_
-5	gsi	_	_	VAPP	_	5	_	_	_
-6	..	_	_	ADJA	_	6	_	_	_
-	
-1	frag	_	_	VVFIN	_	1	_	_	_
-2	mi	_	_	PPER	_	2	_	_	_
-3	ned	_	_	PTKNEG	_	3	_	_	_
-4	wie	_	_	KOKOM	_	4	_	_	_
-5	de	_	_	ART	_	5	_	_	_
-6	Fiertig	_	_	NN	_	6	_	_	_
-7	bi	_	_	APPR	_	7	_	_	_
-8	eus	_	_	PPER	_	8	_	_	_
-9	heisst	_	_	VVFIN	_	9	_	_	_
-10	.	_	_	$.	_	10	_	_	_
-	
-1	Aschermittwoch	_	_	NN	_	1	_	_	_
-2	?	_	_	$.	_	2	_	_	_
-3	!	_	_	$.	_	3	_	_	_
-4	?	_	_	$.	_	4	_	_	_
-	
-1	Jedefalls	_	_	ADV	_	1	_	_	_
-2	sind	_	_	VAFIN	_	2	_	_	_
-3	d'	_	_	ART	_	3	_	_	_
-4	New	_	_	NE	_	4	_	_	_
-5	Yorker	_	_	NE	_	5	_	_	_
-6	extrem	_	_	ADJD	_	6	_	_	_
-7	katholisch	_	_	ADJD	_	7	_	_	_
-8	..	_	_	VVPP	_	8	_	_	_
-	
-1	und	_	_	KON	_	1	_	_	_
-2	es	_	_	PPER	_	2	_	_	_
-3	isch	_	_	VAFIN	_	3	_	_	_
-4	Tradition	_	_	NN	_	4	_	_	_
-5	,	_	_	$,	_	5	_	_	_
-6	dass	_	_	KOUS	_	6	_	_	_
-7	mer	_	_	PPER	_	7	_	_	_
-8	sich	_	_	PRF	_	8	_	_	_
-9	am	_	_	APPRART	_	9	_	_	_
-10	Mardi	_	_	ADJA	_	10	_	_	_
-11	gras	_	_	NN	_	11	_	_	_
-12	es	_	_	ART	_	12	_	_	_
-13	schwarzes	_	_	ADJA	_	13	_	_	_
-14	Chrüz	_	_	NN	_	14	_	_	_
-15	uf	_	_	APPR	_	15	_	_	_
-16	d'	_	_	ART	_	16	_	_	_
-17	Stirn	_	_	NN	_	17	_	_	_
-18	male	_	_	VVINF	_	18	_	_	_
-19	lot	_	_	VVFIN	_	19	_	_	_
-20	..	_	_	ADJA	_	20	_	_	_
-	
-1	jede	_	_	PIS	_	1	_	_	_
-2	isch	_	_	VAFIN	_	2	_	_	_
-3	eifach	_	_	ADV	_	3	_	_	_
-4	de	_	_	ART	_	4	_	_	_
-5	ganz	_	_	ADJA	_	5	_	_	_
-6	Tag	_	_	NN	_	6	_	_	_
-7	mit	_	_	APPR	_	7	_	_	_
-8	somene	_	_	ADJA	_	8	_	_	_
-9	blöde	_	_	NN	_	9	_	_	_
-10	Chrüz	_	_	NN	_	10	_	_	_
-11	uf	_	_	APPR	_	11	_	_	_
-12	de	_	_	ART	_	12	_	_	_
-13	Stirn	_	_	NN	_	13	_	_	_
-14	umegloffe	_	_	VVPP	_	14	_	_	_
-15	und	_	_	KON	_	15	_	_	_
-16	a	_	_	APPR	_	16	_	_	_
-17	jedem	_	_	PIAT	_	17	_	_	_
-18	Egge	_	_	NN	_	18	_	_	_
-19	hends	_	_	VAFIN+	_	19	_	_	_
-20	eim	_	_	PIS	_	20	_	_	_
-21	wele	_	_	VMINF	_	21	_	_	_
-22	so	_	_	ADV	_	22	_	_	_
-23	es	_	_	ART	_	23	_	_	_
-24	Chrüz	_	_	NN	_	24	_	_	_
-25	uf	_	_	APPR	_	25	_	_	_
-26	d'	_	_	ART	_	26	_	_	_
-27	Stirn	_	_	NN	_	27	_	_	_
-28	male	_	_	VVPP	_	28	_	_	_
-29	...	_	_	$.	_	29	_	_	_
-	
-1	hallo	_	_	VVINF	_	1	_	_	_
-2	?	_	_	$.	_	2	_	_	_
-3	!	_	_	$.	_	3	_	_	_
-4	?	_	_	$.	_	4	_	_	_
-	
-1	Ich	_	_	PPER	_	1	_	_	_
-2	lauf	_	_	NN	_	2	_	_	_
-3	sicher	_	_	ADJD	_	3	_	_	_
-4	ned	_	_	PTKNEG	_	4	_	_	_
-5	de	_	_	ART	_	5	_	_	_
-6	ganz	_	_	ADJA	_	6	_	_	_
-7	Tag	_	_	NN	_	7	_	_	_
-8	mit	_	_	APPR	_	8	_	_	_
-9	dem	_	_	ART	_	9	_	_	_
-10	schwarze	_	_	ADJA	_	10	_	_	_
-11	Züg	_	_	NN	_	11	_	_	_
-12	im	_	_	APPRART	_	12	_	_	_
-13	Gsicht	_	_	NN	_	13	_	_	_
-14	ume	_	_	PTKVZ	_	14	_	_	_
-15	.	_	_	$.	_	15	_	_	_
-16	.	_	_	$.	_	16	_	_	_
-	
-1	Gester	_	_	NN	_	1	_	_	_
-2	nach	_	_	APPR	_	2	_	_	_
-3	de	_	_	ART	_	3	_	_	_
-4	Schuel	_	_	NN	_	4	_	_	_
-5	simer	_	_	VMFIN+	_	5	_	_	_
-6	ine	_	_	ADV	_	6	_	_	_
-7	Cookies-Bäckerei	_	_	NN	_	7	_	_	_
-8	,	_	_	$,	_	8	_	_	_
-9	will'	_	_	VVFIN	_	9	_	_	_
-10	s	_	_	PPER	_	10	_	_	_
-11	det	_	_	ADV	_	11	_	_	_
-12	anschinend	_	_	ADV	_	12	_	_	_
-13	di	_	_	ART	_	13	_	_	_
-14	beste	_	_	ADJD	_	14	_	_	_
-15	Cookies	_	_	NN	_	15	_	_	_
-16	git	_	_	VVFIN	_	16	_	_	_
-17	.	_	_	$.	_	17	_	_	_
-	
-1	Mmmh	_	_	NE	_	1	_	_	_
-2	..	_	_	CARD	_	2	_	_	_
-3	okay	_	_	FM	_	3	_	_	_
-4	..	_	_	CARD	_	4	_	_	_
-5	aso	_	_	ADV	_	5	_	_	_
-6	uf	_	_	APPR	_	6	_	_	_
-7	jedefalls	_	_	ADV	_	7	_	_	_
-8	ischer	_	_	VAFIN+	_	8	_	_	_
-9	di	_	_	ART	_	9	_	_	_
-10	3$	_	_	NN	_	10	_	_	_
-11	wert	_	_	VVPP	_	11	_	_	_
-12	gsii	_	_	VAPP	_	12	_	_	_
-13	..	_	_	ADJA	_	13	_	_	_
-	
-1	er	_	_	PPER	_	1	_	_	_
-2	isch	_	_	VAFIN	_	2	_	_	_
-3	nämli	_	_	ADV	_	3	_	_	_
-4	so	_	_	ADV	_	4	_	_	_
-5	gross	_	_	ADJD	_	5	_	_	_
-6	gsi	_	_	VAPP	_	6	_	_	_
-7	wie	_	_	KOKOM	_	7	_	_	_
-8	en	_	_	ART	_	8	_	_	_
-9	Teller	_	_	NN	_	9	_	_	_
-10	.	_	_	$.	_	10	_	_	_
-	
-1	Ich	_	_	PPER	_	1	_	_	_
-2	mein	_	_	PPOSAT	_	2	_	_	_
-3	.	_	_	$.	_	3	_	_	_
-4	.	_	_	$.	_	4	_	_	_
-	
-1	Cookies	_	_	NN	_	1	_	_	_
-2	sötet	_	_	VVFIN	_	2	_	_	_
-3	doch	_	_	ADV	_	3	_	_	_
-4	eigentli	_	_	ADV	_	4	_	_	_
-5	öpis	_	_	PIS	_	5	_	_	_
-6	sii	_	_	VAINF	_	6	_	_	_
-7	..	_	_	ADJA	_	7	_	_	_
-	
-1	womer	_	_	PRELS+	_	1	_	_	_
-2	id	_	_	APPRART	_	2	_	_	_
-3	Hand	_	_	NN	_	3	_	_	_
-4	chan	_	_	VMFIN	_	4	_	_	_
-5	neh	_	_	VVINF	_	5	_	_	_
-6	?	_	_	$.	_	6	_	_	_
-7	!	_	_	$.	_	7	_	_	_
-8	?	_	_	$.	_	8	_	_	_
-	
-1	Das	_	_	PDS	_	1	_	_	_
-2	wo	_	_	PRELS	_	2	_	_	_
-3	ich	_	_	PPER	_	3	_	_	_
-4	da	_	_	ADV	_	4	_	_	_
-5	übercho	_	_	VVPP	_	5	_	_	_
-6	han	_	_	VAFIN	_	6	_	_	_
-7	isch	_	_	VAFIN	_	7	_	_	_
-8	meh	_	_	ADV	_	8	_	_	_
-9	en	_	_	ART	_	9	_	_	_
-10	Chueche	_	_	NN	_	10	_	_	_
-11	gsi	_	_	VAPP	_	11	_	_	_
-12	.	_	_	$.	_	12	_	_	_
-13	.	_	_	$.	_	13	_	_	_
-	
-1	;)	_	_	ADJA	_	1	_	_	_
-	
-1	Gester	_	_	NN	_	1	_	_	_
-2	simer	_	_	VAFIN+	_	2	_	_	_
-3	au	_	_	ADV	_	3	_	_	_
-4	no	_	_	ADV	_	4	_	_	_
-5	is	_	_	APPRART	_	5	_	_	_
-6	MOMA	_	_	NE	_	6	_	_	_
-7	(	_	_	$(	_	7	_	_	_
-8	Museum	_	_	NN	_	8	_	_	_
-9	of	_	_	FM	_	9	_	_	_
-10	Modern	_	_	NE	_	10	_	_	_
-11	Art	_	_	FM	_	11	_	_	_
-12	)	_	_	$(	_	12	_	_	_
-13	gange	_	_	VVPP	_	13	_	_	_
-14	..	_	_	ADJA	_	14	_	_	_
-	
-1	sie	_	_	PPER	_	1	_	_	_
-2	hend	_	_	VAFIN	_	2	_	_	_
-3	eus	_	_	PPER	_	3	_	_	_
-4	gseit	_	_	VVPP	_	4	_	_	_
-5	,	_	_	$,	_	5	_	_	_
-6	dass	_	_	KOUS	_	6	_	_	_
-7	mue	_	_	VVFIN	_	7	_	_	_
-8	mer	_	_	PPER	_	8	_	_	_
-9	umbedingt	_	_	ADV	_	9	_	_	_
-10	mal	_	_	ADV	_	10	_	_	_
-11	gseh	_	_	VVPP	_	11	_	_	_
-12	ha	_	_	VAFIN	_	12	_	_	_
-13	..	_	_	CARD	_	13	_	_	_
-	
-1	guet	_	_	ADJD	_	1	_	_	_
-2	den	_	_	ADV	_	2	_	_	_
-3	simer	_	_	ADV	_	3	_	_	_
-4	halt	_	_	ADV	_	4	_	_	_
-5	gange	_	_	VVPP	_	5	_	_	_
-6	.	_	_	$.	_	6	_	_	_
-	
-1	Ich	_	_	PPER	_	1	_	_	_
-2	han	_	_	VAFIN	_	2	_	_	_
-3	ja	_	_	ADV	_	3	_	_	_
-4	kei	_	_	PIAT	_	4	_	_	_
-5	Ahnig	_	_	NN	_	5	_	_	_
-6	vo	_	_	APPR	_	6	_	_	_
-7	Kunst	_	_	NN	_	7	_	_	_
-8	...	_	_	$.	_	8	_	_	_
-	
-1	aber	_	_	KON	_	1	_	_	_
-2	echt	_	_	ADV	_	2	_	_	_
-3	jez	_	_	ADV	_	3	_	_	_
-4	mal	_	_	ADV	_	4	_	_	_
-5	.	_	_	$.	_	5	_	_	_
-	
-1	Di	_	_	ART	_	1	_	_	_
-2	meiste	_	_	ADJA	_	2	_	_	_
-3	Bilder	_	_	NN	_	3	_	_	_
-4	chönt	_	_	VMFIN	_	4	_	_	_
-5	ich	_	_	PPER	_	5	_	_	_
-6	aso	_	_	ADV	_	6	_	_	_
-7	besser	_	_	ADJD	_	7	_	_	_
-8	male	_	_	VVINF	_	8	_	_	_
-9	...	_	_	$(	_	9	_	_	_
-10	;)	_	_	ADJA	_	10	_	_	_
-	
-1	Lueged	_	_	VVIMP	_	1	_	_	_
-2	euch	_	_	ADV	_	2	_	_	_
-3	das	_	_	PDS	_	3	_	_	_
-4	mal	_	_	ADV	_	4	_	_	_
-5	aa	_	_	PTKVZ	_	5	_	_	_
-6	...	_	_	$(	_	6	_	_	_
-	
-1	Jaaa	_	_	NN	_	1	_	_	_
-2	...	_	_	$(	_	2	_	_	_
-3	ich	_	_	PPER	_	3	_	_	_
-4	mein	_	_	PPOSAT	_	4	_	_	_
-5	..	_	_	ADJA	_	5	_	_	_
-	
-1	isch	_	_	VAFIN	_	1	_	_	_
-2	scho	_	_	ADV	_	2	_	_	_
-3	recht	_	_	ADV	_	3	_	_	_
-4	toll	_	_	ADJD	_	4	_	_	_
-5	sone	_	_	ADV+	_	5	_	_	_
-6	wiissi	_	_	ADJA	_	6	_	_	_
-7	Leinwand	_	_	NN	_	7	_	_	_
-8	.	_	_	$.	_	8	_	_	_
-	
-1	Chani	_	_	NN	_	1	_	_	_
-2	zwar	_	_	ADV	_	2	_	_	_
-3	genau	_	_	ADV	_	3	_	_	_
-4	so	_	_	ADV	_	4	_	_	_
-5	i	_	_	APPR	_	5	_	_	_
-6	de	_	_	ART	_	6	_	_	_
-7	IKEA	_	_	NN	_	7	_	_	_
-8	au	_	_	ADV	_	8	_	_	_
-9	chaufe	_	_	VVINF	_	9	_	_	_
-10	..	_	_	ADJA	_	10	_	_	_
-	
-1	aber	_	_	KON	_	1	_	_	_
-2	okay	_	_	FM	_	2	_	_	_
-3	.	_	_	$.	_	3	_	_	_
-4	;)	_	_	ADJA	_	4	_	_	_
-	
-1	Anderi	_	_	ADJA	_	1	_	_	_
-2	Bilder	_	_	NN	_	2	_	_	_
-3	sind	_	_	VAFIN	_	3	_	_	_
-4	zimlich	_	_	ADJD	_	4	_	_	_
-5	strange	_	_	VVPP	_	5	_	_	_
-6	gsii	_	_	VAPP	_	6	_	_	_
-7	..	_	_	ADJA	_	7	_	_	_
-	
-1	das	_	_	PDS	_	1	_	_	_
-2	zum	_	_	APPRART	_	2	_	_	_
-3	Bispel	_	_	NN	_	3	_	_	_
-4	..	_	_	VVFIN	_	4	_	_	_
-5	ich	_	_	PPER	_	5	_	_	_
-6	mein	_	_	PPOSAT	_	6	_	_	_
-7	..	_	_	ADJA	_	7	_	_	_
-	
-1	ich	_	_	PPER	_	1	_	_	_
-2	weiss	_	_	VVFIN	_	2	_	_	_
-3	ja	_	_	ADV	_	3	_	_	_
-4	ned	_	_	PTKNEG	_	4	_	_	_
-5	...	_	_	$.	_	5	_	_	_
-	
-1	aber	_	_	KON	_	1	_	_	_
-2	das	_	_	PDS	_	2	_	_	_
-3	isch	_	_	VAFIN	_	3	_	_	_
-4	doch	_	_	ADV	_	4	_	_	_
-5	echt	_	_	ADV	_	5	_	_	_
-6	chrank	_	_	ADJD	_	6	_	_	_
-7	...	_	_	$.	_	7	_	_	_
-	
-1	und	_	_	KON	_	1	_	_	_
-2	das	_	_	PDS	_	2	_	_	_
-3	isch	_	_	VAFIN	_	3	_	_	_
-4	Kunst	_	_	NN	_	4	_	_	_
-5	?	_	_	$.	_	5	_	_	_
-6	!	_	_	$.	_	6	_	_	_
-7	?	_	_	$.	_	7	_	_	_
-	
-1	Gester	_	_	NN	_	1	_	_	_
-2	Obig	_	_	NN	_	2	_	_	_
-3	bini	_	_	VVFIN+	_	3	_	_	_
-4	den	_	_	ADV	_	4	_	_	_
-5	go	_	_	VVFIN	_	5	_	_	_
-6	en	_	_	ART	_	6	_	_	_
-7	Basketballmatch	_	_	NN	_	7	_	_	_
-8	luege	_	_	VVINF	_	8	_	_	_
-9	.	_	_	$.	_	9	_	_	_
-10	.	_	_	$.	_	10	_	_	_
-	
-1	NY	_	_	NE	_	1	_	_	_
-2	Knicks	_	_	NE	_	2	_	_	_
-3	vs.	_	_	APPR	_	3	_	_	_
-4	Toronto	_	_	NE	_	4	_	_	_
-5	Raptors	_	_	NE	_	5	_	_	_
-6	.	_	_	$.	_	6	_	_	_
-7	.	_	_	$.	_	7	_	_	_
-	
-1	Es	_	_	PPER	_	1	_	_	_
-2	isch	_	_	VAFIN	_	2	_	_	_
-3	echt	_	_	ADV	_	3	_	_	_
-4	cool	_	_	ADJD	_	4	_	_	_
-5	gsi	_	_	VAPP	_	5	_	_	_
-6	..	_	_	ADJA	_	6	_	_	_
-	
-1	eifach	_	_	ADV	_	1	_	_	_
-2	di	_	_	ART	_	2	_	_	_
-3	ganzi	_	_	ADJA	_	3	_	_	_
-4	Atmosphäre	_	_	NN	_	4	_	_	_
-5	isch	_	_	VAFIN	_	5	_	_	_
-6	super	_	_	ADJD	_	6	_	_	_
-7	gsi	_	_	VAPP	_	7	_	_	_
-8	.	_	_	$.	_	8	_	_	_
-	
-1	Gueti	_	_	ADJA	_	1	_	_	_
-2	Musig	_	_	NN	_	2	_	_	_
-3	,	_	_	$,	_	3	_	_	_
-4	tolli	_	_	ADJA	_	4	_	_	_
-5	Belüchtig	_	_	NN	_	5	_	_	_
-6	,	_	_	$,	_	6	_	_	_
-7	gueti	_	_	ADJA	_	7	_	_	_
-8	Showilage	_	_	NN	_	8	_	_	_
-9	ide	_	_	APPRART	_	9	_	_	_
-10	Pause	_	_	NN	_	10	_	_	_
-11	.	_	_	$.	_	11	_	_	_
-12	.	_	_	$.	_	12	_	_	_
-	
-1	Aber	_	_	KOUS	_	1	_	_	_
-2	ich	_	_	PPER	_	2	_	_	_
-3	mues	_	_	VMFIN	_	3	_	_	_
-4	säge	_	_	VVINF	_	4	_	_	_
-5	d'	_	_	ART	_	5	_	_	_
-6	NY	_	_	NE	_	6	_	_	_
-7	Knicks	_	_	NE	_	7	_	_	_
-8	hend	_	_	VAFIN	_	8	_	_	_
-9	echt	_	_	ADV	_	9	_	_	_
-10	beschisse	_	_	ADV	_	10	_	_	_
-11	gspilt	_	_	VVPP	_	11	_	_	_
-12	.	_	_	$.	_	12	_	_	_
-	
-1	Sie	_	_	PPER	_	1	_	_	_
-2	hend	_	_	VAFIN	_	2	_	_	_
-3	den	_	_	ART	_	3	_	_	_
-4	schlussendli	_	_	NN	_	4	_	_	_
-5	au	_	_	ADV	_	5	_	_	_
-6	verlore	_	_	VVPP	_	6	_	_	_
-7	.	_	_	$.	_	7	_	_	_
-8	.	_	_	$.	_	8	_	_	_
-	
-1	Ich	_	_	PPER	_	1	_	_	_
-2	bin	_	_	VAFIN	_	2	_	_	_
-3	eh	_	_	ADV	_	3	_	_	_
-4	für	_	_	APPR	_	4	_	_	_
-5	Toronto	_	_	NE	_	5	_	_	_
-6	gsi	_	_	VAPP	_	6	_	_	_
-7	..	_	_	ADJA	_	7	_	_	_
-	
-1	die	_	_	PDS	_	1	_	_	_
-2	hend	_	_	VAFIN	_	2	_	_	_
-3	mir	_	_	PPER	_	3	_	_	_
-4	nämli	_	_	ADV	_	4	_	_	_
-5	so	_	_	ADV	_	5	_	_	_
-6	leid	_	_	ADJD	_	6	_	_	_
-7	do	_	_	ADV	_	7	_	_	_
-8	..	_	_	CARD	_	8	_	_	_
-	
-1	niemer	_	_	PIS	_	1	_	_	_
-2	het	_	_	VAFIN	_	2	_	_	_
-3	für	_	_	APPR	_	3	_	_	_
-4	sie	_	_	PPER	_	4	_	_	_
-5	klatscht	_	_	ADV	_	5	_	_	_
-6	und	_	_	KON	_	6	_	_	_
-7	sie	_	_	PPER	_	7	_	_	_
-8	sind	_	_	VAFIN	_	8	_	_	_
-9	immer	_	_	ADV	_	9	_	_	_
-10	usbuht	_	_	VVPP	_	10	_	_	_
-11	worde	_	_	VAPP	_	11	_	_	_
-12	..	_	_	ADJA	_	12	_	_	_
-	
-1	das	_	_	PDS	_	1	_	_	_
-2	isch	_	_	VAFIN	_	2	_	_	_
-3	doch	_	_	ADV	_	3	_	_	_
-4	ned	_	_	PTKNEG	_	4	_	_	_
-5	fair	_	_	PAV	_	5	_	_	_
-6	..	_	_	VVPP	_	6	_	_	_
-	
-1	und	_	_	KON	_	1	_	_	_
-2	das	_	_	PDS	_	2	_	_	_
-3	obwohl	_	_	KOUS	_	3	_	_	_
-4	sie	_	_	PPER	_	4	_	_	_
-5	vil	_	_	ADV	_	5	_	_	_
-6	besser	_	_	ADJD	_	6	_	_	_
-7	gspilt	_	_	VVPP	_	7	_	_	_
-8	hend	_	_	VAFIN	_	8	_	_	_
-9	.	_	_	$.	_	9	_	_	_
-10	:)	_	_	ADV	_	10	_	_	_
-	
-1	Und	_	_	KON	_	1	_	_	_
-2	höt	_	_	ADV	_	2	_	_	_
-3	bini	_	_	VVFIN+	_	3	_	_	_
-4	im	_	_	APPRART	_	4	_	_	_
-5	Century	_	_	NN	_	5	_	_	_
-6	21	_	_	CARD	_	6	_	_	_
-7	gsii	_	_	VAPP	_	7	_	_	_
-8	...	_	_	$.	_	8	_	_	_
-	
-1	oooooh	_	_	ADV	_	1	_	_	_
-2	es	_	_	PPER	_	2	_	_	_
-3	isch	_	_	VAFIN	_	3	_	_	_
-4	en	_	_	ART	_	4	_	_	_
-5	Traum	_	_	NN	_	5	_	_	_
-6	.	_	_	$.	_	6	_	_	_
-	
-1	Das	_	_	PDS	_	1	_	_	_
-2	isch	_	_	VAFIN	_	2	_	_	_
-3	en	_	_	ART	_	3	_	_	_
-4	Lade	_	_	NN	_	4	_	_	_
-5	wo	_	_	PRELS	_	5	_	_	_
-6	alles	_	_	PIS	_	6	_	_	_
-7	nur	_	_	ADV	_	7	_	_	_
-8	Markesache	_	_	NN	_	8	_	_	_
-9	het	_	_	VAFIN	_	9	_	_	_
-10	..	_	_	ADJA	_	10	_	_	_
-	
-1	und	_	_	KON	_	1	_	_	_
-2	zwar	_	_	ADV	_	2	_	_	_
-3	verdammt	_	_	VVFIN	_	3	_	_	_
-4	billig	_	_	ADJD	_	4	_	_	_
-5	.	_	_	$.	_	5	_	_	_
-	
-1	Er	_	_	PPER	_	1	_	_	_
-2	het	_	_	VAFIN	_	2	_	_	_
-3	6	_	_	CARD	_	3	_	_	_
-4	Stöck	_	_	NN	_	4	_	_	_
-5	und	_	_	KON	_	5	_	_	_
-6	isch	_	_	VAFIN	_	6	_	_	_
-7	echt	_	_	ADV	_	7	_	_	_
-8	riesig	_	_	ADJD	_	8	_	_	_
-9	..	_	_	ADJA	_	9	_	_	_
-	
-1	und	_	_	KON	_	1	_	_	_
-2	soooo	_	_	ADV	_	2	_	_	_
-3	billig	_	_	ADJD	_	3	_	_	_
-4	.	_	_	$.	_	4	_	_	_
-5	Das	_	_	PDS	_	5	_	_	_
-6	lohnt	_	_	VVFIN	_	6	_	_	_
-7	sich	_	_	PRF	_	7	_	_	_
-8	also	_	_	ADV	_	8	_	_	_
-9	echt	_	_	ADV	_	9	_	_	_
-10	.	_	_	$.	_	10	_	_	_
-11	.	_	_	$.	_	11	_	_	_
-	
-1	:)	_	_	ADJA	_	1	_	_	_
-	
-1	Ooooh	_	_	NN	_	1	_	_	_
-2	..	_	_	VVFIN	_	2	_	_	_
-3	übrigens	_	_	ADV	_	3	_	_	_
-4	han	_	_	VAFIN	_	4	_	_	_
-5	ich	_	_	PPER	_	5	_	_	_
-6	mis	_	_	PPOSAT	_	6	_	_	_
-7	Zimmer	_	_	NN	_	7	_	_	_
-8	underdesse	_	_	ADV	_	8	_	_	_
-9	biz	_	_	PIAT	_	9	_	_	_
-10	igrichtet	_	_	VVPP	_	10	_	_	_
-11	und	_	_	KON	_	11	_	_	_
-12	vorallem	_	_	APPR+	_	12	_	_	_
-13	biz	_	_	PIS	_	13	_	_	_
-14	gstaltet	_	_	VVFIN	_	14	_	_	_
-15	.	_	_	$.	_	15	_	_	_
-16	;)	_	_	ADJA	_	16	_	_	_
-	
-1	Thank	_	_	APPR	_	1	_	_	_
-2	you	_	_	ADJD	_	2	_	_	_
-3	guys	_	_	ADV	_	3	_	_	_
-4	!	_	_	$.	_	4	_	_	_
-5	<3	_	_	CARD	_	5	_	_	_
-	
-1	Good	_	_	NN	_	1	_	_	_
-2	night	_	_	VVFIN	_	2	_	_	_
-3	guys	_	_	ADV	_	3	_	_	_
-4	...	_	_	$(	_	4	_	_	_
-	
-1	and	_	_	NN	_	1	_	_	_
-2	a	_	_	APPR	_	2	_	_	_
-3	nice	_	_	ADJA	_	3	_	_	_
-4	weekend	_	_	NN	_	4	_	_	_
-5	!	_	_	$.	_	5	_	_	_
-6	!	_	_	$.	_	6	_	_	_
-	
-	
+1	Thursday	_	F	FM	_	1	_	_	_
+2	,	_	$	$,	_	2	_	_	_
+3	14th	_	F	FM	_	3	_	_	_
+4	of	_	F	FM	_	4	_	_	_
+5	February	_	F	FM	_	5	_	_	_
+6	2013	_	C	CARD	_	6	_	_	_
+
+1	Shit	_	N	NN	_	1	_	_	_
+2	Valentinesday	_	N	NE	_	2	_	_	_
+3	..	_	A	ADJD	_	3	_	_	_
+4	bin	_	V	VAFIN	_	4	_	_	_
+5	aso	_	A	ADV	_	5	_	_	_
+6	echt	_	A	ADV	_	6	_	_	_
+7	froh	_	A	ADJD	_	7	_	_	_
+8	isch	_	V	VAFIN	_	8	_	_	_
+9	de	_	A	ART	_	9	_	_	_
+10	jez	_	A	ADV	_	10	_	_	_
+11	verbi	_	A	ADJD	_	11	_	_	_
+12	!	_	$	$.	_	12	_	_	_
+
+1	Han	_	V	VAFIN	_	1	_	_	_
+2	no	_	A	ADV	_	2	_	_	_
+3	nie	_	A	ADV	_	3	_	_	_
+4	es	_	A	ART	_	4	_	_	_
+5	Land	_	N	NN	_	5	_	_	_
+6	erlebt	_	V	VVFIN	_	6	_	_	_
+7	,	_	$	$,	_	7	_	_	_
+8	wo	_	P	PRELS	_	8	_	_	_
+9	de	_	A	ART	_	9	_	_	_
+10	blöd	_	N	NN	_	10	_	_	_
+11	Valentinstag	_	N	NN	_	11	_	_	_
+12	so	_	A	ADV	_	12	_	_	_
+13	krass	_	A	ADJA	_	13	_	_	_
+14	fiired	_	V	VVFIN	_	14	_	_	_
+15	wie	_	K	KOKOM	_	15	_	_	_
+16	d'	_	A	ART	_	16	_	_	_
+17	Amerikaner	_	N	NN	_	17	_	_	_
+18	.	_	$	$.	_	18	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	chans	_	V	VMFIN+	_	2	_	_	_
+3	nüm	_	N	NN	_	3	_	_	_
+4	ghöre	_	V	VVFIN	_	4	_	_	_
+5	..	_	A	ADJA	_	5	_	_	_
+
+1	jede	_	P	PIAT	_	1	_	_	_
+2	wünscht	_	N	NN	_	2	_	_	_
+3	eim	_	A	ART	_	3	_	_	_
+4	zur	_	A	APPRART	_	4	_	_	_
+5	Begrüessig	_	N	NN	_	5	_	_	_
+6	"	_	$	$(	_	6	_	_	_
+7	Happy	_	F	FM	_	7	_	_	_
+8	Valentinesday	_	F	FM	_	8	_	_	_
+9	"	_	$	$(	_	9	_	_	_
+10	...	_	$	$(	_	10	_	_	_
+
+1	man	_	A	ADV	_	1	_	_	_
+2	..	_	A	ADJA	_	2	_	_	_
+3	und	_	K	KON	_	3	_	_	_
+4	etlichi	_	A	ADJA	_	4	_	_	_
+5	Lüt	_	N	NN	_	5	_	_	_
+6	hend	_	V	VAFIN	_	6	_	_	_
+7	mit	_	A	APPR	_	7	_	_	_
+8	gfagt	_	V	VVFIN	_	8	_	_	_
+9	.	_	$	$.	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	"	_	$	$(	_	1	_	_	_
+2	Who'	_	N	NN	_	2	_	_	_
+3	s	_	A	ART	_	3	_	_	_
+4	your	_	N	NN	_	4	_	_	_
+5	Valentine	_	F	FM	_	5	_	_	_
+6	today	_	F	FM	_	6	_	_	_
+7	?	_	$	$.	_	7	_	_	_
+8	?	_	$	$.	_	8	_	_	_
+9	"	_	$	$(	_	9	_	_	_
+
+1	Unglaublich	_	A	ADV	_	1	_	_	_
+2	...	_	$	$(	_	2	_	_	_
+3	blödi	_	A	ADJA	_	3	_	_	_
+4	Erfindig	_	N	NN	_	4	_	_	_
+5	!	_	$	$.	_	5	_	_	_
+6	-.-	_	T	TRUNC	_	6	_	_	_
+
+1	Gester	_	N	NN	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	Mardi	_	N	NN	_	3	_	_	_
+4	gras	_	V	VVPP	_	4	_	_	_
+5	gsi	_	V	VAPP	_	5	_	_	_
+6	..	_	A	ADJA	_	6	_	_	_
+
+1	frag	_	V	VVFIN	_	1	_	_	_
+2	mi	_	P	PPER	_	2	_	_	_
+3	ned	_	P	PTKNEG	_	3	_	_	_
+4	wie	_	K	KOKOM	_	4	_	_	_
+5	de	_	A	ART	_	5	_	_	_
+6	Fiertig	_	N	NN	_	6	_	_	_
+7	bi	_	A	APPR	_	7	_	_	_
+8	eus	_	P	PPER	_	8	_	_	_
+9	heisst	_	V	VVFIN	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	Aschermittwoch	_	N	NN	_	1	_	_	_
+2	?	_	$	$.	_	2	_	_	_
+3	!	_	$	$.	_	3	_	_	_
+4	?	_	$	$.	_	4	_	_	_
+
+1	Jedefalls	_	A	ADV	_	1	_	_	_
+2	sind	_	V	VAFIN	_	2	_	_	_
+3	d'	_	A	ART	_	3	_	_	_
+4	New	_	N	NE	_	4	_	_	_
+5	Yorker	_	N	NE	_	5	_	_	_
+6	extrem	_	A	ADJD	_	6	_	_	_
+7	katholisch	_	A	ADJD	_	7	_	_	_
+8	..	_	V	VVPP	_	8	_	_	_
+
+1	und	_	K	KON	_	1	_	_	_
+2	es	_	P	PPER	_	2	_	_	_
+3	isch	_	V	VAFIN	_	3	_	_	_
+4	Tradition	_	N	NN	_	4	_	_	_
+5	,	_	$	$,	_	5	_	_	_
+6	dass	_	K	KOUS	_	6	_	_	_
+7	mer	_	P	PPER	_	7	_	_	_
+8	sich	_	P	PRF	_	8	_	_	_
+9	am	_	A	APPRART	_	9	_	_	_
+10	Mardi	_	A	ADJA	_	10	_	_	_
+11	gras	_	N	NN	_	11	_	_	_
+12	es	_	A	ART	_	12	_	_	_
+13	schwarzes	_	A	ADJA	_	13	_	_	_
+14	Chrüz	_	N	NN	_	14	_	_	_
+15	uf	_	A	APPR	_	15	_	_	_
+16	d'	_	A	ART	_	16	_	_	_
+17	Stirn	_	N	NN	_	17	_	_	_
+18	male	_	V	VVINF	_	18	_	_	_
+19	lot	_	V	VVFIN	_	19	_	_	_
+20	..	_	A	ADJA	_	20	_	_	_
+
+1	jede	_	P	PIS	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	eifach	_	A	ADV	_	3	_	_	_
+4	de	_	A	ART	_	4	_	_	_
+5	ganz	_	A	ADJA	_	5	_	_	_
+6	Tag	_	N	NN	_	6	_	_	_
+7	mit	_	A	APPR	_	7	_	_	_
+8	somene	_	A	ADJA	_	8	_	_	_
+9	blöde	_	N	NN	_	9	_	_	_
+10	Chrüz	_	N	NN	_	10	_	_	_
+11	uf	_	A	APPR	_	11	_	_	_
+12	de	_	A	ART	_	12	_	_	_
+13	Stirn	_	N	NN	_	13	_	_	_
+14	umegloffe	_	V	VVPP	_	14	_	_	_
+15	und	_	K	KON	_	15	_	_	_
+16	a	_	A	APPR	_	16	_	_	_
+17	jedem	_	P	PIAT	_	17	_	_	_
+18	Egge	_	N	NN	_	18	_	_	_
+19	hends	_	V	VAFIN+	_	19	_	_	_
+20	eim	_	P	PIS	_	20	_	_	_
+21	wele	_	V	VMINF	_	21	_	_	_
+22	so	_	A	ADV	_	22	_	_	_
+23	es	_	A	ART	_	23	_	_	_
+24	Chrüz	_	N	NN	_	24	_	_	_
+25	uf	_	A	APPR	_	25	_	_	_
+26	d'	_	A	ART	_	26	_	_	_
+27	Stirn	_	N	NN	_	27	_	_	_
+28	male	_	V	VVPP	_	28	_	_	_
+29	...	_	$	$.	_	29	_	_	_
+
+1	hallo	_	V	VVINF	_	1	_	_	_
+2	?	_	$	$.	_	2	_	_	_
+3	!	_	$	$.	_	3	_	_	_
+4	?	_	$	$.	_	4	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	lauf	_	N	NN	_	2	_	_	_
+3	sicher	_	A	ADJD	_	3	_	_	_
+4	ned	_	P	PTKNEG	_	4	_	_	_
+5	de	_	A	ART	_	5	_	_	_
+6	ganz	_	A	ADJA	_	6	_	_	_
+7	Tag	_	N	NN	_	7	_	_	_
+8	mit	_	A	APPR	_	8	_	_	_
+9	dem	_	A	ART	_	9	_	_	_
+10	schwarze	_	A	ADJA	_	10	_	_	_
+11	Züg	_	N	NN	_	11	_	_	_
+12	im	_	A	APPRART	_	12	_	_	_
+13	Gsicht	_	N	NN	_	13	_	_	_
+14	ume	_	P	PTKVZ	_	14	_	_	_
+15	.	_	$	$.	_	15	_	_	_
+16	.	_	$	$.	_	16	_	_	_
+
+1	Gester	_	N	NN	_	1	_	_	_
+2	nach	_	A	APPR	_	2	_	_	_
+3	de	_	A	ART	_	3	_	_	_
+4	Schuel	_	N	NN	_	4	_	_	_
+5	simer	_	V	VMFIN+	_	5	_	_	_
+6	ine	_	A	ADV	_	6	_	_	_
+7	Cookies-Bäckerei	_	N	NN	_	7	_	_	_
+8	,	_	$	$,	_	8	_	_	_
+9	will'	_	V	VVFIN	_	9	_	_	_
+10	s	_	P	PPER	_	10	_	_	_
+11	det	_	A	ADV	_	11	_	_	_
+12	anschinend	_	A	ADV	_	12	_	_	_
+13	di	_	A	ART	_	13	_	_	_
+14	beste	_	A	ADJD	_	14	_	_	_
+15	Cookies	_	N	NN	_	15	_	_	_
+16	git	_	V	VVFIN	_	16	_	_	_
+17	.	_	$	$.	_	17	_	_	_
+
+1	Mmmh	_	N	NE	_	1	_	_	_
+2	..	_	C	CARD	_	2	_	_	_
+3	okay	_	F	FM	_	3	_	_	_
+4	..	_	C	CARD	_	4	_	_	_
+5	aso	_	A	ADV	_	5	_	_	_
+6	uf	_	A	APPR	_	6	_	_	_
+7	jedefalls	_	A	ADV	_	7	_	_	_
+8	ischer	_	V	VAFIN+	_	8	_	_	_
+9	di	_	A	ART	_	9	_	_	_
+10	3$	_	N	NN	_	10	_	_	_
+11	wert	_	V	VVPP	_	11	_	_	_
+12	gsii	_	V	VAPP	_	12	_	_	_
+13	..	_	A	ADJA	_	13	_	_	_
+
+1	er	_	P	PPER	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	nämli	_	A	ADV	_	3	_	_	_
+4	so	_	A	ADV	_	4	_	_	_
+5	gross	_	A	ADJD	_	5	_	_	_
+6	gsi	_	V	VAPP	_	6	_	_	_
+7	wie	_	K	KOKOM	_	7	_	_	_
+8	en	_	A	ART	_	8	_	_	_
+9	Teller	_	N	NN	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	mein	_	P	PPOSAT	_	2	_	_	_
+3	.	_	$	$.	_	3	_	_	_
+4	.	_	$	$.	_	4	_	_	_
+
+1	Cookies	_	N	NN	_	1	_	_	_
+2	sötet	_	V	VVFIN	_	2	_	_	_
+3	doch	_	A	ADV	_	3	_	_	_
+4	eigentli	_	A	ADV	_	4	_	_	_
+5	öpis	_	P	PIS	_	5	_	_	_
+6	sii	_	V	VAINF	_	6	_	_	_
+7	..	_	A	ADJA	_	7	_	_	_
+
+1	womer	_	P	PRELS+	_	1	_	_	_
+2	id	_	A	APPRART	_	2	_	_	_
+3	Hand	_	N	NN	_	3	_	_	_
+4	chan	_	V	VMFIN	_	4	_	_	_
+5	neh	_	V	VVINF	_	5	_	_	_
+6	?	_	$	$.	_	6	_	_	_
+7	!	_	$	$.	_	7	_	_	_
+8	?	_	$	$.	_	8	_	_	_
+
+1	Das	_	P	PDS	_	1	_	_	_
+2	wo	_	P	PRELS	_	2	_	_	_
+3	ich	_	P	PPER	_	3	_	_	_
+4	da	_	A	ADV	_	4	_	_	_
+5	übercho	_	V	VVPP	_	5	_	_	_
+6	han	_	V	VAFIN	_	6	_	_	_
+7	isch	_	V	VAFIN	_	7	_	_	_
+8	meh	_	A	ADV	_	8	_	_	_
+9	en	_	A	ART	_	9	_	_	_
+10	Chueche	_	N	NN	_	10	_	_	_
+11	gsi	_	V	VAPP	_	11	_	_	_
+12	.	_	$	$.	_	12	_	_	_
+13	.	_	$	$.	_	13	_	_	_
+
+1	;)	_	A	ADJA	_	1	_	_	_
+
+1	Gester	_	N	NN	_	1	_	_	_
+2	simer	_	V	VAFIN+	_	2	_	_	_
+3	au	_	A	ADV	_	3	_	_	_
+4	no	_	A	ADV	_	4	_	_	_
+5	is	_	A	APPRART	_	5	_	_	_
+6	MOMA	_	N	NE	_	6	_	_	_
+7	(	_	$	$(	_	7	_	_	_
+8	Museum	_	N	NN	_	8	_	_	_
+9	of	_	F	FM	_	9	_	_	_
+10	Modern	_	N	NE	_	10	_	_	_
+11	Art	_	F	FM	_	11	_	_	_
+12	)	_	$	$(	_	12	_	_	_
+13	gange	_	V	VVPP	_	13	_	_	_
+14	..	_	A	ADJA	_	14	_	_	_
+
+1	sie	_	P	PPER	_	1	_	_	_
+2	hend	_	V	VAFIN	_	2	_	_	_
+3	eus	_	P	PPER	_	3	_	_	_
+4	gseit	_	V	VVPP	_	4	_	_	_
+5	,	_	$	$,	_	5	_	_	_
+6	dass	_	K	KOUS	_	6	_	_	_
+7	mue	_	V	VVFIN	_	7	_	_	_
+8	mer	_	P	PPER	_	8	_	_	_
+9	umbedingt	_	A	ADV	_	9	_	_	_
+10	mal	_	A	ADV	_	10	_	_	_
+11	gseh	_	V	VVPP	_	11	_	_	_
+12	ha	_	V	VAFIN	_	12	_	_	_
+13	..	_	C	CARD	_	13	_	_	_
+
+1	guet	_	A	ADJD	_	1	_	_	_
+2	den	_	A	ADV	_	2	_	_	_
+3	simer	_	A	ADV	_	3	_	_	_
+4	halt	_	A	ADV	_	4	_	_	_
+5	gange	_	V	VVPP	_	5	_	_	_
+6	.	_	$	$.	_	6	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	han	_	V	VAFIN	_	2	_	_	_
+3	ja	_	A	ADV	_	3	_	_	_
+4	kei	_	P	PIAT	_	4	_	_	_
+5	Ahnig	_	N	NN	_	5	_	_	_
+6	vo	_	A	APPR	_	6	_	_	_
+7	Kunst	_	N	NN	_	7	_	_	_
+8	...	_	$	$.	_	8	_	_	_
+
+1	aber	_	K	KON	_	1	_	_	_
+2	echt	_	A	ADV	_	2	_	_	_
+3	jez	_	A	ADV	_	3	_	_	_
+4	mal	_	A	ADV	_	4	_	_	_
+5	.	_	$	$.	_	5	_	_	_
+
+1	Di	_	A	ART	_	1	_	_	_
+2	meiste	_	A	ADJA	_	2	_	_	_
+3	Bilder	_	N	NN	_	3	_	_	_
+4	chönt	_	V	VMFIN	_	4	_	_	_
+5	ich	_	P	PPER	_	5	_	_	_
+6	aso	_	A	ADV	_	6	_	_	_
+7	besser	_	A	ADJD	_	7	_	_	_
+8	male	_	V	VVINF	_	8	_	_	_
+9	...	_	$	$(	_	9	_	_	_
+10	;)	_	A	ADJA	_	10	_	_	_
+
+1	Lueged	_	V	VVIMP	_	1	_	_	_
+2	euch	_	A	ADV	_	2	_	_	_
+3	das	_	P	PDS	_	3	_	_	_
+4	mal	_	A	ADV	_	4	_	_	_
+5	aa	_	P	PTKVZ	_	5	_	_	_
+6	...	_	$	$(	_	6	_	_	_
+
+1	Jaaa	_	N	NN	_	1	_	_	_
+2	...	_	$	$(	_	2	_	_	_
+3	ich	_	P	PPER	_	3	_	_	_
+4	mein	_	P	PPOSAT	_	4	_	_	_
+5	..	_	A	ADJA	_	5	_	_	_
+
+1	isch	_	V	VAFIN	_	1	_	_	_
+2	scho	_	A	ADV	_	2	_	_	_
+3	recht	_	A	ADV	_	3	_	_	_
+4	toll	_	A	ADJD	_	4	_	_	_
+5	sone	_	A	ADV+	_	5	_	_	_
+6	wiissi	_	A	ADJA	_	6	_	_	_
+7	Leinwand	_	N	NN	_	7	_	_	_
+8	.	_	$	$.	_	8	_	_	_
+
+1	Chani	_	N	NN	_	1	_	_	_
+2	zwar	_	A	ADV	_	2	_	_	_
+3	genau	_	A	ADV	_	3	_	_	_
+4	so	_	A	ADV	_	4	_	_	_
+5	i	_	A	APPR	_	5	_	_	_
+6	de	_	A	ART	_	6	_	_	_
+7	IKEA	_	N	NN	_	7	_	_	_
+8	au	_	A	ADV	_	8	_	_	_
+9	chaufe	_	V	VVINF	_	9	_	_	_
+10	..	_	A	ADJA	_	10	_	_	_
+
+1	aber	_	K	KON	_	1	_	_	_
+2	okay	_	F	FM	_	2	_	_	_
+3	.	_	$	$.	_	3	_	_	_
+4	;)	_	A	ADJA	_	4	_	_	_
+
+1	Anderi	_	A	ADJA	_	1	_	_	_
+2	Bilder	_	N	NN	_	2	_	_	_
+3	sind	_	V	VAFIN	_	3	_	_	_
+4	zimlich	_	A	ADJD	_	4	_	_	_
+5	strange	_	V	VVPP	_	5	_	_	_
+6	gsii	_	V	VAPP	_	6	_	_	_
+7	..	_	A	ADJA	_	7	_	_	_
+
+1	das	_	P	PDS	_	1	_	_	_
+2	zum	_	A	APPRART	_	2	_	_	_
+3	Bispel	_	N	NN	_	3	_	_	_
+4	..	_	V	VVFIN	_	4	_	_	_
+5	ich	_	P	PPER	_	5	_	_	_
+6	mein	_	P	PPOSAT	_	6	_	_	_
+7	..	_	A	ADJA	_	7	_	_	_
+
+1	ich	_	P	PPER	_	1	_	_	_
+2	weiss	_	V	VVFIN	_	2	_	_	_
+3	ja	_	A	ADV	_	3	_	_	_
+4	ned	_	P	PTKNEG	_	4	_	_	_
+5	...	_	$	$.	_	5	_	_	_
+
+1	aber	_	K	KON	_	1	_	_	_
+2	das	_	P	PDS	_	2	_	_	_
+3	isch	_	V	VAFIN	_	3	_	_	_
+4	doch	_	A	ADV	_	4	_	_	_
+5	echt	_	A	ADV	_	5	_	_	_
+6	chrank	_	A	ADJD	_	6	_	_	_
+7	...	_	$	$.	_	7	_	_	_
+
+1	und	_	K	KON	_	1	_	_	_
+2	das	_	P	PDS	_	2	_	_	_
+3	isch	_	V	VAFIN	_	3	_	_	_
+4	Kunst	_	N	NN	_	4	_	_	_
+5	?	_	$	$.	_	5	_	_	_
+6	!	_	$	$.	_	6	_	_	_
+7	?	_	$	$.	_	7	_	_	_
+
+1	Gester	_	N	NN	_	1	_	_	_
+2	Obig	_	N	NN	_	2	_	_	_
+3	bini	_	V	VVFIN+	_	3	_	_	_
+4	den	_	A	ADV	_	4	_	_	_
+5	go	_	V	VVFIN	_	5	_	_	_
+6	en	_	A	ART	_	6	_	_	_
+7	Basketballmatch	_	N	NN	_	7	_	_	_
+8	luege	_	V	VVINF	_	8	_	_	_
+9	.	_	$	$.	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	NY	_	N	NE	_	1	_	_	_
+2	Knicks	_	N	NE	_	2	_	_	_
+3	vs.	_	A	APPR	_	3	_	_	_
+4	Toronto	_	N	NE	_	4	_	_	_
+5	Raptors	_	N	NE	_	5	_	_	_
+6	.	_	$	$.	_	6	_	_	_
+7	.	_	$	$.	_	7	_	_	_
+
+1	Es	_	P	PPER	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	echt	_	A	ADV	_	3	_	_	_
+4	cool	_	A	ADJD	_	4	_	_	_
+5	gsi	_	V	VAPP	_	5	_	_	_
+6	..	_	A	ADJA	_	6	_	_	_
+
+1	eifach	_	A	ADV	_	1	_	_	_
+2	di	_	A	ART	_	2	_	_	_
+3	ganzi	_	A	ADJA	_	3	_	_	_
+4	Atmosphäre	_	N	NN	_	4	_	_	_
+5	isch	_	V	VAFIN	_	5	_	_	_
+6	super	_	A	ADJD	_	6	_	_	_
+7	gsi	_	V	VAPP	_	7	_	_	_
+8	.	_	$	$.	_	8	_	_	_
+
+1	Gueti	_	A	ADJA	_	1	_	_	_
+2	Musig	_	N	NN	_	2	_	_	_
+3	,	_	$	$,	_	3	_	_	_
+4	tolli	_	A	ADJA	_	4	_	_	_
+5	Belüchtig	_	N	NN	_	5	_	_	_
+6	,	_	$	$,	_	6	_	_	_
+7	gueti	_	A	ADJA	_	7	_	_	_
+8	Showilage	_	N	NN	_	8	_	_	_
+9	ide	_	A	APPRART	_	9	_	_	_
+10	Pause	_	N	NN	_	10	_	_	_
+11	.	_	$	$.	_	11	_	_	_
+12	.	_	$	$.	_	12	_	_	_
+
+1	Aber	_	K	KOUS	_	1	_	_	_
+2	ich	_	P	PPER	_	2	_	_	_
+3	mues	_	V	VMFIN	_	3	_	_	_
+4	säge	_	V	VVINF	_	4	_	_	_
+5	d'	_	A	ART	_	5	_	_	_
+6	NY	_	N	NE	_	6	_	_	_
+7	Knicks	_	N	NE	_	7	_	_	_
+8	hend	_	V	VAFIN	_	8	_	_	_
+9	echt	_	A	ADV	_	9	_	_	_
+10	beschisse	_	A	ADV	_	10	_	_	_
+11	gspilt	_	V	VVPP	_	11	_	_	_
+12	.	_	$	$.	_	12	_	_	_
+
+1	Sie	_	P	PPER	_	1	_	_	_
+2	hend	_	V	VAFIN	_	2	_	_	_
+3	den	_	A	ART	_	3	_	_	_
+4	schlussendli	_	N	NN	_	4	_	_	_
+5	au	_	A	ADV	_	5	_	_	_
+6	verlore	_	V	VVPP	_	6	_	_	_
+7	.	_	$	$.	_	7	_	_	_
+8	.	_	$	$.	_	8	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	bin	_	V	VAFIN	_	2	_	_	_
+3	eh	_	A	ADV	_	3	_	_	_
+4	für	_	A	APPR	_	4	_	_	_
+5	Toronto	_	N	NE	_	5	_	_	_
+6	gsi	_	V	VAPP	_	6	_	_	_
+7	..	_	A	ADJA	_	7	_	_	_
+
+1	die	_	P	PDS	_	1	_	_	_
+2	hend	_	V	VAFIN	_	2	_	_	_
+3	mir	_	P	PPER	_	3	_	_	_
+4	nämli	_	A	ADV	_	4	_	_	_
+5	so	_	A	ADV	_	5	_	_	_
+6	leid	_	A	ADJD	_	6	_	_	_
+7	do	_	A	ADV	_	7	_	_	_
+8	..	_	C	CARD	_	8	_	_	_
+
+1	niemer	_	P	PIS	_	1	_	_	_
+2	het	_	V	VAFIN	_	2	_	_	_
+3	für	_	A	APPR	_	3	_	_	_
+4	sie	_	P	PPER	_	4	_	_	_
+5	klatscht	_	A	ADV	_	5	_	_	_
+6	und	_	K	KON	_	6	_	_	_
+7	sie	_	P	PPER	_	7	_	_	_
+8	sind	_	V	VAFIN	_	8	_	_	_
+9	immer	_	A	ADV	_	9	_	_	_
+10	usbuht	_	V	VVPP	_	10	_	_	_
+11	worde	_	V	VAPP	_	11	_	_	_
+12	..	_	A	ADJA	_	12	_	_	_
+
+1	das	_	P	PDS	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	doch	_	A	ADV	_	3	_	_	_
+4	ned	_	P	PTKNEG	_	4	_	_	_
+5	fair	_	P	PAV	_	5	_	_	_
+6	..	_	V	VVPP	_	6	_	_	_
+
+1	und	_	K	KON	_	1	_	_	_
+2	das	_	P	PDS	_	2	_	_	_
+3	obwohl	_	K	KOUS	_	3	_	_	_
+4	sie	_	P	PPER	_	4	_	_	_
+5	vil	_	A	ADV	_	5	_	_	_
+6	besser	_	A	ADJD	_	6	_	_	_
+7	gspilt	_	V	VVPP	_	7	_	_	_
+8	hend	_	V	VAFIN	_	8	_	_	_
+9	.	_	$	$.	_	9	_	_	_
+10	:)	_	A	ADV	_	10	_	_	_
+
+1	Und	_	K	KON	_	1	_	_	_
+2	höt	_	A	ADV	_	2	_	_	_
+3	bini	_	V	VVFIN+	_	3	_	_	_
+4	im	_	A	APPRART	_	4	_	_	_
+5	Century	_	N	NN	_	5	_	_	_
+6	21	_	C	CARD	_	6	_	_	_
+7	gsii	_	V	VAPP	_	7	_	_	_
+8	...	_	$	$.	_	8	_	_	_
+
+1	oooooh	_	A	ADV	_	1	_	_	_
+2	es	_	P	PPER	_	2	_	_	_
+3	isch	_	V	VAFIN	_	3	_	_	_
+4	en	_	A	ART	_	4	_	_	_
+5	Traum	_	N	NN	_	5	_	_	_
+6	.	_	$	$.	_	6	_	_	_
+
+1	Das	_	P	PDS	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	en	_	A	ART	_	3	_	_	_
+4	Lade	_	N	NN	_	4	_	_	_
+5	wo	_	P	PRELS	_	5	_	_	_
+6	alles	_	P	PIS	_	6	_	_	_
+7	nur	_	A	ADV	_	7	_	_	_
+8	Markesache	_	N	NN	_	8	_	_	_
+9	het	_	V	VAFIN	_	9	_	_	_
+10	..	_	A	ADJA	_	10	_	_	_
+
+1	und	_	K	KON	_	1	_	_	_
+2	zwar	_	A	ADV	_	2	_	_	_
+3	verdammt	_	V	VVFIN	_	3	_	_	_
+4	billig	_	A	ADJD	_	4	_	_	_
+5	.	_	$	$.	_	5	_	_	_
+
+1	Er	_	P	PPER	_	1	_	_	_
+2	het	_	V	VAFIN	_	2	_	_	_
+3	6	_	C	CARD	_	3	_	_	_
+4	Stöck	_	N	NN	_	4	_	_	_
+5	und	_	K	KON	_	5	_	_	_
+6	isch	_	V	VAFIN	_	6	_	_	_
+7	echt	_	A	ADV	_	7	_	_	_
+8	riesig	_	A	ADJD	_	8	_	_	_
+9	..	_	A	ADJA	_	9	_	_	_
+
+1	und	_	K	KON	_	1	_	_	_
+2	soooo	_	A	ADV	_	2	_	_	_
+3	billig	_	A	ADJD	_	3	_	_	_
+4	.	_	$	$.	_	4	_	_	_
+5	Das	_	P	PDS	_	5	_	_	_
+6	lohnt	_	V	VVFIN	_	6	_	_	_
+7	sich	_	P	PRF	_	7	_	_	_
+8	also	_	A	ADV	_	8	_	_	_
+9	echt	_	A	ADV	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+11	.	_	$	$.	_	11	_	_	_
+
+1	:)	_	A	ADJA	_	1	_	_	_
+
+1	Ooooh	_	N	NN	_	1	_	_	_
+2	..	_	V	VVFIN	_	2	_	_	_
+3	übrigens	_	A	ADV	_	3	_	_	_
+4	han	_	V	VAFIN	_	4	_	_	_
+5	ich	_	P	PPER	_	5	_	_	_
+6	mis	_	P	PPOSAT	_	6	_	_	_
+7	Zimmer	_	N	NN	_	7	_	_	_
+8	underdesse	_	A	ADV	_	8	_	_	_
+9	biz	_	P	PIAT	_	9	_	_	_
+10	igrichtet	_	V	VVPP	_	10	_	_	_
+11	und	_	K	KON	_	11	_	_	_
+12	vorallem	_	A	APPR+	_	12	_	_	_
+13	biz	_	P	PIS	_	13	_	_	_
+14	gstaltet	_	V	VVFIN	_	14	_	_	_
+15	.	_	$	$.	_	15	_	_	_
+16	;)	_	A	ADJA	_	16	_	_	_
+
+1	Thank	_	A	APPR	_	1	_	_	_
+2	you	_	A	ADJD	_	2	_	_	_
+3	guys	_	A	ADV	_	3	_	_	_
+4	!	_	$	$.	_	4	_	_	_
+5	<3	_	C	CARD	_	5	_	_	_
+
+1	Good	_	N	NN	_	1	_	_	_
+2	night	_	V	VVFIN	_	2	_	_	_
+3	guys	_	A	ADV	_	3	_	_	_
+4	...	_	$	$(	_	4	_	_	_
+
+1	and	_	N	NN	_	1	_	_	_
+2	a	_	A	APPR	_	2	_	_	_
+3	nice	_	A	ADJA	_	3	_	_	_
+4	weekend	_	N	NN	_	4	_	_	_
+5	!	_	$	$.	_	5	_	_	_
+6	!	_	$	$.	_	6	_	_	_
+

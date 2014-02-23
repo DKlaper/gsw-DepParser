@@ -37,9 +37,11 @@ if __name__ == "__main__":
             word, tag = parts
             assert data[i][1] == word
             data[i][4]  = tag # 5th column is pos tag
+            data[i][3]  = tag[0] # 4th column is coarse pos tag
         else:
             #print data[i], parts
             assert len(parts) <= 1 # sentence break
+            data[i] = [''] # need to avoid inserting tab at sentence boundary
             
     with codecs.open(sys.argv[1], 'w', encoding="utf-8") as out:
         alldat = "\n".join(["\t".join(ln) for ln in data])

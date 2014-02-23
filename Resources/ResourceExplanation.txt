@@ -1,6 +1,12 @@
 - Annotated
     Contains the dependency annotated test and training corpora in CONLL-X format.
 
+    Corpus                  Token Counts        Sentence Count
+--------------------------------------------------------------
+    Training                10159               504
+    Corpus A (wiki etc.)    1056                59 
+    Corpus B (blogs)        1025                55
+    
 - blogs
     Contains the XML atom feeds of the blogs, the extracted text and the
     tokenized texts of the blogs. blogsTaggedCONLL contains PoS Tagged

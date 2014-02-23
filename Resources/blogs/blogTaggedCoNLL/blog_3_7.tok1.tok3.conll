@@ -1,13 +1,12 @@
-1	the	_	_	FM	_	1	_	_	_
-2	slogan	_	_	FM	_	2	_	_	_
-	
-1	drü	_	_	CARD	_	1	_	_	_
-2	sache	_	_	ADJA	_	2	_	_	_
-3	weti	_	_	ADJA	_	3	_	_	_
-4	schnell	_	_	ADJD	_	4	_	_	_
-5	so	_	_	ADV	_	5	_	_	_
-6	zwüscheddure	_	_	NN	_	6	_	_	_
-7	loswerde	_	_	VVPP	_	7	_	_	_
-8	:	_	_	$.	_	8	_	_	_
-	
-	
+1	the	_	F	FM	_	1	_	_	_
+2	slogan	_	F	FM	_	2	_	_	_
+
+1	drü	_	C	CARD	_	1	_	_	_
+2	sache	_	A	ADJA	_	2	_	_	_
+3	weti	_	A	ADJA	_	3	_	_	_
+4	schnell	_	A	ADJD	_	4	_	_	_
+5	so	_	A	ADV	_	5	_	_	_
+6	zwüscheddure	_	N	NN	_	6	_	_	_
+7	loswerde	_	V	VVPP	_	7	_	_	_
+8	:	_	$	$.	_	8	_	_	_
+

@@ -1,23 +1,23 @@
-1	09.06.2008	_	_	CARD	_	1	_	_	_
-	
-1	Sooo	_	_	NE	_	1	_	_	_
-2	ich	_	_	PPER	_	2	_	_	_
-3	han	_	_	VAFIN	_	3	_	_	_
-4	euch	_	_	ADV	_	4	_	_	_
-5	es	_	_	ART	_	5	_	_	_
-6	paar	_	_	PIAT	_	6	_	_	_
-7	cooli	_	_	ADJA	_	7	_	_	_
-8	Föteli	_	_	NN	_	8	_	_	_
-9	vom	_	_	APPRART	_	9	_	_	_
-10	Weekend	_	_	NN	_	10	_	_	_
-11	...	_	_	$.	_	11	_	_	_
-	
-1	esch	_	_	VAFIN	_	1	_	_	_
-2	voll	_	_	ADJA	_	2	_	_	_
-3	de	_	_	ART	_	3	_	_	_
-4	hammer	_	_	NN	_	4	_	_	_
-5	gsi	_	_	VAPP	_	5	_	_	_
-6	....	_	_	ADJA	_	6	_	_	_
-7	=)	_	_	ADJA	_	7	_	_	_
-8	=)	_	_	NN	_	8	_	_	_
-9	=)	_	_	VVPP	_	9	_	_	_
+1	09.06.2008	_	C	CARD	_	1	_	_	_
+
+1	Sooo	_	N	NE	_	1	_	_	_
+2	ich	_	P	PPER	_	2	_	_	_
+3	han	_	V	VAFIN	_	3	_	_	_
+4	euch	_	A	ADV	_	4	_	_	_
+5	es	_	A	ART	_	5	_	_	_
+6	paar	_	P	PIAT	_	6	_	_	_
+7	cooli	_	A	ADJA	_	7	_	_	_
+8	Föteli	_	N	NN	_	8	_	_	_
+9	vom	_	A	APPRART	_	9	_	_	_
+10	Weekend	_	N	NN	_	10	_	_	_
+11	...	_	$	$.	_	11	_	_	_
+
+1	esch	_	V	VAFIN	_	1	_	_	_
+2	voll	_	A	ADJA	_	2	_	_	_
+3	de	_	A	ART	_	3	_	_	_
+4	hammer	_	N	NN	_	4	_	_	_
+5	gsi	_	V	VAPP	_	5	_	_	_
+6	....	_	A	ADJA	_	6	_	_	_
+7	=)	_	A	ADJA	_	7	_	_	_
+8	=)	_	N	NN	_	8	_	_	_
+9	=)	_	V	VVPP	_	9	_	_	_

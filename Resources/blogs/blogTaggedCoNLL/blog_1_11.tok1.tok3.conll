@@ -1,85 +1,85 @@
-1	usgang	_	_	NN	_	1	_	_	_
-2	:)	_	_	VVPP	_	2	_	_	_
-	
-1	norwege	_	_	VVINF	_	1	_	_	_
-2	,	_	_	$,	_	2	_	_	_
-3	svizzera	_	_	PRELS	_	3	_	_	_
-4	e	_	_	ART	_	4	_	_	_
-5	cile	_	_	ADJA	_	5	_	_	_
-	
-1	de	_	_	ART	_	1	_	_	_
-2	scott	_	_	NN	_	2	_	_	_
-3	vo	_	_	APPR	_	3	_	_	_
-4	amerika	_	_	VVFIN	_	4	_	_	_
-5	,	_	_	$,	_	5	_	_	_
-6	ich	_	_	PPER	_	6	_	_	_
-7	und	_	_	KON	_	7	_	_	_
-8	de	_	_	ART	_	8	_	_	_
-9	iikka	_	_	NN	_	9	_	_	_
-10	vo	_	_	APPR	_	10	_	_	_
-11	finnland	_	_	NE	_	11	_	_	_
-	
-1	fabian	_	_	NN	_	1	_	_	_
-2	vo	_	_	APPR	_	2	_	_	_
-3	chile	_	_	NN	_	3	_	_	_
-4	ed	_	_	VVFIN	_	4	_	_	_
-5	io	_	_	ADV	_	5	_	_	_
-	
-1	catherine	_	_	VVPP	_	1	_	_	_
-2	und	_	_	KON	_	2	_	_	_
-3	ich	_	_	PPER	_	3	_	_	_
-	
-1	catherine	_	_	NN	_	1	_	_	_
-2	vo	_	_	APPR	_	2	_	_	_
-3	san	_	_	NN	_	3	_	_	_
-4	francisco	_	_	VVPP	_	4	_	_	_
-	
-1	suzanne	_	_	ADJA	_	1	_	_	_
-2	vo	_	_	APPR	_	2	_	_	_
-3	norwege	_	_	ADJA	_	3	_	_	_
-	
-1	scott	_	_	NN	_	1	_	_	_
-2	vo	_	_	APPR	_	2	_	_	_
-3	new	_	_	ADJA	_	3	_	_	_
-4	mexiko	_	_	NN	_	4	_	_	_
-	
-1	rosario	_	_	NN	_	1	_	_	_
-2	vo	_	_	APPR	_	2	_	_	_
-3	caserta	_	_	FM	_	3	_	_	_
-4	(	_	_	$(	_	4	_	_	_
-5	volontario	_	_	FM	_	5	_	_	_
-6	)	_	_	$(	_	6	_	_	_
-	
-1	emma	_	_	NN	_	1	_	_	_
-2	vo	_	_	APPR	_	2	_	_	_
-3	annapolis	_	_	FM	_	3	_	_	_
-4	(	_	_	$(	_	4	_	_	_
-5	usa	_	_	FM	_	5	_	_	_
-6	)	_	_	$(	_	6	_	_	_
-7	und	_	_	KON	_	7	_	_	_
-8	ich	_	_	PPER	_	8	_	_	_
-	
-1	catalina	_	_	PIS	_	1	_	_	_
-2	vo	_	_	APPR	_	2	_	_	_
-3	chile	_	_	NN	_	3	_	_	_
-	
-1	de	_	_	ART	_	1	_	_	_
-2	napol	_	_	NN	_	2	_	_	_
-3	vo	_	_	APPR	_	3	_	_	_
-4	thailand	_	_	NE	_	4	_	_	_
-	
-1	da	_	_	ADV	_	1	_	_	_
-2	na	_	_	ADV	_	2	_	_	_
-3	es	_	_	ART	_	3	_	_	_
-4	paar	_	_	PIAT	_	4	_	_	_
-5	foeteli	_	_	PIS	_	5	_	_	_
-6	vo	_	_	APPR	_	6	_	_	_
-7	de	_	_	ART	_	7	_	_	_
-8	ustuschstudente	_	_	ADJA	_	8	_	_	_
-9	,	_	_	$,	_	9	_	_	_
-10	womr	_	_	ADJA	_	10	_	_	_
-11	im	_	_	APPRART	_	11	_	_	_
-12	usgang	_	_	VVINF	_	12	_	_	_
-13	gsi	_	_	VAPP	_	13	_	_	_
-14	sind	_	_	VAFIN	_	14	_	_	_
-15	=)	_	_	ADV	_	15	_	_	_
+1	usgang	_	N	NN	_	1	_	_	_
+2	:)	_	V	VVPP	_	2	_	_	_
+
+1	norwege	_	V	VVINF	_	1	_	_	_
+2	,	_	$	$,	_	2	_	_	_
+3	svizzera	_	P	PRELS	_	3	_	_	_
+4	e	_	A	ART	_	4	_	_	_
+5	cile	_	A	ADJA	_	5	_	_	_
+
+1	de	_	A	ART	_	1	_	_	_
+2	scott	_	N	NN	_	2	_	_	_
+3	vo	_	A	APPR	_	3	_	_	_
+4	amerika	_	V	VVFIN	_	4	_	_	_
+5	,	_	$	$,	_	5	_	_	_
+6	ich	_	P	PPER	_	6	_	_	_
+7	und	_	K	KON	_	7	_	_	_
+8	de	_	A	ART	_	8	_	_	_
+9	iikka	_	N	NN	_	9	_	_	_
+10	vo	_	A	APPR	_	10	_	_	_
+11	finnland	_	N	NE	_	11	_	_	_
+
+1	fabian	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	chile	_	N	NN	_	3	_	_	_
+4	ed	_	V	VVFIN	_	4	_	_	_
+5	io	_	A	ADV	_	5	_	_	_
+
+1	catherine	_	V	VVPP	_	1	_	_	_
+2	und	_	K	KON	_	2	_	_	_
+3	ich	_	P	PPER	_	3	_	_	_
+
+1	catherine	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	san	_	N	NN	_	3	_	_	_
+4	francisco	_	V	VVPP	_	4	_	_	_
+
+1	suzanne	_	A	ADJA	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	norwege	_	A	ADJA	_	3	_	_	_
+
+1	scott	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	new	_	A	ADJA	_	3	_	_	_
+4	mexiko	_	N	NN	_	4	_	_	_
+
+1	rosario	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	caserta	_	F	FM	_	3	_	_	_
+4	(	_	$	$(	_	4	_	_	_
+5	volontario	_	F	FM	_	5	_	_	_
+6	)	_	$	$(	_	6	_	_	_
+
+1	emma	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	annapolis	_	F	FM	_	3	_	_	_
+4	(	_	$	$(	_	4	_	_	_
+5	usa	_	F	FM	_	5	_	_	_
+6	)	_	$	$(	_	6	_	_	_
+7	und	_	K	KON	_	7	_	_	_
+8	ich	_	P	PPER	_	8	_	_	_
+
+1	catalina	_	P	PIS	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	chile	_	N	NN	_	3	_	_	_
+
+1	de	_	A	ART	_	1	_	_	_
+2	napol	_	N	NN	_	2	_	_	_
+3	vo	_	A	APPR	_	3	_	_	_
+4	thailand	_	N	NE	_	4	_	_	_
+
+1	da	_	A	ADV	_	1	_	_	_
+2	na	_	A	ADV	_	2	_	_	_
+3	es	_	A	ART	_	3	_	_	_
+4	paar	_	P	PIAT	_	4	_	_	_
+5	foeteli	_	P	PIS	_	5	_	_	_
+6	vo	_	A	APPR	_	6	_	_	_
+7	de	_	A	ART	_	7	_	_	_
+8	ustuschstudente	_	A	ADJA	_	8	_	_	_
+9	,	_	$	$,	_	9	_	_	_
+10	womr	_	A	ADJA	_	10	_	_	_
+11	im	_	A	APPRART	_	11	_	_	_
+12	usgang	_	V	VVINF	_	12	_	_	_
+13	gsi	_	V	VAPP	_	13	_	_	_
+14	sind	_	V	VAFIN	_	14	_	_	_
+15	=)	_	A	ADV	_	15	_	_	_

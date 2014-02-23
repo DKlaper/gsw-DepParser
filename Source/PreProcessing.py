@@ -60,16 +60,17 @@ def PoStag(filepath, output, postProc=lambda tag,w: tag, preProc=lambda w: w):
             res += "\n"
         else:
             parts = ln.rsplit(None,1) # support multiword tokens
-            res += u"{}\t{}\t_\t{}\t{}\t_\t{}\t_\t_\t_\n".format(i, parts[0], postProc(parts[1], parts[0]), parts[1], i)
+            parts[1] = postProc(parts[1], parts[0]) # post process tag
+            res += u"{}\t{}\t_\t{}\t{}\t_\t{}\t_\t_\t_\n".format(i, parts[0], parts[1][0], parts[1], i)
             i+= 1
     
-    #with codecs.open(output, 'w', encoding="utf-8") as out:
-    #    out.write(res)
+    with codecs.open(output, 'w', encoding="utf-8") as out:
+        out.write(res)
     
     return res
     
             
 if __name__ == "__main__":
     
-    print PoStag(tokenize(sys.argv[1]), sys.argv[2], preProc=lambda w: w).encode("utf-8", errors="xmlcharrefreplace"),
+    PoStag(tokenize(sys.argv[1]), sys.argv[2]).encode("utf-8", errors="xmlcharrefreplace"),
     
