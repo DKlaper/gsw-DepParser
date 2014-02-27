@@ -7,9 +7,12 @@ Installation
 ============
 
 Currently just copy Repo
-downloaded tokenizer from
+download the tokenizer from
 http://www.linguistics.ruhr-uni-bochum.de/~dipper/tokenizer.html#download
 and place in the Source/External/tokenizer.
+
+Optionally set the environment variable GSWPARSER to the Source/ folder
+(this sets all the relative paths correctly if you call the parser from somewhere else)
 
 Organization of the Repo
 ========================
@@ -28,6 +31,7 @@ Organization of the Repo
     
 - Source
     contains the source code of the parser and Source/External/ contains the tokenizer and tagger.
+    The main executables are gswDepTrain.py to train and gswDepParser.py to parse a file
     
     Note that the tokenizer (tokenize.pl) MUST be downloaded from 
     http://www.linguistics.ruhr-uni-bochum.de/~dipper/tokenizer.html#download
@@ -56,3 +60,5 @@ It may be reused unchanged in the hunpos tagger and the authors need to be attri
 
 The tokenizer is licensed under a custom non-commercial, non-distribution license.
 It can be found here: http://www.linguistics.ruhr-uni-bochum.de/~dipper/licence.txt
+
+The Turbo Parser v2.1.0 is licensed under the GNU lesser general public license v3.0

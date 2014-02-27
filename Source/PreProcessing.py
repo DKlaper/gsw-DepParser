@@ -8,37 +8,43 @@
 
 # python PreProcessing.py inputFile outputFile
 
-import os, sys, subprocess, codecs
+import os, sys, subprocess, codecs, tempfile
 
-TEMPDIR = "/tmp/"
-EXTERNALDIR = "External/"
+TEMP = tempfile.gettempdir()
+PARSER = os.getenv("GSWPARSER", os.getcwd())
+
+EXTERNALDIR = os.path.join(PARSER, "External/")
 SUFFIX = "tokenized"
-
-# allow calling the parser from other CWDs later
-if os.getenv("GSWparser"):
-    EXTERNALDIR = os.getenv("GSWparser")+EXTERNALDIR
-
 
 def tokenize(filepath):
     """Call the tokenizer, write to filepath.tokenized. Will raise an Exception if any call fails.
     Returns the path to the tokenized file"""
 
     fn = os.path.basename(filepath)
-    outpth = os.path.join(TEMPDIR, "GSW_3_"+fn) #filepath+".tokenized"
+    outpth = os.path.join(TEMP, "GSW_3_"+fn) #filepath+".tokenized"
     # pretokenization
-    subprocess.check_call(["python", os.path.join(EXTERNALDIR,"tokenizer/pretok.py"), filepath, os.path.join(TEMPDIR, "GSW_1_"+fn)]) 
+    subprocess.check_call(["python", os.path.join(EXTERNALDIR,"tokenizer", "pretok.py"), filepath, os.path.join(TEMP, "GSW_1_"+fn)]) 
     # main tokenization
-    subprocess.check_call(["perl", os.path.join(EXTERNALDIR,"tokenizer/tokenize.pl"), os.path.join(TEMPDIR, "GSW_1_"+fn), os.path.join(TEMPDIR, "GSW_2_"+fn)])
+    subprocess.check_call(["perl", os.path.join(EXTERNALDIR,"tokenizer", "tokenize.pl"), os.path.join(TEMP, "GSW_1_"+fn), os.path.join(TEMP, "GSW_2_"+fn)])
     # post tokenization
-    subprocess.check_call(["python", os.path.join(EXTERNALDIR,"tokenizer/tokenize2.py"), os.path.join(TEMPDIR, "GSW_2_"+fn), os.path.join(EXTERNALDIR,"tokenizer/abbrev.txt")])
-    subprocess.check_call(["python", os.path.join(EXTERNALDIR,"tokenizer/tokenize3.py"), os.path.join(TEMPDIR, "GSW_2_"+fn), os.path.join(EXTERNALDIR,"tokenizer/abbrev.txt")])
+    subprocess.check_call(["python", os.path.join(EXTERNALDIR,"tokenizer", "tokenize2.py"), os.path.join(TEMP, "GSW_2_"+fn), os.path.join(EXTERNALDIR,"tokenizer", "abbrev.txt")])
+    subprocess.check_call(["python", os.path.join(EXTERNALDIR,"tokenizer", "tokenize3.py"), os.path.join(TEMP, "GSW_2_"+fn), os.path.join(EXTERNALDIR,"tokenizer", "abbrev.txt")])
     
-    os.rename(os.path.join(TEMPDIR, "GSW_2_"+fn+".tok3"), outpth)
-    subprocess.call(["rm "+ os.path.join(TEMPDIR, "GSW_[1-2]_*"+fn+"*")], shell=True)
+    os.rename(os.path.join(TEMP, "GSW_2_"+fn+".tok3"), outpth)
+    subprocess.call(["rm "+ os.path.join(TEMP, "GSW_[1-2]_*"+fn+"*")], shell=True)
     
     return outpth
 
-def PoStag(filepath, output, postProc=lambda tag,w: tag, preProc=lambda w: w):
+def normalize(word):
+    """Normalize ALLCAPS to avoid tagger confusion"""
+    
+    # tagger tags almost everything as NE if it's in capitals
+    if len(word) > 1 and word.isupper():
+        word = word.lower()
+        
+    return word
+
+def PoStag(filepath, output, postProc=lambda w, tag: (w,tag), preProc=lambda w: w):
     """Pass tokenized file to tagger convert file to CoNLL and write to output"""
     
     inpt = codecs.open(filepath, encoding="utf-8")
@@ -47,7 +53,7 @@ def PoStag(filepath, output, postProc=lambda tag,w: tag, preProc=lambda w: w):
     
     text = "\n".join([preProc(w.strip()) for w in text])
     
-    tagger = subprocess.Popen([os.path.join(EXTERNALDIR, "tagger/hunpos-tag"), os.path.join(EXTERNALDIR, "tagger/CHDE_57000.model")], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    tagger = subprocess.Popen([os.path.join(EXTERNALDIR, "tagger", "hunpos-tag"), os.path.join(EXTERNALDIR, "tagger", "CHDE_57000.model")], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
     # pipe to input
     (lines, _) = tagger.communicate(text.encode("utf-8"))
     
@@ -60,7 +66,7 @@ def PoStag(filepath, output, postProc=lambda tag,w: tag, preProc=lambda w: w):
             res += "\n"
         else:
             parts = ln.rsplit(None,1) # support multiword tokens
-            parts[1] = postProc(parts[1], parts[0]) # post process tag
+            parts[0], parts[1] = postProc(parts[0], parts[1]) # post process tag
             res += u"{}\t{}\t_\t{}\t{}\t_\t{}\t_\t_\t_\n".format(i, parts[0], parts[1][0], parts[1], i)
             i+= 1
     
@@ -69,8 +75,16 @@ def PoStag(filepath, output, postProc=lambda tag,w: tag, preProc=lambda w: w):
     
     return res
     
+def parsePreProc(word, tag):
+    """Apply normalizations after tagging but before parsing"""
+    # lowercase everything? 
+    #word = word.lower()
+    # if issmiley(word) tag=XY ? 
+    
+    return word, tag
             
+def main(arg1, arg2):
+    PoStag(tokenize(arg1), arg2, preProc=normalize, postProc=parsePreProc).encode("utf-8", errors="xmlcharrefreplace")
+    
 if __name__ == "__main__":
-    
-    PoStag(tokenize(sys.argv[1]), sys.argv[2]).encode("utf-8", errors="xmlcharrefreplace"),
-    
+    main(*sys.argv[1:])

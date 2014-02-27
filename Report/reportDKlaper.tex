@@ -92,7 +92,7 @@ I then proceeded to filter out useless posts. I extracted the xml, removed html 
 
 After cleaning the data I wrote a script to count the tokens. As a token I defined a sequence of alphabetical or numerical characters of length 2 or more. Note that this definition ignores punctuation. I will later use a tokenization script provided by \citet{AH14}, where the count will be higher, but for now this is precise enough. The token count was 277'000 with 32'402 types. This is a type-to-token ratio of 11.7\%, which is fairly high. Moreover, over half of the types (19'397) occur only once, i.e., they are hapax legonoma.
 
-Also, I will forward the data to \citet{AH14} and they will annotate part of it to make it part of their tagger training material. A side resource I might use (depending on the parsing framework I use) is a list of Swiss German words without German roots\footnote{\url{http://www.dialektwoerter.ch} last checked January 31$^{st}$, 2014.}. If this word list helps, I might also consider German word lists.
+Also, I will forward the data to \citet{AH14} and they will annotate part of it to make it part of their future tagger training material. A side resource I might use (depending on the parsing framework I use) is a list of Swiss German words without German roots\footnote{\url{http://www.dialektwoerter.ch} last checked January 31$^{st}$, 2014.}. If this word list helps, I might also consider German word lists.
 
 \begin{table}
 \center
@@ -193,7 +193,10 @@ Finally. a couple of decisons not listed in the table, because they are minor. F
 
 While in general the annotation worked quite well, it turns out that using and as the head of its conjuncts leads to unintuitive phenomena. In particular, if there is a coordinated verb phrase that applies to the same subject, then `and' dominates both the conjuncts and the subject, which clearly do not have the same function. However, I decided to stick to the annotation schema because I did want to avoid preferring one of the two conjunct phrases over the other. Arguably, `and' is also used as a linking word instead of a coordination, but this is a different case and should in my opinion not be mixed with the real coordination of phrases. 
 
+Finally, a couple of comments about the data. First, the data does not use Gold standard PoS but the ones that are assigned by the tagger model trained on 57'000 tokens Swiss German text. Second, the tokenization and in particular the sentence splitting are far from perfect. Part of this is due to the sloppy use of punctuation and part of it is due to the simplicity of the sentence splitter. Third, Wikipedia in paricular tends to have special formatting characters which impede proper tokenization. 
+
 The parser will operate in a semi-supervised fashion, making use of annotated training material as much as possible. It is important to use unsupervised features as well, because a large amount of the available texts will not be annotated. It would be bad not to use this data. The semi-supervised method by \citet{KCC08} based on Brown Clustering serves as the model for my unsupervised features.  I consider using the TurboParser \citep{MSXAF10} as a baseline. Then I would try adding unsupervised features to improve over the supervised baseline.
+After annotation of the test data, I annotated 10'000 tokens (~650 sentences) for training material in order to have the necessary supervised training. For annotation I used the DG Annotator by Giuseppe Attardi (\url{http://medialab.di.unipi.it/Project/QA/Parser/DgAnnotator/} last visited February 22$^{th}$, 2014.) 
 
 In conclusion, I tried to adopt a rather semantic notion of head and used this throughout the annotation. I will build a semi-supervised parser.
 
@@ -209,7 +212,7 @@ In conclusion, I tried to adopt a rather semantic notion of head and used this t
 
 
 \section{Acknowledgements}
-I'd like to thank Noëmi Aepli and Nora Hollenstein for supporting me with information about Research in Swiss German and especiallz for giving me early access to the Swiss German resources that they are developing. 
+I'd like to thank Noëmi Aepli and Nora Hollenstein for supporting me with information about Research in Swiss German and especially for giving me early access to the Swiss German resources that they are developing. 
 
 \bibliographystyle{plainnat}
 \bibliography{refs}
