@@ -16,7 +16,12 @@ if __name__ == "__main__":
     for fl in sys.argv[1:]:
         with codecs.open(fl, encoding="utf-8") as inp:
             
+            prevline = True
             for line in inp:
+                empty = False
                 sys.stdout.write(line)
+                if line.strip() == "":
+                    empty = True
                 
-            sys.stdout.write("\n")
+            if not empty: # sentence break between documents
+                sys.stdout.write("\n")
