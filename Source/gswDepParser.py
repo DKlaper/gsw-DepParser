@@ -25,6 +25,7 @@ def argumentSetup():
     parser.add_argument('outputFile', help="The parsed output CoNLL file encoded in utf-8.")
     parser.add_argument('--model', help="Indicate the model to be used if it is not the default model")
     parser.add_argument('--tagged', action="store_true", help="Indicate to the parser that your data is already in CoNLL format in parsing mode.")
+    parser.add_argument('turboOpt', nargs="*", help="Additional options to pass to TurboParser (Without the preceding hyphens: '--evaluate' becomes 'evaluate')")
     
     return parser
 
@@ -42,7 +43,9 @@ if __name__ == "__main__":
         
     # call Turbo Parser
     print model
-    args = ["--test", "--file_model={}".format(model), "--file_test={}".format(taggedFile), "--file_prediction={}".format(parser.outputFile), "--logtostderr"]
+    args = ["--test", "--file_model={}".format(model), "--file_test={}".format(taggedFile), "--file_prediction={}".format(parser.outputFile)]  + map(lambda x: "--"+x, parser.turboOpt)
+    
+    print "Called TurboParser with options: "+" ".join(args)
         
     subprocess.call([TURBOP]+ args)
     

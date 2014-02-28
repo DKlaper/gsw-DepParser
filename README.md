@@ -11,8 +11,14 @@ download the tokenizer from
 http://www.linguistics.ruhr-uni-bochum.de/~dipper/tokenizer.html#download
 and place in the Source/External/tokenizer.
 
-Optionally set the environment variable GSWPARSER to the Source/ folder
-(this sets all the relative paths correctly if you call the parser from somewhere else)
+Then Recompile turbo parser by going to Source/TurboParser2.1.0
+and executing ./install-deps.sh
+and ./configure && make && make install
+
+Optionally set the environment variable GSWPARSER to the path to the Source/ folder
+and also add the path to Source/ to your PATH.
+(this sets all the relative paths correctly if you call the parser from somewhere else
+by typing gswDepParser.py (without python))
 
 Organization of the Repo
 ========================
@@ -55,7 +61,8 @@ Licenses Tokenizer, Tagger
 
 The PoS-Tagger HunPos is distributed under the new BSD license http://opensource.org/licenses/BSD-3-Clause
 For more information visit their website at http://code.google.com/p/hunpos/
-The CHDE_57000.model is courtesy of Nora Hollenstein and Noëmi Aepli.
+The CHDE_57000.model for hunpos is courtesy of Nora Hollenstein and Noëmi Aepli from the 
+University of Zurich.
 It may be reused unchanged in the hunpos tagger and the authors need to be attributed.
 
 The tokenizer is licensed under a custom non-commercial, non-distribution license.

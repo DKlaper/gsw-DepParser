@@ -14,7 +14,23 @@ TEMP = tempfile.gettempdir()
 PARSER = os.getenv("GSWPARSER", os.getcwd())
 
 EXTERNALDIR = os.path.join(PARSER, "External/")
-SUFFIX = "tokenized"
+
+def preTagProc(word):
+    """Preprocessing before tagging"""
+    
+    # tagger tags almost everything as NE if it's in capitals
+    if len(word) > 1 and word.isupper():
+        word = word.lower()
+        
+    return word
+
+def preParseProc(word, tag):
+    """Preprocessing before parsing (after tagging)"""
+    # lowercase everything? 
+    #word = word.lower()
+    # if issmiley(word) tag=XY ? 
+    
+    return word, tag
 
 def tokenize(filepath):
     """Call the tokenizer, write to filepath.tokenized. Will raise an Exception if any call fails.
@@ -34,15 +50,6 @@ def tokenize(filepath):
     subprocess.call(["rm "+ os.path.join(TEMP, "GSW_[1-2]_*"+fn+"*")], shell=True)
     
     return outpth
-
-def normalize(word):
-    """Normalize ALLCAPS to avoid tagger confusion"""
-    
-    # tagger tags almost everything as NE if it's in capitals
-    if len(word) > 1 and word.isupper():
-        word = word.lower()
-        
-    return word
 
 def PoStag(filepath, output, postProc=lambda w, tag: (w,tag), preProc=lambda w: w):
     """Pass tokenized file to tagger convert file to CoNLL and write to output"""
@@ -74,17 +81,9 @@ def PoStag(filepath, output, postProc=lambda w, tag: (w,tag), preProc=lambda w: 
         out.write(res)
     
     return res
-    
-def parsePreProc(word, tag):
-    """Apply normalizations after tagging but before parsing"""
-    # lowercase everything? 
-    #word = word.lower()
-    # if issmiley(word) tag=XY ? 
-    
-    return word, tag
             
 def main(arg1, arg2):
-    PoStag(tokenize(arg1), arg2, preProc=normalize, postProc=parsePreProc).encode("utf-8", errors="xmlcharrefreplace")
+    PoStag(tokenize(arg1), arg2, preProc=preTagProc, postProc=preParseProc).encode("utf-8", errors="xmlcharrefreplace")
     
 if __name__ == "__main__":
     main(*sys.argv[1:])
