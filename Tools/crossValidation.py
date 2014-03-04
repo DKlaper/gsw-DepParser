@@ -13,7 +13,7 @@ FOLDCNT = 3
 PARSED = os.path.join(TMP, "parse.conll")
 
 def trainParser(trainfile):
-    subprocess.call(["./gswDepTrain.py", "--retag", trainfile, os.path.join(TMP, "GSW_foldmodel.model"), "model_type=basic"])
+    subprocess.call(["./gswDepTrain.py", "--retag", trainfile, os.path.join(TMP, "GSW_foldmodel.model"), "model_type=full"])
     
     return os.path.join(TMP, "GSW_foldmodel.model")
 

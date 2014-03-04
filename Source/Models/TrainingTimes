@@ -1,31 +1,54 @@
 GSWplainStandard:
 
-I0227 14:40:08.913840  5005 Pipe.cpp:227]  Iteration #10
-I0227 14:40:46.405689  5005 Pipe.cpp:361] Time: 37491
-I0227 14:40:46.405735  5005 Pipe.cpp:362] Time to score: 4515
-I0227 14:40:46.405746  5005 Pipe.cpp:363] Time to decode: 26958
-I0227 14:40:46.405755  5005 Pipe.cpp:364] Number of Features: 2065469
-I0227 14:40:46.405766  5005 Pipe.cpp:369] Total Cost: 2518.02	Total Loss: 577.378	Total Reg: 1.87003e-11	Total Loss+Reg: 577.378
-I0227 14:40:46.405817  5005 Parameters.h:200] Averaging the weights...
-I0227 14:40:48.711169  5005 TurboParser.cpp:102] Training took 368.451 sec.
+I0302 16:40:30.832412 16427 Pipe.cpp:227]  Iteration #10
+I0302 16:41:05.688494 16427 Pipe.cpp:361] Time: 34856
+I0302 16:41:05.688547 16427 Pipe.cpp:362] Time to score: 4389
+I0302 16:41:05.688560 16427 Pipe.cpp:363] Time to decode: 24751
+I0302 16:41:05.688570 16427 Pipe.cpp:364] Number of Features: 2073317
+I0302 16:41:05.688578 16427 Pipe.cpp:369] Total Cost: 2552.8	Total Loss: 585.679	Total Reg: 1.86388e-11	Total Loss+Reg: 585.679
+I0302 16:41:05.688637 16427 Parameters.h:200] Averaging the weights...
+I0302 16:41:08.530653 16427 TurboParser.cpp:102] Training took 364.66 sec.
 
 ----
 
 GSWplainFull:
 
-I0228 14:13:36.904330 15355 Pipe.cpp:227]  Iteration #10
-I0228 14:13:59.480456 15355 Pipe.cpp:298] Warning: negative loss set to zero: -0.000948303
-I0228 14:14:11.916452 15355 Pipe.cpp:298] Warning: negative loss set to zero: -0.0116644
-I0228 14:14:26.674625 15355 Pipe.cpp:298] Warning: negative loss set to zero: -0.000290273
-I0228 14:14:34.473670 15355 Pipe.cpp:298] Warning: negative loss set to zero: -4.78041e-05
-I0228 14:14:55.722139 15355 Pipe.cpp:361] Time: 78817
-I0228 14:14:55.722187 15355 Pipe.cpp:362] Time to score: 8202
-I0228 14:14:55.722199 15355 Pipe.cpp:363] Time to decode: 59081
-I0228 14:14:55.722210 15355 Pipe.cpp:364] Number of Features: 4030609
-I0228 14:14:55.722223 15355 Pipe.cpp:369] Total Cost: 2223.43	Total Loss: 386.036	Total Reg: 1.47541e-11	Total Loss+Reg: 386.036
-I0228 14:14:55.722293 15355 Parameters.h:200] Averaging the weights...
-I0228 14:15:00.010061 15355 TurboParser.cpp:102] Training took 799.97 sec.
+I0302 16:56:25.022778 16698 Pipe.cpp:298] Warning: negative loss set to zero: -0.00294752
+I0302 16:56:31.454398 16698 Pipe.cpp:298] Warning: negative loss set to zero: -0.010374
+I0302 16:56:49.025620 16698 Pipe.cpp:361] Time: 80414
+I0302 16:56:49.025660 16698 Pipe.cpp:362] Time to score: 8224
+I0302 16:56:49.025672 16698 Pipe.cpp:363] Time to decode: 60578
+I0302 16:56:49.025682 16698 Pipe.cpp:364] Number of Features: 4014844
+I0302 16:56:49.025698 16698 Pipe.cpp:369] Total Cost: 2187.5	Total Loss: 371.294	Total Reg: 1.47183e-11	Total Loss+Reg: 371.294
+I0302 16:56:49.025742 16698 Parameters.h:200] Averaging the weights...
+I0302 16:56:54.635483 16698 TurboParser.cpp:102] Training took 799.195 sec.
 
 ----
 
+GSWlowerStandard:
 
+I0304 01:16:36.950942  3180 Pipe.cpp:227]  Iteration #10
+I0304 01:17:00.843361  3180 Pipe.cpp:298] Warning: negative loss set to zero: -0.0068902
+I0304 01:17:12.075376  3180 Pipe.cpp:361] Time: 35124
+I0304 01:17:12.075428  3180 Pipe.cpp:362] Time to score: 4246
+I0304 01:17:12.075440  3180 Pipe.cpp:363] Time to decode: 25190
+I0304 01:17:12.075450  3180 Pipe.cpp:364] Number of Features: 2067837
+I0304 01:17:12.075489  3180 Pipe.cpp:369] Total Cost: 2528.82	Total Loss: 584.324	Total Reg: 1.8649e-11	Total Loss+Reg: 584.324
+I0304 01:17:12.075530  3180 Parameters.h:200] Averaging the weights...
+I0304 01:17:14.285017  3180 TurboParser.cpp:102] Training took 367.524 sec.
+
+
+----
+
+GSWlowerFull:
+
+I0304 09:31:58.509394  3723 Pipe.cpp:227]  Iteration #10
+I0304 09:32:02.981173  3723 Pipe.cpp:298] Warning: negative loss set to zero: -0.00201323
+I0304 09:32:03.747105  3723 Pipe.cpp:298] Warning: negative loss set to zero: -4.95914e-05
+I0304 09:33:33.710852  3723 Pipe.cpp:361] Time: 95201
+I0304 09:33:33.710901  3723 Pipe.cpp:362] Time to score: 9366
+I0304 09:33:33.710916  3723 Pipe.cpp:363] Time to decode: 72585
+I0304 09:33:33.710952  3723 Pipe.cpp:364] Number of Features: 3995217
+I0304 09:33:33.710969  3723 Pipe.cpp:369] Total Cost: 2182.49	Total Loss: 372.245	Total Reg: 1.46612e-11	Total Loss+Reg: 372.245
+I0304 09:33:33.711041  3723 Parameters.h:200] Averaging the weights...
+I0304 09:33:38.273417  3723 TurboParser.cpp:102] Training took 933.576 sec.

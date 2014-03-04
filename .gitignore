@@ -22,4 +22,4 @@
 *.out
 *.synctex.gz
 tokenize.pl
-TurboParser2.1.0/deps/local/
+TurboParser2.1.0/deps/
