@@ -9,11 +9,11 @@
 import sys, os, subprocess, codecs
 
 TMP = "/tmp/"
-FOLDCNT = 3
+FOLDCNT = 10
 PARSED = os.path.join(TMP, "parse.conll")
 
 def trainParser(trainfile):
-    subprocess.call(["./gswDepTrain.py", "--retag", trainfile, os.path.join(TMP, "GSW_foldmodel.model"), "model_type=full"])
+    subprocess.call(["./gswDepTrain.py", "--retag", trainfile, os.path.join(TMP, "GSW_foldmodel.model")])
     
     return os.path.join(TMP, "GSW_foldmodel.model")
 

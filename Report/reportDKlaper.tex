@@ -202,6 +202,30 @@ In conclusion, I tried to adopt a rather semantic notion of head and used this t
 
 \section{System Analysis on Corpus A}
 
+I trained various TurboParser models on the full training data. I also decided to check if there is a significant difference lowercasing everything  after tagging (note that words in ALL-CAPITALS are lowercased before tagging in any case). It turns out that the difference between the models and casing are largely irrelevant. Performance is very similar even for the basic model, which is probably due to the small training size of 10'000 tokens.
+
+\begin{table}
+\center
+  \begin{tabular}{ | l || r | c | r | }
+    \hline
+   \textbf{Model} & \textbf{3-fold X} & \textbf{10-fold X (min/max)} & \textbf{corpus A}  \\ \hline
+    Basic normal & 61.04\% & 64.63\% (54.69/71.15) & 75.14\% \\
+    Standard normal & 60.97\% & 65.45\% (54.69/70.81) & \textbf{75.25\%} \\ 
+    Full normal & \textbf{61.39\%} & -- & 74.81\% \\ \hline
+    Basic lower & 60.93\% & 64.89\% (55.02/71.88) & 74.92\% \\
+    Standard lower & 61.01\% & \textbf{65.49\%} (54.69/71.31) & 74.59\% \\
+    Full lower & 61.23\% & -- & 74.81\%  \\ \hline
+  \end{tabular}
+\caption{Results after first round}
+\label{tab:dec}
+\end{table}
+
+The results in Table \ref{tab:dec} show the unlabeled attachment accuracy results of cross-validation of the training set, as well as on corpus A. Note that corpus A contains only data from \cite{AH14}, i.e., Wikipedia, corporate report, and newspaper text. The 10-fold cross-validation was not done for the full model because training the full model takes over 10 minutes. For the 10-fold cross-validation also the score for the best and worst fold unlabeled accuracies are shown. I also did preliminary experiments with increasing regularization but they did not fundamentally change the results, therefore I do not report these numbers.
+
+The table offers a few interesting insights. First, corpus A seems to be easy to parse, since the parser achieves very respectable 75\% unlabeled accuracy. However, cross-validation on the training corpus draws a different picture. Accuracy on 10-fold cross-validation drops by about 10\%. This indicates that the blogs, which are not present in corpus A are much harder to parse, because the drop is much higher than expected from a few sentences less in the training data. An indication of the same is also the big variance between different folds in 10-fold crossvalidation. One reason is that the PoS tagger was trained on the same texts as used for training and evaluation, therefore the tagging accuracy is probably quite a bit higher than on the blog texts! Another reason might be that the blogs are written for a very different audience (family and friends in particular) and use more spoken phenomena than the texts that are intended to be read by abroad population, such as the corporate report and wikipedia.
+
+In conclusion, the performance of the TurboParser using supervised parsing is very good on corpus A but the blogs seem to be much harder. There are at least 2 reasons for that. First, the corpus A texts were used to train the PoS tagger. Second, the corpus A texts are intended for a much broader audience. 
+
 \section{Lessons Learned and Revised Design}
 
 \section{System Analysis on Corpus B}
