@@ -228,6 +228,20 @@ In conclusion, the performance of the TurboParser using supervised parsing is ve
 
 \section{Lessons Learned and Revised Design}
 
+The results of this evaluation show that the parser is able to identify many structures correctly. I examined the resuts on corpus A by hand looking at the produced dependency trees. With 75\% accuracy, the sentences are mostly correct with a couple of wrong attachments. I was surprised that it worked so well, because corpus A consists of multiple dialects and still it makes few mistakes in any of them. On the downside only few sentences are completely correct. Probably because many are rather long with an average of about 17 tokens per sentence. 
+
+A more in-depth analysis showed that many local structures were parsed correctly but longer attachments often lead to mistakes. It seems common mistakes are attaching the arguments to the wrong verbal form, attaching an adjective that has been used in adverb position to the right verb, and not identifying the main verb correctly. Some of the mistakes are still because of tagging mistakes, but overall the trees are mostly correct with a couple of wrong attachments. 
+
+The big difference between corpus A and cross-validation is partly due to different accuracy of the Part-of-Speech tagger. We saw that the accuracy for 10-fold cross-validation on the training set is about 10\% lower than on corpus A. A small part of this is probably that there's fewer training material. The main reason is that the training material contains blogs. In particular, the blogs are not written for publication, their sentences are slightly longer and contain more pragmatic markers. Another important reason is that the PoS-tagger was trained only on the wikipedia etc. data and not on blogs. Therefore, the tagging accuarcy is probably quite a bit lower on the blogs. 
+
+In conclusion, the parser performs well on the first test corpus but corpus B will have lower accuracy. Since the tagger was trained on corpus A data, its tagging accuracy is higher, which improves score. Furthermore, these texts were written for publication, thus, they might follow more regulated structures. 
+
+For the next round, I will try to overcome the tagging mistakes on unknown words. Since most of the tagging mistakes are not due to ambiguity but due to too many unknown words, I will try to leverage unsupervised methods. Specifically, I want to use the unannotated data to train a Brown clustering, which will serve as additional features adding to the PoS-tags similar to \citet{KCC08}. This feature should help classifying the same kind of words similarly. 
+
+If I have time to develop more, I might think about additional features that can be learned in an unsupervise or semi-supervised fashion. Another approach I consider as a next step after clustering is using some simple rule-based morphological or similar features to help the parser. 
+
+The first priority is clearly implementing the clustering and testing the parser. Since there wasn't much difference between the models I will use the standard model. Since capitalization is less consistent in the blogs I will evaluate the impact of lowercasing all words again. 
+
 \section{System Analysis on Corpus B}
 
 \section{Final Revisions}
