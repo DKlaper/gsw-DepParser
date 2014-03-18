@@ -1,0 +1,130 @@
+1	KAS	_	V	VVFIN+	_	1	_	_	_
+2	in	_	A	APPRART	_	2	_	_	_
+3	Bilder	_	N	NN	_	3	_	_	_
+4	:)	_	V	VVPP	_	4	_	_	_
+
+1	Da	_	P	PDS	_	1	_	_	_
+2	wie	_	K	KOKOM	_	2	_	_	_
+3	versproche	_	V	VVPP	_	3	_	_	_
+4	dBilder	_	N	NN	_	4	_	_	_
+5	vom	_	A	APPRART	_	5	_	_	_
+6	Midyearseminar	_	N	NN	_	6	_	_	_
+7	:	_	$	$.	_	7	_	_	_
+8	Fressgelage	_	N	NE	_	8	_	_	_
+9	vol.	_	C	CARD	_	9	_	_	_
+10	1	_	C	CARD	_	10	_	_	_
+11	Fressgelage	_	N	NE	_	11	_	_	_
+12	vol.	_	C	CARD	_	12	_	_	_
+13	2	_	C	CARD	_	13	_	_	_
+14	feat	_	A	ADJA	_	14	_	_	_
+15	Marjoljin	_	N	NN	_	15	_	_	_
+16	Like	_	N	NN	_	16	_	_	_
+17	a	_	A	APPR	_	17	_	_	_
+18	boss	_	N	NN	_	18	_	_	_
+19	am	_	A	APPRART	_	19	_	_	_
+20	Tischhokeyspille	_	N	NN	_	20	_	_	_
+21	mit	_	A	APPR	_	21	_	_	_
+22	de	_	A	ART	_	22	_	_	_
+23	Läetitia	_	N	NE	_	23	_	_	_
+24	Fotijagd	_	N	NE	_	24	_	_	_
+25	Ufgabe	_	N	NN	_	25	_	_	_
+26	!	_	$	$.	_	26	_	_	_
+
+1	Task	_	N	NN	_	1	_	_	_
+2	1	_	C	CARD	_	2	_	_	_
+3	:	_	$	$.	_	3	_	_	_
+
+1	Sauna	_	N	NE	_	1	_	_	_
+2	(	_	$	$(	_	2	_	_	_
+3	feat	_	V	VVPP	_	3	_	_	_
+4	.	_	$	$.	_	4	_	_	_
+
+1	HILFE	_	N	NN	_	1	_	_	_
+2	ICH	_	N	NE	_	2	_	_	_
+3	HA	_	N	NE	_	3	_	_	_
+4	KEI	_	N	NE	_	4	_	_	_
+5	GFÜHL	_	N	NE	_	5	_	_	_
+6	ME	_	N	NE	_	6	_	_	_
+7	I	_	A	APPR	_	7	_	_	_
+8	MINE	_	N	NE	_	8	_	_	_
+9	FÜESS	_	N	NE	_	9	_	_	_
+10	!	_	$	$.	_	10	_	_	_
+11	)	_	$	$(	_	11	_	_	_
+
+1	Task	_	N	NN	_	1	_	_	_
+2	2	_	C	CARD	_	2	_	_	_
+3	:	_	$	$.	_	3	_	_	_
+
+1	Estnischi	_	A	ADJA	_	1	_	_	_
+2	Natur	_	N	NN	_	2	_	_	_
+3	(	_	$	$(	_	3	_	_	_
+4	mir	_	P	PPER	_	4	_	_	_
+5	sötted	_	V	VVFIN	_	5	_	_	_
+6	2	_	C	CARD	_	6	_	_	_
+7	Bäre	_	N	NN	_	7	_	_	_
+8	darstelle	_	V	VVINF	_	8	_	_	_
+9	)	_	$	$(	_	9	_	_	_
+10	Vera	_	N	NE	_	10	_	_	_
+11	entdeckt	_	V	VVPP	_	11	_	_	_
+12	sChinderparadiis	_	N	NN	_	12	_	_	_
+13	...	_	$	$(	_	13	_	_	_
+14	...und	_	V	VVFIN	_	14	_	_	_
+
+1	het	_	V	VAFIN	_	1	_	_	_
+2	ussergwöhndlich	_	A	ADV	_	2	_	_	_
+3	vill	_	P	PIAT	_	3	_	_	_
+4	Freud	_	N	NN	_	4	_	_	_
+5	drah	_	P	PTKVZ	_	5	_	_	_
+6	:-D	_	V	VVFIN	_	6	_	_	_
+7	Task	_	N	NN	_	7	_	_	_
+8	3	_	C	CARD	_	8	_	_	_
+9	:	_	$	$.	_	9	_	_	_
+
+1	erschde	_	A	ADJA	_	1	_	_	_
+2	Schueltag	_	N	NN	_	2	_	_	_
+3	(	_	$	$(	_	3	_	_	_
+4	touristische	_	A	ADJA	_	4	_	_	_
+5	Ustuschschüeler	_	N	NN	_	5	_	_	_
+6	und	_	K	KON	_	6	_	_	_
+7	liecht	_	A	ADJD	_	7	_	_	_
+8	verängstigti	_	A	ADJA	_	8	_	_	_
+9	Este	_	N	NN	_	9	_	_	_
+10	)	_	$	$(	_	10	_	_	_
+11	Task	_	N	NN	_	11	_	_	_
+12	4	_	C	CARD	_	12	_	_	_
+13	:	_	$	$.	_	13	_	_	_
+
+1	ersti	_	A	ADJA	_	1	_	_	_
+2	Party	_	N	NN	_	2	_	_	_
+3	;-)	_	A	APPRART	_	3	_	_	_
+4	Task	_	N	NN	_	4	_	_	_
+5	5	_	C	CARD	_	5	_	_	_
+6	:	_	$	$.	_	6	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	iss	_	V	VVFIN	_	2	_	_	_
+3	e	_	A	ART	_	3	_	_	_
+4	Bluetwurst	_	N	NN	_	4	_	_	_
+5	!	_	$	$.	_	5	_	_	_
+
+1	Abigprogramm	_	N	NN	_	1	_	_	_
+2	mit	_	A	APPR	_	2	_	_	_
+3	dütscher	_	N	NN	_	3	_	_	_
+4	und	_	K	KON	_	4	_	_	_
+5	mexikanischer	_	A	ADJA	_	5	_	_	_
+6	Transe	_	N	NN	_	6	_	_	_
+7	,	_	$	$,	_	7	_	_	_
+8	alli	_	A	ADV	_	8	_	_	_
+9	sind	_	V	VAFIN	_	9	_	_	_
+10	wilkomme	_	A	ADJD	_	10	_	_	_
+11	in	_	A	APPR	_	11	_	_	_
+12	YFU	_	N	NN	_	12	_	_	_
+13	!	_	$	$.	_	13	_	_	_
+14	:-D	_	N	NN	_	14	_	_	_
+
+1	Realxe	_	N	NN	_	1	_	_	_
+2	ufm	_	A	ADV	_	2	_	_	_
+3	Müürli	_	A	ADJD	_	3	_	_	_
+4	.	_	$	$.	_	4	_	_	_
+5	.	_	$	$.	_	5	_	_	_
+

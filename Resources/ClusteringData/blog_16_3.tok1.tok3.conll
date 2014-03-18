@@ -1,0 +1,30 @@
+1	Bilder	_	N	NN	_	1	_	_	_
+2	vom	_	A	APPRART	_	2	_	_	_
+3	Paintingcamp	_	N	NN	_	3	_	_	_
+4	Vol.	_	N	NE	_	4	_	_	_
+5	1	_	C	CARD	_	5	_	_	_
+
+1	mega	_	A	ADV	_	1	_	_	_
+2	ufgruumts	_	A	ADJA	_	2	_	_	_
+3	Zimmer	_	N	NN	_	3	_	_	_
+
+1	Markus	_	N	NN	_	1	_	_	_
+2	&	_	K	KON	_	2	_	_	_
+3	Hendrik	_	N	NN	_	3	_	_	_
+
+1	Ä	_	A	ART	_	1	_	_	_
+2	Fröschli	_	A	ADJA	_	2	_	_	_
+3	:-D	_	N	NN	_	3	_	_	_
+
+1	le	_	A	ADJA	_	1	_	_	_
+2	Malle-Mari	_	N	NN	_	2	_	_	_
+
+1	M-M	_	N	NN	_	1	_	_	_
+2	,	_	$	$,	_	2	_	_	_
+3	Mai	_	N	NN	_	3	_	_	_
+4	,	_	$	$,	_	4	_	_	_
+5	Madli	_	N	NE	_	5	_	_	_
+6	,	_	$	$,	_	6	_	_	_
+7	Sigrid	_	N	NE	_	7	_	_	_
+8	,	_	$	$,	_	8	_	_	_
+9	Mjo	_	N	NE	_	9	_	_	_

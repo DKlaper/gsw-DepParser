@@ -69,3 +69,6 @@ The tokenizer is licensed under a custom non-commercial, non-distribution licens
 It can be found here: http://www.linguistics.ruhr-uni-bochum.de/~dipper/licence.txt
 
 The Turbo Parser v2.1.0 is licensed under the GNU lesser general public license v3.0
+
+Percy Liang's Brown Clustering algorithm is licensed under a custom education/research only license.
+You can find the license at the end of the readme in Source/External/liang_brownclustering/

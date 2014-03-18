@@ -1,0 +1,47 @@
+1	Islaufschue	_	N	NN	_	1	_	_	_
+
+1	Das	_	P	PDS	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	e	_	A	ART	_	3	_	_	_
+4	Zeichnig	_	N	NN	_	4	_	_	_
+5	,	_	$	$,	_	5	_	_	_
+6	woni	_	P	PRELS+	_	6	_	_	_
+7	gest	_	A	ADV	_	7	_	_	_
+8	produziert	_	V	VVPP	_	8	_	_	_
+9	han	_	V	VAFIN	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	Mi	_	P	PPER	_	1	_	_	_
+2	hend	_	V	VAFIN	_	2	_	_	_
+3	muesse	_	A	ADV	_	3	_	_	_
+4	moeglichst	_	V	VVFIN	_	4	_	_	_
+5	flaechig	_	N	NN	_	5	_	_	_
+6	,	_	$	$,	_	6	_	_	_
+7	noed	_	V	VVFIN	_	7	_	_	_
+8	linear	_	A	ADV	_	8	_	_	_
+9	,	_	$	$,	_	9	_	_	_
+10	en	_	A	ART	_	10	_	_	_
+11	Gegestand	_	N	NN	_	11	_	_	_
+12	abzeichne	_	V	VVINF	_	12	_	_	_
+13	.	_	$	$.	_	13	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	han	_	V	VAFIN	_	2	_	_	_
+3	eifach	_	A	ADV	_	3	_	_	_
+4	eine	_	A	ART	_	4	_	_	_
+5	gna	_	V	VVPP	_	5	_	_	_
+6	,	_	$	$,	_	6	_	_	_
+7	wo	_	P	PRELS	_	7	_	_	_
+8	gad	_	A	ADV	_	8	_	_	_
+9	umeglaege	_	V	VVPP	_	9	_	_	_
+10	isch	_	V	VAFIN	_	10	_	_	_
+11	,	_	$	$,	_	11	_	_	_
+12	da	_	P	PDS	_	12	_	_	_
+13	ischr	_	V	VVFIN	_	13	_	_	_
+14	also	_	A	ADV	_	14	_	_	_
+15	.	_	$	$.	_	15	_	_	_
+
+1	Han	_	V	VAFIN	_	1	_	_	_
+2	no	_	A	ADV	_	2	_	_	_
+3	Froid	_	N	NN	_	3	_	_	_
+4	=)	_	V	VVFIN	_	4	_	_	_

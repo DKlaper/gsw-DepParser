@@ -1,0 +1,120 @@
+1	Merida	_	N	NE	_	1	_	_	_
+
+1	Also	_	A	ADV	_	1	_	_	_
+2	mir	_	P	PPER	_	2	_	_	_
+3	sind	_	V	VAFIN	_	3	_	_	_
+4	tatsaechlich	_	A	ADJD	_	4	_	_	_
+5	uf	_	A	APPR	_	5	_	_	_
+6	merida	_	N	NN	_	6	_	_	_
+7	gange	_	V	VVPP	_	7	_	_	_
+8	.	_	$	$.	_	8	_	_	_
+
+1	Bin	_	A	APPR	_	1	_	_	_
+2	jetzt	_	A	ADV	_	2	_	_	_
+3	scho	_	A	ADV	_	3	_	_	_
+4	sit	_	A	APPR	_	4	_	_	_
+5	em	_	A	ART	_	5	_	_	_
+6	sunntig	_	N	NN	_	6	_	_	_
+7	da	_	A	ADV	_	7	_	_	_
+8	.	_	$	$.	_	8	_	_	_
+
+1	Geschter	_	A	ADV	_	1	_	_	_
+2	simmer	_	V	VMFIN+	_	2	_	_	_
+3	am	_	A	APPRART	_	3	_	_	_
+4	abig	_	N	NN	_	4	_	_	_
+5	an	_	A	APPR	_	5	_	_	_
+6	carneval	_	C	CARD	_	6	_	_	_
+7	go	_	I	INFPART	_	7	_	_	_
+8	faeschte	_	V	VVINF	_	8	_	_	_
+9	.	_	$	$.	_	9	_	_	_
+
+1	Es	_	P	PPER	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	eifach	_	A	ADV	_	3	_	_	_
+4	de	_	A	ART	_	4	_	_	_
+5	hammer	_	N	NN	_	5	_	_	_
+6	gsi	_	V	VAPP	_	6	_	_	_
+7	...	_	$	$.	_	7	_	_	_
+
+1	Voll	_	A	ADJA	_	1	_	_	_
+2	gueti	_	A	ADJA	_	2	_	_	_
+3	stimmig	_	N	NN	_	3	_	_	_
+4	und	_	K	KON	_	4	_	_	_
+5	echli	_	A	ADV	_	5	_	_	_
+6	andersch	_	A	ADV	_	6	_	_	_
+7	als	_	K	KOKOM	_	7	_	_	_
+8	bi	_	A	APPR	_	8	_	_	_
+9	euis	_	A	ADJA	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	Di	_	A	ART	_	1	_	_	_
+2	tacos	_	A	ADJA	_	2	_	_	_
+3	wonich	_	N	NN	_	3	_	_	_
+4	gaesse	_	V	VVPP	_	4	_	_	_
+5	han	_	V	VAFIN	_	5	_	_	_
+6	,	_	$	$,	_	6	_	_	_
+7	wuerdmer	_	V	VVFIN+	_	7	_	_	_
+8	au	_	A	ADV	_	8	_	_	_
+9	niemmer	_	A	ADV	_	9	_	_	_
+10	glaube	_	V	VVFIN	_	10	_	_	_
+11	.	_	$	$.	_	11	_	_	_
+
+1	Vorher	_	A	ADV	_	1	_	_	_
+2	ischs	_	V	VAFIN+	_	2	_	_	_
+3	fleisch	_	A	ADV	_	3	_	_	_
+4	na	_	A	ADV	_	4	_	_	_
+5	a	_	A	APPR	_	5	_	_	_
+6	somene	_	A	ADJA	_	6	_	_	_
+7	riese-spiess	_	N	NN	_	7	_	_	_
+8	gsi	_	V	VAPP	_	8	_	_	_
+9	à	_	F	FM	_	9	_	_	_
+10	la	_	F	FM	_	10	_	_	_
+11	kebab	_	V	VVPP	_	11	_	_	_
+12	und	_	K	KON	_	12	_	_	_
+13	nachher	_	A	ADV	_	13	_	_	_
+14	han	_	V	VAFIN	_	14	_	_	_
+15	ICH'	_	N	NE	_	15	_	_	_
+16	s	_	A	ART	_	16	_	_	_
+17	gaesse	_	A	ADJA	_	17	_	_	_
+18	:-)	_	N	NN	_	18	_	_	_
+
+1	Merida	_	N	NE	_	1	_	_	_
+2	suscht	_	V	VVPP	_	2	_	_	_
+3	isch	_	V	VAFIN	_	3	_	_	_
+4	herzig	_	A	ADJD	_	4	_	_	_
+5	,	_	$	$,	_	5	_	_	_
+6	aber	_	K	KON	_	6	_	_	_
+7	es	_	P	PPER	_	7	_	_	_
+8	haet	_	V	VVFIN	_	8	_	_	_
+9	glaub	_	V	VVFIN	_	9	_	_	_
+10	na	_	A	ADV	_	10	_	_	_
+11	schoeneri	_	A	ADJA	_	11	_	_	_
+12	staedt	_	N	NN	_	12	_	_	_
+13	in	_	A	APPR	_	13	_	_	_
+14	mexico	_	V	VVPP	_	14	_	_	_
+15	.	_	$	$.	_	15	_	_	_
+
+1	Tourischte	_	N	NN	_	1	_	_	_
+2	haeds	_	V	VVFIN+	_	2	_	_	_
+3	da	_	A	ADV	_	3	_	_	_
+4	jetzt	_	A	ADV	_	4	_	_	_
+5	nuem	_	A	ADV	_	5	_	_	_
+6	so	_	A	ADV	_	6	_	_	_
+7	vil	_	A	ADV	_	7	_	_	_
+8	und	_	K	KON	_	8	_	_	_
+9	das	_	P	PDS	_	9	_	_	_
+10	isch	_	V	VAFIN	_	10	_	_	_
+11	guet	_	A	ADJD	_	11	_	_	_
+12	so	_	A	ADV	_	12	_	_	_
+13	.	_	$	$.	_	13	_	_	_
+
+1	Aber	_	K	KOUS	_	1	_	_	_
+2	defuer	_	A	ADV	_	2	_	_	_
+3	wirdmer	_	V	VVFIN+	_	3	_	_	_
+4	halt	_	A	ADV	_	4	_	_	_
+5	chli	_	A	ADV	_	5	_	_	_
+6	bloed	_	A	ADV	_	6	_	_	_
+7	agluegt	_	V	VVPP	_	7	_	_	_
+8	.	_	$	$.	_	8	_	_	_
+
+1	Merida	_	N	NE	_	1	_	_	_

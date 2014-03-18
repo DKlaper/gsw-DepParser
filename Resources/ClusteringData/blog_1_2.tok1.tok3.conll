@@ -1,0 +1,78 @@
+1	4	_	C	CARD	_	1	_	_	_
+2	giorni	_	N	NN	_	2	_	_	_
+3	a	_	A	APPR	_	3	_	_	_
+4	napoli	_	A	ADJA	_	4	_	_	_
+
+1	nur	_	A	ADV	_	1	_	_	_
+2	am	_	A	APPRART	_	2	_	_	_
+3	seich	_	N	NN	_	3	_	_	_
+4	mache	_	V	VVINF	_	4	_	_	_
+5	=)	_	V	VVPP	_	5	_	_	_
+
+1	mich	_	P	PPER	_	1	_	_	_
+2	am	_	A	APPRART	_	2	_	_	_
+3	futschlache	_	A	ADJA	_	3	_	_	_
+4	:D	_	N	NN	_	4	_	_	_
+
+1	mir	_	P	PPER	_	1	_	_	_
+2	3	_	C	CARD	_	2	_	_	_
+3	und	_	K	KON	_	3	_	_	_
+4	2	_	C	CARD	_	4	_	_	_
+5	italienischi	_	A	ADJA	_	5	_	_	_
+6	kollege	_	N	NN	_	6	_	_	_
+
+1	nina	_	V	VVPP	_	1	_	_	_
+2	und	_	K	KON	_	2	_	_	_
+3	ich	_	P	PPER	_	3	_	_	_
+
+1	luisa	_	F	FM	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	duetschland	_	N	NE	_	3	_	_	_
+4	,	_	$	$,	_	4	_	_	_
+5	d'	_	A	ART	_	5	_	_	_
+6	nina	_	A	ADJA	_	6	_	_	_
+7	und	_	K	KON	_	7	_	_	_
+8	ich	_	P	PPER	_	8	_	_	_
+
+1	vorem	_	A	APPRART	_	1	_	_	_
+2	festli	_	A	ADJA	_	2	_	_	_
+3	:)	_	N	NN	_	3	_	_	_
+
+1	forza	_	A	ADV	_	1	_	_	_
+2	svizzera	_	P	PAV	_	2	_	_	_
+3	:)	_	V	VVFIN	_	3	_	_	_
+
+1	d'	_	A	ART	_	1	_	_	_
+2	nina	_	A	ADJA	_	2	_	_	_
+3	vo	_	A	APPR	_	3	_	_	_
+4	oeschtrich	_	A	ADJA	_	4	_	_	_
+5	und	_	K	KON	_	5	_	_	_
+6	ich	_	P	PPER	_	6	_	_	_
+
+1	de	_	A	ART	_	1	_	_	_
+2	jonah	_	N	NN	_	2	_	_	_
+3	vo	_	A	APPR	_	3	_	_	_
+4	vermont	_	V	VVFIN	_	4	_	_	_
+5	und	_	K	KON	_	5	_	_	_
+6	ich	_	P	PPER	_	6	_	_	_
+
+1	rhiannon	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	neuseeland	_	N	NE	_	3	_	_	_
+4	und	_	K	KON	_	4	_	_	_
+5	ich	_	P	PPER	_	5	_	_	_
+
+1	d'	_	A	ART	_	1	_	_	_
+2	felicia	_	N	NN	_	2	_	_	_
+3	vo	_	A	APPR	_	3	_	_	_
+4	duetschland	_	N	NE	_	4	_	_	_
+5	und	_	K	KON	_	5	_	_	_
+6	ich	_	P	PPER	_	6	_	_	_
+
+1	nina	_	P	PIS	_	1	_	_	_
+2	ed	_	V	VVFIN	_	2	_	_	_
+3	io	_	A	ADV	_	3	_	_	_
+4	a	_	A	APPR	_	4	_	_	_
+5	sorrento	_	N	NN	_	5	_	_	_
+6	.	_	$	$.	_	6	_	_	_
+7	<3	_	C	CARD	_	7	_	_	_

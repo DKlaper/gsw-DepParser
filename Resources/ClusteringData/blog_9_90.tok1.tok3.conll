@@ -1,0 +1,83 @@
+1	18.02.2008	_	C	CARD	_	1	_	_	_
+
+1	Hihihi	_	A	ADJA	_	1	_	_	_
+2	....	_	N	NN	_	2	_	_	_
+3	wani	_	V	VAFIN+	_	3	_	_	_
+4	no	_	A	ADV	_	4	_	_	_
+5	ganz	_	A	ADV	_	5	_	_	_
+6	vergässe	_	V	VVPP	_	6	_	_	_
+7	ha	_	V	VAFIN	_	7	_	_	_
+8	...	_	$	$.	_	8	_	_	_
+
+1	esch	_	V	VAFIN	_	1	_	_	_
+2	jo	_	A	ADV	_	2	_	_	_
+3	no	_	A	ADV	_	3	_	_	_
+4	Valentins-Tag	_	N	NN	_	4	_	_	_
+5	gsi	_	V	VAPP	_	5	_	_	_
+6	....	_	A	ADJA	_	6	_	_	_
+
+1	denn	_	A	ADV	_	1	_	_	_
+2	chomi	_	A	ADJA	_	2	_	_	_
+3	dochis	_	A	ADJA	_	3	_	_	_
+4	Gschäft	_	N	NN	_	4	_	_	_
+5	ond	_	K	KON	_	5	_	_	_
+6	a	_	A	APPR	_	6	_	_	_
+7	mim	_	P	PPOSAT	_	7	_	_	_
+8	Platz	_	N	NN	_	8	_	_	_
+9	stönd	_	V	VVFIN	_	9	_	_	_
+10	wonderschöni	_	A	ADJA	_	10	_	_	_
+11	Blueme	_	N	NN	_	11	_	_	_
+12	ond	_	K	KON	_	12	_	_	_
+13	es	_	A	ART	_	13	_	_	_
+14	Briefli	_	N	NN	_	14	_	_	_
+15	...	_	$	$.	_	15	_	_	_
+
+1	han	_	V	VAFIN	_	1	_	_	_
+2	fasch	_	A	ADV	_	2	_	_	_
+3	ned	_	P	PTKNEG	_	3	_	_	_
+4	glaubt	_	V	VVPP	_	4	_	_	_
+5	das	_	K	KOUS	_	5	_	_	_
+6	das	_	A	ART	_	6	_	_	_
+7	för	_	A	APPR	_	7	_	_	_
+8	mech	_	N	NN	_	8	_	_	_
+9	esch	_	V	VAFIN	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	Jetzt	_	A	ADV	_	1	_	_	_
+2	het	_	V	VAFIN	_	2	_	_	_
+3	doch	_	A	ADV	_	3	_	_	_
+4	mis	_	P	PPOSAT	_	4	_	_	_
+5	allerliebste	_	A	ADJA	_	5	_	_	_
+6	Schätzi	_	N	NN	_	6	_	_	_
+7	organisiert	_	V	VVPP	_	7	_	_	_
+8	das	_	K	KOUS	_	8	_	_	_
+9	ich	_	P	PPER	_	9	_	_	_
+10	en	_	A	ART	_	10	_	_	_
+11	wonderschöni	_	A	ADJA	_	11	_	_	_
+12	Öberraschig	_	N	NN	_	12	_	_	_
+13	han	_	V	VAFIN	_	13	_	_	_
+14	an	_	A	APPR	_	14	_	_	_
+15	dem	_	A	ART	_	15	_	_	_
+16	Tag	_	N	NN	_	16	_	_	_
+17	....	_	V	VVPP	_	17	_	_	_
+
+1	Han	_	V	VAFIN	_	1	_	_	_
+2	aso	_	A	ADV	_	2	_	_	_
+3	mega	_	A	ADV	_	3	_	_	_
+4	freud	_	V	VVPP	_	4	_	_	_
+5	gha	_	V	VAPP	_	5	_	_	_
+6	ond	_	K	KON	_	6	_	_	_
+7	d'	_	A	ART	_	7	_	_	_
+8	Blueme	_	N	NN	_	8	_	_	_
+9	send	_	V	VAFIN	_	9	_	_	_
+10	emmer	_	A	ADV	_	10	_	_	_
+11	no	_	A	ADV	_	11	_	_	_
+12	wonderschön	_	A	ADJD	_	12	_	_	_
+13	....	_	A	ADJA	_	13	_	_	_
+14	=)	_	A	ADJA	_	14	_	_	_
+15	=)Danke	_	N	NN	_	15	_	_	_
+
+1	nomol	_	A	ADV	_	1	_	_	_
+2	!	_	$	$.	_	2	_	_	_
+3	=)	_	A	ADV	_	3	_	_	_
+4	=)	_	V	VVFIN	_	4	_	_	_

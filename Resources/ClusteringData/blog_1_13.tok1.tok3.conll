@@ -1,0 +1,36 @@
+1	napoli	_	A	ADJA	_	1	_	_	_
+
+1	typischi	_	A	ADJA	_	1	_	_	_
+2	gaessli	_	A	ADV	_	2	_	_	_
+3	vo	_	A	APPR	_	3	_	_	_
+4	napoli	_	A	ADJA	_	4	_	_	_
+
+1	die	_	A	ART	_	1	_	_	_
+2	aeltischt	_	A	ADJA	_	2	_	_	_
+3	caffetteria	_	N	NN	_	3	_	_	_
+4	vo	_	A	APPR	_	4	_	_	_
+5	napoli	_	A	ADJA	_	5	_	_	_
+6	de	_	A	ART	_	6	_	_	_
+7	caffè	_	N	NN	_	7	_	_	_
+8	isch	_	V	VAFIN	_	8	_	_	_
+9	wuerkli	_	A	ADJD	_	9	_	_	_
+10	uu	_	A	ADV	_	10	_	_	_
+11	fein	_	P	PPOSAT	_	11	_	_	_
+12	:)	_	A	ADJA	_	12	_	_	_
+
+1	america	_	F	FM	_	1	_	_	_
+2	,	_	$	$,	_	2	_	_	_
+3	cina	_	P	PRELS	_	3	_	_	_
+4	e	_	A	ART	_	4	_	_	_
+5	svizzera	_	A	ADJA	_	5	_	_	_
+6	:)	_	N	NN	_	6	_	_	_
+
+1	studente	_	A	ADJA	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	afs	_	N	NN	_	3	_	_	_
+4	vo	_	A	APPR	_	4	_	_	_
+5	de	_	A	ART	_	5	_	_	_
+6	ganze	_	A	ADJA	_	6	_	_	_
+7	welt	_	N	NN	_	7	_	_	_
+
+1	napoli	_	A	ADJA	_	1	_	_	_

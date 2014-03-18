@@ -1,0 +1,55 @@
+1	Abigschuel	_	N	NN	_	1	_	_	_
+2	Fotis	_	N	NE	_	2	_	_	_
+
+1	Motivierti	_	A	ADJA	_	1	_	_	_
+2	Chochgruppe	_	N	NN	_	2	_	_	_
+3	:-D	_	V	VVFIN	_	3	_	_	_
+4	no	_	A	ADV	_	4	_	_	_
+5	meh	_	A	ADV	_	5	_	_	_
+6	motivierts	_	V	VVFIN+	_	6	_	_	_
+7	ich	_	P	PPER	_	7	_	_	_
+
+1	Heidi	_	P	PIS	_	1	_	_	_
+2	die	_	A	ART	_	2	_	_	_
+3	Fotografin	_	N	NN	_	3	_	_	_
+4	...	_	$	$.	_	4	_	_	_
+
+1	Konzert	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	de	_	A	ART	_	3	_	_	_
+4	Musigschuel	_	N	NN	_	4	_	_	_
+
+1	Wenn	_	K	KOUS	_	1	_	_	_
+2	Musigschüeler	_	N	NN	_	2	_	_	_
+3	zeichnet	_	V	VVFIN	_	3	_	_	_
+4	passieret	_	V	VVFIN	_	4	_	_	_
+5	so	_	A	ADV	_	5	_	_	_
+6	Sache	_	N	NN	_	6	_	_	_
+7	.	_	$	$.	_	7	_	_	_
+8	.	_	$	$.	_	8	_	_	_
+
+1	..oder	_	A	ADV	_	1	_	_	_
+2	so	_	A	ADV	_	2	_	_	_
+3	öbbis	_	P	PIS	_	3	_	_	_
+4	;-)	_	V	VVPP	_	4	_	_	_
+
+1	Und	_	K	KON	_	1	_	_	_
+2	so	_	A	ADV	_	2	_	_	_
+3	gsehd	_	V	VVFIN	_	3	_	_	_
+4	übrigens	_	A	ADV	_	4	_	_	_
+5	mis	_	P	PPOSAT	_	5	_	_	_
+6	Gsicht	_	N	NN	_	6	_	_	_
+7	99	_	C	CARD	_	7	_	_	_
+8	%	_	N	NN	_	8	_	_	_
+9	vom	_	A	APPRART	_	9	_	_	_
+10	Tag	_	N	NN	_	10	_	_	_
+11	us	_	P	PTKVZ	_	11	_	_	_
+12	,	_	$	$,	_	12	_	_	_
+13	ich	_	P	PPER	_	13	_	_	_
+14	chan	_	V	VMFIN	_	14	_	_	_
+15	eifach	_	A	ADV	_	15	_	_	_
+16	nid	_	P	PTKNEG	_	16	_	_	_
+17	ufhöre	_	V	VVFIN	_	17	_	_	_
+18	lache	_	A	ADJA	_	18	_	_	_
+19	.	_	$	$.	_	19	_	_	_
+20	:-)	_	C	CARD	_	20	_	_	_

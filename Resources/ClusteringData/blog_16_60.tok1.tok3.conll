@@ -1,0 +1,422 @@
+1	Hellsinki	_	N	NE	_	1	_	_	_
+
+1	Hellsinki	_	N	NN	_	1	_	_	_
+2	vom	_	A	APPRART	_	2	_	_	_
+3	1.	_	A	ADJA	_	3	_	_	_
+4	bis	_	A	APPR	_	4	_	_	_
+5	am	_	A	APPRART	_	5	_	_	_
+6	2.	_	A	ADJA	_	6	_	_	_
+7	Dezember	_	N	NN	_	7	_	_	_
+8	in	_	A	APPR	_	8	_	_	_
+9	Bilder	_	N	NN	_	9	_	_	_
+10	...	_	$	$.	_	10	_	_	_
+
+1	Am	_	A	APPRART	_	1	_	_	_
+2	halbi	_	A	ADJD	_	2	_	_	_
+3	6i	_	A	ADJA	_	3	_	_	_
+4	nach	_	A	APPR	_	4	_	_	_
+5	3	_	C	CARD	_	5	_	_	_
+6	Stunde	_	N	NN	_	6	_	_	_
+7	schlaf	_	P	PAV	_	7	_	_	_
+8	ufstah	_	V	VVPP	_	8	_	_	_
+9	,	_	$	$,	_	9	_	_	_
+10	am	_	A	APPRART	_	10	_	_	_
+11	8i	_	N	NN	_	11	_	_	_
+12	isch	_	V	VAFIN	_	12	_	_	_
+13	dFähre	_	V	VVINF	_	13	_	_	_
+14	abgfahre	_	V	VVINF	_	14	_	_	_
+
+1	wunderbars	_	A	ADJA	_	1	_	_	_
+2	Wetter	_	N	NN	_	2	_	_	_
+
+1	Hellsinki	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	wiit	_	A	ADJD	_	3	_	_	_
+4	weg	_	A	ADV	_	4	_	_	_
+
+1	es	_	P	PPER	_	1	_	_	_
+2	het	_	V	VAFIN	_	2	_	_	_
+3	gwindet	_	V	VVFIN	_	3	_	_	_
+4	wie	_	K	KOKOM	_	4	_	_	_
+5	nüt	_	P	PIS	_	5	_	_	_
+6	!	_	$	$.	_	6	_	_	_
+
+1	de	_	A	ART	_	1	_	_	_
+2	Weg	_	N	NN	_	2	_	_	_
+3	vom	_	A	APPRART	_	3	_	_	_
+4	Hotel	_	N	NN	_	4	_	_	_
+5	id	_	A	APPRART	_	5	_	_	_
+6	Altstadt	_	N	NN	_	6	_	_	_
+
+1	e	_	A	ART	_	1	_	_	_
+2	bizzeli	_	A	ADJA	_	2	_	_	_
+3	Schnee	_	N	NN	_	3	_	_	_
+4	hets	_	V	VAFIN+	_	4	_	_	_
+5	gha	_	V	VAPP	_	5	_	_	_
+6	...	_	$	$.	_	6	_	_	_
+
+1	dekorietrte	_	A	ADJA	_	1	_	_	_
+2	Chrane	_	N	NN	_	2	_	_	_
+
+1	di	_	A	ART	_	1	_	_	_
+2	Hüüser	_	N	NN	_	2	_	_	_
+3	sind	_	V	VAFIN	_	3	_	_	_
+4	da	_	A	ADV	_	4	_	_	_
+5	fasch	_	A	ADV	_	5	_	_	_
+6	alli	_	A	ADV	_	6	_	_	_
+7	sehr	_	A	ADV	_	7	_	_	_
+8	gross	_	A	ADJD	_	8	_	_	_
+9	und	_	K	KON	_	9	_	_	_
+10	pompös	_	A	ADJD	_	10	_	_	_
+11	gsi	_	V	VAPP	_	11	_	_	_
+
+1	mon	_	F	FM	_	1	_	_	_
+2	mouton	_	F	FM	_	2	_	_	_
+3	:-)	_	F	FM	_	3	_	_	_
+
+1	moi	_	A	ADJA	_	1	_	_	_
+2	.	_	$	$.	_	2	_	_	_
+3	le	_	A	ADJA	_	3	_	_	_
+4	canard	_	N	NN	_	4	_	_	_
+5	(	_	$	$(	_	5	_	_	_
+6	ich	_	P	PPER	_	6	_	_	_
+7	han	_	V	VAFIN	_	7	_	_	_
+8	das	_	A	ART	_	8	_	_	_
+9	Wuchenend	_	N	NN	_	9	_	_	_
+10	richtig	_	A	APPR	_	10	_	_	_
+11	vill	_	P	PIAT	_	11	_	_	_
+12	Französisch	_	N	NN	_	12	_	_	_
+13	mit	_	A	APPR	_	13	_	_	_
+14	de	_	A	ART	_	14	_	_	_
+15	Laëtitia	_	N	NE	_	15	_	_	_
+16	,	_	$	$,	_	16	_	_	_
+17	ere	_	A	ART	_	17	_	_	_
+18	Ustuschschüelerin	_	N	NN	_	18	_	_	_
+19	us	_	A	APPR	_	19	_	_	_
+20	Frankriich	_	N	NE	_	20	_	_	_
+21	,	_	$	$(	_	21	_	_	_
+22	gredet	_	V	VVPP	_	22	_	_	_
+23	:-)	_	A	ADJA	_	23	_	_	_
+24	dVera	_	N	NN	_	24	_	_	_
+25	entdeckt	_	V	VVPP	_	25	_	_	_
+26	en	_	A	ART	_	26	_	_	_
+27	Schneehügel	_	N	NN	_	27	_	_	_
+
+1	dVera	_	N	NN	_	1	_	_	_
+2	mus	_	A	ADV	_	2	_	_	_
+3	unbedingt	_	A	ADV	_	3	_	_	_
+4	ufechletere	_	A	APPRART	_	4	_	_	_
+5	zum	_	A	APPRART	_	5	_	_	_
+6	nacher	_	A	ADV	_	6	_	_	_
+7	abegheie	_	V	VVINF	_	7	_	_	_
+8	!	_	$	$.	_	8	_	_	_
+9	:-)	_	A	ADV	_	9	_	_	_
+
+1	sEsse	_	N	NN	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	da	_	A	ADV	_	3	_	_	_
+4	unglaublich	_	A	ADV	_	4	_	_	_
+5	tüür	_	N	NN	_	5	_	_	_
+6	gsi	_	V	VAPP	_	6	_	_	_
+7	!	_	$	$.	_	7	_	_	_
+8	!	_	$	$.	_	8	_	_	_
+
+1	Schnee	_	N	NN	_	1	_	_	_
+2	überall	_	N	NE	_	2	_	_	_
+3	,	_	$	$,	_	3	_	_	_
+4	und	_	K	KON	_	4	_	_	_
+5	so	_	A	ADV	_	5	_	_	_
+6	chalti	_	A	ADJA	_	6	_	_	_
+7	Temperature	_	N	NN	_	7	_	_	_
+8	dass	_	K	KOUS	_	8	_	_	_
+9	ich	_	P	PPER	_	9	_	_	_
+10	mini	_	P	PPOSAT	_	10	_	_	_
+11	Zeche	_	N	NN	_	11	_	_	_
+12	nüme	_	P	PTKNEG	_	12	_	_	_
+13	gspürt	_	V	VVPP	_	13	_	_	_
+14	ha	_	V	VAFIN	_	14	_	_	_
+15	.	_	$	$.	_	15	_	_	_
+16	.	_	$	$.	_	16	_	_	_
+
+1	Wiehnachtsstimmig	_	N	NN	_	1	_	_	_
+
+1	Innestadt	_	N	NN	_	1	_	_	_
+
+1	Shoppe	_	N	NN	_	1	_	_	_
+2	bises	_	A	ADV	_	2	_	_	_
+3	nüme	_	P	PTKNEG	_	3	_	_	_
+4	gaht	_	V	VVFIN	_	4	_	_	_
+5	!	_	$	$.	_	5	_	_	_
+6	!	_	$	$.	_	6	_	_	_
+
+1	Usbüüti	_	N	NE	_	1	_	_	_
+2	:-)	_	V	VVPP	_	2	_	_	_
+
+1	Well	_	K	KOUS	_	1	_	_	_
+2	mir	_	P	PPER	_	2	_	_	_
+3	so	_	A	ADV	_	3	_	_	_
+4	normal	_	A	ADJD	_	4	_	_	_
+5	sind	_	V	VAFIN	_	5	_	_	_
+6	:-D	_	N	NN	_	6	_	_	_
+
+1	Ufem	_	A	APPRART	_	1	_	_	_
+2	Weg	_	N	NN	_	2	_	_	_
+3	zum	_	A	APPRART	_	3	_	_	_
+4	Znacht	_	N	NN	_	4	_	_	_
+5	esse	_	V	VVPP	_	5	_	_	_
+6	womer	_	P	PRELS+	_	6	_	_	_
+7	eus	_	P	PPER	_	7	_	_	_
+8	total	_	A	ADJD	_	8	_	_	_
+9	verlaufe	_	V	VVPP	_	9	_	_	_
+10	hend	_	V	VAFIN	_	10	_	_	_
+11	und	_	K	KON	_	11	_	_	_
+12	nume	_	A	ADV	_	12	_	_	_
+13	mit	_	A	APPR	_	13	_	_	_
+14	Hilf	_	N	NN	_	14	_	_	_
+15	vonere	_	A	APPRART	_	15	_	_	_
+16	Ihheimische	_	N	NN	_	16	_	_	_
+17	zum	_	A	APPRART	_	17	_	_	_
+18	Restaurant	_	N	NN	_	18	_	_	_
+19	gfunde	_	V	VVPP	_	19	_	_	_
+20	hend	_	V	VAFIN	_	20	_	_	_
+21	...	_	$	$.	_	21	_	_	_
+
+1	Usblick	_	N	NN	_	1	_	_	_
+2	vonere	_	A	APPRART	_	2	_	_	_
+3	Hotellobby	_	N	NN	_	3	_	_	_
+
+1	Nach	_	A	APPR	_	1	_	_	_
+2	de	_	A	ART	_	2	_	_	_
+3	Sauna	_	N	NE	_	3	_	_	_
+4	gmüetlich	_	N	NE	_	4	_	_	_
+5	Tee	_	N	NE	_	5	_	_	_
+6	trinke	_	V	VVFIN	_	6	_	_	_
+7	im	_	A	APPRART	_	7	_	_	_
+8	Zimmer	_	N	NN	_	8	_	_	_
+9	:-)	_	V	VVPP	_	9	_	_	_
+
+1	Hotelihgang	_	N	NN	_	1	_	_	_
+
+1	Usfluug	_	N	NN	_	1	_	_	_
+2	am	_	A	APPRART	_	2	_	_	_
+3	Sunntig	_	N	NN	_	3	_	_	_
+4	zum	_	A	APPRART	_	4	_	_	_
+5	Heureka	_	N	NE	_	5	_	_	_
+6	center	_	N	NE	_	6	_	_	_
+7	,	_	$	$,	_	7	_	_	_
+8	e	_	A	ART	_	8	_	_	_
+9	Wüsseschaftsusstellig	_	N	NN	_	9	_	_	_
+
+1	Tuusigi	_	N	NN	_	1	_	_	_
+2	vo	_	A	APPR	_	2	_	_	_
+3	Spiil	_	N	NN	_	3	_	_	_
+4	womer	_	P	PRELS+	_	4	_	_	_
+5	nid	_	P	PTKNEG	_	5	_	_	_
+6	begriffe	_	V	VVPP	_	6	_	_	_
+7	hend	_	V	VAFIN	_	7	_	_	_
+8	:-)	_	A	ADV	_	8	_	_	_
+
+1	bim	_	A	APPR	_	1	_	_	_
+2	cruise	_	A	ADJA	_	2	_	_	_
+3	;-)	_	N	NN	_	3	_	_	_
+
+1	ich	_	P	PPER	_	1	_	_	_
+2	bi	_	V	VAFIN	_	2	_	_	_
+3	miserabel	_	A	ADV	_	3	_	_	_
+4	bim	_	A	APPRART	_	4	_	_	_
+5	Autofahre	_	N	NN	_	5	_	_	_
+6	gsi	_	V	VAPP	_	6	_	_	_
+7	...	_	$	$.	_	7	_	_	_
+
+1	am	_	A	APPRART	_	1	_	_	_
+2	Frage	_	N	NN	_	2	_	_	_
+3	beantworte	_	V	VVFIN	_	3	_	_	_
+4	wie	_	K	KOKOM	_	4	_	_	_
+5	du	_	P	PPER	_	5	_	_	_
+6	sterbe	_	A	ADJA	_	6	_	_	_
+7	wodsch	_	N	NN	_	7	_	_	_
+8	,	_	$	$(	_	8	_	_	_
+9	oder	_	A	ADV	_	9	_	_	_
+10	wies	_	K	KOKOM+	_	10	_	_	_
+11	dich	_	P	PPER	_	11	_	_	_
+12	"	_	$	$(	_	12	_	_	_
+13	erhalte	_	V	VVPP	_	13	_	_	_
+14	"	_	$	$(	_	14	_	_	_
+15	sölled	_	V	VMFIN	_	15	_	_	_
+16	i	_	A	APPR	_	16	_	_	_
+17	de	_	A	ART	_	17	_	_	_
+18	Zuekunft	_	N	NN	_	18	_	_	_
+
+1	no	_	A	ADV	_	1	_	_	_
+2	meh	_	A	ADV	_	2	_	_	_
+3	chranki	_	A	ADJA	_	3	_	_	_
+4	Sache	_	N	NN	_	4	_	_	_
+5	drüber	_	P	PAV	_	5	_	_	_
+6	wies	_	K	KOKOM+	_	6	_	_	_
+7	i	_	A	APPR	_	7	_	_	_
+8	paar	_	P	PIAT	_	8	_	_	_
+9	Jahr	_	N	NN	_	9	_	_	_
+10	chönti	_	A	ADJA	_	10	_	_	_
+11	sii	_	V	VAFIN	_	11	_	_	_
+12	...	_	$	$.	_	12	_	_	_
+
+1	underanderem	_	P	PIS	_	1	_	_	_
+2	mit	_	A	APPR	_	2	_	_	_
+3	Atombombe	_	N	NN	_	3	_	_	_
+
+1	di	_	A	ART	_	1	_	_	_
+2	schlimmi	_	A	ADJA	_	2	_	_	_
+3	Wahrheit	_	N	NN	_	3	_	_	_
+4	drüber	_	P	PAV	_	4	_	_	_
+5	wies	_	K	KOKOM+	_	5	_	_	_
+6	sii	_	V	VAINF	_	6	_	_	_
+7	chönti	_	N	NN	_	7	_	_	_
+8	i	_	A	APPR	_	8	_	_	_
+9	paar	_	P	PIAT	_	9	_	_	_
+10	Jahr	_	N	NN	_	10	_	_	_
+
+1	sIis	_	P	PPOSAT	_	1	_	_	_
+2	schmiltz	_	N	NN	_	2	_	_	_
+3	und	_	K	KON	_	3	_	_	_
+4	alles	_	P	PIS	_	4	_	_	_
+5	isch	_	V	VAFIN	_	5	_	_	_
+6	under	_	A	APPR	_	6	_	_	_
+7	Wasser	_	N	NN	_	7	_	_	_
+
+1	und	_	A	APPR	_	1	_	_	_
+2	ja	_	P	PTKANT	_	2	_	_	_
+3	,	_	$	$,	_	3	_	_	_
+4	es	_	P	PPER	_	4	_	_	_
+5	bring	_	V	VVFIN	_	5	_	_	_
+6	eim	_	P	PIS	_	6	_	_	_
+7	zum	_	P	PTKZU	_	7	_	_	_
+8	nahdenke	_	V	VVINF	_	8	_	_	_
+9	was	_	P	PRELS	_	9	_	_	_
+10	mir	_	P	PPER	_	10	_	_	_
+11	üsere	_	A	ADJA	_	11	_	_	_
+12	Welt	_	N	NN	_	12	_	_	_
+13	eigentlich	_	A	ADV	_	13	_	_	_
+14	alles	_	P	PIS	_	14	_	_	_
+15	ahtüend	_	V	VVFIN	_	15	_	_	_
+16	well	_	K	KOUS	_	16	_	_	_
+17	mir	_	P	PPER	_	17	_	_	_
+18	doch	_	A	ADV	_	18	_	_	_
+19	eigentlich	_	A	ADV	_	19	_	_	_
+20	so	_	A	ADV	_	20	_	_	_
+21	chlii	_	A	ADJD	_	21	_	_	_
+22	sind	_	V	VAFIN	_	22	_	_	_
+23	...	_	$	$.	_	23	_	_	_
+
+1	im	_	A	APPRART	_	1	_	_	_
+2	Gegesatz	_	N	NN	_	2	_	_	_
+3	zu	_	A	APPR	_	3	_	_	_
+4	üsem	_	P	PPOSAT	_	4	_	_	_
+5	Darm	_	N	NN	_	5	_	_	_
+6	:-D	_	V	VVFIN	_	6	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	het	_	V	VAFIN	_	2	_	_	_
+3	mir	_	P	PPER	_	3	_	_	_
+4	fasch	_	A	ADV	_	4	_	_	_
+5	i	_	A	APPR	_	5	_	_	_
+6	dHose	_	N	NN	_	6	_	_	_
+7	gmacht	_	V	VVPP	_	7	_	_	_
+8	woni	_	P	PRELS+	_	8	_	_	_
+9	mit	_	A	APPR	_	9	_	_	_
+10	em	_	A	ART	_	10	_	_	_
+11	Velo	_	N	NN	_	11	_	_	_
+12	ufemne	_	A	APPRART	_	12	_	_	_
+13	Seil	_	N	NN	_	13	_	_	_
+14	ca.	_	A	ADV	_	14	_	_	_
+15	15m	_	A	APPRART	_	15	_	_	_
+16	überem	_	A	ADJA	_	16	_	_	_
+17	Bode	_	N	NN	_	17	_	_	_
+18	ha	_	V	VAFIN	_	18	_	_	_
+19	müse	_	N	NN	_	19	_	_	_
+20	fahre	_	V	VVFIN	_	20	_	_	_
+21	!	_	$	$.	_	21	_	_	_
+
+1	bin	_	V	VAFIN	_	1	_	_	_
+2	aber	_	A	ADV	_	2	_	_	_
+3	sicher	_	A	ADJD	_	3	_	_	_
+4	ahcho	_	V	VVPP	_	4	_	_	_
+5	;-)	_	A	ADJA	_	5	_	_	_
+6	Ratte	_	N	NN	_	6	_	_	_
+7	wo	_	P	PRELS	_	7	_	_	_
+8	Basketball	_	N	NN	_	8	_	_	_
+9	spieled	_	V	VVFIN	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+11	.	_	$	$.	_	11	_	_	_
+
+1	e	_	A	ART	_	1	_	_	_
+2	Müntze	_	N	NN	_	2	_	_	_
+3	mit	_	A	APPR	_	3	_	_	_
+4	mim	_	P	PPOSAT	_	4	_	_	_
+5	Portrait	_	N	NN	_	5	_	_	_
+6	druf	_	P	PAV	_	6	_	_	_
+7	:-D	_	N	NN	_	7	_	_	_
+8	Nacher	_	N	NN	_	8	_	_	_
+9	isches	_	V	VAFIN+	_	9	_	_	_
+10	zrugg	_	A	ADV	_	10	_	_	_
+11	id	_	A	APPRART	_	11	_	_	_
+12	Stadt	_	N	NN	_	12	_	_	_
+13	gange	_	V	VVPP	_	13	_	_	_
+14	womer	_	P	PRELS+	_	14	_	_	_
+15	eus	_	P	PPER	_	15	_	_	_
+16	vo	_	A	APPR	_	16	_	_	_
+17	de	_	A	ART	_	17	_	_	_
+18	Stadt	_	N	NN	_	18	_	_	_
+19	verabschided	_	V	VVPP	_	19	_	_	_
+20	hend	_	V	VAFIN	_	20	_	_	_
+21	...	_	$	$.	_	21	_	_	_
+
+1	und	_	K	KON	_	1	_	_	_
+2	denn	_	A	ADV	_	2	_	_	_
+3	isches	_	V	VAFIN+	_	3	_	_	_
+4	im	_	A	APPRART	_	4	_	_	_
+5	Sunneuntergang	_	N	NN	_	5	_	_	_
+6	ufd	_	A	APPRART	_	6	_	_	_
+7	Fähre	_	N	NN	_	7	_	_	_
+8	gange	_	V	VVPP	_	8	_	_	_
+
+1	Geg	_	A	APPR	_	1	_	_	_
+2	di	_	A	ART	_	2	_	_	_
+3	halbi	_	A	ADJA	_	3	_	_	_
+4	5i	_	A	ADJA	_	4	_	_	_
+5	simmer	_	N	NN	_	5	_	_	_
+6	abgfahre	_	V	VVPP	_	6	_	_	_
+7	,	_	$	$,	_	7	_	_	_
+8	am	_	A	APPRART	_	8	_	_	_
+9	halbi	_	A	ADJD	_	9	_	_	_
+10	7i	_	A	ADJA	_	10	_	_	_
+11	simmer	_	N	NN	_	11	_	_	_
+12	in	_	A	APPR	_	12	_	_	_
+13	Tallinn	_	N	NE	_	13	_	_	_
+14	gsi	_	V	VAPP	_	14	_	_	_
+15	und	_	K	KON	_	15	_	_	_
+16	am	_	A	APPRART	_	16	_	_	_
+17	Achti	_	N	NN	_	17	_	_	_
+18	isch	_	V	VAFIN	_	18	_	_	_
+19	üse	_	P	PPOSAT	_	19	_	_	_
+20	Zug	_	N	NN	_	20	_	_	_
+21	nach	_	A	APPR	_	21	_	_	_
+22	Tartu	_	N	NN	_	22	_	_	_
+23	gfahre	_	V	VVPP	_	23	_	_	_
+24	.	_	$	$.	_	24	_	_	_
+
+1	Am	_	A	APPRART	_	1	_	_	_
+2	11i	_	A	ADJA	_	2	_	_	_
+3	Znacht	_	N	NN	_	3	_	_	_
+4	binich	_	V	VVFIN	_	4	_	_	_
+5	denn	_	A	ADV	_	5	_	_	_
+6	entlich	_	A	ADV	_	6	_	_	_
+7	Dihei	_	N	NN	_	7	_	_	_
+8	gsi	_	V	VAPP	_	8	_	_	_
+9	,	_	$	$,	_	9	_	_	_
+10	nach	_	A	APPR	_	10	_	_	_
+11	emne	_	A	ART	_	11	_	_	_
+12	wunderbare	_	A	ADJA	_	12	_	_	_
+13	Wuchenend	_	N	NN	_	13	_	_	_
+14	!	_	$	$.	_	14	_	_	_
+15	!	_	$	$.	_	15	_	_	_
+

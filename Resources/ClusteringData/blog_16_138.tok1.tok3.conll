@@ -1,0 +1,63 @@
+1	first	_	A	ADV	_	1	_	_	_
+2	impressions	_	A	ADV	_	2	_	_	_
+
+1	Hei	_	I	ITJ	_	1	_	_	_
+2	mini	_	P	PPOSAT	_	2	_	_	_
+3	Liebe	_	N	NN	_	3	_	_	_
+4	:)	_	V	VVPP	_	4	_	_	_
+
+1	Ich	_	P	PPER	_	1	_	_	_
+2	bin	_	V	VAFIN	_	2	_	_	_
+3	hüt	_	A	ADV	_	3	_	_	_
+4	nach	_	A	APPR	_	4	_	_	_
+5	4	_	C	CARD	_	5	_	_	_
+6	täg	_	N	NN	_	6	_	_	_
+7	Vorbereitigscamp	_	N	NN	_	7	_	_	_
+8	i	_	A	APPR	_	8	_	_	_
+9	mim	_	P	PPOSAT	_	9	_	_	_
+10	neue	_	A	ADJA	_	10	_	_	_
+11	Dihei	_	N	NN	_	11	_	_	_
+12	aahcho	_	V	VVPP	_	12	_	_	_
+13	.	_	$	$.	_	13	_	_	_
+
+1	Estland	_	N	NE	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	es	_	P	PPER	_	3	_	_	_
+4	wunderschöns	_	A	ADJA	_	4	_	_	_
+5	Land	_	N	NN	_	5	_	_	_
+6	und	_	K	KON	_	6	_	_	_
+7	dLüüt	_	N	NN	_	7	_	_	_
+8	sind	_	V	VAFIN	_	8	_	_	_
+9	echt	_	A	ADV	_	9	_	_	_
+10	guet	_	A	ADJD	_	10	_	_	_
+11	druff	_	P	PAV	_	11	_	_	_
+12	.	_	$	$.	_	12	_	_	_
+13	.	_	$	$.	_	13	_	_	_
+14	!	_	$	$.	_	14	_	_	_
+
+1	:D	_	N	NE	_	1	_	_	_
+2	Ich	_	P	PPER	_	2	_	_	_
+3	wird	_	V	VAFIN	_	3	_	_	_
+4	i	_	A	APPR	_	4	_	_	_
+5	de	_	A	ART	_	5	_	_	_
+6	nechste	_	A	ADJA	_	6	_	_	_
+7	Ziit	_	N	NN	_	7	_	_	_
+8	mal	_	A	ADV	_	8	_	_	_
+9	paar	_	P	PIAT	_	9	_	_	_
+10	Fotis	_	N	NN	_	10	_	_	_
+11	mache	_	V	VVINF	_	11	_	_	_
+12	damit	_	K	KOUS	_	12	_	_	_
+13	au	_	A	ADV	_	13	_	_	_
+14	ihr	_	P	PPOSAT	_	14	_	_	_
+15	chli	_	A	ADJA	_	15	_	_	_
+16	chönd	_	V	VMFIN	_	16	_	_	_
+17	stuune	_	P	PIAT	_	17	_	_	_
+18	;)	_	C	CARD	_	18	_	_	_
+
+1	Bis	_	A	APPR	_	1	_	_	_
+2	bald	_	A	ADV	_	2	_	_	_
+3	,	_	$	$,	_	3	_	_	_
+4	ihr	_	P	PPOSAT	_	4	_	_	_
+5	fehled	_	V	VVFIN	_	5	_	_	_
+6	mir	_	P	PPER	_	6	_	_	_
+7	...	_	$	$(	_	7	_	_	_

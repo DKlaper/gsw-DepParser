@@ -1,0 +1,69 @@
+1	dQuilly	_	N	NE	_	1	_	_	_
+
+1	Si	_	P	PPER	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	also	_	A	ADV	_	3	_	_	_
+4	di	_	A	ART	_	4	_	_	_
+5	3	_	A	ADJA	_	5	_	_	_
+6	Mitbewohnerin	_	N	NN	_	6	_	_	_
+7	.	_	$	$.	_	7	_	_	_
+
+1	Ha	_	V	VAFIN	_	1	_	_	_
+2	gescht	_	A	ADV	_	2	_	_	_
+3	nochli	_	A	ADV	_	3	_	_	_
+4	gschnurrt	_	V	VVPP	_	4	_	_	_
+5	und	_	K	KON	_	5	_	_	_
+6	si	_	P	PPER	_	6	_	_	_
+7	glueklicherwiis	_	A	ADV	_	7	_	_	_
+8	gad	_	A	ADV	_	8	_	_	_
+9	no	_	A	ADV	_	9	_	_	_
+10	verwuetscht	_	V	VVPP	_	10	_	_	_
+11	,	_	$	$,	_	11	_	_	_
+12	bevor	_	K	KOUS	_	12	_	_	_
+13	si	_	P	PPER	_	13	_	_	_
+14	weggrennt	_	V	VVPP	_	14	_	_	_
+15	isch	_	V	VAFIN	_	15	_	_	_
+16	in	_	A	APPR	_	16	_	_	_
+17	Usgang	_	N	NN	_	17	_	_	_
+18	.	_	$	$.	_	18	_	_	_
+
+1	Si	_	P	PPER	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	au	_	A	ADV	_	3	_	_	_
+4	en	_	A	ART	_	4	_	_	_
+5	mega	_	A	ADV	_	5	_	_	_
+6	Schatz	_	N	NN	_	6	_	_	_
+7	!	_	$	$.	_	7	_	_	_
+
+1	Huet	_	N	NN	_	1	_	_	_
+2	nimmt	_	V	VVFIN	_	2	_	_	_
+3	si	_	P	PPER	_	3	_	_	_
+4	mich	_	A	ADJD	_	4	_	_	_
+5	mit	_	A	APPR	_	5	_	_	_
+6	Fruendinne	_	N	NN	_	6	_	_	_
+7	irgendwo	_	A	ADV	_	7	_	_	_
+8	ane	_	A	APPRART	_	8	_	_	_
+9	mit	_	A	APPR	_	9	_	_	_
+10	!	_	$	$.	_	10	_	_	_
+11	?	_	$	$.	_	11	_	_	_
+
+1	Urspruenglich	_	A	ADV	_	1	_	_	_
+2	waerets	_	A	ADV	_	2	_	_	_
+3	go	_	I	INFPART	_	3	_	_	_
+4	bowle	_	V	VVINF	_	4	_	_	_
+5	,	_	$	$,	_	5	_	_	_
+6	ez	_	A	ADV	_	6	_	_	_
+7	stat	_	A	ADJD	_	7	_	_	_
+8	glaub	_	V	VVFIN	_	8	_	_	_
+9	abr	_	K	KON	_	9	_	_	_
+10	oepis	_	A	ADV	_	10	_	_	_
+11	andrs	_	A	APPRART	_	11	_	_	_
+12	ufm	_	A	ADJA	_	12	_	_	_
+13	Programm	_	N	NN	_	13	_	_	_
+14	!	_	$	$.	_	14	_	_	_
+15	?	_	$	$.	_	15	_	_	_
+
+1	We'	_	A	ART	_	1	_	_	_
+2	ll	_	A	ADJA	_	2	_	_	_
+3	see	_	N	NN	_	3	_	_	_
+4	=)	_	V	VVPP	_	4	_	_	_

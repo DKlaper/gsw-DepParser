@@ -1,0 +1,28 @@
+1	Home	_	N	NN	_	1	_	_	_
+2	again	_	V	VVPP	_	2	_	_	_
+3	...	_	$	$.	_	3	_	_	_
+
+1	Fuer	_	N	NN	_	1	_	_	_
+2	die	_	A	ART	_	2	_	_	_
+3	vo	_	A	APPR	_	3	_	_	_
+4	oi	_	C	CARD	_	4	_	_	_
+5	wos	_	P	PRELS+	_	5	_	_	_
+6	nonig	_	P	PTKNEG	_	6	_	_	_
+7	wuesset	_	V	VVFIN	_	7	_	_	_
+8	:	_	$	$.	_	8	_	_	_
+9	Bi	_	A	APPR	_	9	_	_	_
+10	gescht	_	A	ADJA	_	10	_	_	_
+11	Nami	_	N	NN	_	11	_	_	_
+12	vode	_	A	APPRART	_	12	_	_	_
+13	USA	_	N	NE	_	13	_	_	_
+14	heicho	_	V	VVPP	_	14	_	_	_
+15	.	_	$	$.	_	15	_	_	_
+16	=)	_	A	ADV	_	16	_	_	_
+
+1	Be	_	A	APPR	_	1	_	_	_
+2	blessed	_	V	VVFIN	_	2	_	_	_
+3	and	_	A	ADJA	_	3	_	_	_
+4	see	_	N	NN	_	4	_	_	_
+5	you	_	V	VVPP	_	5	_	_	_
+6	..	_	A	ADJA	_	6	_	_	_
+7	=)	_	A	ADJA	_	7	_	_	_

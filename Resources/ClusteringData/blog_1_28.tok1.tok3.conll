@@ -1,0 +1,43 @@
+1	grazie	_	V	VVINF	_	1	_	_	_
+2	mille	_	V	VVINF	_	2	_	_	_
+3	.	_	$	$.	_	3	_	_	_
+
+1	namal	_	A	ADV	_	1	_	_	_
+2	ich	_	P	PPER	_	2	_	_	_
+3	gschwind	_	V	VVFIN	_	3	_	_	_
+4	.	_	$	$.	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	)	_	$	$(	_	1	_	_	_
+
+1	danke	_	V	VVFIN	_	1	_	_	_
+2	viel	_	A	ADV	_	2	_	_	_
+3	,	_	$	$,	_	3	_	_	_
+4	vielmal	_	A	ADV	_	4	_	_	_
+5	fuer	_	K	KOUS+	_	5	_	_	_
+6	euri	_	P	PPOSAT	_	6	_	_	_
+7	kommentaer	_	N	NN	_	7	_	_	_
+8	.	_	$	$.	_	8	_	_	_
+
+1	ier	_	N	NN	_	1	_	_	_
+2	wuessed	_	V	VVFIN	_	2	_	_	_
+3	gar	_	A	ADV	_	3	_	_	_
+4	noed	_	V	VVFIN	_	4	_	_	_
+5	wie	_	K	KOKOM	_	5	_	_	_
+6	fescht	_	A	ADV	_	6	_	_	_
+7	ich	_	A	ADV	_	7	_	_	_
+8	mich	_	A	ADJD	_	8	_	_	_
+9	freue	_	V	VVFIN	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	siete	_	A	ADJA	_	1	_	_	_
+2	sempre	_	A	ADJA	_	2	_	_	_
+3	nel	_	N	NN	_	3	_	_	_
+4	mio	_	V	VVPP	_	4	_	_	_
+5	cuore	_	V	VAPP	_	5	_	_	_
+6	.	_	$	$.	_	6	_	_	_
+
+1	un	_	K	KON	_	1	_	_	_
+2	bacione	_	N	NN	_	2	_	_	_
+3	alee	_	V	VVPP	_	3	_	_	_
+4	.	_	$	$.	_	4	_	_	_

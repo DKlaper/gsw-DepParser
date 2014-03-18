@@ -1,0 +1,507 @@
+1	Volkswirtschaftsdepartement	_	N	NN	_	1	_	_	_
+2	Us	_	A	APPR	_	2	_	_	_
+3	der	_	A	ART	_	3	_	_	_
+4	alemannische	_	A	ADJA	_	4	_	_	_
+5	Wikipedia	_	N	NE	_	5	_	_	_
+6	,	_	$	$,	_	6	_	_	_
+7	der	_	A	ART	_	7	_	_	_
+8	freie	_	A	ADJA	_	8	_	_	_
+9	Dialäkt-Enzyklopedy	_	N	NN	_	9	_	_	_
+10	Hops	_	N	NN	_	10	_	_	_
+11	zue	_	A	APPR	_	11	_	_	_
+12	:	_	$	$.	_	12	_	_	_
+13	Navigation	_	N	NN	_	13	_	_	_
+14	,	_	$	$,	_	14	_	_	_
+15	Suech	_	N	NN	_	15	_	_	_
+16	Technische	_	A	ADJA	_	16	_	_	_
+17	Yschränkung	_	N	NN	_	17	_	_	_
+18	:D	_	V	VVFIN	_	18	_	_	_
+19	r	_	A	ADV	_	19	_	_	_
+20	koräkt	_	A	ADJA	_	20	_	_	_
+21	Titel	_	N	NN	_	21	_	_	_
+22	wär	_	V	VAFIN	_	22	_	_	_
+23	:	_	$	$.	_	23	_	_	_
+24	»Eidgenössischs	_	A	ADJA	_	24	_	_	_
+25	Volkswirtschaftsdepartement«	_	N	NN	_	25	_	_	_
+26	Eidgenössischs	_	A	ADJA	_	26	_	_	_
+27	Volkswirtschaftsdepartement	_	N	NN	_	27	_	_	_
+28	(	_	$	$(	_	28	_	_	_
+29	EVD	_	N	NE	_	29	_	_	_
+30	)	_	$	$(	_	30	_	_	_
+31	Hauptsitz	_	N	NN	_	31	_	_	_
+32	Bärn	_	N	NE	_	32	_	_	_
+33	,	_	$	$,	_	33	_	_	_
+34	Bundeshuus	_	N	NE	_	34	_	_	_
+35	Ost	_	N	NE	_	35	_	_	_
+36	Vorsteherin	_	N	NN	_	36	_	_	_
+37	Johann	_	N	NE	_	37	_	_	_
+38	Schneider-Ammann	_	N	NE	_	38	_	_	_
+39	,	_	$	$,	_	39	_	_	_
+40	Bundesrot	_	N	NN	_	40	_	_	_
+41	Zahl	_	N	NN	_	41	_	_	_
+42	vo	_	A	APPR	_	42	_	_	_
+43	de	_	A	ART	_	43	_	_	_
+44	Mitarbeiter	_	N	NN	_	44	_	_	_
+45	2800	_	C	CARD	_	45	_	_	_
+46	Ufsicht	_	N	NN	_	46	_	_	_
+47	Bundesrot	_	N	NN	_	47	_	_	_
+48	Untergeordneti	_	N	NE	_	48	_	_	_
+49	Ämter•	_	N	NE	_	49	_	_	_
+50	Generalsekretariat•	_	N	NE	_	50	_	_	_
+51	Staatssekretariat	_	N	NN	_	51	_	_	_
+52	für	_	A	APPR	_	52	_	_	_
+53	Wirtschaft•	_	N	NE	_	53	_	_	_
+54	Bundesamt	_	V	VVFIN	_	54	_	_	_
+55	für	_	A	APPR	_	55	_	_	_
+56	Berufsbildig	_	N	NN	_	56	_	_	_
+57	und	_	K	KON	_	57	_	_	_
+58	Technologii•	_	N	NN	_	58	_	_	_
+59	Bundesamt	_	N	NN	_	59	_	_	_
+60	für	_	A	APPR	_	60	_	_	_
+61	Landwirtschaft•	_	N	NE	_	61	_	_	_
+62	Bundesamt	_	V	VVFIN	_	62	_	_	_
+63	für	_	A	APPR	_	63	_	_	_
+64	Veterinärwäse•	_	N	NE	_	64	_	_	_
+65	Bundesamt	_	V	VVFIN	_	65	_	_	_
+66	für	_	A	APPR	_	66	_	_	_
+67	wirtschaftligi	_	A	ADJA	_	67	_	_	_
+68	Landesversorgig•	_	N	NN	_	68	_	_	_
+69	Bundesamt	_	N	NN	_	69	_	_	_
+70	für	_	A	APPR	_	70	_	_	_
+71	Wohnigswäse	_	A	ADJA	_	71	_	_	_
+72	Website	_	N	NN	_	72	_	_	_
+73	www	_	V	VVPP	_	73	_	_	_
+74	.	_	$	$.	_	74	_	_	_
+
+1	evd	_	V	VVFIN	_	1	_	_	_
+2	.	_	$	$.	_	2	_	_	_
+3	ad	_	A	APPRART	_	3	_	_	_
+4	min.	_	A	ADJA	_	4	_	_	_
+5	ch	_	A	ADJA	_	5	_	_	_
+6	Dialäkt	_	N	NN	_	6	_	_	_
+7	:	_	$	$.	_	7	_	_	_
+8	Züridütsch	_	N	NN	_	8	_	_	_
+9	(	_	$	$(	_	9	_	_	_
+10	See	_	N	NN	_	10	_	_	_
+11	)	_	$	$(	_	11	_	_	_
+12	S	_	A	ART	_	12	_	_	_
+13	Eidgenössische	_	A	ADJA	_	13	_	_	_
+14	Volkswirtschaftsdepartement	_	N	NN	_	14	_	_	_
+15	(	_	$	$(	_	15	_	_	_
+16	EVD	_	N	NE	_	16	_	_	_
+17	)	_	$	$(	_	17	_	_	_
+18	isch	_	V	VAFIN	_	18	_	_	_
+19	eis	_	C	CARD	_	19	_	_	_
+20	vo	_	A	APPR	_	20	_	_	_
+21	de	_	A	ART	_	21	_	_	_
+22	sibe	_	C	CARD	_	22	_	_	_
+23	Departement	_	N	NN	_	23	_	_	_
+24	i	_	A	APPR	_	24	_	_	_
+25	dr	_	A	ART	_	25	_	_	_
+26	Schwiiz	_	N	NE	_	26	_	_	_
+27	.	_	$	$.	_	27	_	_	_
+
+1	Jewiils	_	A	ADV	_	1	_	_	_
+2	eine	_	A	ART	_	2	_	_	_
+3	vo	_	A	APPR	_	3	_	_	_
+4	de	_	A	ART	_	4	_	_	_
+5	Bundesrät	_	N	NN	_	5	_	_	_
+6	schtaht	_	V	VVFIN	_	6	_	_	_
+7	em	_	A	ART	_	7	_	_	_
+8	Departement	_	N	NN	_	8	_	_	_
+9	vor	_	P	PTKVZ	_	9	_	_	_
+10	.	_	$	$.	_	10	_	_	_
+
+1	Arbetsplätz	_	N	NN	_	1	_	_	_
+2	,	_	$	$,	_	2	_	_	_
+3	Bruefsbildig	_	N	NN	_	3	_	_	_
+4	,	_	$	$,	_	4	_	_	_
+5	Wirtschaftswachstum	_	N	NN	_	5	_	_	_
+6	:	_	$	$.	_	6	_	_	_
+7	Meeh	_	A	ADV	_	7	_	_	_
+8	als	_	K	KOKOM	_	8	_	_	_
+9	zweituusig	_	C	CARD	_	9	_	_	_
+10	Mitarbeiterinnen	_	N	NN	_	10	_	_	_
+11	und	_	K	KON	_	11	_	_	_
+12	Mitarbeiter	_	N	NN	_	12	_	_	_
+13	sorged	_	V	VVFIN	_	13	_	_	_
+14	im	_	A	APPRART	_	14	_	_	_
+15	Eidgenössische	_	A	ADJA	_	15	_	_	_
+16	Volkswirtschaftsdepartement	_	N	NN	_	16	_	_	_
+17	für	_	A	APPR	_	17	_	_	_
+18	optimali	_	A	ADJA	_	18	_	_	_
+19	Rahmebedingige	_	N	NN	_	19	_	_	_
+20	für	_	A	APPR	_	20	_	_	_
+21	Arbetgeber	_	N	NN	_	21	_	_	_
+22	und	_	K	KON	_	22	_	_	_
+23	Undernehmer	_	N	NN	_	23	_	_	_
+24	,	_	$	$,	_	24	_	_	_
+25	für	_	A	APPR	_	25	_	_	_
+26	s	_	A	ART	_	26	_	_	_
+27	Gwerb	_	N	NN	_	27	_	_	_
+28	,	_	$	$,	_	28	_	_	_
+29	für	_	A	APPR	_	29	_	_	_
+30	chliini	_	A	ADJA	_	30	_	_	_
+31	und	_	K	KON	_	31	_	_	_
+32	mittleri	_	A	ADJA	_	32	_	_	_
+33	Betrieb	_	N	NN	_	33	_	_	_
+34	,	_	$	$,	_	34	_	_	_
+35	aber	_	K	KON	_	35	_	_	_
+36	au	_	A	ADV	_	36	_	_	_
+37	für	_	A	APPR	_	37	_	_	_
+38	multinationali	_	A	ADJA	_	38	_	_	_
+39	Grossundernehme	_	N	NN	_	39	_	_	_
+40	.	_	$	$.	_	40	_	_	_
+
+1	S	_	A	ART	_	1	_	_	_
+2	Departement	_	N	NN	_	2	_	_	_
+3	schtüüret	_	V	VVPP	_	3	_	_	_
+4	und	_	K	KON	_	4	_	_	_
+5	begleitet	_	V	VVPP	_	5	_	_	_
+6	di	_	A	ART	_	6	_	_	_
+7	wirtschaftspolitische	_	A	ADJA	_	7	_	_	_
+8	Entscheid	_	N	NN	_	8	_	_	_
+9	und	_	K	KON	_	9	_	_	_
+10	d	_	A	ART	_	10	_	_	_
+11	Umsetzig	_	N	NN	_	11	_	_	_
+12	vo	_	A	APPR	_	12	_	_	_
+13	dene	_	P	PDAT	_	13	_	_	_
+14	.	_	$	$.	_	14	_	_	_
+
+1	Es	_	P	PPER	_	1	_	_	_
+2	underschtützt	_	V	VVPP	_	2	_	_	_
+3	e	_	A	ART	_	3	_	_	_
+4	Politik	_	N	NN	_	4	_	_	_
+5	,	_	$	$,	_	5	_	_	_
+6	wo	_	P	PRELS	_	6	_	_	_
+7	d	_	A	ART	_	7	_	_	_
+8	Uusgangslaag	_	N	NN	_	8	_	_	_
+9	für	_	A	APPR	_	9	_	_	_
+10	de	_	A	ART	_	10	_	_	_
+11	Wirtschafts-	_	T	TRUNC	_	11	_	_	_
+12	und	_	K	KON	_	12	_	_	_
+13	Forschigsschtandort	_	N	NN	_	13	_	_	_
+14	Schwiiz	_	N	NE	_	14	_	_	_
+15	im	_	A	APPRART	_	15	_	_	_
+16	globale	_	A	ADJA	_	16	_	_	_
+17	Wettbewerb	_	N	NN	_	17	_	_	_
+18	verbesseret	_	V	VVPP	_	18	_	_	_
+19	.	_	$	$.	_	19	_	_	_
+
+1	Am	_	A	APPRART	_	1	_	_	_
+2	Aafang	_	N	NN	_	2	_	_	_
+3	vom	_	A	APPRART	_	3	_	_	_
+4	Bundesschtaat	_	N	NN	_	4	_	_	_
+5	hät	_	V	VAFIN	_	5	_	_	_
+6	s	_	A	ART	_	6	_	_	_
+7	Departement	_	N	NN	_	7	_	_	_
+8	"	_	$	$(	_	8	_	_	_
+9	Handels-	_	T	TRUNC	_	9	_	_	_
+10	und	_	K	KON	_	10	_	_	_
+11	Zolldepartement	_	N	NN	_	11	_	_	_
+12	"	_	$	$(	_	12	_	_	_
+13	gheisse	_	V	VVPP	_	13	_	_	_
+14	.	_	$	$.	_	14	_	_	_
+
+1	Es	_	P	PPER	_	1	_	_	_
+2	isch	_	V	VAFIN	_	2	_	_	_
+3	sitdem	_	A	APPRART	_	3	_	_	_
+4	mehrmals	_	N	NN	_	4	_	_	_
+5	umbenännt	_	V	VVPP	_	5	_	_	_
+6	worde	_	V	VAPP	_	6	_	_	_
+7	.	_	$	$.	_	7	_	_	_
+
+1	Di	_	A	ART	_	1	_	_	_
+2	bisherige	_	A	ADJA	_	2	_	_	_
+3	Näme	_	N	NN	_	3	_	_	_
+4	sind	_	V	VAFIN	_	4	_	_	_
+5	gsii	_	V	VAPP	_	5	_	_	_
+6	:•	_	A	ADJA	_	6	_	_	_
+7	1848-1872	_	C	CARD	_	7	_	_	_
+8	:	_	$	$.	_	8	_	_	_
+
+1	Handels-	_	T	TRUNC	_	1	_	_	_
+2	und	_	K	KON	_	2	_	_	_
+3	Zolldepartement•	_	N	NN	_	3	_	_	_
+4	1873-1878	_	V	VVPP	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Iisebahn-	_	T	TRUNC	_	1	_	_	_
+2	und	_	K	KON	_	2	_	_	_
+3	Handelsdepartement•	_	N	NN	_	3	_	_	_
+4	1879-1887	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Handels-	_	T	TRUNC	_	1	_	_	_
+2	und	_	K	KON	_	2	_	_	_
+3	Landwirtschaftsdepartement•	_	N	NN	_	3	_	_	_
+4	1888-1895	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Induchstrie-	_	T	TRUNC	_	1	_	_	_
+2	und	_	K	KON	_	2	_	_	_
+3	Landwirtschaftsdepartement•	_	N	NN	_	3	_	_	_
+4	1896-1914	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Handels-	_	T	TRUNC	_	1	_	_	_
+2	,	_	$	$,	_	2	_	_	_
+3	Induschtrie-	_	T	TRUNC	_	3	_	_	_
+4	und	_	K	KON	_	4	_	_	_
+5	Landwirtschaftsdepartement•	_	N	NN	_	5	_	_	_
+6	1915-1978	_	V	VVPP	_	6	_	_	_
+7	:	_	$	$.	_	7	_	_	_
+
+1	Volkswirtschaftsdepartement•	_	N	NE	_	1	_	_	_
+2	Seit	_	N	NN	_	2	_	_	_
+3	1979	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Eidgenössischs	_	A	ADJA	_	1	_	_	_
+2	Volkswirtschaftsdepartement	_	N	NN	_	2	_	_	_
+3	Uufgabebereich•	_	N	NE	_	3	_	_	_
+4	Wirtschaftspolitik•	_	N	NE	_	4	_	_	_
+5	Bruefsbildig	_	N	NN	_	5	_	_	_
+6	und	_	K	KON	_	6	_	_	_
+7	Technologie•	_	N	NE	_	7	_	_	_
+8	Landwirtschaft•	_	N	NE	_	8	_	_	_
+9	Veterinärwese•	_	N	NE	_	9	_	_	_
+10	Wirtschaftlichi	_	N	NN	_	10	_	_	_
+11	Landesversorgig•	_	N	NE	_	11	_	_	_
+12	Wohnigswese•	_	N	NE	_	12	_	_	_
+13	Zivildienscht	_	N	NN	_	13	_	_	_
+14	Departementsvorschteher•	_	N	NE	_	14	_	_	_
+15	1848-1853	_	C	CARD	_	15	_	_	_
+16	:	_	$	$.	_	16	_	_	_
+
+1	Friedrich	_	N	NE	_	1	_	_	_
+2	Frey-Herosé•	_	N	NE	_	2	_	_	_
+3	1854	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Wilhelm	_	N	NE	_	1	_	_	_
+2	Matthias	_	N	NE	_	2	_	_	_
+3	Naeff•	_	N	NE	_	3	_	_	_
+4	1855	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Martin	_	N	NE	_	1	_	_	_
+2	J	_	N	NN	_	2	_	_	_
+3	.	_	$	$.	_	3	_	_	_
+4	Munzinger•	_	N	NE	_	4	_	_	_
+5	1855-1856	_	C	CARD	_	5	_	_	_
+6	:	_	$	$.	_	6	_	_	_
+
+1	Constant	_	N	NN	_	1	_	_	_
+2	Fornerod•	_	N	NE	_	2	_	_	_
+3	1857	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Melchior	_	A	APPR	_	1	_	_	_
+2	Josef	_	N	NE	_	2	_	_	_
+3	Martin	_	N	NE	_	3	_	_	_
+4	Knüsel•	_	N	NE	_	4	_	_	_
+5	1858	_	C	CARD	_	5	_	_	_
+6	:	_	$	$.	_	6	_	_	_
+
+1	Constant	_	N	NN	_	1	_	_	_
+2	Fornerod•	_	N	NE	_	2	_	_	_
+3	1859-1860	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Melchior	_	A	APPR	_	1	_	_	_
+2	Josef	_	N	NE	_	2	_	_	_
+3	Martin	_	N	NE	_	3	_	_	_
+4	Knüsel•	_	N	NE	_	4	_	_	_
+5	1861-1866	_	C	CARD	_	5	_	_	_
+6	:	_	$	$.	_	6	_	_	_
+
+1	Friedrich	_	N	NE	_	1	_	_	_
+2	Frey-Herosé•	_	N	NE	_	2	_	_	_
+3	1867-1873	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Wilhelm	_	N	NE	_	1	_	_	_
+2	Matthias	_	N	NE	_	2	_	_	_
+3	Naeff•	_	N	NE	_	3	_	_	_
+4	1873-1874	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Johann	_	N	NE	_	1	_	_	_
+2	Jakob	_	N	NE	_	2	_	_	_
+3	Scherer•	_	N	NE	_	3	_	_	_
+4	1875-1877	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Karl	_	N	NE	_	1	_	_	_
+2	Schenk•	_	N	NE	_	2	_	_	_
+3	1878	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Joachim	_	N	NE	_	1	_	_	_
+2	Heer•	_	N	NE	_	2	_	_	_
+3	1879-1880	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Numa	_	N	NE	_	1	_	_	_
+2	Droz•	_	N	NE	_	2	_	_	_
+3	1881	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Antoine	_	N	NN	_	1	_	_	_
+2	Louis	_	N	NE	_	2	_	_	_
+3	John	_	N	NE	_	3	_	_	_
+4	Ruchonnet•	_	N	NE	_	4	_	_	_
+5	1882-1886	_	C	CARD	_	5	_	_	_
+6	:	_	$	$.	_	6	_	_	_
+
+1	Numa	_	N	NE	_	1	_	_	_
+2	Droz•	_	N	NE	_	2	_	_	_
+3	1887-1896	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Adolf	_	N	NE	_	1	_	_	_
+2	Deucher•	_	N	NE	_	2	_	_	_
+3	1897	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Adrien	_	N	NE	_	1	_	_	_
+2	Lachenal•	_	N	NE	_	2	_	_	_
+3	1898-1902	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Adolf	_	N	NE	_	1	_	_	_
+2	Deucher•	_	N	NE	_	2	_	_	_
+3	1903	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Ludwig	_	N	NE	_	1	_	_	_
+2	Forrer•	_	N	NE	_	2	_	_	_
+3	1904-1908	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Adolf	_	N	NE	_	1	_	_	_
+2	Deucher•	_	N	NE	_	2	_	_	_
+3	1909	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Josef	_	N	NN	_	1	_	_	_
+2	Anton	_	N	NE	_	2	_	_	_
+3	Schobinger•	_	N	NE	_	3	_	_	_
+4	1910-1912	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Adolf	_	N	NE	_	1	_	_	_
+2	Deucher•	_	N	NE	_	2	_	_	_
+3	1912-1934	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Edmund	_	N	NE	_	1	_	_	_
+2	Schulthess•	_	N	NE	_	2	_	_	_
+3	1934-1940	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Hermann	_	N	NE	_	1	_	_	_
+2	Obrecht•	_	N	NE	_	2	_	_	_
+3	1940-1947	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Walther	_	N	NE	_	1	_	_	_
+2	Stampfli•	_	N	NE	_	2	_	_	_
+3	1948-1954	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Rodolphe	_	N	NN	_	1	_	_	_
+2	Rubattel•	_	N	NE	_	2	_	_	_
+3	1955-1959	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Thomas	_	N	NE	_	1	_	_	_
+2	Holenstein•	_	N	NE	_	2	_	_	_
+3	1960-1961	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Friedrich	_	N	NN	_	1	_	_	_
+2	Traugott	_	N	NN	_	2	_	_	_
+3	Wahlen•	_	N	NE	_	3	_	_	_
+4	1961-1969	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Hans	_	N	NE	_	1	_	_	_
+2	Schaffner•	_	N	NE	_	2	_	_	_
+3	1970-1978	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Ernst	_	N	NN	_	1	_	_	_
+2	Brugger•	_	N	NE	_	2	_	_	_
+3	1978-1982	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Fritz	_	N	NE	_	1	_	_	_
+2	Honegger•	_	N	NE	_	2	_	_	_
+3	1983-1986	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Kurt	_	N	NE	_	1	_	_	_
+2	Furgler•	_	N	NE	_	2	_	_	_
+3	1987-1998	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Jean-Pascal	_	N	NE	_	1	_	_	_
+2	Delamuraz•	_	N	NE	_	2	_	_	_
+3	1998-2002	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Pascal	_	N	NE	_	1	_	_	_
+2	Couchepin•	_	N	NE	_	2	_	_	_
+3	2003-2006	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Joseph	_	N	NE	_	1	_	_	_
+2	Deiss•	_	N	NE	_	2	_	_	_
+3	2006–2010	_	C	CARD	_	3	_	_	_
+4	:	_	$	$.	_	4	_	_	_
+
+1	Doris	_	N	NE	_	1	_	_	_
+2	Leuthard•	_	N	NE	_	2	_	_	_
+3	sit	_	A	APPR	_	3	_	_	_
+4	2010	_	C	CARD	_	4	_	_	_
+5	:	_	$	$.	_	5	_	_	_
+
+1	Johann	_	N	NE	_	1	_	_	_
+2	Schneider-Ammann	_	N	NE	_	2	_	_	_
+3	Weblinks•	_	N	NE	_	3	_	_	_
+4	Offizielli	_	A	ADJA	_	4	_	_	_
+5	Website	_	N	NN	_	5	_	_	_
+6	vom	_	A	APPRART	_	6	_	_	_
+7	EVD	_	N	NN	_	7	_	_	_
+8	Dä	_	P	PDAT	_	8	_	_	_
+9	Artikel	_	N	NN	_	9	_	_	_
+10	basiert	_	V	VVFIN	_	10	_	_	_
+11	uff	_	A	APPR	_	11	_	_	_
+12	ere	_	A	ART	_	12	_	_	_
+13	fräie	_	A	ADJA	_	13	_	_	_
+14	Übbersetzig	_	N	NN	_	14	_	_	_
+15	vum	_	A	APPRART	_	15	_	_	_
+16	Artikel	_	N	NN	_	16	_	_	_
+17	„Eidgenössisches_Volkswirtschaftsdepartement“	_	N	NN	_	17	_	_	_
+18	vu	_	A	APPR	_	18	_	_	_
+19	de	_	A	ART	_	19	_	_	_
+20	dütsche	_	A	ADJA	_	20	_	_	_
+21	Wikipedia	_	N	NE	_	21	_	_	_
+22	.	_	$	$.	_	22	_	_	_
+
+1	E	_	A	ART	_	1	_	_	_
+2	Liste	_	N	NN	_	2	_	_	_
+3	vu	_	A	APPR	_	3	_	_	_
+4	de	_	A	ART	_	4	_	_	_
+5	Autore	_	N	NN	_	5	_	_	_
+6	un	_	K	KON	_	6	_	_	_
+7	Versione	_	N	NN	_	7	_	_	_
+8	isch	_	V	VAFIN	_	8	_	_	_
+9	do	_	A	ADV	_	9	_	_	_
+10	z	_	P	PTKZU	_	10	_	_	_
+11	finde	_	V	VVINF	_	11	_	_	_
+12	.	_	$	$.	_	12	_	_	_
+
+1	Elisabeth	_	N	NE	_	1	_	_	_
