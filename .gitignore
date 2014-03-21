@@ -22,4 +22,8 @@
 *.out
 *.synctex.gz
 tokenize.pl
-TurboParser2.1.0/deps/
+Source/TurboParser2.1.0/deps/AD3-2.0.2/
+Source/TurboParser2.1.0/deps/gflags-2.0/
+Source/TurboParser2.1.0/deps/glog-0.3.2/
+Source/TurboParser2.1.0/deps/local/
+
