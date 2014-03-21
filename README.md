@@ -20,6 +20,9 @@ and also add the path to Source/ to your PATH.
 (this sets all the relative paths correctly if you call the parser from somewhere else
 by typing gswDepParser.py (without python))
 
+Basic Usage
+===========
+
 Organization of the Repo
 ========================
 
@@ -56,8 +59,51 @@ This parser requires:
     
 It assumes that input is utf-8 encoded and uses "\n" (Unix) line endings
 
+Advanced Usage: Create Clustering
+=================================
+
+To create a clustering you can perform the following steps from this Folder:
+
+To create normally flowed text in complete.txt from the CoNLL files:
+python Tools/makeClustering.py Resources/ClusteringData/complete.txt Resources/ClusteringData/*.conll 
+
+Then run the clustering on this file: 
+Source/External/liang_brownclustering/wcluster --c 100 --min-occur 3 --text Resources/ClusteringData/complete.txt --paths Source/External/liang_brownclustering/clusterings/defcluster.txt --output_dir /tmp/clustering
+
+--c is the number of clusters
+--min-occur is how many times a word has to occur in the corpus to be considered
+--text is the input
+--paths is the clustering file
+--output_dir is for additional files like logs that you typically don't need just for parsing
+(Assuming you have compiled the clusterer by calling make in the Source/External/liang_brownclustering/ Folder)
+
+if you rename the clustering file be sure to call the appropriate file in the DEFAULTSETTINGS in Source/Features.py as second argument to BrownCluster
+
 Licenses Tokenizer, Tagger
 ==========================
+
+This parser, i.e., the python scripts + the training material are licensed under the Apache 2.0 license
+
+Copyright 2014 David Klaper
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+
+
+
+Note that some external parts of this software cannot be used for commercial/non-research purposes:
+If you want to use the parser for commercial purposes you have to replace in particular the clusterer and the tokenizer.
+Please consult the relevant licenses
 
 The PoS-Tagger HunPos is distributed under the new BSD license http://opensource.org/licenses/BSD-3-Clause
 For more information visit their website at http://code.google.com/p/hunpos/

@@ -14,6 +14,7 @@ PARSER = os.getenv("GSWPARSER", os.getcwd())
 
 sys.path.append(PARSER)
 from PreProcessing import preTagProc,  preParseProc
+from Features import FeatureConfig
 TURBOP = os.path.join(PARSER, "TurboParser2.1.0","TurboParser")
 
 def argumentSetup():
@@ -80,6 +81,9 @@ if __name__ == "__main__":
         taggedFile = os.path.join(TEMP, "GSW_tagged"+os.path.basename(parser.inputFile))
         posTag(parser.inputFile, taggedFile)
         
+    # assign features 
+    FeatureConfig().run(taggedFile)
+    
     # call Turbo Parser training
     args = ["--train", "--file_train={}".format(taggedFile), "--file_model={}".format(parser.outputFile)] + map(lambda x: "--"+x, parser.turboOpt)
     

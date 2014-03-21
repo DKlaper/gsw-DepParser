@@ -14,7 +14,7 @@ PARSER = os.getenv("GSWPARSER", os.getcwd())
 
 sys.path.append(PARSER)
 import PreProcessing
-
+from Features import FeatureConfig
 TURBOP = os.path.join(PARSER, "TurboParser2.1.0","TurboParser")
 
 def argumentSetup():
@@ -37,12 +37,14 @@ if __name__ == "__main__":
         taggedFile = os.path.join(TEMP, "GSW_tagged"+os.path.basename(parser.inputFile))
         PreProcessing.main(parser.inputFile, taggedFile)
         
+    # assign features
+    FeatureConfig().run(taggedFile)
+        
     model = os.path.join(PARSER,"Models","GSW_original.model")
     if parser.model:
         model = parser.model
         
     # call Turbo Parser
-    print model
     args = ["--test", "--file_model={}".format(model), "--file_test={}".format(taggedFile), "--file_prediction={}".format(parser.outputFile)]  + map(lambda x: "--"+x, parser.turboOpt)
     
     print "Called TurboParser with options: "+" ".join(args)

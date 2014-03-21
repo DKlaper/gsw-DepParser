@@ -20,6 +20,7 @@
 *.mtc
 *.mtc1
 *.out
+*.pyc
 *.synctex.gz
 tokenize.pl
 Source/TurboParser2.1.0/deps/AD3-2.0.2/

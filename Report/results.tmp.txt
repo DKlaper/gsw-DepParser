@@ -29,3 +29,6 @@ lowercased Standard per Fold:
 
 lowercased Full per Fold: 
 3X 60.13, 60.56, 63.00 = 61.23%
+
+#(Clusterint4pre 100C Std plain 76.2%)
+#(per Fold 10X: 64.86, 70.16, 63.85, 58.76, 57.59, 71.41, 70.42, 71.19, 70.12, 71.79)

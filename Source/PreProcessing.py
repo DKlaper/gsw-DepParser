@@ -4,8 +4,8 @@
 
 # Wrapper that takes an input text and runs tokenization and PoS-tagging on it
 # Furthermore the output is in CoNLL format
-# By default -> lowercase everything
 
+# Standalone Usage
 # python PreProcessing.py inputFile outputFile
 
 import os, sys, subprocess, codecs, tempfile

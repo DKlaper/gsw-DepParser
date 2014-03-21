@@ -8,12 +8,10 @@
 # Usage: python makeClustering.py FolderforOutput InputConllFiles...
 # it takes as input the output folder and all conll files to be included for training the clusterer
 
-CLUSTERS=800 # Number of clusters
-
 import codecs, subprocess, sys
 
-def makeFile(fllst):
-    with codecs.open("clusters.txt", 'w', encoding="utf-8") as conout:
+def makeFile(outfile, fllst):
+    with codecs.open(outfile, 'w', encoding="utf-8") as conout:
         
       for fn in fllst:
         text = ""
@@ -33,6 +31,6 @@ def makeFile(fllst):
             
 if __name__ == "__main__":
     
-    makeFile(sys.argv[1:])
+    makeFile(sys.argv[1], sys.argv[2:])
     
     
