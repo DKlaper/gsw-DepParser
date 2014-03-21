@@ -108,7 +108,7 @@ if you rename the clustering file be sure to call the appropriate file in the DE
 Licenses Tokenizer, Tagger
 ==========================
 
-This parser, i.e., the python scripts + the training material are licensed under the Apache 2.0 license
+This parser, i.e., the python scripts + the training material (But not external tools such as the tokenizer and clusterer!!) are licensed under the Apache 2.0 license
 
 Copyright 2014 David Klaper
 
