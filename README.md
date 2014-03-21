@@ -23,6 +23,23 @@ by typing gswDepParser.py (without python))
 Basic Usage
 ===========
 
+Execute in the Source/ folder
+To parse: 
+python gswDepParser.py  --model Models/parsingmodel input.txt output.predicted
+
+if your input is in CoNLL
+python gswDepParser.py  --tagged --model Models/parsingmodel input.conll output.predicted
+
+
+To train a parser:
+python gswDepTrain.py train.conll Models/outparsingmodel model_type=basic
+
+model_type=basic is an option directly for turbo parser training only a basic model, you can also train other model_types
+or leave the option out. Then a standard model will be trained.
+
+(for more options just call the programs without arguments)
+
+
 Organization of the Repo
 ========================
 
@@ -59,8 +76,17 @@ This parser requires:
     
 It assumes that input is utf-8 encoded and uses "\n" (Unix) line endings
 
-Advanced Usage: Create Clustering
+Advanced Usage: Clustering
 =================================
+
+CHANGE FEATURE SETTINGS
+
+to change the feature settings go to Source/Features.py
+and change DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 10]]
+each list element is a feature the format is ["Feature name", arg1, arg2]
+for BrownCluster it is  ["BrownCluster", prefixLength, clusterfilepath]
+
+CREATE NEW CLUSTERING
 
 To create a clustering you can perform the following steps from this Folder:
 
@@ -100,8 +126,7 @@ limitations under the License.
 
 
 
-
-Note that some external parts of this software cannot be used for commercial/non-research purposes:
+NOTE that some external parts of this software cannot be used for commercial/non-research purposes:
 If you want to use the parser for commercial purposes you have to replace in particular the clusterer and the tokenizer.
 Please consult the relevant licenses
 
