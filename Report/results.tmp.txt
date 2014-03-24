@@ -1,12 +1,14 @@
-       Corpus:  |   3XValidation        10XValidation       CorpusA
+       Corpus:  |   3XValidation        10XValidation       CorpusA     
 Model           |
-----------------+------------------------------------------------------------------------
+----------------+------------------------------------------------------
 plain Basic     |   61.037%              64.628%            75.14%
 plain Standard  |   60.973%              65.447%            75.25%
 plain Full      |   61.393%              -------            74.81%
 lowercased Basic|   60.933%              64.886%            74.92%
 lowercased Std  |   61.007%              65.493%            74.59%
 lowercased Full |   61.230%              -------            74.81%
+
+
 
 plain Basic per Fold:
 10X 62.14, 67.66, 62.50, 55.91, 54.69, 68.52, 68.71, 67.08, 67.92, 71.15 = 64.628% 
@@ -30,5 +32,38 @@ lowercased Standard per Fold:
 lowercased Full per Fold: 
 3X 60.13, 60.56, 63.00 = 61.23%
 
-#(Clusterint4pre 100C Std plain 76.2%)
-#(per Fold 10X: 64.86, 70.16, 63.85, 58.76, 57.59, 71.41, 70.42, 71.19, 70.12, 71.79)
+------------------------------------------------------------------------------
+Part B 
+
+       Corpus:  |   10XValidation       CorpusA         Corpus B   
+Model           |
+----------------+------------------------------------------------------
+plain Standard  |       65.447%         75.25%          56.57%
+plain Full      |       -------         74.81%          56.90%
+lowercased Std  |       65.493%         74.59%          57.22%
+lowercased Full |       -------         74.81%          57.44%
+plain Std 4P+F  |       67.391%         76.57%          59.91%
+lower Std 4P+F  |       67.086%         75.36%          59.91%
+Low Cl Std 4P+F |       67.637%         75.58%          60.88%
+Low Cl Std 4P   |       66.729%         75.47%          60.67%
+Low CL Std F    |       66.566%         75.25%          58.30%
+
+
+Clustering approaches: (only Standard models) 
+
+C = 100
+
+4P+F  (4 chars prefix feature + full bit string feature) plain:
+10X 67.09, 69.22, 65.69, 59.39, 58.59, 70.08, 70.22, 70.68, 69.79, 73.16 = 67.390999%
+
+4P+F  (4 chars prefix feature + full bit string feature) lower:
+10X 65.18, 69.53, 65.44, 58.23, 57.92, 70.33, 70.62, 70.47, 70.78, 72.36 = 67.086%
+
+lowercased Clusters 4P+F:
+10X 68.05, 70.94, 65.69, 59.60, 59.26, 70.08, 70.12, 69.96, 69.35, 73.32 = 67.637%
+
+lowercased Clusters 4P:
+10X 64.22, 69.06, 64.71, 58.54, 57.03, 70.57, 69.52, 71.30, 69.90, 72.44 = 66.729%
+
+lowercased Clusters F:
+10X 63.42, 69.53, 63.97, 59.18, 57.37, 70.33, 70.82, 69.65, 68.47, 72.92 = 66.566%

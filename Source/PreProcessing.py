@@ -27,8 +27,8 @@ def preTagProc(word):
 def preParseProc(word, tag):
     """Preprocessing before parsing (after tagging)"""
     # lowercase everything? 
-    # word = word.lower()
-    # if issmiley(word) tag=XY ? 
+    #word = word.lower()
+     
     
     return word, tag
 

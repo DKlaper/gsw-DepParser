@@ -110,7 +110,7 @@ Licenses Tokenizer, Tagger
 
 This parser, i.e., the python scripts + the training material (But not external tools such as the tokenizer and clusterer!!) are licensed under the Apache 2.0 license
 
-Copyright 2014 David Klaper
+Copyright 2014 David Klaper, Carnegie Mellon University
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

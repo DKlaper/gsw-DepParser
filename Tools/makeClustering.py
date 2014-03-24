@@ -20,6 +20,7 @@ def makeFile(outfile, fllst):
         
         with codecs.open(fn, encoding="utf-8") as conin:
             for line in conin:
+                line = line.lower() # lowercased clustering
                 if line.strip() == "":
                     text += " \n"
                 else:

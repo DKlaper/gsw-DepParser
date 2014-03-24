@@ -3,13 +3,14 @@
 # David Klaper, Carnegie Mellon University
 
 # Manage the features added to the CoNLL morphological Feature field
-# Contains as possible feature:
+# Current available features:
 #       - Cluster Number from brown clustering
 
 import os, sys, subprocess, codecs, tempfile
 from abc import * # abstract base classes
 
-DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 10]]
+#DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 10]]
+DEFAULTFEATURES = [["BrownCluster", 20]]
 
 TEMP = tempfile.gettempdir()
 PARSER = os.getenv("GSWPARSER", os.getcwd())
@@ -63,7 +64,7 @@ class FeatureConfig(object):
         
 class BrownCluster(Feature):
     """Class that represents the settings for brownclustering at runtime"""
-    def __init__(self, preflen=4, clusteringfile=os.path.join(EXTERNALDIR, "liang_brownclustering", "clusterings", "defcluster.txt")):
+    def __init__(self, preflen=4, clusteringfile=os.path.join(EXTERNALDIR, "liang_brownclustering", "clusterings", "defclusterLower.txt")):
         self.prefix = preflen
         self.clusters = self.readPaths(clusteringfile)
     
