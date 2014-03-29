@@ -5,12 +5,12 @@
 # Manage the features added to the CoNLL morphological Feature field
 # Current available features:
 #       - Cluster Number from brown clustering
+#       - Pronounciation of stem -> well it's simple truncation after x chars
 
 import os, sys, subprocess, codecs, tempfile
 from abc import * # abstract base classes
 
-#DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 10]]
-DEFAULTFEATURES = [["BrownCluster", 20]]
+DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 10], ["PronounciatonStem"]]
 
 TEMP = tempfile.gettempdir()
 PARSER = os.getenv("GSWPARSER", os.getcwd())
@@ -64,7 +64,7 @@ class FeatureConfig(object):
         
 class BrownCluster(Feature):
     """Class that represents the settings for brownclustering at runtime"""
-    def __init__(self, preflen=4, clusteringfile=os.path.join(EXTERNALDIR, "liang_brownclustering", "clusterings", "defclusterLower.txt")):
+    def __init__(self, preflen=4, clusteringfile=os.path.join(EXTERNALDIR, "liang_brownclustering", "clusterings", "defcluster50.txt")):
         self.prefix = preflen
         self.clusters = self.readPaths(clusteringfile)
     
@@ -82,7 +82,32 @@ class BrownCluster(Feature):
         return words    
         
     def getFeature(self, CoNLLWord):
-        return self.clusters.get( CoNLLWord[1], UNK_CLUSTER)
+        return self.clusters.get( CoNLLWord[1].lower(), UNK_CLUSTER)
+        
+        
+class PronounciatonStem(Feature):
+    """Class that represents a feature that tries to do phonetic simplification and uses only the first N letters"""
+    def __init__(self, stemlen = 4):
+        self.stemlen = stemlen    
 
-
-    
+    def getFeature(self, CoNLLWord):
+        w = CoNLLWord[1].lower()
+        
+        # normalize umlauts and greek dipthongs
+        w = w.replace("ae", u"ä").replace("oe", u"ö").replace("ue", u"ü")
+        # treat vowels dark and bright vowels the same
+        w = w.replace("a", "o").replace("u", "o").replace("i", "e").replace(u"ä", "e")
+        # replace some typically similar sounding vowels
+        w = w.replace("ph", "f").replace("v", "f").replace("b", "p").replace("ck", "k").replace("th", "t").replace("tz", "z").replace("sch", "s")
+        
+        last = None
+        res = ""
+        # remove duplicated letters and remove all h not at the beginning or in ch
+        for c in w:
+            if last != c and not (c == 'h' and last):
+                res += c
+                
+            last = c
+            
+        return res[:self.stemlen]
+        

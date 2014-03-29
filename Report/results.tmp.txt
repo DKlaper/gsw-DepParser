@@ -47,7 +47,8 @@ lower Std 4P+F  |       67.086%         75.36%          59.91%
 Low Cl Std 4P+F |       67.637%         75.58%          60.88%
 Low Cl Std 4P   |       66.729%         75.47%          60.67%
 Low CL Std F    |       66.566%         75.25%          58.30%
-
+pl Std 50C 4P+F |                       76.80%          59.91% 
+50C 4P+F+4Stem  |                       76.24%          61.10% 
 
 Clustering approaches: (only Standard models) 
 
@@ -67,3 +68,9 @@ lowercased Clusters 4P:
 
 lowercased Clusters F:
 10X 63.42, 69.53, 63.97, 59.18, 57.37, 70.33, 70.82, 69.65, 68.47, 72.92 = 66.566%
+
+C = 50 4P+F plain
+10X 65.65, 70.31, 64.83, 59.28
+
+C = 50 4P+F+4Stem 
+10X 64.38, 70.16, 
