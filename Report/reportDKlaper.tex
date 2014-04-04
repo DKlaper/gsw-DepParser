@@ -50,15 +50,15 @@
 
 \title{11-712:  NLP Lab Report}
 \author{David Klaper}
-\date{April 25, 2014 \nascomment{due date}}
+\date{April 25, 2014}
 
 \begin{document}
 \maketitle
 \begin{abstract}
-\nascomment{one paragraph here summarizing what the paper is about}
+This lab report details the different stages in building the first Swiss German dependency parser. Swiss German is the main spoken `language' in Switzerland. The parser is trained on 10'000 tokens manually annotated dependency data. The data comes partly from an existing Swiss German text collection including wikipedia texts, a corporate report, and a newspaper. The second part of the data comes from online blogs mainly of Swiss high school students doing an exchange year. The blog texts collected for this project amounts to over 300'000 tokens Swiss German text that was not edited for publication. The experiments show that the blog text is much harder to parse. The accuracy of the parser for the blog texts is about 56\% using only supervised learning and 61\% when using additional unsupervised information.
 \end{abstract}
 
-\nascomment{brief introduction}
+Swiss German is one of the `languages' that does not have a standardized written form. Yet millions of Swiss people use this language to write emails, blogs, short messages, and sometimes even publicized materials. It is used in daily life in Switzerland even in business and retail contexts. Moreover, it is used as the main language on social media. Thus, to provide Swiss German speakers with appropriate recommendations, and understanding them Swiss German language technology is needed. This parser is an early step into the direction of powerful Swiss German language technology.
 
 \section{Basic Information about Swiss German}
 
@@ -245,16 +245,69 @@ The first priority is clearly implementing the clustering and testing the parser
 \section{System Analysis on Corpus B}
 
 % Intro time only clustering
+As planned I decided to use clustering features to exploit all the unannotated data I had.
+For this purpose I took all data I had and removed all the data that was in the test corpora. Therefore, for all clustering experiments the training material contained about 860'000 unannotated tokens.
+
+The idea behind clustering is that we can use information about words that appear in similar contexts to deal better with word forms that have not appeared in the small amount of annotated training data. This should increase performance on corpus A and B, compared to the featureless system used for corpus A.
 
 % Brownclustering -> feature as strings  vs. indicator features of koo
+Brown clustering \citep{BSMPL92} is a powerful clustering algorithm that produces a hierarchical clustering based on bigram token sequences. I used the implementation of Brown clustering by Percy Liang \citep{liang05} for my experiments. I used the resulting bitstrings directly as features. In particular, I create the clustering offline and use it at runtime of the parser. There can be multiple features from the same clustering. Concretely, I used both, the 4-bit prefix and the full bit string for most of my experiments. The idea is that the prefix acts more like a part of speech, while the full bit string acts more like a word form\citep{KCC08}\footnote{Note that I did not follow \citet{KCC08}, since they used a different parsing model and had much more unannotated data.}.
 
-% Experiments with feature combinations 4P/F
+Note that since at parsing time there might be words that are not part of the clustering set, there is a special value for unclustered words. This value does not provide any information and might even confuse the parser, yet I hoped there would be enough known words.
 
-% Experimants with lowercasing clustered data
+The user is able to change the number and form of features generated easily but the only experiments I performed were using only 4-bit prefix or only full bit-string, both decreased the unlabeled accuracy slightly. Table \ref{tab:rnd2} below shows my results, which will be explained in the following paragraphs. \emph{10-fold X} is the average accuracy in 10-fold cross-validation on the training data. As expected, there is a dramatic drop in unlabeled accuracy on the blog corpus (corpus B) as compared to the text intended for publication (corpus A). As explored in the previous section, the reasons lie not only in the different text genres, but also that the PoS Tagger training material consists (at least partly) of corpus A, therefore the PoS tags are more accurate. 
+
+The models `Standard normal' and `Standard lower' are the same as in the previous round. The goal is to improve as much as possible over those in particular on the blog texts. I decided to concentrate on only using standard models, because full models take significantly longer to train. The remaining models are explained below.
+
+\begin{table}
+\center
+  \begin{tabular}{ | l || r | c | r | }
+    \hline
+   \textbf{Model} & \textbf{10-fold X} & \textbf{corpus A} & \textbf{corpus B}  \\ \hline
+    Standard normal & 65.45\% & 75.25\% & 56.57\% \\ 
+    Standard lower & 65.49\% & 74.59\% & 57.22\% \\
+    C100 4P+F normal & 67.39\% & 76.57\% & 59.91\% \\
+    C100 4P+F lower & 67.09\% & 75.36\% & 59.91\% \\
+    Low C100 4P+F normal & 67.64\% & 75.58\% & 60.88\% \\
+    Low C50 4P+F normal & -- & 74.59\%  & 59.48\% \\
+    LowOnly C100 4P+F normal & 67.41 & 76.02\%  & 60.02\% \\
+    LowOnly C50 4P+F normal & \textbf{68.01\%}& \textbf{76.80\%} & 59.91\% \\
+    LowOnly C50 4P+F+4Stem normal & 67.91\% & 76.24\% & \textbf{61.10\%} \\ \hline
+  \end{tabular}
+\caption{Results after second round}
+\label{tab:rnd2}
+\end{table}
+
+% Experiments with lowercasing clustered data
+I started the clustering experiments with the above mentioned features of a 4-bit prefix string and the full bit string. I indicate this as \emph{4P+F}. I did not try different prefix lengths, I only tried using only one of the features which decreased performance slightly. Using 800 clusters was not practical due to the training time. Thus, I used 100 clusters to start with indiciated as C100. I used the original, tokenized text to create the clusters.
+
+The first experiment just adding the features (4-bit prefix + full bit string) from the clustering with 100 clusters showed a significant improvement (C100 4P+F normal). All 3 measurements improved by more than 1\% compared to the Standard normal model. In particular, corpus B with the blogs improved by more than 3\% to almost 60\% unlabeled accuracy. Therefore, the hopes of using clusters to generalize beyond word forms appearing in the training seem to work well. 
+
+Then I decided to see what the influence of casing would be. First, I used the clustering with true casing and used the lower-casing just for the parser as before. While it still improves significantly about the comparable previous system (Standard lower), it does not perform as good as with the true-cased parser. Thus, I decided to abandon the possibility of parsing lowercased text, since too much information is lost. It did not even improve on corpus B, compared to the normal casing. (But it improved before adding cluster features, which indicates casing is unreliable in corpus B, but the clusters mitigate this.)
+ 
+So I wondered if I could make the clustering more reliable by lowercasing the data for clustering, but feeding the parser the true-cased data. This could at least slightly reduce the number of unknown words. This model improved corpus B but decreased corpus A performance each by about 1\%  (Low C100 4P+F normal).  This was the first model that broke the 60\% barrier for corpus B.
 
 % Number of original clusters
 
+The next parameter I played with was the number of clusters in the original clustering. \cite{KCC08} used 800 but for the amount of data available even small experiments with C200 showed a reduction in performance. Therefore, I focussed on using 50 clusters instead of 100. 
+
+Comparing the previous model with 100 lowercased clusters and the typical 4P+F feature to the clustering with 50 clusters proved to be worse on both corpora. However, because of a mixup in results I found a third possiblity to use the clusters. The models prepended with "LowOnly" take the following approach. The clustering is performed on the text with its original case. However, when the parser gets a sentence to parse, each word is lowercased for lookup (not for parsing). This effectively means only words that appear in lowercase in the clustered data are considered. I do not have a good explanation why this works well but it does. One possible theory is that words starting with a capital letter are much rarer and thus, they are less reliable, adding noise to the data.
+
+For 100 clusters (LowOnly C100 4P+F normal) it does not work quite as well as the true lowercased version, but for the 50 clusters model (LowOnly C50 4P+F normal) it yields the overall best results for cross-validation and corpus A, while corpus B is stuck at 59.91\% unlabeled accuracy. 
+
 % phonetic ignorant stem -> hint at future possibilities
+
+After all my clustering results, I decided to try a very naïve kind of phonetic normalization, in order to account for the many spelling variations for words that are pronounced the same. Note that this does not account for any variations in pronunciation, of which there exist also many in the different dialects. I decided to distinguish only between `dark' (a, o, u) and `bright' (e,i) vowels and the umlauts. Additionally, 'ä' is considered the same as a bright vowel, because it is a common spelling difference. For the consonants, I decided to do less normalization but still normalize things that either sound the same or are common differences between standard German spelling and Swiss German pronunciation. Finally, I removed all repetitions of (normalized) letters.
+
+Then I decided, I want to use only the first part of longer words. Therefore, I only use the first 4 characters of each normalized word, which might be more than just the firs 4 letters of the original word. The number of 4 is also easily adjustable but I did not have time to perform experiments, whether the length is important. Using this feature decreased corpus A and crossvalidation slightly, probably because there's more consistent spelling, but it increased corpus B by over 1\% (LowOnly C50 4P+F+4Stem normal). This clearly shows how the different bloggers use different spellings. In the more formal texts the spelling is more consistent and messing with the spelling leads sometimes to different words being mapped to the same feature that have nothing in common, which reduces the accuracy a bit.
+
+I tried to add the same feature to other configurations that worked well for all of them the performance would not increase and especially not get close to the 61.1\% accuracy for corpus B.
+
+In any case, all the parameters I showed can still be more thoroughly tested. The spelling difference normalization could be improved with more knowledge about Swiss German phonetics but it did improve performance by quite a bit, which was the main goal. The two models that performed best on a corpus are provided in the repository.
+
+% conclusion
+
+In conclusion, corpus B was much harder, as expected. Adding clusters and spelling difference normalization helped to improve the score on this blog corpus by almost 5\%. These additions also helped to improve performance by about 1-2\% on the cleaner data set where it also profits from better PoS-tag accuracy. Therefore, adding unsupervised features to the supervised parser was definitely a good idea for parsing this low-resourced language called Swiss German.
 
 \section{Final Revisions}
 

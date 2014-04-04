@@ -10,7 +10,7 @@
 import os, sys, subprocess, codecs, tempfile
 from abc import * # abstract base classes
 
-DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 10], ["PronounciatonStem"]]
+DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 100], ["PronounciatonStem"]]
 
 TEMP = tempfile.gettempdir()
 PARSER = os.getenv("GSWPARSER", os.getcwd())
