@@ -8,10 +8,10 @@
 8	BELIEBT	_	A	ADJD	_	8	_	_	_
 9	.	_	$	$.	_	9	_	_	_
 
-1	Bündner	_	A	ADJD	_	1	_	_	_
+1	Bündner	_	A	ADJD	_	1	_	_	_
 2	und	_	K	KON	_	2	_	_	_
-3	Bärner	_	A	ADJD	_	3	_	_	_
-4	Dialäkt	_	N	NN	_	4	_	_	_
+3	Bärner	_	A	ADJD	_	3	_	_	_
+4	Dialäkt	_	N	NN	_	4	_	_	_
 5	sind	_	V	VAFIN	_	5	_	_	_
 6	am	_	A	APPRART	_	6	_	_	_
 7	sympathischte	_	A	ADJD	_	7	_	_	_
@@ -25,8 +25,8 @@
 6	aber	_	A	ADV	_	6	_	_	_
 7	lieber	_	A	ADJD	_	7	_	_	_
 8	en	_	A	ART	_	8	_	_	_
-9	gwöndliche	_	A	ADJA	_	9	_	_	_
-10	Einheitsdialäkt	_	N	NN	_	10	_	_	_
+9	gwöndliche	_	A	ADJA	_	9	_	_	_
+10	Einheitsdialäkt	_	N	NN	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
 
 1	Sones	_	A	ADV+	_	1	_	_	_
@@ -47,7 +47,7 @@
 6	wenn	_	K	KOUS	_	6	_	_	_
 7	de	_	A	ART	_	7	_	_	_
 8	Walliser	_	N	NN	_	8	_	_	_
-9	öppis	_	P	PIAT	_	9	_	_	_
+9	öppis	_	P	PIAT	_	9	_	_	_
 10	seid	_	V	VAFIN	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
 
@@ -60,7 +60,7 @@
 7	,	_	$	$,	_	7	_	_	_
 8	wenn	_	K	KOUS	_	8	_	_	_
 9	de	_	A	ART	_	9	_	_	_
-10	Zörcher	_	N	NN	_	10	_	_	_
+10	Zörcher	_	N	NN	_	10	_	_	_
 11	s	_	A	ART	_	11	_	_	_
 12	Muul	_	N	NN	_	12	_	_	_
 13	ufmacht	_	V	VVFIN	_	13	_	_	_
@@ -75,12 +75,12 @@
 1	Met	_	A	APPR	_	1	_	_	_
 2	emene	_	A	ART	_	2	_	_	_
 3	uffellige	_	A	ADJA	_	3	_	_	_
-4	Dialäkt	_	N	NN	_	4	_	_	_
+4	Dialäkt	_	N	NN	_	4	_	_	_
 5	cha	_	V	VMFIN	_	5	_	_	_
 6	mers	_	P	PPER+	_	6	_	_	_
 7	fasch	_	A	ADV	_	7	_	_	_
 8	niemerem	_	P	PIS	_	8	_	_	_
-9	Rächt	_	N	NN	_	9	_	_	_
+9	Rächt	_	N	NN	_	9	_	_	_
 10	mache	_	V	VVINF	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
 
@@ -103,7 +103,7 @@
 5	e	_	A	ART	_	5	_	_	_
 6	nationali	_	A	ADJA	_	6	_	_	_
 7	Kampagne	_	N	NN	_	7	_	_	_
-8	für	_	A	APPR	_	8	_	_	_
+8	für	_	A	APPR	_	8	_	_	_
 9	e	_	A	ART	_	9	_	_	_
 10	Radiowerbig	_	N	NN	_	10	_	_	_
 11	fahrt	_	V	VVFIN	_	11	_	_	_
@@ -118,11 +118,11 @@
 20	.	_	$	$.	_	20	_	_	_
 
 1	Drum	_	P	PAV	_	1	_	_	_
-2	wählt	_	V	VVFIN	_	2	_	_	_
+2	wählt	_	V	VVFIN	_	2	_	_	_
 3	mer	_	P	PPER	_	3	_	_	_
 4	meischtens	_	A	ADV	_	4	_	_	_
 5	de	_	A	ART	_	5	_	_	_
-6	Bahnhof-Olte-Dialäkt	_	N	NN	_	6	_	_	_
+6	Bahnhof-Olte-Dialäkt	_	N	NN	_	6	_	_	_
 7	.	_	$	$.	_	7	_	_	_
 
 1	De	_	P	PDS	_	1	_	_	_
@@ -132,22 +132,22 @@
 5	‹	_	$	$(	_	5	_	_	_
 6	neutrali	_	A	ADJA	_	6	_	_	_
 7	›	_	$	$(	_	7	_	_	_
-8	Dialäkt	_	N	NN	_	8	_	_	_
+8	Dialäkt	_	N	NN	_	8	_	_	_
 9	.	_	$	$.	_	9	_	_	_
 
-1	Nöd	_	P	PTKNEG	_	1	_	_	_
+1	Nöd	_	P	PTKNEG	_	1	_	_	_
 2	ganz	_	A	ADV	_	2	_	_	_
 3	Bern	_	N	NE	_	3	_	_	_
 4	,	_	$	$,	_	4	_	_	_
 5	aber	_	K	KON	_	5	_	_	_
 6	au	_	A	ADV	_	6	_	_	_
-7	nöd	_	P	PTKNEG	_	7	_	_	_
-8	Züri	_	N	NE	_	8	_	_	_
+7	nöd	_	P	PTKNEG	_	7	_	_	_
+8	Züri	_	N	NE	_	8	_	_	_
 9	.	_	$	$.	_	9	_	_	_
 
 1	Das	_	P	PDS	_	1	_	_	_
-2	würkt	_	V	VVFIN	_	2	_	_	_
-3	seriös	_	A	ADJD	_	3	_	_	_
+2	würkt	_	V	VVFIN	_	2	_	_	_
+3	seriös	_	A	ADJD	_	3	_	_	_
 4	»	_	$	$(	_	4	_	_	_
 5	,	_	$	$,	_	5	_	_	_
 6	seid	_	V	VVFIN	_	6	_	_	_
@@ -159,14 +159,14 @@
 12	Chundeberatig	_	N	NN	_	12	_	_	_
 13	und	_	K	KON	_	13	_	_	_
 14	Mitglied	_	N	NN	_	14	_	_	_
-15	Gschäftsleitig	_	N	NN	_	15	_	_	_
+15	Gschäftsleitig	_	N	NN	_	15	_	_	_
 16	vom	_	A	APPRART	_	16	_	_	_
 17	Tonstudio	_	N	NN	_	17	_	_	_
 18	JingleJungle	_	N	NE	_	18	_	_	_
 19	.	_	$	$.	_	19	_	_	_
 
 1	De	_	A	ART	_	1	_	_	_
-2	Dialäkt	_	N	NN	_	2	_	_	_
+2	Dialäkt	_	N	NN	_	2	_	_	_
 3	muess	_	V	VMFIN	_	3	_	_	_
 4	zu	_	A	APPR	_	4	_	_	_
 5	de	_	A	ART	_	5	_	_	_
@@ -181,21 +181,21 @@
 14	«	_	$	$(	_	14	_	_	_
 
 1	Ostschwiizer	_	N	NN	_	1	_	_	_
-2	wärded	_	V	VAFIN	_	2	_	_	_
-3	für	_	A	APPR	_	3	_	_	_
+2	wärded	_	V	VAFIN	_	2	_	_	_
+3	für	_	A	APPR	_	3	_	_	_
 4	d	_	A	ART	_	4	_	_	_
 5	Vertonig	_	N	NN	_	5	_	_	_
 6	vo	_	A	APPR	_	6	_	_	_
 7	Werbig	_	N	NN	_	7	_	_	_
 8	eher	_	A	ADV	_	8	_	_	_
-9	sälte	_	A	ADJD	_	9	_	_	_
+9	sälte	_	A	ADJD	_	9	_	_	_
 10	gno	_	V	VVPP	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
 
 1	De	_	A	ART	_	1	_	_	_
-2	Dialäkt	_	N	NN	_	2	_	_	_
+2	Dialäkt	_	N	NN	_	2	_	_	_
 3	muess	_	V	VMFIN	_	3	_	_	_
-4	mehrheitsfähig	_	A	ADJD	_	4	_	_	_
+4	mehrheitsfähig	_	A	ADJD	_	4	_	_	_
 5	si	_	V	VAINF	_	5	_	_	_
 6	»	_	$	$(	_	6	_	_	_
 7	,	_	$	$,	_	7	_	_	_
@@ -207,7 +207,7 @@
 13	Metgled	_	N	NN	_	13	_	_	_
 14	vo	_	A	APPR	_	14	_	_	_
 15	de	_	A	ART	_	15	_	_	_
-16	Gschäftsleitig	_	N	NN	_	16	_	_	_
+16	Gschäftsleitig	_	N	NN	_	16	_	_	_
 17	be	_	A	APPR	_	17	_	_	_
 18	Jung	_	N	NE	_	18	_	_	_
 19	&	_	K	KON	_	19	_	_	_
@@ -217,16 +217,16 @@
 1	Aber	_	A	ADV	_	1	_	_	_
 2	vo	_	A	APPR	_	2	_	_	_
 3	wo	_	P	PWAV	_	3	_	_	_
-4	chömed	_	V	VVFIN	_	4	_	_	_
+4	chömed	_	V	VVFIN	_	4	_	_	_
 5	eigentlech	_	A	ADV	_	5	_	_	_
 6	die	_	A	ART	_	6	_	_	_
 7	soziale	_	A	ADJA	_	7	_	_	_
-8	Ungrächtigkeite	_	N	NN	_	8	_	_	_
+8	Ungrächtigkeite	_	N	NN	_	8	_	_	_
 9	in	_	A	APPR	_	9	_	_	_
 10	Bezog	_	N	NN	_	10	_	_	_
 11	of	_	A	APPR	_	11	_	_	_
 12	de	_	A	ART	_	12	_	_	_
-13	Dialäkt	_	N	NN	_	13	_	_	_
+13	Dialäkt	_	N	NN	_	13	_	_	_
 14	?	_	$	$.	_	14	_	_	_
 15	«	_	$	$(	_	15	_	_	_
 
@@ -235,36 +235,36 @@
 3	vo	_	A	APPR	_	3	_	_	_
 4	de	_	A	ART	_	4	_	_	_
 5	Ostschwiizer	_	N	NN	_	5	_	_	_
-6	hät	_	V	VAFIN	_	6	_	_	_
+6	hät	_	V	VAFIN	_	6	_	_	_
 7	das	_	P	PDS	_	7	_	_	_
 8	vil	_	A	ADV	_	8	_	_	_
 9	mit	_	A	APPR	_	9	_	_	_
 10	mangelndem	_	A	ADJA	_	10	_	_	_
-11	Sälbstbewusstsii	_	N	NN	_	11	_	_	_
+11	Sälbstbewusstsii	_	N	NN	_	11	_	_	_
 12	ztue	_	P	PTKZU+	_	12	_	_	_
 13	»	_	$	$(	_	13	_	_	_
 14	,	_	$	$,	_	14	_	_	_
-15	erklärt	_	V	VVFIN	_	15	_	_	_
+15	erklärt	_	V	VVFIN	_	15	_	_	_
 16	de	_	A	ART	_	16	_	_	_
 17	Roland	_	N	NE	_	17	_	_	_
 18	Ris	_	N	NE	_	18	_	_	_
 19	,	_	$	$,	_	19	_	_	_
 20	eremitierte	_	A	ADJA	_	20	_	_	_
-21	Profässer	_	N	NN	_	21	_	_	_
-22	für	_	A	APPR	_	22	_	_	_
+21	Profässer	_	N	NN	_	21	_	_	_
+22	für	_	A	APPR	_	22	_	_	_
 23	Sprach-	_	T	TRUNC	_	23	_	_	_
 24	und	_	K	KON	_	24	_	_	_
-25	Literaturwösseschaft	_	N	NN	_	25	_	_	_
+25	Literaturwösseschaft	_	N	NN	_	25	_	_	_
 26	a	_	A	APPR	_	26	_	_	_
 27	de	_	A	ART	_	27	_	_	_
 28	ETH	_	N	NE	_	28	_	_	_
-29	Zöri	_	N	NE	_	29	_	_	_
+29	Zöri	_	N	NE	_	29	_	_	_
 30	.	_	$	$.	_	30	_	_	_
 31	«	_	$	$(	_	31	_	_	_
 
 1	D	_	A	ART	_	1	_	_	_
 2	Ostschwiizer	_	A	ADJA	_	2	_	_	_
-3	Kantön	_	N	NN	_	3	_	_	_
+3	Kantön	_	N	NN	_	3	_	_	_
 4	existiered	_	V	VVFIN	_	4	_	_	_
 5	nonig	_	P	PTKNEG	_	5	_	_	_
 6	so	_	A	ADV	_	6	_	_	_
@@ -277,25 +277,25 @@
 13	.	_	$	$.	_	13	_	_	_
 
 1	Drum	_	P	PAV	_	1	_	_	_
-2	fählt	_	V	VVFIN	_	2	_	_	_
+2	fählt	_	V	VVFIN	_	2	_	_	_
 3	ihne	_	P	PPER	_	3	_	_	_
 4	so	_	A	ADV	_	4	_	_	_
-5	öppis	_	P	PIS	_	5	_	_	_
+5	öppis	_	P	PIS	_	5	_	_	_
 6	wie	_	K	KOKOM	_	6	_	_	_
 7	es	_	P	PPER	_	7	_	_	_
 8	kulturells	_	A	ADJA	_	8	_	_	_
-9	Sälbstbewusstsii	_	N	NN	_	9	_	_	_
+9	Sälbstbewusstsii	_	N	NN	_	9	_	_	_
 10	.	_	$	$.	_	10	_	_	_
 11	»	_	$	$(	_	11	_	_	_
 
 1	A	_	A	APPR	_	1	_	_	_
 2	dem	_	P	PDS	_	2	_	_	_
-3	fählts	_	V	VVFIN	_	3	_	_	_
+3	fählts	_	V	VVFIN	_	3	_	_	_
 4	de	_	A	ART	_	4	_	_	_
-5	Bärner	_	N	NN	_	5	_	_	_
+5	Bärner	_	N	NN	_	5	_	_	_
 6	und	_	K	KON	_	6	_	_	_
 7	de	_	A	ART	_	7	_	_	_
-8	Bündner	_	N	NN	_	8	_	_	_
+8	Bündner	_	N	NN	_	8	_	_	_
 9	offebar	_	A	ADJD	_	9	_	_	_
 10	ned	_	P	PTKNEG	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
@@ -305,8 +305,8 @@
 2	Schwiizer	_	N	NN	_	2	_	_	_
 3	finded	_	V	VVFIN	_	3	_	_	_
 4	d	_	A	ART	_	4	_	_	_
-5	Bärgler	_	N	NN	_	5	_	_	_
-6	grundsätzlich	_	A	ADJD	_	6	_	_	_
+5	Bärgler	_	N	NN	_	5	_	_	_
+6	grundsätzlich	_	A	ADJD	_	6	_	_	_
 7	sehr	_	A	ADV	_	7	_	_	_
 8	sympathisch	_	A	ADJD	_	8	_	_	_
 9	.	_	$	$.	_	9	_	_	_
@@ -326,16 +326,16 @@
 13	.	_	$	$.	_	13	_	_	_
 14	«	_	$	$(	_	14	_	_	_
 
-1	Bündner	_	N	NN	_	1	_	_	_
+1	Bündner	_	N	NN	_	1	_	_	_
 2	verbindet	_	V	VVFIN	_	2	_	_	_
 3	mer	_	P	PPER	_	3	_	_	_
 4	eifach	_	A	ADV	_	4	_	_	_
 5	mit	_	A	APPR	_	5	_	_	_
-6	Färie	_	N	NN	_	6	_	_	_
+6	Färie	_	N	NN	_	6	_	_	_
 7	.	_	$	$.	_	7	_	_	_
 
 1	D	_	A	ART	_	1	_	_	_
-2	Bärner	_	N	NN	_	2	_	_	_
+2	Bärner	_	N	NN	_	2	_	_	_
 3	Mundart	_	N	NN	_	3	_	_	_
 4	isch	_	V	VAFIN	_	4	_	_	_
 5	sehr	_	A	ADV	_	5	_	_	_
@@ -347,14 +347,14 @@
 11	de	_	A	ART	_	11	_	_	_
 12	Musig	_	N	NN	_	12	_	_	_
 13	sehr	_	A	ADV	_	13	_	_	_
-14	presänt	_	A	ADJD	_	14	_	_	_
+14	presänt	_	A	ADJD	_	14	_	_	_
 15	.	_	$	$.	_	15	_	_	_
 16	»	_	$	$(	_	16	_	_	_
 
 1	Au	_	A	ADV	_	1	_	_	_
 2	d	_	A	ART	_	2	_	_	_
 3	Innerschwiizer	_	N	NN	_	3	_	_	_
-4	chömed	_	V	VVFIN	_	4	_	_	_
+4	chömed	_	V	VVFIN	_	4	_	_	_
 5	im	_	A	APPRART	_	5	_	_	_
 6	Augemeine	_	N	NN	_	6	_	_	_
 7	guet	_	A	ADJD	_	7	_	_	_
@@ -364,11 +364,11 @@
 1	Nur	_	A	ADV	_	1	_	_	_
 2	:	_	$	$.	_	2	_	_	_
 3	«	_	$	$(	_	3	_	_	_
-4	Für	_	P	PPER	_	4	_	_	_
+4	Für	_	P	PPER	_	4	_	_	_
 5	die	_	A	ART	_	5	_	_	_
 6	meischte	_	P	PIAT	_	6	_	_	_
 7	gids	_	V	VVFIN+	_	7	_	_	_
-8	zwüsched	_	A	APPR	_	8	_	_	_
+8	zwüsched	_	A	APPR	_	8	_	_	_
 9	emene	_	A	ART	_	9	_	_	_
 10	Urner	_	A	ADJA	_	10	_	_	_
 11	,	_	$	$,	_	11	_	_	_
@@ -376,12 +376,12 @@
 13	oder	_	K	KON	_	13	_	_	_
 14	sogar	_	A	ADV	_	14	_	_	_
 15	Luzerner	_	A	ADJA	_	15	_	_	_
-16	Dialäkt	_	N	NN	_	16	_	_	_
+16	Dialäkt	_	N	NN	_	16	_	_	_
 17	kein	_	P	PIAT	_	17	_	_	_
 18	Underschied	_	N	NN	_	18	_	_	_
 19	.	_	$	$.	_	19	_	_	_
 
-1	Für	_	A	APPR	_	1	_	_	_
+1	Für	_	A	APPR	_	1	_	_	_
 2	en	_	A	ART	_	2	_	_	_
 3	Basler	_	N	NN	_	3	_	_	_
 4	isch	_	V	VAFIN	_	4	_	_	_
@@ -394,7 +394,7 @@
 11	»	_	$	$(	_	11	_	_	_
 
 1	Au	_	A	ADV	_	1	_	_	_
-2	dä	_	P	PDAT	_	2	_	_	_
+2	dä	_	P	PDAT	_	2	_	_	_
 3	Artikel	_	N	NN	_	3	_	_	_
 4	esch	_	V	VAFIN	_	4	_	_	_
 5	vo	_	A	APPR	_	5	_	_	_

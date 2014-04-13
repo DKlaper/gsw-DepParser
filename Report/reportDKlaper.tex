@@ -311,8 +311,45 @@ In conclusion, corpus B was much harder, as expected. Adding clusters and spelli
 
 \section{Final Revisions}
 
+Shortly after submitting the previous part, I discovered a strange error in the spelling normalization. In the data by the newspaper, the umlaut `ä' normalizes as `ö' instead of `e'. However, in texts from other sources the normalization works correctly. An exmination in a text editor and subsequent inspections in a hexadecimal editor showed what was going wrong.
+
+Unicode knows two different ways to encode umlauts.  In the composition normal form \emph{NFC} the umlaut `ä' is encoded as U+00E4, which is the codepoint for the character called \emph{latin small letter a with diaresis}. In the decomposition normal form (NFD) the same letter is encoded using 2 characters: U+0061 (small latin letter a) U+0308 (combining diaresis).  Thus, to my normalization routin the word `Gepäck' looked like `Gepa"ck'\footnote{TeXworks automatically converts the diaresis to quotation mark but it should be the character with unicode codepoint 0x0308.}. Thus, the `a', which is a dark vowel was converted to `o' and the combining diaresis was ignorred, resulting in `ö'. For more on unicode normal forms (including the compatibility normal forms) see \citet{DK13}.
+
+\begin{table}
+\center
+  \begin{tabular}{ | l || c | r | }
+    \hline
+   \textbf{Model} & \textbf{corpus A} & \textbf{corpus B}  \\ \hline
+    Low C50 4P+F+4Stem normal & 74.14\% & 60.78\% \\
+    LowOnly C50 4P+F+4Stem normal & 75.25\% & 59.91\% \\ 
+    Low C100 4P+F+4Stem normal & 74.37\% & \textbf{61.64\%} \\
+    LowOnly C100 4P+F+4Stem normal & 75.58\% & 61.31\% \\ 
+    Low C100 4P+F normal & 75.36\% & 60.78\% \\
+    LowOnly C100 4P+F normal & \textbf{76.24\%} & 60.67\% \\
+    \textbf{Low C100 4P+F+6Stem normal} & 75.47\% & 61.53\% \\
+    LowOnly C100 4P+F+6Stem normal & 74.59\% & 61.42\% \\ \hline
+  \end{tabular}
+\caption{Results after putting all newspaper text also in NFC}
+\label{tab:fin}
+\end{table}
+
+Unfortunately, normalization made my results a bit worse as and quite different as shown in table \ref{tab:fin}. The two corpora proved again to be in a balance, increasing performance on the blogs resulted most often in a decreased performance on corpus A. One caveat is that the differences are so small that in a real task the difference in performanceis not relevant at all. The normalization of spelling only had a minor impact if at all on corpus B and and did not improve performance on corpus A at all. In fact, the LowOnly model without normalization performs best on corpus A (LowOnly  C100 4P+F normal). Using a six characters prefix of the normalized word as opposed to a four characters prefix slightly increased performance. Nevertheless, the impact of the spelling normalization feature is very small.
+
+The optimal number of clusters also changed from 50 to 100. Moreover, the properly lowercased clustering is now competitive against the LowOnly version, which neglects a significant part of the data. For the final version I will provide the \emph{Low C100 4P+F+6Stem normal} model (bold), because it keeps unlabeled accuracy on corpus A above 75\% but also performs better than the previous best model for the blog texts. (It is fair to say that other models could also be considered a joint winner. For instance, \emph{LowOnly C100 4P+F+4Stem normal}, but I prefer a clustering model that can make use of all the data.)
+ 
+As for why adding data decreases performance on corpus A, while it increases on corpus B. there are two explanations. First, the differences are so small that it is simply random whether it increases or decreases. Second, the newspaper redaction might have had some internal guidelines that were followed, when writing the articles. The umlauts that appear in most sentences allowed the parser to separate the sentence types in the newspaper from the rest of corpus A. The readaction guidelines promoted certain sentence structures. Thus, it had a better performance on the newspaper article in the test set, because it could leverage the knowledge of these typical structures, while on the rest of the data these typical structures were not present and thus did not introduce confusion. Please note, that this is a pure guess.
+
+%increasing PoS performance on blogs.
+
+In conclusion, the final round concentrated on analyzing the effects of an error induced in the preprocessing of the data. The difference in unicode normalization between the newspaper text and the rest of the data skewed previous results. However, the absolute differences between all the different models are very small. This also means that the spelling normalization in the second round was not effective. The final unlabeled accuracies are about 75\% for corpus A (wikipedia, newspaper, corporate report) and about 61.5\% on corpus B (blog texts).
+
 \section{Future Work}
 
+One important aspect is validating and extending the lexical resources. The annotation of the existing data sets was performed only by me and I also did not go back to check everything at second time after all decisions were made. Thus, there are likely annotation mistakes. Also, 10'000 tokens is still a very modest resource. Annotating more resources, maybe even from new domains could be very helpful to improve performance on general text. Of course, the biggest issue is still the different spelling. Since there are so many dialects, some speakers might get a very good performance for their texts, while others might get a very poor performance. Discriminating these different users and maybe even having different models per dialect can be one way to mitigate this but needs a lot more data.
+
+Another point for further investigation is the use of rule-based features. The spelling normalization did not prove helpful. Further research could be directed into why it did not improve performance. From this new phonetically or linguistically oriented features could be derived. Another approach woud be to look at the work of \citet{SR10} to see which features are implementable. Using phonetic features might help to reduce the spelling differences, which would reduce the data sparsity a bit. Using morphological features might improve the performance of distinguishing different forms, since Swiss German also has some case marking. Both help the parser using the data to make more informed choices. This project has shown it is not straight forward to design good features of this kind, but with more time and resources it will be possible.
+
+Finally, leveraging standard German resources could mitigate the data sparseness problem. There is an abundance of resources for standard German. There are dependency treebanks and powerful morphological analyzers readily available. The big problem is that Swiss German has different spelling and some different syntactic structures. \citet{Scherrer11} has done some work to mitigate these differences. If the Swiss German text could be normalized enough to make use of Standard German resources, a parser trained on German and Swiss German material could resut in very good performance. This would be a very good test for a ``true'' Swiss-German parser that does not try to make it standard German. Only a parser with intricate knowledge of Swiss German could probably outperform the normalized standard German version that can use large amounts of existing data. 
 
 \section{Acknowledgements}
 I'd like to thank Noëmi Aepli and Nora Hollenstein for supporting me with information about Research in Swiss German and especially for giving me early access to the Swiss German resources that they are developing. 

@@ -5,14 +5,14 @@
 5	so	_	A	ADV	_	5	_	_	_
 6	wie	_	K	KOKOM	_	6	_	_	_
 7	z	_	A	APPR	_	7	_	_	_
-8	Bärn	_	N	NE	_	8	_	_	_
+8	Bärn	_	N	NE	_	8	_	_	_
 9	?	_	$	$.	_	9	_	_	_
 
 1	Angscht	_	N	NN	_	1	_	_	_
 2	vor	_	A	APPR	_	2	_	_	_
 3	Krawall	_	N	NN	_	3	_	_	_
 4	I	_	A	APPR	_	4	_	_	_
-5	zwöi	_	A	ADJA	_	5	_	_	_
+5	zwöi	_	A	ADJA	_	5	_	_	_
 6	Wuche	_	N	NN	_	6	_	_	_
 7	«	_	$	$(	_	7	_	_	_
 8	tanze	_	V	VVFIN	_	8	_	_	_
@@ -34,7 +34,7 @@
 8	vou	_	A	ADJD	_	8	_	_	_
 9	:	_	$	$.	_	9	_	_	_
 10	I	_	A	APPR	_	10	_	_	_
-11	zwöine	_	A	ADJA	_	11	_	_	_
+11	zwöine	_	A	ADJA	_	11	_	_	_
 12	Wuche	_	N	NN	_	12	_	_	_
 13	wird	_	V	VAFIN	_	13	_	_	_
 14	e	_	A	ART	_	14	_	_	_
@@ -43,14 +43,14 @@
 17	.	_	$	$.	_	17	_	_	_
 
 1	Z	_	A	APPR	_	1	_	_	_
-2	Bärn	_	N	NE	_	2	_	_	_
+2	Bärn	_	N	NE	_	2	_	_	_
 3	hets	_	V	VAFIN+	_	3	_	_	_
 4	klepft	_	V	VVPP	_	4	_	_	_
 5	,	_	$	$,	_	5	_	_	_
 6	das	_	P	PDS	_	6	_	_	_
 7	wei	_	V	VMFIN	_	7	_	_	_
 8	d	_	A	ART	_	8	_	_	_
-9	Behörde	_	N	NN	_	9	_	_	_
+9	Behörde	_	N	NN	_	9	_	_	_
 10	i	_	A	APPR	_	10	_	_	_
 11	ihrere	_	P	PPOSAT	_	11	_	_	_
 12	Stadt	_	N	NN	_	12	_	_	_
@@ -66,18 +66,18 @@
 7	DBiuder	_	N	NE	_	7	_	_	_
 8	si	_	V	VAFIN	_	8	_	_	_
 9	nid	_	P	PTKNEG	_	9	_	_	_
-10	schön	_	A	ADJD	_	10	_	_	_
+10	schön	_	A	ADJD	_	10	_	_	_
 11	:	_	$	$.	_	11	_	_	_
 12	Z	_	A	APPR	_	12	_	_	_
-13	Bärn	_	N	NE	_	13	_	_	_
-14	brätsche	_	V	VVFIN	_	14	_	_	_
+13	Bärn	_	N	NE	_	13	_	_	_
+14	brätsche	_	V	VVFIN	_	14	_	_	_
 15	d	_	A	ART	_	15	_	_	_
 16	Chaote	_	N	NN	_	16	_	_	_
 17	uf	_	A	APPR	_	17	_	_	_
 18	d	_	A	ART	_	18	_	_	_
 19	Polizischte	_	N	NN	_	19	_	_	_
 20	,	_	$	$,	_	20	_	_	_
-21	Schoufänschter	_	N	NN	_	21	_	_	_
+21	Schoufänschter	_	N	NN	_	21	_	_	_
 22	u	_	K	KON	_	22	_	_	_
 23	Vitrine	_	N	NN	_	23	_	_	_
 24	i	_	A	APPR	_	24	_	_	_
@@ -94,14 +94,14 @@
 9	.	_	$	$.	_	9	_	_	_
 
 1	70	_	C	CARD	_	1	_	_	_
-2	Lüt	_	N	NN	_	2	_	_	_
+2	Lüt	_	N	NN	_	2	_	_	_
 3	unger	_	A	APPR	_	3	_	_	_
 4	de	_	A	ART	_	4	_	_	_
 5	10	_	C	CARD	_	5	_	_	_
 6	000	_	C	CARD	_	6	_	_	_
 7	Tanzende	_	N	NN	_	7	_	_	_
 8	hei	_	V	VAFIN	_	8	_	_	_
-9	glängt	_	V	VVPP	_	9	_	_	_
+9	glängt	_	V	VVPP	_	9	_	_	_
 10	,	_	$	$,	_	10	_	_	_
 11	um	_	K	KOUI	_	11	_	_	_
 12	«	_	$	$(	_	12	_	_	_
@@ -112,13 +112,13 @@
 17	mit	_	A	APPR	_	17	_	_	_
 18	Gwaut	_	N	NN	_	18	_	_	_
 19	z	_	P	PTKZU	_	19	_	_	_
-20	zerstöre	_	V	VVINF	_	20	_	_	_
+20	zerstöre	_	V	VVINF	_	20	_	_	_
 21	.	_	$	$.	_	21	_	_	_
 
 1	Nume	_	A	ADV	_	1	_	_	_
-2	zwöi	_	A	ADJA	_	2	_	_	_
+2	zwöi	_	A	ADJA	_	2	_	_	_
 3	Wuche	_	N	NN	_	3	_	_	_
-4	spöter	_	A	ADV	_	4	_	_	_
+4	spöter	_	A	ADV	_	4	_	_	_
 5	,	_	$	$,	_	5	_	_	_
 6	am	_	A	APPRART	_	6	_	_	_
 7	8.	_	A	ADJA	_	7	_	_	_
@@ -137,7 +137,7 @@
 4	.	_	$	$.	_	4	_	_	_
 5	Aber	_	K	KON	_	5	_	_	_
 6	ou	_	A	ADV	_	6	_	_	_
-7	dört	_	A	ADV	_	7	_	_	_
+7	dört	_	A	ADV	_	7	_	_	_
 8	si	_	V	VAFIN	_	8	_	_	_
 9	d	_	A	ART	_	9	_	_	_
 10	Organisa­	_	A	ADJA	_	10	_	_	_
@@ -151,12 +151,12 @@
 4	KAZ	_	N	NE	_	4	_	_	_
 5	(	_	$	$(	_	5	_	_	_
 6	Kampagne	_	N	NN	_	6	_	_	_
-7	füres	_	A	APPRART	_	7	_	_	_
+7	füres	_	A	APPRART	_	7	_	_	_
 8	autonoms	_	A	ADJA	_	8	_	_	_
-9	Zäntrum	_	N	NN	_	9	_	_	_
+9	Zäntrum	_	N	NN	_	9	_	_	_
 10	)	_	$	$(	_	10	_	_	_
 11	u	_	K	KON	_	11	_	_	_
-12	rüe­	_	N	NN	_	12	_	_	_
+12	rüe­	_	N	NN	_	12	_	_	_
 13	fe	_	V	VVFIN	_	13	_	_	_
 14	per	_	A	APPR	_	14	_	_	_
 15	Flyer	_	N	NN	_	15	_	_	_
@@ -165,9 +165,9 @@
 18	Internet	_	N	NN	_	18	_	_	_
 19	zum	_	A	APPRART	_	19	_	_	_
 20	«	_	$	$(	_	20	_	_	_
-21	Nächtliche	_	A	ADJA	_	21	_	_	_
+21	Nächtliche	_	A	ADJA	_	21	_	_	_
 22	Tanzver­	_	N	NN	_	22	_	_	_
-23	gnüege	_	N	NE	_	23	_	_	_
+23	gnüege	_	N	NE	_	23	_	_	_
 24	»	_	$	$(	_	24	_	_	_
 25	uf	_	P	PTKVZ	_	25	_	_	_
 26	.	_	$	$.	_	26	_	_	_
@@ -195,15 +195,15 @@
 13	vom	_	A	APPRART	_	13	_	_	_
 14	KiFF	_	N	NE	_	14	_	_	_
 15	isch	_	V	VAFIN	_	15	_	_	_
-16	ungwüss	_	A	ADJD	_	16	_	_	_
+16	ungwüss	_	A	ADJD	_	16	_	_	_
 17	u	_	K	KON	_	17	_	_	_
 18	ir	_	A	APPRART	_	18	_	_	_
 19	Autstadt	_	N	NN	_	19	_	_	_
-20	söu	_	V	VMFIN	_	20	_	_	_
+20	söu	_	V	VMFIN	_	20	_	_	_
 21	nume	_	A	ADV	_	21	_	_	_
 22	no	_	A	ADV	_	22	_	_	_
-23	gflüschteret	_	V	VVPP	_	23	_	_	_
-24	wärde	_	V	VMINF	_	24	_	_	_
+23	gflüschteret	_	V	VVPP	_	23	_	_	_
+24	wärde	_	V	VMINF	_	24	_	_	_
 25	.	_	$	$.	_	25	_	_	_
 26	»	_	$	$(	_	26	_	_	_
 
@@ -213,7 +213,7 @@
 4	isch	_	V	VAFIN	_	4	_	_	_
 5	wie	_	K	KOKOM	_	5	_	_	_
 6	z	_	A	APPR	_	6	_	_	_
-7	Bärn	_	N	NE	_	7	_	_	_
+7	Bärn	_	N	NE	_	7	_	_	_
 8	unbewilligt	_	A	ADJD	_	8	_	_	_
 9	,	_	$	$,	_	9	_	_	_
 10	wie	_	K	KOKOM	_	10	_	_	_
@@ -222,7 +222,7 @@
 13	Aargauer	_	A	ADJA	_	13	_	_	_
 14	Zitig	_	N	NN	_	14	_	_	_
 15	»	_	$	$(	_	15	_	_	_
-16	hüt	_	A	ADV	_	16	_	_	_
+16	hüt	_	A	ADV	_	16	_	_	_
 17	schribt	_	V	VVFIN	_	17	_	_	_
 18	.	_	$	$.	_	18	_	_	_
 
@@ -235,7 +235,7 @@
 7	dokumentiered	_	V	VVFIN	_	7	_	_	_
 8	Organisatore	_	N	NN	_	8	_	_	_
 9	d	_	A	ART	_	9	_	_	_
-10	Bemühige	_	N	NN	_	10	_	_	_
+10	Bemühige	_	N	NN	_	10	_	_	_
 11	vo	_	A	APPR	_	11	_	_	_
 12	dr	_	A	ART	_	12	_	_	_
 13	Stadt	_	N	NN	_	13	_	_	_
@@ -245,15 +245,15 @@
 17	mit	_	A	APPR	_	17	_	_	_
 18	ihne	_	P	PPER	_	18	_	_	_
 19	is	_	A	APPRART	_	19	_	_	_
-20	Gspräch	_	N	NN	_	20	_	_	_
+20	Gspräch	_	N	NN	_	20	_	_	_
 21	z	_	P	PTKZU	_	21	_	_	_
 22	cho	_	V	VVINF	_	22	_	_	_
 23	.	_	$	$.	_	23	_	_	_
 
 1	D	_	A	ART	_	1	_	_	_
-2	Stadtrötin	_	N	NN	_	2	_	_	_
+2	Stadtrötin	_	N	NN	_	2	_	_	_
 3	Regina	_	N	NE	_	3	_	_	_
-4	Jäggi	_	N	NE	_	4	_	_	_
+4	Jäggi	_	N	NE	_	4	_	_	_
 5	seit	_	V	VVFIN	_	5	_	_	_
 6	zur	_	A	APPRART	_	6	_	_	_
 7	Zitig	_	N	NN	_	7	_	_	_
@@ -262,7 +262,7 @@
 10	D	_	A	ART	_	10	_	_	_
 11	Biuder	_	N	NN	_	11	_	_	_
 12	us	_	A	APPR	_	12	_	_	_
-13	Bärn	_	N	NE	_	13	_	_	_
+13	Bärn	_	N	NE	_	13	_	_	_
 14	mache	_	V	VVFIN	_	14	_	_	_
 15	mer	_	P	PPER	_	15	_	_	_
 16	scho	_	A	ADV	_	16	_	_	_
@@ -276,14 +276,14 @@
 3	eifach	_	A	ADV	_	3	_	_	_
 4	ufnes	_	A	APPRART	_	4	_	_	_
 5	fridlechs	_	A	ADJA	_	5	_	_	_
-6	Tanzvergnüege	_	N	NN	_	6	_	_	_
+6	Tanzvergnüege	_	N	NN	_	6	_	_	_
 7	.	_	$	$.	_	7	_	_	_
 
 1	D	_	A	ART	_	1	_	_	_
 2	Regina	_	N	NE	_	2	_	_	_
-3	Jäggi	_	N	NE	_	3	_	_	_
+3	Jäggi	_	N	NE	_	3	_	_	_
 4	het	_	V	VAFIN	_	4	_	_	_
-5	zäme	_	A	ADV	_	5	_	_	_
+5	zäme	_	A	ADV	_	5	_	_	_
 6	mitem	_	A	APPRART	_	6	_	_	_
 7	Chef	_	N	NN	_	7	_	_	_
 8	vo	_	A	APPR	_	8	_	_	_
@@ -299,18 +299,18 @@
 18	i	_	A	APPR	_	18	_	_	_
 19	Kontakt	_	N	NN	_	19	_	_	_
 20	z	_	P	PTKZU	_	20	_	_	_
-21	trätte	_	V	VVINF	_	21	_	_	_
+21	trätte	_	V	VVINF	_	21	_	_	_
 22	.	_	$	$.	_	22	_	_	_
 
 1	Sie	_	P	PPER	_	1	_	_	_
 2	het	_	V	VAFIN	_	2	_	_	_
-3	wöue	_	V	VMINF	_	3	_	_	_
-4	wüsse	_	V	VVINF	_	4	_	_	_
+3	wöue	_	V	VMINF	_	3	_	_	_
+4	wüsse	_	V	VVINF	_	4	_	_	_
 5	,	_	$	$,	_	5	_	_	_
 6	was	_	P	PWAV	_	6	_	_	_
 7	sie	_	P	PPER	_	7	_	_	_
-8	für	_	A	APPR	_	8	_	_	_
-9	Bedürfnis	_	N	NN	_	9	_	_	_
+8	für	_	A	APPR	_	8	_	_	_
+9	Bedürfnis	_	N	NN	_	9	_	_	_
 10	hei	_	V	VAFIN	_	10	_	_	_
 11	,	_	$	$,	_	11	_	_	_
 12	was	_	P	PWAV	_	12	_	_	_
@@ -322,13 +322,13 @@
 18	und	_	K	KON	_	18	_	_	_
 19	het	_	V	VAFIN	_	19	_	_	_
 20	mit	_	A	APPR	_	20	_	_	_
-21	öpperem	_	P	PIS	_	21	_	_	_
-22	wöue	_	V	VMPP	_	22	_	_	_
+21	öpperem	_	P	PIS	_	21	_	_	_
+22	wöue	_	V	VMPP	_	22	_	_	_
 23	schnure	_	V	VVINF	_	23	_	_	_
 24	,	_	$	$,	_	24	_	_	_
 25	wo	_	P	PRELS	_	25	_	_	_
 26	verantwortlech	_	A	ADJD	_	26	_	_	_
-27	für	_	A	APPR	_	27	_	_	_
+27	für	_	A	APPR	_	27	_	_	_
 28	d	_	A	ART	_	28	_	_	_
 29	Organisation	_	N	NN	_	29	_	_	_
 30	isch	_	V	VAFIN	_	30	_	_	_
@@ -353,12 +353,12 @@
 7	gha	_	V	VAPP	_	7	_	_	_
 8	,	_	$	$,	_	8	_	_	_
 9	d	_	A	ART	_	9	_	_	_
-10	Chöschte	_	N	NN	_	10	_	_	_
+10	Chöschte	_	N	NN	_	10	_	_	_
 11	vo	_	A	APPR	_	11	_	_	_
 12	letscht	_	A	ADJA	_	12	_	_	_
 13	Johr	_	N	NN	_	13	_	_	_
-14	müesse	_	V	VMFIN	_	14	_	_	_
-15	bläche	_	V	VVINF	_	15	_	_	_
+14	müesse	_	V	VMFIN	_	14	_	_	_
+15	bläche	_	V	VVINF	_	15	_	_	_
 16	,	_	$	$,	_	16	_	_	_
 17	wie	_	P	PWAV	_	17	_	_	_
 18	si	_	P	PPER	_	18	_	_	_
@@ -373,10 +373,10 @@
 2	Johr	_	N	NN	_	2	_	_	_
 3	–	_	$	$(	_	3	_	_	_
 4	im	_	A	APPRART	_	4	_	_	_
-5	Septämber	_	N	NN	_	5	_	_	_
+5	Septämber	_	N	NN	_	5	_	_	_
 6	–	_	$	$(	_	6	_	_	_
 7	het	_	V	VAFIN	_	7	_	_	_
-8	nämlech	_	A	ADV	_	8	_	_	_
+8	nämlech	_	A	ADV	_	8	_	_	_
 9	scho	_	A	ADV	_	9	_	_	_
 10	mou	_	A	ADV	_	10	_	_	_
 11	e	_	A	ART	_	11	_	_	_
@@ -387,7 +387,7 @@
 16	.	_	$	$.	_	16	_	_	_
 
 1	2000	_	C	CARD	_	1	_	_	_
-2	Lüt	_	N	NN	_	2	_	_	_
+2	Lüt	_	N	NN	_	2	_	_	_
 3	hei	_	V	VAFIN	_	3	_	_	_
 4	sech	_	P	PRF	_	4	_	_	_
 5	d	_	A	ART	_	5	_	_	_
@@ -396,7 +396,7 @@
 8	dOhre	_	N	NE	_	8	_	_	_
 9	gschlage	_	V	VVPP	_	9	_	_	_
 10	u	_	K	KON	_	10	_	_	_
-11	zäme	_	A	ADV	_	11	_	_	_
+11	zäme	_	A	ADV	_	11	_	_	_
 12	gfiiret	_	V	VVPP	_	12	_	_	_
 13	.	_	$	$.	_	13	_	_	_
 
@@ -428,19 +428,19 @@
 2	grosse	_	A	ADJA	_	2	_	_	_
 3	Polizeiufgebot	_	N	NN	_	3	_	_	_
 4	isch	_	V	VAFIN	_	4	_	_	_
-5	fürs	_	A	APPRART	_	5	_	_	_
+5	fürs	_	A	APPRART	_	5	_	_	_
 6	KAZ	_	N	NE	_	6	_	_	_
-7	unverständlech	_	A	ADJD	_	7	_	_	_
+7	unverständlech	_	A	ADJD	_	7	_	_	_
 8	:	_	$	$.	_	8	_	_	_
 9	«	_	$	$(	_	9	_	_	_
 10	We	_	K	KOUS	_	10	_	_	_
 11	mer	_	P	PPER	_	11	_	_	_
-12	üs	_	P	PRF	_	12	_	_	_
+12	üs	_	P	PRF	_	12	_	_	_
 13	d	_	A	ART	_	13	_	_	_
 14	Biuder	_	N	NN	_	14	_	_	_
 15	vom	_	A	APPRART	_	15	_	_	_
-16	nächtleche	_	A	ADJA	_	16	_	_	_
-17	Tanzvergnüege	_	N	NN	_	17	_	_	_
+16	nächtleche	_	A	ADJA	_	16	_	_	_
+17	Tanzvergnüege	_	N	NN	_	17	_	_	_
 18	usem	_	A	APPRART	_	18	_	_	_
 19	Johr	_	N	NN	_	19	_	_	_
 20	2012	_	C	CARD	_	20	_	_	_
@@ -448,7 +448,7 @@
 22	,	_	$	$,	_	22	_	_	_
 23	froge	_	V	VVFIN	_	23	_	_	_
 24	mer	_	P	PPER	_	24	_	_	_
-25	üs	_	P	PRF	_	25	_	_	_
+25	üs	_	P	PRF	_	25	_	_	_
 26	,	_	$	$,	_	26	_	_	_
 27	wie	_	P	PWAV	_	27	_	_	_
 28	gross	_	A	ADJA	_	28	_	_	_
@@ -460,7 +460,7 @@
 34	»	_	$	$(	_	34	_	_	_
 
 1	Sie	_	P	PPER	_	1	_	_	_
-2	rüefe	_	V	VVFIN	_	2	_	_	_
+2	rüefe	_	V	VVFIN	_	2	_	_	_
 3	aui	_	P	PIAT	_	3	_	_	_
 4	Polizischte	_	N	NN	_	4	_	_	_
 5	uf	_	P	PTKVZ	_	5	_	_	_
@@ -486,7 +486,7 @@
 2	de	_	A	ART	_	2	_	_	_
 3	Biuder	_	N	NN	_	3	_	_	_
 4	us	_	A	APPR	_	4	_	_	_
-5	Bärn	_	N	NE	_	5	_	_	_
+5	Bärn	_	N	NE	_	5	_	_	_
 6	wird	_	V	VAFIN	_	6	_	_	_
 7	sech	_	P	PRF	_	7	_	_	_
 8	das	_	P	PDS	_	8	_	_	_
@@ -495,6 +495,6 @@
 11	im	_	A	APPRART	_	11	_	_	_
 12	Aargau	_	N	NE	_	12	_	_	_
 13	aber	_	A	ADV	_	13	_	_	_
-14	zwöimou	_	A	ADV	_	14	_	_	_
-15	überlegge	_	V	VVINF	_	15	_	_	_
+14	zwöimou	_	A	ADV	_	14	_	_	_
+15	überlegge	_	V	VVINF	_	15	_	_	_
 16	.	_	$	$.	_	16	_	_	_

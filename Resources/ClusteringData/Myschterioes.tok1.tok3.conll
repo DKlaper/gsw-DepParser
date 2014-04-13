@@ -1,4 +1,4 @@
-1	Myschteriöse	_	A	ADJA	_	1	_	_	_
+1	Myschteriöse	_	A	ADJA	_	1	_	_	_
 2	Mord	_	N	NN	_	2	_	_	_
 3	anere	_	A	APPRART	_	3	_	_	_
 4	Star-Volleyballspilerin	_	N	NN	_	4	_	_	_
@@ -6,7 +6,7 @@
 6	.	_	$	$.	_	6	_	_	_
 
 1	D'	_	A	ART	_	1	_	_	_
-2	Holländerin	_	N	NN	_	2	_	_	_
+2	Holländerin	_	N	NN	_	2	_	_	_
 3	Ingrid	_	N	NE	_	3	_	_	_
 4	Visser	_	N	NE	_	4	_	_	_
 5	(	_	$	$(	_	5	_	_	_
@@ -14,7 +14,7 @@
 7	)	_	$	$(	_	7	_	_	_
 8	ond	_	K	KON	_	8	_	_	_
 9	ehre	_	P	PPOSAT	_	9	_	_	_
-10	Frönd	_	N	NN	_	10	_	_	_
+10	Frönd	_	N	NN	_	10	_	_	_
 11	send	_	V	VAFIN	_	11	_	_	_
 12	in	_	A	APPR	_	12	_	_	_
 13	Spanie	_	N	NE	_	13	_	_	_
@@ -40,15 +40,15 @@
 8	Liiche	_	N	NN	_	8	_	_	_
 9	vode	_	A	APPRART	_	9	_	_	_
 10	beide	_	A	ADJA	_	10	_	_	_
-11	Holländer	_	N	NN	_	11	_	_	_
+11	Holländer	_	N	NN	_	11	_	_	_
 12	hedmer	_	V	VAFIN+	_	12	_	_	_
 13	e	_	A	ART	_	13	_	_	_
 14	de	_	A	ART	_	14	_	_	_
-15	Gägend	_	N	NN	_	15	_	_	_
+15	Gägend	_	N	NN	_	15	_	_	_
 16	vo	_	A	APPR	_	16	_	_	_
 17	Murcia	_	N	NE	_	17	_	_	_
 18	em	_	A	ART	_	18	_	_	_
-19	Südoschte	_	N	NN	_	19	_	_	_
+19	Südoschte	_	N	NN	_	19	_	_	_
 20	vo	_	A	APPR	_	20	_	_	_
 21	Spanie	_	N	NE	_	21	_	_	_
 22	gfonde	_	V	VVPP	_	22	_	_	_
@@ -58,17 +58,17 @@
 2	das	_	P	PDS	_	2	_	_	_
 3	abe	_	A	ADV	_	3	_	_	_
 4	send	_	V	VAFIN	_	4	_	_	_
-5	drüü	_	C	CARD	_	5	_	_	_
-6	Verdächtigi	_	N	NN	_	6	_	_	_
+5	drüü	_	C	CARD	_	5	_	_	_
+6	Verdächtigi	_	N	NN	_	6	_	_	_
 7	feschtgno	_	V	VVPP	_	7	_	_	_
 8	worde	_	V	VAPP	_	8	_	_	_
 9	:	_	$	$.	_	9	_	_	_
 10	en	_	A	ART	_	10	_	_	_
-11	36-jöhrige	_	A	ADJA	_	11	_	_	_
+11	36-jöhrige	_	A	ADJA	_	11	_	_	_
 12	Spanier	_	N	NN	_	12	_	_	_
 13	ond	_	K	KON	_	13	_	_	_
 14	zwoi	_	C	CARD	_	14	_	_	_
-15	Rumäne	_	N	NN	_	15	_	_	_
+15	Rumäne	_	N	NN	_	15	_	_	_
 16	(	_	$	$(	_	16	_	_	_
 17	47	_	C	CARD	_	17	_	_	_
 18	ond	_	K	KON	_	18	_	_	_
@@ -95,7 +95,7 @@
 8	,	_	$	$,	_	8	_	_	_
 9	dass	_	K	KOUS	_	9	_	_	_
 10	s	_	A	ART	_	10	_	_	_
-11	Verbräche	_	N	NN	_	11	_	_	_
+11	Verbräche	_	N	NN	_	11	_	_	_
 12	e	_	A	APPR	_	12	_	_	_
 13	de	_	A	ART	_	13	_	_	_
 14	Gmeind	_	N	NN	_	14	_	_	_
@@ -110,14 +110,14 @@
 2	Liiche	_	N	NN	_	2	_	_	_
 3	send	_	V	VAFIN	_	3	_	_	_
 4	denn	_	A	ADV	_	4	_	_	_
-5	spöter	_	A	ADV	_	5	_	_	_
+5	spöter	_	A	ADV	_	5	_	_	_
 6	bemene	_	A	APPRART	_	6	_	_	_
 7	Landguet	_	N	NN	_	7	_	_	_
 8	,	_	$	$,	_	8	_	_	_
-9	zäh	_	C	CARD	_	9	_	_	_
+9	zäh	_	C	CARD	_	9	_	_	_
 10	Kilometer	_	N	NN	_	10	_	_	_
 11	wiit	_	A	ADV	_	11	_	_	_
-12	wäg	_	A	ADV	_	12	_	_	_
+12	wäg	_	A	ADV	_	12	_	_	_
 13	,	_	$	$,	_	13	_	_	_
 14	vergrabe	_	V	VVPP	_	14	_	_	_
 15	worde	_	V	VAPP	_	15	_	_	_
@@ -138,9 +138,9 @@
 13	,	_	$	$,	_	13	_	_	_
 14	Striit	_	N	NN	_	14	_	_	_
 15	om	_	A	APPR	_	15	_	_	_
-16	gschäftlechi	_	A	ADJA	_	16	_	_	_
+16	gschäftlechi	_	A	ADJA	_	16	_	_	_
 17	Sache	_	N	NN	_	17	_	_	_
-18	chönnt	_	V	VMFIN	_	18	_	_	_
+18	chönnt	_	V	VMFIN	_	18	_	_	_
 19	s	_	A	ART	_	19	_	_	_
 20	Motiiv	_	N	NN	_	20	_	_	_
 21	sii	_	V	VAINF	_	21	_	_	_
@@ -157,8 +157,8 @@
 9	Polizei	_	N	NN	_	9	_	_	_
 10	aber	_	A	ADV	_	10	_	_	_
 11	ned	_	P	PTKNEG	_	11	_	_	_
-12	chönne	_	V	VMINF	_	12	_	_	_
-13	säge	_	V	VVINF	_	13	_	_	_
+12	chönne	_	V	VMINF	_	12	_	_	_
+13	säge	_	V	VVINF	_	13	_	_	_
 14	.	_	$	$.	_	14	_	_	_
 
 1	Brisant	_	A	ADJD	_	1	_	_	_
@@ -189,7 +189,7 @@
 2	hed	_	V	VAFIN	_	2	_	_	_
 3	sie	_	P	PPER	_	3	_	_	_
 4	no	_	A	ADV	_	4	_	_	_
-5	Gäld	_	N	NN	_	5	_	_	_
+5	Gäld	_	N	NN	_	5	_	_	_
 6	vom	_	A	APPRART	_	6	_	_	_
 7	Klub	_	N	NN	_	7	_	_	_
 8	welle	_	V	VVPP	_	8	_	_	_
@@ -206,8 +206,8 @@
 9	de	_	A	ART	_	9	_	_	_
 10	Verein	_	N	NN	_	10	_	_	_
 11	aber	_	A	ADV	_	11	_	_	_
-12	nöm	_	P	PTKNEG	_	12	_	_	_
-13	chönne	_	V	VMPP	_	13	_	_	_
+12	nöm	_	P	PTKNEG	_	12	_	_	_
+13	chönne	_	V	VMPP	_	13	_	_	_
 14	zahle	_	V	VVINF	_	14	_	_	_
 15	.	_	$	$.	_	15	_	_	_
 
@@ -216,7 +216,7 @@
 3	:	_	$	$.	_	3	_	_	_
 4	S	_	A	ART	_	4	_	_	_
 5	ermordete	_	A	ADJA	_	5	_	_	_
-6	Päärli	_	N	NN	_	6	_	_	_
+6	Päärli	_	N	NN	_	6	_	_	_
 7	hed	_	V	VAFIN	_	7	_	_	_
 8	sech	_	P	PRF	_	8	_	_	_
 9	am	_	A	APPRART	_	9	_	_	_
@@ -227,8 +227,8 @@
 14	freiwellig	_	A	ADJD	_	14	_	_	_
 15	met	_	A	APPR	_	15	_	_	_
 16	de	_	A	ART	_	16	_	_	_
-17	drüü	_	C	CARD	_	17	_	_	_
-18	Verdächtige	_	N	NN	_	18	_	_	_
+17	drüü	_	C	CARD	_	17	_	_	_
+18	Verdächtige	_	N	NN	_	18	_	_	_
 19	troffe	_	V	VVPP	_	19	_	_	_
 20	.	_	$	$.	_	20	_	_	_
 
@@ -240,10 +240,10 @@
 6	vermettlet	_	V	VVPP	_	6	_	_	_
 7	,	_	$	$,	_	7	_	_	_
 8	d	_	A	ART	_	8	_	_	_
-9	Rumäne	_	N	NN	_	9	_	_	_
-10	sölled	_	V	VMFIN	_	10	_	_	_
+9	Rumäne	_	N	NN	_	9	_	_	_
+10	sölled	_	V	VMFIN	_	10	_	_	_
 11	d	_	A	ART	_	11	_	_	_
-12	Holländer	_	N	NN	_	12	_	_	_
+12	Holländer	_	N	NN	_	12	_	_	_
 13	ombrocht	_	V	VVPP	_	13	_	_	_
 14	ha	_	V	VAFIN	_	14	_	_	_
 15	.	_	$	$.	_	15	_	_	_
@@ -251,7 +251,7 @@
 1	Hend	_	V	VAFIN	_	1	_	_	_
 2	sie	_	P	PPER	_	2	_	_	_
 3	ehri	_	P	PPOSAT	_	3	_	_	_
-4	Mörder	_	N	NN	_	4	_	_	_
+4	Mörder	_	N	NN	_	4	_	_	_
 5	kennt	_	V	VVFIN	_	5	_	_	_
 6	?	_	$	$.	_	6	_	_	_
 
@@ -260,7 +260,7 @@
 3	Visser	_	N	NE	_	3	_	_	_
 4	ond	_	K	KON	_	4	_	_	_
 5	ehre	_	P	PPOSAT	_	5	_	_	_
-6	Frönd	_	N	NN	_	6	_	_	_
+6	Frönd	_	N	NN	_	6	_	_	_
 7	.	_	$	$.	_	7	_	_	_
 
 1	Do	_	N	NE	_	1	_	_	_

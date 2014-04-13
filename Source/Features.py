@@ -10,7 +10,7 @@
 import os, sys, subprocess, codecs, tempfile
 from abc import * # abstract base classes
 
-DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 100], ["PronounciatonStem"]]
+DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 100], ["PronounciatonStem", 6]]
 
 TEMP = tempfile.gettempdir()
 PARSER = os.getenv("GSWPARSER", os.getcwd())
@@ -64,7 +64,7 @@ class FeatureConfig(object):
         
 class BrownCluster(Feature):
     """Class that represents the settings for brownclustering at runtime"""
-    def __init__(self, preflen=4, clusteringfile=os.path.join(EXTERNALDIR, "liang_brownclustering", "clusterings", "defcluster50.txt")):
+    def __init__(self, preflen=4, clusteringfile=os.path.join(EXTERNALDIR, "liang_brownclustering", "clusterings", "defcluster.txt")):
         self.prefix = preflen
         self.clusters = self.readPaths(clusteringfile)
     

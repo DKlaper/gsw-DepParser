@@ -1,24 +1,24 @@
 1	«	_	$	$(	_	1	_	_	_
 2	Wie	_	P	PWS	_	2	_	_	_
-3	häsch	_	V	VAFIN	_	3	_	_	_
+3	häsch	_	V	VAFIN	_	3	_	_	_
 4	es	_	P	PPER	_	4	_	_	_
 5	?	_	$	$.	_	5	_	_	_
 6	»	_	$	$(	_	6	_	_	_
 
 1	Die	_	A	ART	_	1	_	_	_
 2	meischte	_	P	PIAT	_	2	_	_	_
-3	Lüüt	_	N	NN	_	3	_	_	_
+3	Lüüt	_	N	NN	_	3	_	_	_
 4	smsle	_	V	VVFIN	_	4	_	_	_
 5	uf	_	A	APPR	_	5	_	_	_
-6	Schwiizertüütsch	_	N	NN	_	6	_	_	_
+6	Schwiizertüütsch	_	N	NN	_	6	_	_	_
 7	.	_	$	$.	_	7	_	_	_
 
-1	Für	_	A	APPR	_	1	_	_	_
+1	Für	_	A	APPR	_	1	_	_	_
 2	alli	_	P	PIS	_	2	_	_	_
 3	,	_	$	$,	_	3	_	_	_
 4	wo	_	P	PRELS	_	4	_	_	_
 5	wennd	_	V	VMFIN	_	5	_	_	_
-6	Züritüütsch	_	N	NN	_	6	_	_	_
+6	Züritüütsch	_	N	NN	_	6	_	_	_
 7	lehre	_	V	VVINF	_	7	_	_	_
 8	De	_	A	ART	_	8	_	_	_
 9	Alfred	_	N	NE	_	9	_	_	_
@@ -28,7 +28,7 @@
 13	.	_	$	$.	_	13	_	_	_
 
 1	s'	_	A	APPR	_	1	_	_	_
-2	Schwiizertüütschsgeds	_	N	NE	_	2	_	_	_
+2	Schwiizertüütschsgeds	_	N	NE	_	2	_	_	_
 3	au	_	A	ADV	_	3	_	_	_
 4	i	_	A	APPR	_	4	_	_	_
 5	500	_	C	CARD	_	5	_	_	_
@@ -36,21 +36,21 @@
 7	no	_	A	ADV	_	7	_	_	_
 8	MISCHMASCH	_	N	NN	_	8	_	_	_
 9	Merbruchedimmermeh	_	A	ADJD	_	9	_	_	_
-10	Wörter	_	N	NN	_	10	_	_	_
+10	Wörter	_	N	NN	_	10	_	_	_
 11	us	_	A	APPR	_	11	_	_	_
 12	andere	_	A	ADJA	_	12	_	_	_
 13	Sprache	_	N	NN	_	13	_	_	_
 14	.	_	$	$.	_	14	_	_	_
 
 1	Das	_	P	PDS	_	1	_	_	_
-2	füehrt	_	V	VVFIN	_	2	_	_	_
-3	längsimeh	_	A	ADV	_	3	_	_	_
+2	füehrt	_	V	VVFIN	_	2	_	_	_
+3	längsimeh	_	A	ADV	_	3	_	_	_
 4	dezue	_	P	PAV	_	4	_	_	_
 5	,	_	$	$,	_	5	_	_	_
 6	dass	_	K	KOUS	_	6	_	_	_
 7	mer	_	P	PPER	_	7	_	_	_
 8	ein	_	A	ART	_	8	_	_	_
-9	Einheitsdialäkt	_	N	NN	_	9	_	_	_
+9	Einheitsdialäkt	_	N	NN	_	9	_	_	_
 10	reded	_	V	VVFIN	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
 
@@ -60,22 +60,22 @@
 4	Baltisberger	_	N	NE	_	4	_	_	_
 5	vo	_	A	APPR	_	5	_	_	_
 6	Altwis	_	N	NN	_	6	_	_	_
-7	LUsIüsem	_	P	PPOSAT	_	7	_	_	_
+7	LUsIüsem	_	P	PPOSAT	_	7	_	_	_
 8	Autag	_	N	NN	_	8	_	_	_
 9	gohts	_	V	VVFIN+	_	9	_	_	_
 10	fascht	_	A	ADV	_	10	_	_	_
 11	gar	_	A	ADV	_	11	_	_	_
 12	ned	_	P	PTKNEG	_	12	_	_	_
 13	ohni	_	A	APPR	_	13	_	_	_
-14	Dialäkt	_	N	NN	_	14	_	_	_
+14	Dialäkt	_	N	NN	_	14	_	_	_
 15	.	_	$	$.	_	15	_	_	_
 16	«	_	$	$(	_	16	_	_	_
 
 1	S	_	A	ART	_	1	_	_	_
-2	Schwiizertüütsch	_	N	NN	_	2	_	_	_
+2	Schwiizertüütsch	_	N	NN	_	2	_	_	_
 3	isch	_	V	VAFIN	_	3	_	_	_
 4	s	_	A	ART	_	4	_	_	_
-5	Rückgrat	_	N	NN	_	5	_	_	_
+5	Rückgrat	_	N	NN	_	5	_	_	_
 6	vo	_	A	APPR	_	6	_	_	_
 7	eusere	_	P	PPOSAT	_	7	_	_	_
 8	Kommunikation	_	N	NN	_	8	_	_	_
@@ -95,17 +95,17 @@
 22	Germanischt	_	N	NN	_	22	_	_	_
 23	und	_	K	KON	_	23	_	_	_
 24	Lehrer	_	N	NN	_	24	_	_	_
-25	für	_	A	APPRART	_	25	_	_	_
-26	Zöritüütsch	_	N	NN	_	26	_	_	_
+25	für	_	A	APPRART	_	25	_	_	_
+26	Zöritüütsch	_	N	NN	_	26	_	_	_
 27	.	_	$	$.	_	27	_	_	_
 28	«	_	$	$(	_	28	_	_	_
 
 1	Die	_	A	ART	_	1	_	_	_
-2	Sprachshät	_	N	NN	_	2	_	_	_
+2	Sprachshät	_	N	NN	_	2	_	_	_
 3	e	_	A	ART	_	3	_	_	_
 4	enormi	_	A	ADJA	_	4	_	_	_
-5	Bedüütig	_	N	NN	_	5	_	_	_
-6	für	_	A	APPR	_	6	_	_	_
+5	Bedüütig	_	N	NN	_	5	_	_	_
+6	für	_	A	APPR	_	6	_	_	_
 7	eus	_	P	PPER	_	7	_	_	_
 8	.	_	$	$.	_	8	_	_	_
 
@@ -116,7 +116,7 @@
 5	Teil	_	N	NN	_	5	_	_	_
 6	vo	_	A	APPR	_	6	_	_	_
 7	eusere	_	P	PPOSAT	_	7	_	_	_
-8	Identität	_	N	NN	_	8	_	_	_
+8	Identität	_	N	NN	_	8	_	_	_
 9	.	_	$	$.	_	9	_	_	_
 
 1	Si	_	P	PPER	_	1	_	_	_
@@ -128,7 +128,7 @@
 7	starch	_	A	ADJD	_	7	_	_	_
 8	mit	_	A	APPR	_	8	_	_	_
 9	eusem	_	P	PPOSAT	_	9	_	_	_
-10	Läbe	_	N	NN	_	10	_	_	_
+10	Läbe	_	N	NN	_	10	_	_	_
 11	und	_	K	KON	_	11	_	_	_
 12	eusere	_	P	PPOSAT	_	12	_	_	_
 13	Gschicht	_	N	NN	_	13	_	_	_
@@ -139,7 +139,7 @@
 1	Das	_	P	PDS	_	1	_	_	_
 2	zeigt	_	V	VVFIN	_	2	_	_	_
 3	sech	_	P	PRF	_	3	_	_	_
-4	höt	_	A	ADV	_	4	_	_	_
+4	höt	_	A	ADV	_	4	_	_	_
 5	vor	_	A	APPR	_	5	_	_	_
 6	auem	_	P	PIS	_	6	_	_	_
 7	wenn	_	K	KOUS	_	7	_	_	_
@@ -153,13 +153,13 @@
 1	Im	_	A	APPRART	_	1	_	_	_
 2	Familie-	_	T	TRUNC	_	2	_	_	_
 3	und	_	K	KON	_	3	_	_	_
-4	Fründeschreis	_	N	NN	_	4	_	_	_
+4	Fründeschreis	_	N	NN	_	4	_	_	_
 5	schriibed	_	V	VVFIN	_	5	_	_	_
 6	die	_	A	ART	_	6	_	_	_
 7	meischte	_	P	PIS	_	7	_	_	_
 8	e	_	A	APPR	_	8	_	_	_
 9	ehrem	_	P	PPOSAT	_	9	_	_	_
-10	Dialäkt	_	N	NN	_	10	_	_	_
+10	Dialäkt	_	N	NN	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
 
 1	«	_	$	$(	_	1	_	_	_
@@ -171,7 +171,7 @@
 7	wo	_	P	PRELS	_	7	_	_	_
 8	eus	_	P	PPER	_	8	_	_	_
 9	am	_	A	APPRART	_	9	_	_	_
-10	nöchschte	_	A	ADJD	_	10	_	_	_
+10	nöchschte	_	A	ADJD	_	10	_	_	_
 11	isch	_	V	VAFIN	_	11	_	_	_
 12	.	_	$	$.	_	12	_	_	_
 
@@ -181,7 +181,7 @@
 4	,	_	$	$,	_	4	_	_	_
 5	wie	_	P	PWAV	_	5	_	_	_
 6	mer	_	P	PPER	_	6	_	_	_
-7	tänkt	_	V	VVFIN	_	7	_	_	_
+7	tänkt	_	V	VVFIN	_	7	_	_	_
 8	.	_	$	$.	_	8	_	_	_
 
 1	Es	_	P	PPER	_	1	_	_	_
@@ -191,18 +191,18 @@
 5	mer	_	P	PPER	_	5	_	_	_
 6	mues	_	V	VMFIN	_	6	_	_	_
 7	kei	_	P	PIAT	_	7	_	_	_
-8	Rücksicht	_	N	NN	_	8	_	_	_
+8	Rücksicht	_	N	NN	_	8	_	_	_
 9	uf	_	A	APPR	_	9	_	_	_
 10	Form	_	N	NN	_	10	_	_	_
 11	oder	_	K	KON	_	11	_	_	_
-12	Rächtschriibig	_	N	NN	_	12	_	_	_
-13	nää	_	V	VVINF	_	13	_	_	_
+12	Rächtschriibig	_	N	NN	_	12	_	_	_
+13	nää	_	V	VVINF	_	13	_	_	_
 14	.	_	$	$.	_	14	_	_	_
 
 1	Das	_	P	PDS	_	1	_	_	_
 2	isch	_	V	VAFIN	_	2	_	_	_
 3	e	_	A	ART	_	3	_	_	_
-4	unghüüri	_	A	ADJA	_	4	_	_	_
+4	unghüüri	_	A	ADJA	_	4	_	_	_
 5	Freiheit	_	N	NN	_	5	_	_	_
 6	»	_	$	$(	_	6	_	_	_
 7	,	_	$	$,	_	7	_	_	_
@@ -213,45 +213,45 @@
 12	.	_	$	$.	_	12	_	_	_
 
 1	Em	_	A	ART	_	1	_	_	_
-2	Bruefsläbes	_	N	NN	_	2	_	_	_
-3	gäuted	_	V	VVFIN	_	3	_	_	_
+2	Bruefsläbes	_	N	NN	_	2	_	_	_
+3	gäuted	_	V	VVFIN	_	3	_	_	_
 4	aber	_	K	KON	_	4	_	_	_
 5	anderi	_	A	ADJA	_	5	_	_	_
 6	Gsetz	_	N	NN	_	6	_	_	_
 7	.	_	$	$.	_	7	_	_	_
 
 1	Det	_	A	ADV	_	1	_	_	_
-2	zöut	_	V	VVFIN	_	2	_	_	_
+2	zöut	_	V	VVFIN	_	2	_	_	_
 3	absoluti	_	A	ADJA	_	3	_	_	_
 4	Korrekt-sheit	_	N	NN	_	4	_	_	_
 5	.	_	$	$.	_	5	_	_	_
 
 1	«	_	$	$(	_	1	_	_	_
 2	S	_	A	ART	_	2	_	_	_
-3	Hochtüütsch	_	N	NN	_	3	_	_	_
-4	hät	_	V	VAFIN	_	4	_	_	_
+3	Hochtüütsch	_	N	NN	_	3	_	_	_
+4	hät	_	V	VAFIN	_	4	_	_	_
 5	sich	_	P	PRF	_	5	_	_	_
 6	da	_	A	ADV	_	6	_	_	_
 7	duregsetzt	_	V	VVPP	_	7	_	_	_
 8	.	_	$	$.	_	8	_	_	_
 
-1	Präzision	_	N	NN	_	1	_	_	_
+1	Präzision	_	N	NN	_	1	_	_	_
 2	isch	_	V	VAFIN	_	2	_	_	_
 3	sehr	_	A	ADV	_	3	_	_	_
 4	wichtig	_	A	ADJD	_	4	_	_	_
 5	.	_	$	$.	_	5	_	_	_
 
 1	D	_	A	ART	_	1	_	_	_
-2	Lüüt	_	N	NN	_	2	_	_	_
+2	Lüüt	_	N	NN	_	2	_	_	_
 3	sind	_	V	VAFIN	_	3	_	_	_
-4	dänn	_	A	ADV	_	4	_	_	_
+4	dänn	_	A	ADV	_	4	_	_	_
 5	au	_	A	ADV	_	5	_	_	_
 6	vil	_	A	ADV	_	6	_	_	_
 7	pingeliger	_	A	ADJD	_	7	_	_	_
 8	.	_	$	$.	_	8	_	_	_
 
 1	Im	_	A	APPRART	_	1	_	_	_
-2	Dialäkt	_	N	NN	_	2	_	_	_
+2	Dialäkt	_	N	NN	_	2	_	_	_
 3	cha	_	V	VMFIN	_	3	_	_	_
 4	mer	_	P	PPER	_	4	_	_	_
 5	sich	_	P	PRF	_	5	_	_	_
@@ -266,10 +266,10 @@
 3	sech	_	P	PRF	_	3	_	_	_
 4	immer	_	A	ADV	_	4	_	_	_
 5	meh	_	A	ADV	_	5	_	_	_
-6	Hochtüütschi	_	A	ADJA	_	6	_	_	_
-7	Usdröck	_	N	NN	_	7	_	_	_
+6	Hochtüütschi	_	A	ADJA	_	6	_	_	_
+7	Usdröck	_	N	NN	_	7	_	_	_
 8	e	_	A	APPR	_	8	_	_	_
-9	üse	_	P	PPOSAT	_	9	_	_	_
+9	üse	_	P	PPOSAT	_	9	_	_	_
 10	Wortschatz	_	N	NN	_	10	_	_	_
 11	:	_	$	$.	_	11	_	_	_
 12	grille	_	V	VVINF	_	12	_	_	_
@@ -281,29 +281,29 @@
 18	parkiere	_	V	VVINF	_	18	_	_	_
 19	.	_	$	$.	_	19	_	_	_
 
-1	Wärs	_	V	VAFIN+	_	1	_	_	_
+1	Wärs	_	V	VAFIN+	_	1	_	_	_
 2	denn	_	A	ADV	_	2	_	_	_
-3	möglech	_	A	ADJD	_	3	_	_	_
+3	möglech	_	A	ADJD	_	3	_	_	_
 4	,	_	$	$,	_	4	_	_	_
 5	dass	_	K	KOUS	_	5	_	_	_
 6	s	_	A	ART	_	6	_	_	_
-7	Hochtüütsch	_	N	NN	_	7	_	_	_
+7	Hochtüütsch	_	N	NN	_	7	_	_	_
 8	ergendwenn	_	A	ADV	_	8	_	_	_
 9	so	_	A	ADV	_	9	_	_	_
-10	vöu	_	P	PIAT	_	10	_	_	_
+10	vöu	_	P	PIAT	_	10	_	_	_
 11	Iifluss	_	N	NN	_	11	_	_	_
 12	nemmt	_	V	VVFIN	_	12	_	_	_
 13	,	_	$	$,	_	13	_	_	_
 14	dass	_	K	KOUS	_	14	_	_	_
 15	s	_	A	ART	_	15	_	_	_
-16	Schwiizertüütsch	_	N	NN	_	16	_	_	_
+16	Schwiizertüütsch	_	N	NN	_	16	_	_	_
 17	ganz	_	A	ADV	_	17	_	_	_
 18	verschwendet	_	V	VVFIN	_	18	_	_	_
 19	?	_	$	$.	_	19	_	_	_
 
 1	Die	_	A	ART	_	1	_	_	_
-2	Tendänz	_	N	NN	_	2	_	_	_
-3	gäbs	_	V	VVFIN	_	3	_	_	_
+2	Tendänz	_	N	NN	_	2	_	_	_
+3	gäbs	_	V	VVFIN	_	3	_	_	_
 4	,	_	$	$,	_	4	_	_	_
 5	seit	_	V	VVFIN	_	5	_	_	_
 6	de	_	A	ART	_	6	_	_	_
@@ -317,14 +317,14 @@
 4	dass	_	K	KOUS	_	4	_	_	_
 5	mer	_	P	PPER	_	5	_	_	_
 6	neui	_	A	ADJA	_	6	_	_	_
-7	Wörter	_	N	NN	_	7	_	_	_
+7	Wörter	_	N	NN	_	7	_	_	_
 8	us	_	A	APPR	_	8	_	_	_
 9	andere	_	A	ADJA	_	9	_	_	_
 10	Sproche	_	N	NN	_	10	_	_	_
 11	bruched	_	V	VVFIN	_	11	_	_	_
 12	,	_	$	$,	_	12	_	_	_
-13	üsi	_	P	PPOSAT	_	13	_	_	_
-14	Dialäkt	_	N	NN	_	14	_	_	_
+13	üsi	_	P	PPOSAT	_	13	_	_	_
+14	Dialäkt	_	N	NN	_	14	_	_	_
 15	vermisched	_	V	VVFIN	_	15	_	_	_
 16	sich	_	P	PRF	_	16	_	_	_
 17	au	_	A	ADV	_	17	_	_	_
@@ -332,22 +332,22 @@
 19	.	_	$	$.	_	19	_	_	_
 
 1	Grund	_	N	NN	_	1	_	_	_
-2	für	_	A	APPR	_	2	_	_	_
+2	für	_	A	APPR	_	2	_	_	_
 3	die	_	A	ART	_	3	_	_	_
 4	Vermeschig	_	N	NN	_	4	_	_	_
 5	isch	_	V	VAFIN	_	5	_	_	_
 6	vor	_	A	APPR	_	6	_	_	_
 7	auem	_	P	PIS	_	7	_	_	_
 8	d	_	A	ART	_	8	_	_	_
-9	Mobilität	_	N	NN	_	9	_	_	_
+9	Mobilität	_	N	NN	_	9	_	_	_
 10	vo	_	A	APPR	_	10	_	_	_
 11	de	_	A	ART	_	11	_	_	_
 12	Schwiizer	_	N	NN	_	12	_	_	_
 13	.	_	$	$.	_	13	_	_	_
 
-1	Vöu	_	P	PIAT	_	1	_	_	_
-2	Lüüt	_	N	NN	_	2	_	_	_
-3	läbed	_	V	VVFIN	_	3	_	_	_
+1	Vöu	_	P	PIAT	_	1	_	_	_
+2	Lüüt	_	N	NN	_	2	_	_	_
+3	läbed	_	V	VVFIN	_	3	_	_	_
 4	neumed	_	A	ADV	_	4	_	_	_
 5	anders	_	A	ADV	_	5	_	_	_
 6	,	_	$	$,	_	6	_	_	_
@@ -364,16 +364,16 @@
 4	mached	_	V	VVFIN	_	4	_	_	_
 5	sich	_	P	PRF	_	5	_	_	_
 6	d	_	A	ART	_	6	_	_	_
-7	Lüüt	_	N	NN	_	7	_	_	_
+7	Lüüt	_	N	NN	_	7	_	_	_
 8	vilicht	_	A	ADV	_	8	_	_	_
 9	echli	_	A	ADV	_	9	_	_	_
 10	luschtig	_	A	ADJD	_	10	_	_	_
-11	über	_	A	APPR	_	11	_	_	_
+11	über	_	A	APPR	_	11	_	_	_
 12	en	_	A	ART	_	12	_	_	_
-13	Dialäkt	_	N	NN	_	13	_	_	_
+13	Dialäkt	_	N	NN	_	13	_	_	_
 14	und	_	K	KON	_	14	_	_	_
-15	dänn	_	A	ADV	_	15	_	_	_
-16	schämt	_	V	VVFIN	_	16	_	_	_
+15	dänn	_	A	ADV	_	15	_	_	_
+16	schämt	_	V	VVFIN	_	16	_	_	_
 17	mer	_	P	PIS	_	17	_	_	_
 18	sich	_	P	PRF	_	18	_	_	_
 19	.	_	$	$.	_	19	_	_	_
@@ -384,23 +384,23 @@
 4	sich	_	P	PRF	_	4	_	_	_
 5	aa	_	P	PTKVZ	_	5	_	_	_
 6	,	_	$	$,	_	6	_	_	_
-7	übernimmt	_	V	VVFIN	_	7	_	_	_
-8	Wörter	_	N	NN	_	8	_	_	_
+7	übernimmt	_	V	VVFIN	_	7	_	_	_
+8	Wörter	_	N	NN	_	8	_	_	_
 9	us	_	A	APPR	_	9	_	_	_
 10	emene	_	A	ART	_	10	_	_	_
 11	andere	_	A	ADJA	_	11	_	_	_
-12	Dialäkt	_	N	NN	_	12	_	_	_
+12	Dialäkt	_	N	NN	_	12	_	_	_
 13	.	_	$	$.	_	13	_	_	_
 
 1	So	_	A	ADV	_	1	_	_	_
-2	verlüürt	_	V	VVFIN	_	2	_	_	_
+2	verlüürt	_	V	VVFIN	_	2	_	_	_
 3	mer	_	P	PPER	_	3	_	_	_
 4	au	_	A	ADV	_	4	_	_	_
 5	es	_	A	ART	_	5	_	_	_
 6	Stuck	_	N	NN	_	6	_	_	_
 7	vo	_	A	APPR	_	7	_	_	_
 8	sinere	_	P	PPOSAT	_	8	_	_	_
-9	Identität	_	N	NN	_	9	_	_	_
+9	Identität	_	N	NN	_	9	_	_	_
 10	.	_	$	$.	_	10	_	_	_
 
 1	Bi	_	A	APPR	_	1	_	_	_
@@ -410,7 +410,7 @@
 5	sowiso	_	A	ADV	_	5	_	_	_
 6	no	_	A	ADV	_	6	_	_	_
 7	vil	_	A	ADV	_	7	_	_	_
-8	schnäller	_	A	ADJD	_	8	_	_	_
+8	schnäller	_	A	ADJD	_	8	_	_	_
 9	»	_	$	$(	_	9	_	_	_
 10	,	_	$	$,	_	10	_	_	_
 11	seit	_	V	VVFIN	_	11	_	_	_
@@ -422,9 +422,9 @@
 
 1	Eusi	_	P	PPOSAT	_	1	_	_	_
 2	Chind	_	N	NN	_	2	_	_	_
-3	händ	_	V	VAFIN	_	3	_	_	_
+3	händ	_	V	VAFIN	_	3	_	_	_
 4	au	_	A	ADV	_	4	_	_	_
-5	nüme	_	P	PTKNEG	_	5	_	_	_
+5	nüme	_	P	PTKNEG	_	5	_	_	_
 6	de	_	A	ART	_	6	_	_	_
 7	gliich	_	A	ADV	_	7	_	_	_
 8	Wortschatz	_	N	NN	_	8	_	_	_
@@ -433,15 +433,15 @@
 11	.	_	$	$.	_	11	_	_	_
 
 1	Si	_	P	PPER	_	1	_	_	_
-2	känned	_	V	VVFIN	_	2	_	_	_
+2	känned	_	V	VVFIN	_	2	_	_	_
 3	zum	_	A	APPRART	_	3	_	_	_
 4	Biispil	_	N	NN	_	4	_	_	_
-5	Wörter	_	N	NN	_	5	_	_	_
+5	Wörter	_	N	NN	_	5	_	_	_
 6	wie	_	K	KOKOM	_	6	_	_	_
 7	«	_	$	$(	_	7	_	_	_
 8	urche	_	A	ADJD	_	8	_	_	_
 9	»	_	$	$(	_	9	_	_	_
-10	nüme	_	P	PTKNEG	_	10	_	_	_
+10	nüme	_	P	PTKNEG	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
 
 1	Ich	_	P	PPER	_	1	_	_	_
@@ -461,17 +461,17 @@
 
 1	So	_	A	ADV	_	1	_	_	_
 2	chonnts	_	V	VVFIN+	_	2	_	_	_
-3	längsi	_	N	NN	_	3	_	_	_
+3	längsi	_	N	NN	_	3	_	_	_
 4	meh	_	A	ADV	_	4	_	_	_
 5	zumene	_	A	APPRART	_	5	_	_	_
-6	Einheitsdialäkt	_	N	NN	_	6	_	_	_
+6	Einheitsdialäkt	_	N	NN	_	6	_	_	_
 7	.	_	$	$.	_	7	_	_	_
 
 1	Aber	_	K	KOUS	_	1	_	_	_
 2	die	_	A	ART	_	2	_	_	_
 3	Vermischig	_	N	NN	_	3	_	_	_
 4	vo	_	A	APPR	_	4	_	_	_
-5	Dialäkt	_	N	NN	_	5	_	_	_
+5	Dialäkt	_	N	NN	_	5	_	_	_
 6	lood	_	V	VVFIN	_	6	_	_	_
 7	sich	_	P	PRF	_	7	_	_	_
 8	schier	_	A	ADV	_	8	_	_	_
@@ -483,7 +483,7 @@
 1	Das	_	P	PDS	_	1	_	_	_
 2	seig	_	V	VAFIN	_	2	_	_	_
 3	eigentlech	_	A	ADV	_	3	_	_	_
-4	rüüdig	_	A	ADV	_	4	_	_	_
+4	rüüdig	_	A	ADV	_	4	_	_	_
 5	schad	_	A	ADJD	_	5	_	_	_
 6	,	_	$	$,	_	6	_	_	_
 7	findet	_	V	VVFIN	_	7	_	_	_
@@ -508,18 +508,18 @@
 2	rund	_	A	ADV	_	2	_	_	_
 3	500	_	C	CARD	_	3	_	_	_
 4	Johr	_	N	NN	_	4	_	_	_
-5	söus	_	V	VMFIN+	_	5	_	_	_
-6	üsi	_	P	PPOSAT	_	6	_	_	_
+5	söus	_	V	VMFIN+	_	5	_	_	_
+6	üsi	_	P	PPOSAT	_	6	_	_	_
 7	Schwiizer	_	A	ADJA	_	7	_	_	_
-8	Dialäkt	_	N	NN	_	8	_	_	_
+8	Dialäkt	_	N	NN	_	8	_	_	_
 9	no	_	A	ADV	_	9	_	_	_
-10	gä	_	V	VVINF	_	10	_	_	_
+10	gä	_	V	VVINF	_	10	_	_	_
 11	.	_	$	$.	_	11	_	_	_
 
 1	«	_	$	$(	_	1	_	_	_
 2	Aber	_	K	KON	_	2	_	_	_
-3	dää	_	P	PDS	_	3	_	_	_
-4	Prozäss	_	N	NN	_	4	_	_	_
+3	dää	_	P	PDS	_	3	_	_	_
+4	Prozäss	_	N	NN	_	4	_	_	_
 5	passiert	_	V	VVFIN	_	5	_	_	_
 6	halt	_	A	ADV	_	6	_	_	_
 7	eso	_	A	ADV	_	7	_	_	_
@@ -529,7 +529,7 @@
 11	mer	_	P	PPER	_	11	_	_	_
 12	s	_	P	PPER	_	12	_	_	_
 13	fascht	_	A	ADV	_	13	_	_	_
-14	nöd	_	P	PTKNEG	_	14	_	_	_
+14	nöd	_	P	PTKNEG	_	14	_	_	_
 15	merkt	_	V	VVFIN	_	15	_	_	_
 16	–	_	$	$(	_	16	_	_	_
 17	und	_	K	KON	_	17	_	_	_
@@ -539,7 +539,7 @@
 21	au	_	A	ADV	_	21	_	_	_
 22	ganz	_	A	ADV	_	22	_	_	_
 23	sicher	_	A	ADJD	_	23	_	_	_
-24	nüme	_	P	PTKNEG	_	24	_	_	_
-25	erläbe	_	V	VVINF	_	25	_	_	_
+24	nüme	_	P	PTKNEG	_	24	_	_	_
+25	erläbe	_	V	VVINF	_	25	_	_	_
 26	.	_	$	$.	_	26	_	_	_
 27	»	_	$	$(	_	27	_	_	_
