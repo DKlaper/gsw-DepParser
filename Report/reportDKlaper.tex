@@ -6,7 +6,7 @@
 \usepackage{amsfonts,eucal,amsbsy,amsopn,amsmath}
 \usepackage{url}
 \usepackage{covington}
-\usepackage[sort&compress]{natbib}
+\usepackage[sort&amp;compress]{natbib}
 \usepackage{natbibspacing}
 \usepackage{latexsym}
 \usepackage{wasysym} 
@@ -48,7 +48,7 @@
 \renewcommand{\footrulewidth}{0pt}
 
 
-\title{11-712:  NLP Lab Report: \\
+\title{11-712: NLP Lab Report: \\
 A Dependency Parser for Swiss German}
 \author{David Klaper}
 \date{April 25, 2014}
@@ -56,7 +56,7 @@ A Dependency Parser for Swiss German}
 \begin{document}
 \maketitle
 \begin{abstract}
-This lab report details the different stages in building the first Swiss German dependency parser. Swiss German is the main spoken `language' in Switzerland. The parser is trained on 10'000 tokens manually annotated dependency data. The data comes partly from an existing Swiss German text collection including wikipedia texts, a corporate report, and a newspaper. The second part of the data comes from online blogs mainly of Swiss high school students doing an exchange year. The blog texts collected for this project amounts to over 300'000 tokens Swiss German text that was not edited for publication. The experiments show that the blog text is much harder to parse. The accuracy of the parser for the blog texts is about 56\% using only supervised learning and 61\% when using additional unsupervised information.
+This lab report details the different stages in building the first Swiss German dependency parser. Swiss German is the main spoken `language' in Switzerland. The parser is trained on 10'000 tokens manually annotated dependency data. The data comes partly from an existing Swiss German text collection, which includes Wikipedia texts, a corporate report, and a newspaper. The second part of the data comes from online blogs mainly of Swiss high school students doing an exchange year. The blog texts collected for this project amounts to over 300'000 tokens Swiss German text that was not edited for publication. The experiments show that the blog text is much harder to parse. The accuracy of the parser for the blog texts is about 56\% using only supervised learning and 61\% when using additional unsupervised information.
 \end{abstract}
 
 Swiss German is one of the `languages' that does not have a standardized written form. Yet millions of Swiss people use this language to write emails, blogs, short messages, and sometimes even publicized materials. It is used in daily life in Switzerland even in business and retail contexts. Moreover, it is used as the main language on social media. Thus, to provide Swiss German speakers with appropriate recommendations, and understanding them Swiss German language technology is needed. This parser is an early step into the direction of powerful Swiss German language technology.
@@ -83,15 +83,15 @@ In conclusion, while Swiss German has many similarities with Standard German, fo
 
 \section{Available Resources}
 
-Since Swiss German is a mainly spoken language, written resources are sparse. In particular, organized corpora are basically non-existant or transcribed resources from interviews or otherwise artificial written text. The Zürcher Kompetenzzentrum für Linguistik (Zurich compentency center for linguistics) compiled a ist of corpora\footnote{\url{http://www.linguistik.uzh.ch/resources/korpora.html} last checked January 31$^{st}$, 2014.}. The problem with the list is that there are non-working links and most resources are only available on request and may not be shared. Finally, as mentioned above most of these resources are geared towards linguistic analysis use and are just transcriptions of spoken language. 
+Since Swiss German is a mainly spoken language, written resources are sparse. In particular, organized corpora are basically non-existent or transcribed resources from interviews or otherwise artificial written text. The Zürcher Kompetenzzentrum für Linguistik (Zurich competence center for linguistics) compiled a list of corpora\footnote{\url{http://www.linguistik.uzh.ch/resources/korpora.html} last checked January 31$^{st}$, 2014.}. The problem with the list is that there are non-working links and most resources are only available on request and may not be shared. Finally, as mentioned above most of these resources are geared towards linguistic analysis use and are just transcriptions of spoken language. 
 
 For building their PoS tagger, \citet{AH12} compiled data from the Alemannic Wikipedia\footnote{\url{http://als.wikipedia.org} last checked last checked January 31$^{st}$, 2014.} and annotated 20'000 tokens with PoS tags. Since the seminar thesis they have significantly increased the scope and size of their corpus. By now they have annotated over 50'000 tokens. First, there is a Swiss German edition of the 2012 corporate report of the Swiss firm Swatch\footnote{Report available at \url{http://www.swatchgroup.com/de/investor_relations/jahres_und_halbjahresberichte} last checked January 31$^{st}$, 2014.}. The report contains more than 70'000 tokens of which 13'000 were annotated with PoS tags. Another source they used is the anniversary edition of a daily free newspaper in Switzerland \footnote{Edition May 28$^th$, 2013 in the archive at \url{http://www.blick.ch/blickamabend/epaper/}  last checked January 31$^{st}$, 2014.}, which was a special edition written in Swiss German. They annotated about 11'000 tokens. They also annotated extracts from murder stories by Viktor Schobinger\footnote{\url{http://www.zuerituetsch.ch/zueri-krimi.html}  last checked January 31$^{st}$, 2014.} but I decided not to use this part, because the domain is quite different and probably even more difficult than the rest. \citep{AH14}
 
-In order to complement these resources, I decided to compile a new collection of Swiss German texts from the web, as an additional ressource. I was considering Twitter text but this will probably be too noisy. Also, it might be hard to detect whether a short tweet is Swiss German or not. Therefore, I decided to search for Swiss German blogs. I restricted myself to blogspot blogs, in order to facilitate subsequent extraction. Using google queries involving typical Swiss German words and `blog' I searched for mainly Swiss German blogs. Using this technique, I selected 17 blogs from people posting entries written in Swiss German. Interestingly, the queries I used returned almost exclusively returned blogs from Swiss people doing an exchange program or living abroad. I extracted 885 blog entries (but some contain only pictures no text and a few are in languages other than Swiss German). 
+In order to complement these resources, I decided to compile a new collection of Swiss German texts from the web, as an additional resource. I was considering Twitter text but this will probably be too noisy. Also, it might be hard to detect whether a short tweet is Swiss German or not. Therefore, I decided to search for Swiss German blogs. I restricted myself to BlogSpot blogs, in order to facilitate subsequent extraction. Using google queries involving typical Swiss German words and `blog' I searched for mainly Swiss German blogs. Using this technique, I selected 17 blogs from people posting entries written in Swiss German. Interestingly, the queries I used returned almost exclusively returned blogs from Swiss people doing an exchange program or living abroad. I extracted 885 blog entries (but some contain only pictures no text and a few are in languages other than Swiss German). 
 
 I then proceeded to filter out useless posts. I extracted the xml, removed html tags and wrote each blog entry into its own file with the pattern `blog\_\emph{blognumber}\_\emph{postnumber}.txt'. The blog number relates to one of the original 17 blogs. The postnumber indicates how old an entry is. Hence, the postnumber is in inverse chronological order. After extracting the text from the xml, I removed all files that were empty or less than 100 Bytes, since many posts only included pictures. Then, I manually went through all blog posts, deleting the entries with more than half written in another language. In a few special cases, e.g. song lyrics, I just removed these and kept the blog post if they were not vital to the content. At the end 615 blog posts remained.
 
-After cleaning the data I wrote a script to count the tokens. As a token I defined a sequence of alphabetical or numerical characters of length 2 or more. Note that this definition ignores punctuation as tokens. I will later use a tokenization script provided by \citet{AH14}, where the count will be higher, but for now this is precise enough. The token count was 277'000 with 32'402 types. This is a type-to-token ratio of 11.7\%, which is fairly high. Moreover, over half of the types (19'397) occur only once, i.e., they are hapax legonoma.
+After cleaning the data I wrote a script to count the tokens. As a token I defined a sequence of alphabetical or numerical characters of length 2 or more. Note that this definition ignores punctuation as tokens. I will later use a tokenization script provided by \citet{AH14}, where the count will be higher, but for now this is precise enough. The token count was 277'000 with 32'402 types. This is a type-to-token ratio of 11.7\%, which is fairly high. Moreover, over half of the types (19'397) occur only once, i.e., they are hapax legonema.
 
 Also, I will forward the data to \citet{AH14} and they will annotate part of it to make it part of their future tagger training material. A side resource I might use (depending on the parsing framework I use) is a list of Swiss German words without German roots\footnote{\url{http://www.dialektwoerter.ch} last checked January 31$^{st}$, 2014.}. If this word list helps, I might also consider German word lists.
 
@@ -99,12 +99,12 @@ Also, I will forward the data to \citet{AH14} and they will annotate part of it 
 \center
 \begin{tabular}{ | l | c | c | }
    \hline
-   \textbf{Source} & \textbf{Tokens with PoS} & \textbf{Tokens overall} \\ \hline
-   Wikipedia & 20'000 & 400'000 \\
-   Newspaper & 11'000 & 17'000 \\ 
-   Swatch Report & 13'000 & 70'000 \\
-   Blog Text & 0 & 277'000 \\ \hline
-   \textbf{Total} & \textbf{44'000} & \textbf{764'000} \\ \hline
+   \textbf{Source} &amp; \textbf{Tokens with PoS} &amp; \textbf{Tokens overall} \\ \hline
+   Wikipedia &amp; 20'000 &amp; 400'000 \\
+   Newspaper &amp; 11'000 &amp; 17'000 \\ 
+   Swatch Report &amp; 13'000 &amp; 70'000 \\
+   Blog Text &amp; 0 &amp; 277'000 \\ \hline
+   \textbf{Total} &amp; \textbf{44'000} &amp; \textbf{764'000} \\ \hline
 \end{tabular}
 \caption{Rough estimated token counts}
 \end{table}
@@ -113,13 +113,13 @@ For the reference corpora A and B, I plan to select data from each data set. In 
 
 \section{Survey of Phenomena in Swiss German}
 
-The basic word order is a bit tricky in German since the main clause has a subject-verb-object (SVO) order but the subordinate clauses are verb-final, i.e., subject-object-verb (SOV). German has a richer morphology than English but in Swiss German some of the distinct cases collapse to the same wordform. Furthermore, Swiss German lacks a preterite tense, all sentences in the past are expressed using perfect. Finally, Swiss German does not have the genitive case. It is replaced by dative constructions. \citep{Scherrer11}
+The basic word order is a bit tricky in German since the main clause has a subject-verb-object (SVO) order but the subordinate clauses are verb-final, i.e., subject-object-verb (SOV). German has a richer morphology than English but in Swiss German some of the distinct cases collapse to the same word form. Furthermore, Swiss German lacks a preterit tense, all sentences in the past are expressed using perfect. Finally, Swiss German does not have the genitive case. It is replaced by dative constructions. \citep{Scherrer11}
 
-These are some general observations but the focus here is on syntactic phenomena that influence the dependency structure in crucial ways. \citet{Scherrer11} lists more interesting differences. One point are the non-projective dependencies in Swiss German. One reason for them is the verb raising with the auiliary verb ``lo'' (\emph{let}), where the dependency between the auxiliary and its argument and the main verb and its object will cross. There exist other forms of verb raising, where verb order differs from the Standard German word order. Also, this may depend on the dialect. In short, the word order of Swiss German is more free than Standard German. 
+These are some general observations but the focus here is on syntactic phenomena that influence the dependency structure in crucial ways. \citet{Scherrer11} lists more interesting differences. One point are the non-projective dependencies in Swiss German. One reason for them is the verb raising with the auxiliary verb ``lo'' (\emph{let}), where the dependency between the auxiliary and its argument and the main verb and its object will cross. There exist other forms of verb raising, where verb order differs from the Standard German word order. Also, this may depend on the dialect. In short, the word order of Swiss German is more free than Standard German. 
 
 Some more phenomena that illustrate differences between the well-studied Standard German and Swiss German, are a preposition before a dative in the case it is not already part of a prepositional phrase. This would have more impact on constituent parsing though. \citet{Scherrer11} lists more phenomena but some of them seem rather uncommon in central Switzerland. In particular, the very southern dialects have even more deviations, but most of the population lives in central and northern Switzerland, therefore these effects might not occur very much in the corpora. A last part that might be particularly tricking for dependency annotation are doubling phenomena in Swiss German as explained by \citet{GF06}. For many of these phenomena it is not clear, which word is the head and which the dependent even if they are clearly related.
 
-By inspection of the data, I looked for other interesting phenomena. One phenomena is the melting of verbs and personal pronouns (and similar combinations) that is also reflected in the tagset by \citet{AH12}. This is a major challenge for the annotation of dependencies, because the two words have independent syntactic roles but both its dependents will be added to this single token. There are many spelling variations, even within a document a term may not be written the same way or spaced differently in some cases. Hence, for data-oriented methods this may pose a problem. 
+By inspection of the data, I looked for other interesting phenomena. One phenomena is the melting of verbs and personal pronouns (and similar combinations) that is also reflected in the tag set by \citet{AH12}. This is a major challenge for the annotation of dependencies, because the two words have independent syntactic roles but both its dependents will be added to this single token. There are many spelling variations, even within a document a term may not be written the same way or spaced differently in some cases. Hence, for data-oriented methods this may pose a problem. 
 
 For the blog corpus, there are some specific observations. First, often vowels are duplicated multiple times to place emphasis on a word, such as ``gaaanz elei'' (\emph{totally alone}), which increases the number of types for the same lemma. Also, because the blogs are by Swiss people abroad there are many insertions of foreign language material, e.g. ``sWetter isch totally crazy gsi'' (\emph{the weather was totally crazy}).
 
@@ -128,11 +128,11 @@ In conclusion, Swiss German is generally more free regarding word order than Sta
 
 \section{Initial Design}
 
-This section describes the annotation design and briefly outlines the next steps, i.e., building the actual parser. As stated before my two test corpora have a different focus. Corpus A consists of a small part of the data by \citet{AH12}. Corpus B consists entirely of blog posts. The data was annotated manually. To ensure annotation consistency the following documents the annotation decisions made.
+This section describes the annotation design and briefly outlines the next steps, i.e., building the actual parser. As stated before the two test corpora have a different focus. Corpus A consists of a small part of the data by \citet{AH12}. Corpus B consists entirely of blog posts. The data was annotated manually. To ensure annotation consistency the following documents the annotation decisions made.
 
-Table \ref{tab:dec} gives an overview of the annotation decisions. Before going into the detailed decisions an overall observation. The sentence splitting of my tokenizer is far from perfect, since capitalization can not be used as a feature of sentence splitting. First, because some people write all lower case and second, because in German common nouns are capitalized. Therefore, it is possible to have multiple words attached to the root, which mean that the clauses are independent. Most of the decisions are semantically oriented. Also, I sometimes give English-only examples, when the matter is the same in both languages.
+Table \ref{tab:dec} gives an overview of the annotation decisions. Before going into the detailed decisions an overall observation. The sentence splitting of the tokenizer is far from perfect, since capitalization cannot be used as a feature of sentence splitting. First, because some people write all lower case and second, because in German common nouns are capitalized. Therefore, it is possible to have multiple words attached to the root, which mean that the clauses are independent. Most of the decisions are semantically oriented. Also, I sometimes give English-only examples, when the matter is the same in both languages.
 
-Since Swiss German does not use a past form, many sentences have auxiliaries. \textbf{Decisions 1 and 2} say that in sentences with multipe verbal parts, the inflected auxiliary is always the head. This is illustrated in the example below. The subscript numbers indicate the position of the parent in the senence. Zero means root. The inflected verb \emph{het} dominates \emph{welle}, which dominates the main verb \emph{lösche}. \textbf{Decisions 3 and 4} concern the attachment of the arguments. The subject always attaches to the inflected verb as a child. Thus, \emph{hans} is a child of \emph{het}, all other arguments and adjuncts attach to the main verb, e.g. \emph{lösche}. There are certain special cases. Especially, modal verbs, such as \emph{cha} (`can') can be modified by adverbial constructs. These attach to the verb they modify. Sometimes this is hard to decide, then they are attached to the main verb.  Note that the verb \emph{sött} (`should') can be used as a main verb. The reason for this is that the importance of the first auxiliary is reflected and the connection between subject and form of the inflected verb is explicit. Furthermore, the main verb defines what kind of objects are allowed, therefore  it dominates the arguments.
+Since Swiss German does not use a past form, many sentences have auxiliaries. \textbf{Decisions 1 and 2} say that in sentences with multiple verbal parts, the inflected auxiliary is always the head. This is illustrated in the example below. The subscript numbers indicate the position of the parent in the sentence. Zero means root. The inflected verb \emph{het} dominates \emph{welle}, which dominates the main verb \emph{lösche}. \textbf{Decisions 3 and 4} concern the attachment of the arguments. The subject always attaches to the inflected verb as a child. Thus, \emph{hans} is a child of \emph{het}, all other arguments and adjuncts attach to the main verb, e.g. \emph{lösche}. There are certain special cases. Especially, modal verbs, such as \emph{cha} (`can') can be modified by adverbial constructs. These attach to the verb they modify. Sometimes this is hard to decide, then they are attached to the main verb. Note that the verb \emph{sött} (`should') can be used as a main verb. The reason for this is that the importance of the first auxiliary is reflected and the connection between subject and form of the inflected verb is explicit. Furthermore, the main verb defines what kind of objects are allowed, therefore it dominates the arguments.
 
 \glll  1 2 3 4 5 6 7 8 9 10
 De hans$_3$ het$_0$ welle$_3$ d' date$_{10}$ mit em magnet$_{10}$ lösche$_4$
@@ -142,10 +142,10 @@ The Hans has want the data with the magnet delete
 
 \textbf{Decision 5} states that subordinate clauses are headed by the subjunction that introduces them. Hence, the head verb in the embedded clause is dependent on the relative pronoun (or other subjunctive word). The reasoning is that the subjunction defines how the clause relates to the main sentence and hence, acts as the root of the embedded clause.
 \textbf{Decision 6} states that in a coordination the conjunction, typically \emph{ond} or \emph{und} (`and'), is the head of the conjuncts. Furthermore, should there be multiple parts to a conjunction of which all but the last are connected by commas, all parts of the conjunction will be direct dependents of and. (The comma is not reflected, since it is attached to the root, see below). If there are multiple `and' (that are not semantically in a hierarchy), the `and' dominate from left to right, i.e., the first and will be the highest.
-\textbf{Decision 7} determines that in numerical expressions like \emph{öppe 3 stund} (`about 3 hours'), the unit is the head of the number and the number is the head of the modifier. The reason for this is that the number quantifies the unit and themodifier modifies the quantity.
+\textbf{Decision 7} determines that in numerical expressions like \emph{öppe 3 stund} (`about 3 hours'), the unit is the head of the number and the number is the head of the modifier. The reason for this is that the number quantifies the unit and the modifier modifies the quantity.
 \textbf{Decision 8} is related to the fact that certain verbs are built by prepending a particle in front of the verb. In infinitive constructions this particle can be split from the verb. It is clear that this particle is a direct dependent of the verb it belongs to.
 
-The important \textbf{Decision 9} says that prepositional phrases are headed by the noun. The reason is that there are large variations in the use of prepositions among the dialects, while the noun is always there. Furthermore, some dialects use sequences of prepositions and articles, while others contract both to one word. \textbf{Decision10} states that discourse markers, such as interjections and smileys are attached to the corresponding head of the phrase they belong to. Note that smileys might be attached to the root if they are outside of a sentence  or clause context. Also, Swiss people use `and' and other conjunctions sometimes as discourse fillers or simple linking elements, in that case this rule applies and not the coordination rule.
+The important \textbf{Decision 9} says that prepositional phrases are headed by the noun. The reason is that there are large variations in the use of prepositions among the dialects, while the noun is always there. Furthermore, some dialects use sequences of prepositions and articles, while others contract both to one word. \textbf{Decision10} states that discourse markers, such as interjections and smileys are attached to the corresponding head of the phrase they belong to. Note that smileys might be attached to the root if they are outside of a sentence or clause context. Also, Swiss people use `and' and other conjunctions sometimes as discourse fillers or simple linking elements, in that case this rule applies and not the coordination rule.
 
 A special phenomena is the contraction of different words in Swiss German. For instance, one can contract a relative pronoun \emph{wo} (`where, when') and the following personal pronoun \emph{ich} (`I') to \emph{wonich}. This  was also observed by \cite{AH12}. Therefore, they introduced multiple PoS tags to deal with such phenomena. The problem is where in the dependency parse these constructions with multiple roles should end up. \textbf{Decision11} is the word should always adopt its strongest role, i.e., the word part that is higher in the dependency parse will determine the position of the contracted word.
 \textbf{Decision 12} concerns comparison phrases of the form below.
@@ -167,34 +167,34 @@ The point is that the main content of the phrase is the beauty. The verbal phras
 \center
 \begin{tabular}{ | l | l | r | }
    \hline
-   \textbf{ID} & \textbf{Pattern} & \textbf{Head} \\ \hline
-   1 & Mainverb Aux & Aux \\
-   2 & Aux [...] Mainverb & Aux  \\ 
-   3 & Subj & Inflected Verb  \\
-   4 & Object, other Args, Adjuncts & Mainverb \\
-   5 & RelPron Verb & RelPron \\
-   6 & [XP] \emph{and} [XP] & \emph{and} \\
-   7 & Mod Num Unit & Unit  \\
-   8 & Mainverb VerbPart & Mainverb \\
-   9 & Prep N &  N \\
-   10 & DiscourseMarker & Corresponding Clause Head \\
-   11 & Contractions & Placed At Highest \\
-   12 & Adj Comparison MainVerb Aux & Comp \\
-   13 & 2 Part Negation (\emph{no more}) & \emph{no}  \\
-   14 & N\_descriptor N\_term & N\_descriptor \\
-   15 & Example & Main content \\
-   16 & No Verb Sentence & Next Best, e.g. Noun \\
-   17 & Punctuation & ROOT\\ \hline
+   \textbf{ID} &amp; \textbf{Pattern} &amp; \textbf{Head} \\ \hline
+   1 &amp; Mainverb Aux &amp; Aux \\
+   2 &amp; Aux [...] Mainverb &amp; Aux  \\ 
+   3 &amp; Subj &amp; Inflected Verb  \\
+   4 &amp; Object, other Args, Adjuncts &amp; Mainverb \\
+   5 &amp; RelPron Verb &amp; RelPron \\
+   6 &amp; [XP] \emph{and} [XP] &amp; \emph{and} \\
+   7 &amp; Mod Num Unit &amp; Unit  \\
+   8 &amp; Mainverb VerbPart &amp; Mainverb \\
+   9 &amp; Prep N &amp;  N \\
+   10 &amp; DiscourseMarker &amp; Corresponding Clause Head \\
+   11 &amp; Contractions &amp; Placed At Highest \\
+   12 &amp; Adj Comparison MainVerb Aux &amp; Comp \\
+   13 &amp; 2 Part Negation (\emph{no more}) &amp; \emph{no}  \\
+   14 &amp; N\_descriptor N\_term &amp; N\_descriptor \\
+   15 &amp; Example &amp; Main content \\
+   16 &amp; No Verb Sentence &amp; Next Best, e.g. Noun \\
+   17 &amp; Punctuation &amp; ROOT\\ \hline
 \end{tabular}
 \caption{Annotation Decisions}
 \label{tab:dec}
 \end{table}
 
-Finally. a couple of decisons not listed in the table, because they are minor. Foreign material, e.g. English, is annotated as much as possible according to English standards, where they exist or otherwise according to this manual. A sensitivity regarding passive formulations. In the passive voice, the main verb is a participle that may be hard to distinguish from an adjective, but it is as treated as a verb as long as it is clearly related to a verb. This leads to a distinction between `has been possible', where `been' will be the main verb that gets the arguments as its dependents and `has been registered', where 	`registered' is the main verb. There are subjunctions, such as \emph{aber} (`but'), which can also be used instead to just modify a verb phrase, then they are dependent of the verb. Last, in `dangerous to deadly', `dangerous' is the head of `to', which in turn is head of `deadly'. 
+Finally. a couple of decisions not listed in the table, because they are minor. Foreign material, e.g. English, is annotated as much as possible according to English standards, where they exist or otherwise according to this manual. A sensitivity regarding passive formulations. In the passive voice, the main verb is a participle that may be hard to distinguish from an adjective, but it is as treated as a verb as long as it is clearly related to a verb. This leads to a distinction between `has been possible', where `been' will be the main verb that gets the arguments as its dependents and `has been registered', where 	`registered' is the main verb. There are subjunctions, such as \emph{aber} (`but'), which can also be used instead to just modify a verb phrase, then they are dependent of the verb. Last, in `dangerous to deadly', `dangerous' is the head of `to', which in turn is head of `deadly'. 
 
 While in general the annotation worked quite well, it turns out that using and as the head of its conjuncts leads to unintuitive phenomena. In particular, if there is a coordinated verb phrase that applies to the same subject, then `and' dominates both the conjuncts and the subject, which clearly do not have the same function. However, I decided to stick to the annotation schema because I did want to avoid preferring one of the two conjunct phrases over the other. Arguably, `and' is also used as a linking word instead of a coordination, but this is a different case and should in my opinion not be mixed with the real coordination of phrases. 
 
-Finally, a couple of comments about the data. First, the data does not use Gold standard PoS but the ones that are assigned by the tagger model trained on 57'000 tokens Swiss German text. Second, the tokenization and in particular the sentence splitting are far from perfect. Part of this is due to the sloppy use of punctuation and part of it is due to the simplicity of the sentence splitter. Third, Wikipedia in paricular tends to have special formatting characters which impede proper tokenization. 
+Finally, a couple of comments about the data. First, the data does not use Gold standard PoS but the ones that are assigned by the tagger model trained on 57'000 tokens Swiss German text. Second, the tokenization and in particular the sentence splitting are far from perfect. Part of this is due to the sloppy use of punctuation and part of it is due to the simplicity of the sentence splitter. Third, Wikipedia in particular tends to have special formatting characters which impede proper tokenization. 
 
 The parser will operate in a semi-supervised fashion, making use of annotated training material as much as possible. It is important to use unsupervised features as well, because a large amount of the available texts will not be annotated. It would be bad not to use this data. The semi-supervised method by \citet{KCC08} based on Brown Clustering serves as the model for my unsupervised features.  I consider using the TurboParser \citep{MSXAF10} as a baseline. Then I would try adding unsupervised features to improve over the supervised baseline.
 After annotation of the test data, I annotated 10'000 tokens (~650 sentences) for training material in order to have the necessary supervised training. For annotation I used the DG Annotator by Giuseppe Attardi (\url{http://medialab.di.unipi.it/Project/QA/Parser/DgAnnotator/} last visited February 22$^{th}$, 2014.) 
@@ -209,13 +209,13 @@ I trained various TurboParser models on the full training data. I also decided t
 \center
   \begin{tabular}{ | l || r | c | r | }
     \hline
-   \textbf{Model} & \textbf{3-fold X} & \textbf{10-fold X (min/max)} & \textbf{corpus A}  \\ \hline
-    Basic normal & 61.04\% & 64.63\% (54.69/71.15) & 75.14\% \\
-    Standard normal & 60.97\% & 65.45\% (54.69/70.81) & \textbf{75.25\%} \\ 
-    Full normal & \textbf{61.39\%} & -- & 74.81\% \\ \hline
-    Basic lower & 60.93\% & 64.89\% (55.02/71.88) & 74.92\% \\
-    Standard lower & 61.01\% & \textbf{65.49\%} (54.69/71.31) & 74.59\% \\
-    Full lower & 61.23\% & -- & 74.81\%  \\ \hline
+   \textbf{Model} &amp; \textbf{3-fold X} &amp; \textbf{10-fold X (min/max)} &amp; \textbf{corpus A}  \\ \hline
+    Basic normal &amp; 61.04\% &amp; 64.63\% (54.69/71.15) &amp; 75.14\% \\
+    Standard normal &amp; 60.97\% &amp; 65.45\% (54.69/70.81) &amp; \textbf{75.25\%} \\ 
+    Full normal &amp; \textbf{61.39\%} &amp; -- &amp; 74.81\% \\ \hline
+    Basic lower &amp; 60.93\% &amp; 64.89\% (55.02/71.88) &amp; 74.92\% \\
+    Standard lower &amp; 61.01\% &amp; \textbf{65.49\%} (54.69/71.31) &amp; 74.59\% \\
+    Full lower &amp; 61.23\% &amp; -- &amp; 74.81\%  \\ \hline
   \end{tabular}
 \caption{Results after first round}
 \label{tab:dec}
@@ -223,25 +223,25 @@ I trained various TurboParser models on the full training data. I also decided t
 
 The results in Table \ref{tab:dec} show the unlabeled attachment accuracy results of cross-validation of the training set, as well as on corpus A. Note that corpus A contains only data from \cite{AH14}, i.e., Wikipedia, corporate report, and newspaper text. The 10-fold cross-validation was not done for the full model because training the full model takes over 10 minutes. For the 10-fold cross-validation also the score for the best and worst fold unlabeled accuracies are shown. I also did preliminary experiments with increasing regularization but they did not fundamentally change the results, therefore I do not report these numbers.
 
-The table offers a few interesting insights. First, corpus A seems to be easy to parse, since the parser achieves very respectable 75\% unlabeled accuracy. However, cross-validation on the training corpus draws a different picture. Accuracy on 10-fold cross-validation drops by about 10\%. This indicates that the blogs, which are not present in corpus A are much harder to parse, because the drop is much higher than expected from a few sentences less in the training data. An indication of the same is also the big variance between different folds in 10-fold crossvalidation. One reason is that the PoS tagger was trained on the same texts as used for training and evaluation, therefore the tagging accuracy is probably quite a bit higher than on the blog texts! Another reason might be that the blogs are written for a very different audience (family and friends in particular) and use more spoken phenomena than the texts that are intended to be read by abroad population, such as the corporate report and wikipedia.
+The table offers a few interesting insights. First, corpus A seems to be easy to parse, since the parser achieves very respectable 75\% unlabeled accuracy. However, cross-validation on the training corpus draws a different picture. Accuracy on 10-fold cross-validation drops by about 10\%. This indicates that the blogs, which are not present in corpus A are much harder to parse, because the drop is much higher than expected from a few sentences less in the training data. An indication of the same is also the big variance between different folds in 10-fold cross-validation. One reason is that the PoS tagger was trained on the same texts as used for training and evaluation, therefore the tagging accuracy is probably quite a bit higher than on the blog texts! Another reason might be that the blogs are written for a very different audience (family and friends in particular) and use more spoken phenomena than the texts that are intended to be read by abroad population, such as the corporate report and Wikipedia.
 
 In conclusion, the performance of the TurboParser using supervised parsing is very good on corpus A but the blogs seem to be much harder. There are at least 2 reasons for that. First, the corpus A texts were used to train the PoS tagger. Second, the corpus A texts are intended for a much broader audience. 
 
 \section{Lessons Learned and Revised Design}
 
-The results of this evaluation show that the parser is able to identify many structures correctly. I examined the resuts on corpus A by hand looking at the produced dependency trees. With 75\% accuracy, the sentences are mostly correct with a couple of wrong attachments. I was surprised that it worked so well, because corpus A consists of multiple dialects and still it makes few mistakes in any of them. On the downside only few sentences are completely correct. Probably because many are rather long with an average of about 17 tokens per sentence. 
+The results of this evaluation show that the parser is able to identify many structures correctly. I examined the results on corpus A by hand looking at the produced dependency trees. With 75\% accuracy, the sentences are mostly correct with a couple of wrong attachments. I was surprised that it worked so well, because corpus A consists of multiple dialects and still it makes few mistakes in any of them. On the downside only few sentences are completely correct. Probably because many are rather long with an average of about 17 tokens per sentence. 
 
 A more in-depth analysis showed that many local structures were parsed correctly but longer attachments often lead to mistakes. It seems common mistakes are attaching the arguments to the wrong verbal form, attaching an adjective that has been used in adverb position to the right verb, and not identifying the main verb correctly. Some of the mistakes are still because of tagging mistakes, but overall the trees are mostly correct with a couple of wrong attachments. 
 
-The big difference between corpus A and cross-validation is partly due to different accuracy of the Part-of-Speech tagger. We saw that the accuracy for 10-fold cross-validation on the training set is about 10\% lower than on corpus A. A small part of this is probably that there's fewer training material. The main reason is that the training material contains blogs. In particular, the blogs are not written for publication, their sentences are slightly longer and contain more pragmatic markers. Another important reason is that the PoS-tagger was trained only on the wikipedia etc. data and not on blogs. Therefore, the tagging accuarcy is probably quite a bit lower on the blogs. 
+The big difference between corpus A and cross-validation is partly due to different accuracy of the Part-of-Speech tagger. We saw that the accuracy for 10-fold cross-validation on the training set is about 10\% lower than on corpus A. A small part of this is probably that there is fewer training material. The main reason is that the training material contains blogs. In particular, the blogs are not written for publication, their sentences are slightly longer and contain more pragmatic markers. Another important reason is that the PoS-tagger was trained only on the Wikipedia etc. data and not on blogs. Therefore, the tagging accuracy is probably quite a bit lower on the blogs. 
 
 In conclusion, the parser performs well on the first test corpus but corpus B will have lower accuracy. Since the tagger was trained on corpus A data, its tagging accuracy is higher, which improves score. Furthermore, these texts were written for publication, thus, they might follow more regulated structures. 
 
 For the next round, I will try to overcome the tagging mistakes on unknown words. Since most of the tagging mistakes are not due to ambiguity but due to too many unknown words, I will try to leverage unsupervised methods. Specifically, I want to use the unannotated data to train a Brown clustering, which will serve as additional features adding to the PoS-tags similar to \citet{KCC08}. This feature should help classifying the same kind of words similarly. 
 
-If I have time to develop more, I might think about additional features that can be learned in an unsupervise or semi-supervised fashion. Another approach I consider as a next step after clustering is using some simple rule-based morphological or similar features to help the parser. 
+If I have time to develop more, I might think about additional features that can be learned in an unsupervised or semi-supervised fashion. Another approach I consider as a next step after clustering is using some simple rule-based morphological or similar features to help the parser. 
 
-The first priority is clearly implementing the clustering and testing the parser. Since there wasn't much difference between the models I will use the standard model. Since capitalization is less consistent in the blogs I will evaluate the impact of lowercasing all words again. 
+The first priority is clearly implementing the clustering and testing the parser. Since there was not much difference between the models I will use the standard model. Since capitalization is less consistent in the blogs I will evaluate the impact of lowercasing all words again. 
 
 \section{System Analysis on Corpus B}
 
@@ -251,12 +251,12 @@ For this purpose I took all data I had and removed all the data that was in the 
 
 The idea behind clustering is that we can use information about words that appear in similar contexts to deal better with word forms that have not appeared in the small amount of annotated training data. This should increase performance on corpus A and B, compared to the featureless system used for corpus A.
 
-% Brownclustering -> feature as strings  vs. indicator features of koo
-Brown clustering \citep{BSMPL92} is a powerful clustering algorithm that produces a hierarchical clustering based on bigram token sequences. I used the implementation of Brown clustering by Percy Liang \citep{liang05} for my experiments. I used the resulting bitstrings directly as features. In particular, I create the clustering offline and use it at runtime of the parser. There can be multiple features from the same clustering. Concretely, I used both, the 4-bit prefix and the full bit string for most of my experiments. The idea is that the prefix acts more like a part of speech, while the full bit string acts more like a word form\citep{KCC08}\footnote{Note that I did not follow \citet{KCC08}, since they used a different parsing model and had much more unannotated data.}.
+% Brownclustering -&gt; feature as strings  vs. indicator features of koo
+Brown clustering \citep{BSMPL92} is a powerful clustering algorithm that produces a hierarchical clustering based on bigram token sequences. I used the implementation of Brown clustering by Percy Liang \citep{liang05} for my experiments. I used the resulting bit strings directly as features. In particular, I create the clustering offline and use it at runtime of the parser. There can be multiple features from the same clustering. Concretely, I used both, the 4-bit prefix and the full bit string for most of my experiments. The idea is that the prefix acts more like a part of speech, while the full bit string acts more like a word form\citep{KCC08}\footnote{Note that I did not follow \citet{KCC08}, since they used a different parsing model and had much more unannotated data.}.
 
 Note that since at parsing time there might be words that are not part of the clustering set, there is a special value for unclustered words. This value does not provide any information and might even confuse the parser, yet I hoped there would be enough known words.
 
-The user is able to change the number and form of features generated easily but the only experiments I performed were using only 4-bit prefix or only full bit-string, both decreased the unlabeled accuracy slightly. Table \ref{tab:rnd2} below shows my results, which will be explained in the following paragraphs. \emph{10-fold X} is the average accuracy in 10-fold cross-validation on the training data. As expected, there is a dramatic drop in unlabeled accuracy on the blog corpus (corpus B) as compared to the text intended for publication (corpus A). As explored in the previous section, the reasons lie not only in the different text genres, but also that the PoS Tagger training material consists (at least partly) of corpus A, therefore the PoS tags are more accurate. 
+The user is able to change the number and form of features generated easily but the only experiments I performed were using only 4-bit prefix or only full bit string, both decreased the unlabeled accuracy slightly. Table \ref{tab:rnd2} below shows my results, which will be explained in the following paragraphs. \emph{10-fold X} is the average accuracy in 10-fold cross-validation on the training data. As expected, there is a dramatic drop in unlabeled accuracy on the blog corpus (corpus B) as compared to the text intended for publication (corpus A). As explored in the previous section, the reasons lie not only in the different text genres, but also that the PoS Tagger training material consists (at least partly) of corpus A, therefore the PoS tags are more accurate. 
 
 The models `Standard normal' and `Standard lower' are the same as in the previous round. The goal is to improve as much as possible over those in particular on the blog texts. I decided to concentrate on only using standard models, because full models take significantly longer to train. The remaining models are explained below.
 
@@ -264,23 +264,23 @@ The models `Standard normal' and `Standard lower' are the same as in the previou
 \center
   \begin{tabular}{ | l || r | c | r | }
     \hline
-   \textbf{Model} & \textbf{10-fold X} & \textbf{corpus A} & \textbf{corpus B}  \\ \hline
-    Standard normal & 65.45\% & 75.25\% & 56.57\% \\ 
-    Standard lower & 65.49\% & 74.59\% & 57.22\% \\
-    C100 4P+F normal & 67.39\% & 76.57\% & 59.91\% \\
-    C100 4P+F lower & 67.09\% & 75.36\% & 59.91\% \\
-    Low C100 4P+F normal & 67.64\% & 75.58\% & 60.88\% \\
-    Low C50 4P+F normal & -- & 74.59\%  & 59.48\% \\
-    LowOnly C100 4P+F normal & 67.41 & 76.02\%  & 60.02\% \\
-    LowOnly C50 4P+F normal & \textbf{68.01\%}& \textbf{76.80\%} & 59.91\% \\
-    LowOnly C50 4P+F+4Stem normal & 67.91\% & 76.24\% & \textbf{61.10\%} \\ \hline
+   \textbf{Model} &amp; \textbf{10-fold X} &amp; \textbf{corpus A} &amp; \textbf{corpus B}  \\ \hline
+    Standard normal &amp; 65.45\% &amp; 75.25\% &amp; 56.57\% \\ 
+    Standard lower &amp; 65.49\% &amp; 74.59\% &amp; 57.22\% \\
+    C100 4P+F normal &amp; 67.39\% &amp; 76.57\% &amp; 59.91\% \\
+    C100 4P+F lower &amp; 67.09\% &amp; 75.36\% &amp; 59.91\% \\
+    Low C100 4P+F normal &amp; 67.64\% &amp; 75.58\% &amp; 60.88\% \\
+    Low C50 4P+F normal &amp; -- &amp; 74.59\%  &amp; 59.48\% \\
+    LowOnly C100 4P+F normal &amp; 67.41 &amp; 76.02\%  &amp; 60.02\% \\
+    LowOnly C50 4P+F normal &amp; \textbf{68.01\%}&amp; \textbf{76.80\%} &amp; 59.91\% \\
+    LowOnly C50 4P+F+4Stem normal &amp; 67.91\% &amp; 76.24\% &amp; \textbf{61.10\%} \\ \hline
   \end{tabular}
 \caption{Results after second round}
 \label{tab:rnd2}
 \end{table}
 
 % Experiments with lowercasing clustered data
-I started the clustering experiments with the above mentioned features of a 4-bit prefix string and the full bit string. I indicate this as \emph{4P+F}. I did not try different prefix lengths, I only tried using only one of the features which decreased performance slightly. Using 800 clusters was not practical due to the training time. Thus, I used 100 clusters to start with indiciated as C100. I used the original, tokenized text to create the clusters.
+I started the clustering experiments with the above mentioned features of a 4-bit prefix string and the full bit string. I indicate this as \emph{4P+F}. I did not try different prefix lengths, I only tried using only one of the features which decreased performance slightly. Using 800 clusters was not practical due to the training time. Thus, I used 100 clusters to start with indicated as C100. I used the original, tokenized text to create the clusters.
 
 The first experiment just adding the features (4-bit prefix + full bit string) from the clustering with 100 clusters showed a significant improvement (C100 4P+F normal). All 3 measurements improved by more than 1\% compared to the Standard normal model. In particular, corpus B with the blogs improved by more than 3\% to almost 60\% unlabeled accuracy. Therefore, the hopes of using clusters to generalize beyond word forms appearing in the training seem to work well. 
 
@@ -290,17 +290,17 @@ So I wondered if I could make the clustering more reliable by lowercasing the da
 
 % Number of original clusters
 
-The next parameter I played with was the number of clusters in the original clustering. \cite{KCC08} used 800 but for the amount of data available even small experiments with C200 showed a reduction in performance. Therefore, I focussed on using 50 clusters instead of 100. 
+The next parameter I played with was the number of clusters in the original clustering. \cite{KCC08} used 800 but for the amount of data available even small experiments with C200 showed a reduction in performance. Therefore, I focused on using 50 clusters instead of 100. 
 
-Comparing the previous model with 100 lowercased clusters and the typical 4P+F feature to the clustering with 50 clusters proved to be worse on both corpora. However, because of a mixup in results I found a third possiblity to use the clusters. The models prepended with "LowOnly" take the following approach. The clustering is performed on the text with its original case. However, when the parser gets a sentence to parse, each word is lowercased for lookup (not for parsing). This effectively means only words that appear in lowercase in the clustered data are considered. I do not have a good explanation why this works well but it does. One possible theory is that words starting with a capital letter are much rarer and thus, they are less reliable, adding noise to the data.
+Comparing the previous model with 100 lowercased clusters and the typical 4P+F feature to the clustering with 50 clusters proved to be worse on both corpora. However, because of a mix-up of the results I found a third possibility to use the clusters. The models prepended with "LowOnly" take the following approach. The clustering is performed on the text with its original case. However, when the parser gets a sentence to parse, each word is lowercased for lookup (not for parsing). This effectively means only words that appear in lowercase in the clustered data are considered. I do not have a good explanation why this works well but it does. One possible theory is that words starting with a capital letter are much rarer and thus, they are less reliable, adding noise to the data.
 
 For 100 clusters (LowOnly C100 4P+F normal) it does not work quite as well as the true lowercased version, but for the 50 clusters model (LowOnly C50 4P+F normal) it yields the overall best results for cross-validation and corpus A, while corpus B is stuck at 59.91\% unlabeled accuracy. 
 
-% phonetic ignorant stem -> hint at future possibilities
+% phonetic ignorant stem -&gt; hint at future possibilities
 
 After all my clustering results, I decided to try a very naïve kind of phonetic normalization, in order to account for the many spelling variations for words that are pronounced the same. Note that this does not account for any variations in pronunciation, of which there exist also many in the different dialects. I decided to distinguish only between `dark' (a, o, u) and `bright' (e,i) vowels and the umlauts. Additionally, 'ä' is considered the same as a bright vowel, because it is a common spelling difference. For the consonants, I decided to do less normalization but still normalize things that either sound the same or are common differences between standard German spelling and Swiss German pronunciation. Finally, I removed all repetitions of (normalized) letters.
 
-Then I decided, I want to use only the first part of longer words. Therefore, I only use the first 4 characters of each normalized word, which might be more than just the firs 4 letters of the original word. The number of 4 is also easily adjustable but I did not have time to perform experiments, whether the length is important. Using this feature decreased corpus A and crossvalidation slightly, probably because there's more consistent spelling, but it increased corpus B by over 1\% (LowOnly C50 4P+F+4Stem normal). This clearly shows how the different bloggers use different spellings. In the more formal texts the spelling is more consistent and messing with the spelling leads sometimes to different words being mapped to the same feature that have nothing in common, which reduces the accuracy a bit.
+Then I decided, I want to use only the first part of longer words. Therefore, I only use the first 4 characters of each normalized word, which might be more than just the first 4 letters of the original word. The number of 4 is also easily adjustable but I did not have time to perform experiments, whether the length is important. Using this feature decreased corpus A and cross-validation slightly, probably because it has more consistent spelling, but it increased corpus B by over 1\% (LowOnly C50 4P+F+4Stem normal). This clearly shows how the different bloggers use different spellings. In the more formal texts the spelling is more consistent and messing with the spelling leads sometimes to different words being mapped to the same feature that have nothing in common, which reduces the accuracy a bit.
 
 I tried to add the same feature to other configurations that worked well for all of them the performance would not increase and especially not get close to the 61.1\% accuracy for corpus B.
 
@@ -312,43 +312,43 @@ In conclusion, corpus B was much harder, as expected. Adding clusters and spelli
 
 \section{Final Revisions}
 
-Shortly after submitting the previous part, I discovered a strange error in the spelling normalization. In the data by the newspaper, the umlaut `ä' normalizes as `ö' instead of `e'. However, in texts from other sources the normalization works correctly. An exmination in a text editor and subsequent inspections in a hexadecimal editor showed what was going wrong.
+Shortly after submitting the previous part, I discovered a strange error in the spelling normalization. In the data by the newspaper, the umlaut `ä' normalizes as `ö' instead of `e'. However, in texts from other sources the normalization works correctly. An examination in a text editor and subsequent inspections in a hexadecimal editor showed what was going wrong.
 
-Unicode knows two different ways to encode umlauts.  In the composition normal form \emph{NFC} the umlaut `ä' is encoded as U+00E4, which is the codepoint for the character called \emph{latin small letter a with diaresis}. In the decomposition normal form (NFD) the same letter is encoded using 2 characters: U+0061 (small latin letter a) U+0308 (combining diaresis).  Thus, to my normalization routin the word `Gepäck' looked like `Gepa"ck'\footnote{TeXworks automatically converts the diaresis to quotation mark but it should be the character with unicode codepoint 0x0308.}. Thus, the `a', which is a dark vowel was converted to `o' and the combining diaresis was ignorred, resulting in `ö'. For more on unicode normal forms (including the compatibility normal forms) see \citet{DK13}.
+Unicode knows two different ways to encode umlauts.  In the composition normal form \emph{NFC} the umlaut `ä' is encoded as U+00E4, which is the codepoint for the character called \emph{Latin small letter a with diaeresis}. In the decomposition normal form (NFD) the same letter is encoded using 2 characters: U+0061 (Latin small letter a) U+0308 (combining diaeresis).  Thus, to my normalization algorithm the word `Gepäck' looked like `Gepa"ck'\footnote{TeXworks automatically converts the diaeresis to quotation mark but it should be the character with Unicode codepoint 0x0308.}. Thus, the `a', which is a dark vowel was converted to `o' and the combining diaeresis was ignored, resulting in `ö'. For more on Unicode normal forms (including the compatibility normal forms) see \citet{DK13}.
 
 \begin{table}
 \center
   \begin{tabular}{ | l || c | r | }
     \hline
-   \textbf{Model} & \textbf{corpus A} & \textbf{corpus B}  \\ \hline
-    Low C50 4P+F+4Stem normal & 74.14\% & 60.78\% \\
-    LowOnly C50 4P+F+4Stem normal & 75.25\% & 59.91\% \\ 
-    Low C100 4P+F+4Stem normal & 74.37\% & \textbf{61.64\%} \\
-    LowOnly C100 4P+F+4Stem normal & 75.58\% & 61.31\% \\ 
-    Low C100 4P+F normal & 75.36\% & 60.78\% \\
-    LowOnly C100 4P+F normal & \textbf{76.24\%} & 60.67\% \\
-    Low C100 4P+F+6Stem normal & 74.59\% & 61.42\% \\    
-\textbf{Low Only C100 4P+F+6Stem normal} & 75.47\% & 61.53\% \\
+   \textbf{Model} &amp; \textbf{corpus A} &amp; \textbf{corpus B}  \\ \hline
+    Low C50 4P+F+4Stem normal &amp; 74.14\% &amp; 60.78\% \\
+    LowOnly C50 4P+F+4Stem normal &amp; 75.25\% &amp; 59.91\% \\ 
+    Low C100 4P+F+4Stem normal &amp; 74.37\% &amp; \textbf{61.64\%} \\
+    LowOnly C100 4P+F+4Stem normal &amp; 75.58\% &amp; 61.31\% \\ 
+    Low C100 4P+F normal &amp; 75.36\% &amp; 60.78\% \\
+    LowOnly C100 4P+F normal &amp; \textbf{76.24\%} &amp; 60.67\% \\
+    Low C100 4P+F+6Stem normal &amp; 74.59\% &amp; 61.42\% \\    
+\textbf{Low Only C100 4P+F+6Stem normal} &amp; 75.47\% &amp; 61.53\% \\
  \hline
   \end{tabular}
 \caption{Results after putting all newspaper text also in NFC}
 \label{tab:fin}
 \end{table}
 
-Unfortunately, normalization made my results a bit worse as and quite different as shown in table \ref{tab:fin}. The two corpora proved again to be in a balance, increasing performance on the blogs resulted most often in a decreased performance on corpus A. One caveat is that the differences are so small that in a real task the difference in performanceis not relevant at all. The normalization of spelling only had a minor impact if at all on corpus B and and did not improve performance on corpus A at all. In fact, the LowOnly model without normalization performs best on corpus A (LowOnly  C100 4P+F normal). Using a six characters prefix of the normalized word as opposed to a four characters prefix slightly increased performance. Nevertheless, the impact of the spelling normalization feature is very small.
+Unfortunately, normalization made my results a bit worse as and quite different as shown in table \ref{tab:fin}. The two corpora proved again to be in a balance, increasing performance on the blogs resulted most often in a decreased performance on corpus A. One caveat is that the differences are so small that in a real task the difference in performance is not relevant at all. The normalization of spelling only had a minor impact if at all on corpus B and did not improve performance on corpus A at all. In fact, the LowOnly model without normalization performs best on corpus A (LowOnly  C100 4P+F normal). Using a six characters prefix of the normalized word as opposed to a four characters prefix slightly increased performance. Nevertheless, the impact of the spelling normalization feature is very small.
 
 The optimal number of clusters also changed from 50 to 100. Moreover, the properly lowercased clustering is now competitive against the LowOnly version, which neglects a significant part of the data. For the final version I will provide the \emph{LowOnly C100 4P+F+6Stem normal} model (bold), because it keeps unlabeled accuracy on corpus A above 75\% but also performs better than the previous best model for the blog texts. (It is fair to say that other models could also be considered, but I want to provide one standard model.) It is interesting to note that what is still consistent is that the LowOnly version outperforms the Low version on corpus A. This corroborates, that lowercasing everything has a negative effect on corpus A. The results are less conclusive on corpus B.
 
 
-As for why adding data decreases performance on corpus A, while it increases on corpus B. there are two explanations. First, the differences are so small that it is simply random whether it increases or decreases. Second, the newspaper redaction might have had some internal guidelines that were followed, when writing the articles. The umlauts that appear in most sentences allowed the parser to separate the sentence types in the newspaper from the rest of corpus A. The readaction guidelines promoted certain sentence structures. Thus, it had a better performance on the newspaper article in the test set, because it could leverage the knowledge of these typical structures, while on the rest of the data these typical structures were not present and thus did not introduce confusion. Please note, that this is a pure guess.
+As for why adding data decreases performance on corpus A, while it increases on corpus B. there are two explanations. First, the differences are so small that it is simply random whether it increases or decreases. Second, the newspaper redaction might have had some internal guidelines that were followed, when writing the articles. The umlauts that appear in most sentences allowed the parser to separate the sentence types in the newspaper from the rest of corpus A. The redaction guidelines promoted certain sentence structures. Thus, it had a better performance on the newspaper article in the test set, because it could leverage the knowledge of these typical structures, while on the rest of the data these typical structures were not present and thus did not introduce confusion. Please note, that this is a pure guess.
 
 \begin{table}
 \center
   \begin{tabular}{ | l || c | r | }
     \hline
-   \textbf{Model Training | Model Test} & \textbf{corpus A} & \textbf{corpus B}  \\ \hline 
-old 57'000 no blogs& 75.47\% & 61.53\% \\
-new 76'000 with blogs & 73.59\% & 61.53\% \\ \hline
+   \textbf{Model Training | Model Test} &amp; \textbf{corpus A} &amp; \textbf{corpus B}  \\ \hline 
+old 57'000 no blogs&amp; 75.47\% &amp; 61.53\% \\
+new 76'000 with blogs &amp; 73.59\% &amp; 61.53\% \\ \hline
   \end{tabular}
 \caption{Result comparison of the two PoS-tagging models}
 \label{tab:pos}
@@ -359,15 +359,15 @@ new 76'000 with blogs & 73.59\% & 61.53\% \\ \hline
 The last experiment looks at the influence of the PoS tags. In the second evaluation it was hypothesized, that the PoS tags have a large influence on the performance. Nora Hollenstein took the collected blog data and annotated blogs from 3 speakers and trained a new PoS-tagger model with data from both sources and a total of 76'000 tokens.
 I compare the performance of the \emph{LowOnly C100 4P+F+6Stem normal} model on the two test corpora. Table \ref{tab:pos} shows the results.  Nora Hollenstein already indicated the additional data might hurt performance and indeed the performance goes down on corpus A and does not improve on corpus B. One reason might be that the blog data is a lot less uniform. Thus, to get a bonus from using blog data more data would need to be annotated. Maybe it is just too varied and it is almost impossible to improve tagging performance when using blog texts. The model will not be provided, since there is no additional gain. This shows that PoS tags do have an influence on the result. It also emphasizes the big difference between the two domains!
 
-In conclusion, the final round concentrated on analyzing the effects of an error induced in the preprocessing of the data. The difference in unicode normalization between the newspaper text and the rest of the data skewed previous results. However, the absolute differences between all the different models are very small. This also means that the spelling normalization in the second round was not effective. The final unlabeled accuracies are about 75\% for corpus A (wikipedia, newspaper, corporate report) and about 61.5\% on corpus B (blog texts).
+In conclusion, the final round concentrated on analyzing the effects of an error induced in the preprocessing of the data. The difference in Unicode normalization between the newspaper text and the rest of the data skewed previous results. However, the absolute differences between all the different models are very small. This also means that the spelling normalization in the second round was not effective. The final unlabeled accuracies are about 75\% for corpus A (Wikipedia, newspaper, corporate report) and about 61.5\% on corpus B (blog texts).
 
 \section{Future Work}
 
 One important aspect is validating and extending the lexical resources. The annotation of the existing data sets was performed only by me and I also did not go back to check everything at second time after all decisions were made. Thus, there are likely annotation mistakes. Also, 10'000 tokens is still a very modest resource. Annotating more resources, maybe even from new domains could be very helpful to improve performance on general text. Of course, the biggest issue is still the different spelling. Since there are so many dialects, some speakers might get a very good performance for their texts, while others might get a very poor performance. Discriminating these different users and maybe even having different models per dialect can be one way to mitigate this but needs a lot more data.
 
-Another point for further investigation is the use of rule-based features. The spelling normalization did not prove helpful. Further research could be directed into why it did not improve performance. From this new phonetically or linguistically oriented features could be derived. Another approach woud be to look at the work of \citet{SR10} to see which features are implementable. Using phonetic features might help to reduce the spelling differences, which would reduce the data sparsity a bit. Using morphological features might improve the performance of distinguishing different forms, since Swiss German also has some case marking. Both help the parser using the data to make more informed choices. This project has shown it is not straight forward to design good features of this kind, but with more time and resources it will be possible.
+Another point for further investigation is the use of rule-based features. The spelling normalization did not prove helpful. Further research could be directed into why it did not improve performance. From this new phonetically or linguistically oriented features could be derived. Another approach would be to look at the work of \citet{SR10} to see which features are implementable. Using phonetic features might help to reduce the spelling differences, which would reduce the data sparsity a bit. Using morphological features might improve the performance of distinguishing different forms, since Swiss German also has some case marking. Both help the parser using the data to make more informed choices. This project has shown it is not straight forward to design good features of this kind, but with more time and resources it will be possible.
 
-Finally, leveraging standard German resources could mitigate the data sparseness problem. There is an abundance of resources for standard German. There are dependency treebanks and powerful morphological analyzers readily available. The big problem is that Swiss German has different spelling and some different syntactic structures. \citet{Scherrer11} has done some work to mitigate these differences. If the Swiss German text could be normalized enough to make use of Standard German resources, a parser trained on German and Swiss German material could resut in very good performance. This would be a very good test for a ``true'' Swiss-German parser that does not try to make it standard German. Only a parser with intricate knowledge of Swiss German could probably outperform the normalized standard German version that can use large amounts of existing data. 
+Finally, leveraging standard German resources could mitigate the data sparseness problem. There is an abundance of resources for standard German. There are dependency treebanks and powerful morphological analyzers readily available. The big problem is that Swiss German has different spelling and some different syntactic structures. \citet{Scherrer11} has done some work to mitigate these differences. If the Swiss German text could be normalized enough to make use of Standard German resources, a parser trained on German and Swiss German material could result in very good performance. This would be a very good test for a ``true'' Swiss German parser that does not try to make it standard German. Only a parser with intricate knowledge of Swiss German could probably outperform the normalized standard German version that can use large amounts of existing data. 
 
 \section{Acknowledgements}
 I'd like to thank Noëmi Aepli and Nora Hollenstein for supporting me with information about Research in Swiss German and especially for giving me early access to the Swiss German resources that they are developing. 
