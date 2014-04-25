@@ -8,11 +8,10 @@
 
 import argparse, os, codecs, subprocess, tempfile, sys
 
-TEMP = tempfile.gettempdir()
-# read folder of parser
-PARSER = os.getenv("GSWPARSER", os.getcwd())
+sys.path.append(os.getenv("GSWPARSER", os.getcwd()))
 
-sys.path.append(PARSER)
+from Settings import * # get settings
+
 from PreProcessing import preTagProc,  preParseProc
 from Features import FeatureConfig
 TURBOP = os.path.join(PARSER, "TurboParser2.1.0","TurboParser")
@@ -32,7 +31,7 @@ def argumentSetup():
 def posTag(inpfile, outfile, preproc=preTagProc, postproc=preParseProc):
     """PoS Tagging on CoNLL file""" 
     TAGGEREXE = os.path.join(PARSER, "External/tagger/hunpos-tag")
-    ARGS = [os.path.join(PARSER, "External/tagger/CHDE_57000.model")]
+    ARGS = [POS_MODEL]
     
     # read data
     data = []

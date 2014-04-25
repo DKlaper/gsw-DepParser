@@ -1,9 +1,12 @@
-addPoSinCoNLL.py
-atomXmlConvert.py
-blogspotScrape.py
-countTokens.py
-countTxtTokens.py
-crossValidation.py
-mergeCoNLL.py
-tokenize_files.sh
-vertTextToCoNLL.py
+addClusterToCoNLL.py    Takes a brownclustering file and adds the cluster number in the feature field of the CoNLL file.
+addPoSinCoNLL.py        Calls the PoS tagger hunpos with the hard-coded model and adds PoS tags and CPoS tags
+atomXmlConvert.py       Converts Atom feed xml from blogspot to text files with blogtxt only
+blogspotScrape.py       Scrapes blogspot by extracting the atom feeds
+countTokens.py          Simply estimate token count in atom feed
+countTxtTokens.py       Estimate the tokens in a text file without tokenization.
+crossValidation.py      Run cross-validation on given trainingdata.
+makeClustering.py       take a CoNLL file and generate "plain" text (tokenized)
+mergeCoNLL.py           Append CoNLL files to make 1 big file from many small ones
+normalizeUnicode.py     Convert all txt in a file into canonical composition normal form NFC (utf-8 input output)
+tokenize_files.sh       Original helper script to perform tokenization
+vertTextToCoNLL.py      Take verticalized text and put into simple CoNLL format with self-links for every dependency.

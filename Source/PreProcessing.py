@@ -9,9 +9,7 @@
 # python PreProcessing.py inputFile outputFile
 
 import os, sys, subprocess, codecs, tempfile
-
-TEMP = tempfile.gettempdir()
-PARSER = os.getenv("GSWPARSER", os.getcwd())
+from Settings import * # import the settings
 
 EXTERNALDIR = os.path.join(PARSER, "External/")
 
@@ -26,8 +24,8 @@ def preTagProc(word):
 
 def preParseProc(word, tag):
     """Preprocessing before parsing (after tagging)"""
-    # lowercase everything? 
-    #word = word.lower()
+    if LOWERCASED:
+        word = word.lower()
      
     
     return word, tag
@@ -60,7 +58,7 @@ def PoStag(filepath, output, postProc=lambda w, tag: (w,tag), preProc=lambda w: 
     
     text = "\n".join([preProc(w.strip()) for w in text])
     
-    tagger = subprocess.Popen([os.path.join(EXTERNALDIR, "tagger", "hunpos-tag"), os.path.join(EXTERNALDIR, "tagger", "CHDE_57000.model")], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    tagger = subprocess.Popen([os.path.join(EXTERNALDIR, "tagger", "hunpos-tag"), POS_MODEL], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
     # pipe to input
     (lines, _) = tagger.communicate(text.encode("utf-8"))
     

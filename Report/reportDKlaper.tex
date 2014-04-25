@@ -48,7 +48,8 @@
 \renewcommand{\footrulewidth}{0pt}
 
 
-\title{11-712:  NLP Lab Report}
+\title{11-712:  NLP Lab Report: \\
+A Dependency Parser for Swiss German}
 \author{David Klaper}
 \date{April 25, 2014}
 
@@ -337,10 +338,26 @@ Unicode knows two different ways to encode umlauts.  In the composition normal f
 Unfortunately, normalization made my results a bit worse as and quite different as shown in table \ref{tab:fin}. The two corpora proved again to be in a balance, increasing performance on the blogs resulted most often in a decreased performance on corpus A. One caveat is that the differences are so small that in a real task the difference in performanceis not relevant at all. The normalization of spelling only had a minor impact if at all on corpus B and and did not improve performance on corpus A at all. In fact, the LowOnly model without normalization performs best on corpus A (LowOnly  C100 4P+F normal). Using a six characters prefix of the normalized word as opposed to a four characters prefix slightly increased performance. Nevertheless, the impact of the spelling normalization feature is very small.
 
 The optimal number of clusters also changed from 50 to 100. Moreover, the properly lowercased clustering is now competitive against the LowOnly version, which neglects a significant part of the data. For the final version I will provide the \emph{LowOnly C100 4P+F+6Stem normal} model (bold), because it keeps unlabeled accuracy on corpus A above 75\% but also performs better than the previous best model for the blog texts. (It is fair to say that other models could also be considered, but I want to provide one standard model.) It is interesting to note that what is still consistent is that the LowOnly version outperforms the Low version on corpus A. This corroborates, that lowercasing everything has a negative effect on corpus A. The results are less conclusive on corpus B.
- 
+
+
 As for why adding data decreases performance on corpus A, while it increases on corpus B. there are two explanations. First, the differences are so small that it is simply random whether it increases or decreases. Second, the newspaper redaction might have had some internal guidelines that were followed, when writing the articles. The umlauts that appear in most sentences allowed the parser to separate the sentence types in the newspaper from the rest of corpus A. The readaction guidelines promoted certain sentence structures. Thus, it had a better performance on the newspaper article in the test set, because it could leverage the knowledge of these typical structures, while on the rest of the data these typical structures were not present and thus did not introduce confusion. Please note, that this is a pure guess.
 
+\begin{table}
+\center
+  \begin{tabular}{ | l || c | r | }
+    \hline
+   \textbf{Model Training | Model Test} & \textbf{corpus A} & \textbf{corpus B}  \\ \hline 
+old 57'000 no blogs& 75.47\% & 61.53\% \\
+new 76'000 with blogs & 73.59\% & 61.53\% \\ \hline
+  \end{tabular}
+\caption{Result comparison of the two PoS-tagging models}
+\label{tab:pos}
+\end{table}
+ 
+
 %increasing PoS performance on blogs.
+The last experiment looks at the influence of the PoS tags. In the second evaluation it was hypothesized, that the PoS tags have a large influence on the performance. Nora Hollenstein took the collected blog data and annotated blogs from 3 speakers and trained a new PoS-tagger model with data from both sources and a total of 76'000 tokens.
+I compare the performance of the \emph{LowOnly C100 4P+F+6Stem normal} model on the two test corpora. Table \ref{tab:pos} shows the results.  Nora Hollenstein already indicated the additional data might hurt performance and indeed the performance goes down on corpus A and does not improve on corpus B. One reason might be that the blog data is a lot less uniform. Thus, to get a bonus from using blog data more data would need to be annotated. Maybe it is just too varied and it is almost impossible to improve tagging performance when using blog texts. The model will not be provided, since there is no additional gain. This shows that PoS tags do have an influence on the result. It also emphasizes the big difference between the two domains!
 
 In conclusion, the final round concentrated on analyzing the effects of an error induced in the preprocessing of the data. The difference in unicode normalization between the newspaper text and the rest of the data skewed previous results. However, the absolute differences between all the different models are very small. This also means that the spelling normalization in the second round was not effective. The final unlabeled accuracies are about 75\% for corpus A (wikipedia, newspaper, corporate report) and about 61.5\% on corpus B (blog texts).
 

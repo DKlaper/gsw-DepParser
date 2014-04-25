@@ -15,19 +15,8 @@
 - blogURLs
     Contains the links to the blogs.
 
-- CorpReport
-    Contains the tokenized data extracted from the Swatch yearly report from
-    http://www.swatchgroup.com/de/content/download/3970/143272/version/2/file/2012_annual_report_complete_ch.pdf
-
 - ClusteringData
     Contains all text data in CONLL format EXCEPT any corpusA and corpusB data (so no evaluation data)
     Number of Sentences: 48'387 (19'583 sentences blog)
     Number of Tokens: 860'453 (319'686 tokens blog)
     
-- Newspaper
-    Contains the tokenized data extracted from the Swiss NewsPaper 
-    Blick Am Abend. The paper was from May 28th 2013 and can be found at
-    http://www.blickamabend.ch/ePaper/ in the Archive.
-
-- Wikipedia
-    Allemanic Wikipedia articles tokenized and split into different dialects.

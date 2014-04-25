@@ -7,12 +7,10 @@
 # Swiss-German text
 
 import argparse, os, codecs, subprocess, tempfile, sys
+sys.path.append(os.getenv("GSWPARSER", os.getcwd()))
 
-TEMP = tempfile.gettempdir()
-# read folder of parser
-PARSER = os.getenv("GSWPARSER", os.getcwd())
+from Settings import * # get settings
 
-sys.path.append(PARSER)
 import PreProcessing
 from Features import FeatureConfig
 TURBOP = os.path.join(PARSER, "TurboParser2.1.0","TurboParser")
@@ -40,7 +38,7 @@ if __name__ == "__main__":
     # assign features
     FeatureConfig().run(taggedFile)
         
-    model = os.path.join(PARSER,"Models","GSW_original.model")
+    model = DEFAULT_MODEL
     if parser.model:
         model = parser.model
         

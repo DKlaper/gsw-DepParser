@@ -1,21 +1,24 @@
 gsw-DepParser
 =============
 
-A dependency parser for Swiss-German (ISO 639 code: gsw)
+A dependency parser for Swiss-German (ISO 639 code: gsw) by David Klaper
 
 Installation
 ============
 
-Currently just copy Repo
-download the tokenizer from
+All relative paths, are relative to the folder that contains this readme.
+
+Copy the repository
+Download the tokenizer.pl from
 http://www.linguistics.ruhr-uni-bochum.de/~dipper/tokenizer.html#download
 and place in the Source/External/tokenizer.
 
-Then Recompile turbo parser by going to Source/TurboParser2.1.0
+Then if necessary recompile turbo parser by going to Source/TurboParser2.1.0
 and executing ./install-deps.sh
 and ./configure && make && make install
 
-Optionally set the environment variable GSWPARSER to the path to the Source/ folder
+Optional: 
+Set the environment variable GSWPARSER to the path to the Source/ folder
 and also add the path to Source/ to your PATH.
 (this sets all the relative paths correctly if you call the parser from somewhere else
 by typing gswDepParser.py (without python))
@@ -23,19 +26,24 @@ by typing gswDepParser.py (without python))
 Basic Usage
 ===========
 
-Execute in the Source/ folder
+Execute all commands in the Source/ folder    (OR if you set GSWPARSER to Source and added GSWPARSER to your path execute the commands without writing python in any folder you want but the paths to the Models will be different.)
+
+
 To parse: 
 python gswDepParser.py  --model Models/parsingmodel input.txt output.predicted
 
 if your input is in CoNLL
 python gswDepParser.py  --tagged --model Models/parsingmodel input.conll output.predicted
 
+You don't need to use the --model option, then just the standard model describe in the report as LowOnly C100 4P+F+6Stem normal will be used. (for more options just call the programs without arguments)
+
+
 
 To train a parser:
 python gswDepTrain.py train.conll Models/outparsingmodel model_type=basic
 
 model_type=basic is an option directly for turbo parser training only a basic model, you can also train other model_types
-or leave the option out. Then a standard model will be trained.
+or remove the option. Then a standard model will be trained.
 
 (for more options just call the programs without arguments)
 
@@ -76,15 +84,18 @@ This parser requires:
     
 It assumes that input is utf-8 encoded and uses "\n" (Unix) line endings
 
-Advanced Usage: Clustering
+Advanced Usage
 =================================
 
 CHANGE FEATURE SETTINGS
 
-to change the feature settings go to Source/Features.py
-and change DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 10]]
-each list element is a feature the format is ["Feature name", arg1, arg2]
-for BrownCluster it is  ["BrownCluster", prefixLength, clusterfilepath]
+Go to Source/Settings.py and change the corresponding values to change settings of the parser.
+NOTE that this may require retraining of the model to have the desired effect! 
+To change the features present in the CoNLL feature column change 
+DEFAULTFEATURES = [["BrownCluster", 4], ["BrownCluster", 100], ["PronounciatonStem", 6]]
+
+This takes a brown cluster prefix of 4 then one with the full string (prefix = 100 is full string with C=100)
+and the pronunciation normalization with a 6 character prefix. So you can change the number of features by adding and removing entries, as well as the prefix lengths. 
 
 CREATE NEW CLUSTERING
 
@@ -103,7 +114,7 @@ Source/External/liang_brownclustering/wcluster --c 100 --min-occur 3 --text Reso
 --output_dir is for additional files like logs that you typically don't need just for parsing
 (Assuming you have compiled the clusterer by calling make in the Source/External/liang_brownclustering/ Folder)
 
-if you rename the clustering file be sure to call the appropriate file in the DEFAULTSETTINGS in Source/Features.py as second argument to BrownCluster
+if you rename the clustering file be sure to change the setting in Source/Settings.py, in particular DEFAULT_CLUSTERING.
 
 Licenses Tokenizer, Tagger
 ==========================

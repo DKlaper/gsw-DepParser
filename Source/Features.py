@@ -9,11 +9,7 @@
 
 import os, sys, subprocess, codecs, tempfile
 from abc import * # abstract base classes
-
-DEFAULTFEATURES = [["BrownCluster"], ["BrownCluster", 100], ["PronounciatonStem", 6]]
-
-TEMP = tempfile.gettempdir()
-PARSER = os.getenv("GSWPARSER", os.getcwd())
+from Settings import * # import settings
 
 EXTERNALDIR = os.path.join(PARSER, "External/")
 
@@ -64,7 +60,7 @@ class FeatureConfig(object):
         
 class BrownCluster(Feature):
     """Class that represents the settings for brownclustering at runtime"""
-    def __init__(self, preflen=4, clusteringfile=os.path.join(EXTERNALDIR, "liang_brownclustering", "clusterings", "defcluster.txt")):
+    def __init__(self, preflen=4, clusteringfile=DEFAULT_CLUSTERING):
         self.prefix = preflen
         self.clusters = self.readPaths(clusteringfile)
     
@@ -82,7 +78,11 @@ class BrownCluster(Feature):
         return words    
         
     def getFeature(self, CoNLLWord):
-        return self.clusters.get( CoNLLWord[1].lower(), UNK_CLUSTER)
+        if (not LOWERCASED) and CLUSTER_LOOKUP_LOWERCASED: # need to lookup clustering lowercased
+            word = CoNLLWord[1].lower()
+        else:
+            word = CoNLLWord[1]
+        return self.clusters.get(word , UNK_CLUSTER)
         
         
 class PronounciatonStem(Feature):
